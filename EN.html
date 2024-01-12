@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh_en">
+<head>
+    <meta charset="UTF-8">
+    <title>交互地图googleapi</title>
+    <!-- 引入 Google Maps JavaScript API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkS_NQZ6f1uts0OL68H6KkwmSBnt25ObU&language=en"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+
+    <!-- <script type="text/javascript">
+        window._AMapSecurityConfig = {
+            securityJsCode:'9e63b05fbd15ebf099eeafd756f1279b',
+        }
+    </script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=19eebd1efaac152d1fda10073849d423"></script>  -->
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+
+
+
+    <!-- 样式 -->
+    <link rel="stylesheet" type="text/css" href="/style/base.css">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+</head>
+
+
+
+<body>
+    <!-- 外部容器，放置按钮和选项卡 -->
+    <div class="external-container">
+        
+        <!-- 图片按钮 -->
+    </div>
+    <!-- <img class="image-button" src="/media/animal_icon/cat.png" alt="按钮" id="imageButton"> -->
+    <div id="languagePane">
+        <button title="switch to English version"><img class="image-button1" id="languageSwitch" src="/media/animal_icon/dog.png" alt="switch language"></button>
+    </div>
+        <!-- 文字 -->
+        
+
+        <!-- 选项卡容器 -->
+        <div class="tabs">
+
+            <button class="tab-button" onclick="showTab('tab1')">选项卡 </button>
+            <button class="tab-button" onclick="showTab('tab2')">选项卡 2</button>
+        </div>
+
+       <div class="zoomcontainer" id="zoom">
+        <button id="zoomInButton">+</button>        
+        <div class="vertical-slider-container">
+            <input type="range" id="zoomSlider" min="0" max="4" value="2" step="1" list="tickmarks" class="vertical-slider">
+            <datalist id="tickmarks">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </datalist>
+        </div>
+        <button id="zoomOutButton">-</button>
+
+       </div>
+
+        <div class="timeline-container"id="timeline">
+          <input type="range" id="slider" min="-1" max="8999" step="1" value="0" >
+
+          <img id="controlImage" src="/media/animal_icon/play.png" alt="按钮">
+          <img id="Image" src="/media/age.jpg" alt="按钮">
+          <a href="/BC.html" id="openWindow">Correlation Table</a>
+
+          <!-- <div class="timeline-text-container">
+            <div class="button-container" id="buttonContainer">
+                <button class="timeline-button" id="button" data-value="0">史前至夏商周</button>
+                <button class="timeline-button" id="button"data-value="1000">秦漢</button>
+                <button class="timeline-button" id="button"data-value="2000">三國兩晉南北朝</button>
+                <button class="timeline-button" id="button"data-value="3000">隋</button>
+                <button class="timeline-button" id="button"data-value="4000">唐</button>
+                <button class="timeline-button" id="button"data-value="5000">宋</button>
+                <button class="timeline-button" id="button"data-value="6000">元</button>
+                <button class="timeline-button" id="button"data-value="7000">明</button>
+                <button class="timeline-button" id="button" data-value="8000">清</button>
+             </div>
+
+
+              <p id="current-year">Year: 0</p> -->
+        <!-- </div>  -->
+          
+          
+        </div>
+
+
+        <div class="tab-content" id="tab1">选项卡 1 内容</div>
+        <div class="tab-content" id="tab2">选项卡 2 内容</div>
+        <p class="text" id="displayText">丝路动物与人</p>
+        <div class="custom-marker" id="customMarker"></div>
+    <!-- 地图容器 -->
+    <div id="map-container">
+
+    </div>
+
+
+
+
+        <!-- 分类器容器 -->
+    <div class="category-container">
+
+
+
+       
+
+       
+
+
+        <button class="category-sub" id="animalButton" onclick="toggleContainer('animalCategoryContainer')">Animal</button>
+        
+
+        <div class="subcategory-container" id="animalCategoryContainer">
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox category-select-all" data-category="A" > Select All
+           </label>  
+        
+            
+                <button class="category-ss" id="animalButton" onclick="toggleContainer('ss1-Container')">Mammal(domestic)</button>
+                <div class="ss-container" id="ss1-Container">
+                    <label class="category-button">
+                        <input type="checkbox" class="category-checkbox" id="cat-Checkbox"data-category="A"  value="cat"> Cat
+                    </label>
+                    <label class="category-button">
+                        <input type="checkbox" class="category-checkbox" id="dog-Checkbox"data-category="A"  value="dog"> Dog
+                    </label>
+                    <label class="category-button">
+                        <input type="checkbox" class="category-checkbox" id="horse-Checkbox" data-category="A"  value="horse"> Horse
+                    </label>
+                    <label class="category-button">
+                        <input type="checkbox" class="category-checkbox" id="rabbit-Checkbox" data-category="A"  value="rabbit"> Rabbit
+                    </label>
+                </div>
+            
+
+        
+        
+       
+           
+            <button class="category-ss" id="animalButton" onclick="toggleContainer('ss2-Container')">Mammal(wild)</button>
+           
+            <div class="ss-container" id="ss2-Container">
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="camel-Checkbox" data-category="A"  value="camel"> Camel
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="rhino-Checkbox" data-category="A"  value="rhino"> Rhino
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="leopard-Checkbox" data-category="A"  value="leopard"> Leopard
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="lion-Checkbox" data-category="A"  value="lion"> Lion
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="elephant-Checkbox" data-category="A"  value="elephant"> Elephant
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="banma-Checkbox" data-category="A"  value="zebra"> Zebra
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="changjinglu-Checkbox" data-category="A"  value="giraffe"> Giraffe
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="yak-Checkbox" data-category="A"  value="yak"> Yak
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="cheetah-Checkbox" data-category="A"  value="cheetah"> Cheetah
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="antelope-Checkbox" data-category="A"  value="antelope"> Antelope
+            </label>
+
+            </div>
+        
+        
+            <button class="category-ss" id="animalButton" onclick="toggleContainer('ass3-Container')">Birds</button>
+            <div class="ss-container" id="ss3-Container">               
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="ostrich-Checkbox" data-category="A"  value="ostrich"> Ostrich
+            </label></div>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="hawk-Checkbox" data-category="A"  value="hawk"> Hawk
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="parrot-Checkbox" data-category="A"  value="parrot"> Parrot
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="peacock-Checkbox" data-category="A"  value="peacock"> Pecock
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="turkey-Checkbox" data-category="A"  value="turkey"> Turkey
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="muscovy-Checbox" data-category="A"  value="muscovy"> Muscovy Duck
+            </label>                
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="swallow-Checkbox" data-category="A"  value="swallow"> Swallow
+            </label>
+            <button class="category-ss" id="animalButton" onclick="toggleContainer('ass4-Container')">Fishes</button>
+         
+            <div class="ss-container" id="ss4-Container">  
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="seal-Checkbox" data-category="A"  value="seal"> Seal
+            </label></div>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="otter-Checkbox" data-category="A"  value="otter"> Sea otter
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="beaver-Checkbox" data-category="A"  value="beaver"> Beaver
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="shell-Checkbox" data-category="A"  value="shell"> Shellfish
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="turtle-Checkbox" data-category="A"  value="turtle"> Turtle
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="coral-Checkbox" data-category="A"  value="coral"> Coral
+            </label>
+        </div>
+        
+        <hr width="100%" />
+        <button class="category-sub" id="11Button" onclick="toggleContainer('11CategoryContainer')">Silk Road</button>
+        
+        <div class="subcategory-container" id="11CategoryContainer">
+
+        <label class="category-button">
+            <input type="checkbox" class="category-checkbox" id="ocean-Checkbox" data-category="D"  value="海上絲綢之路"> Maritime Silk Road
+        </label>
+        <label class="category-button">
+            <input type="checkbox" class="category-checkbox" id="land-Checkbox" data-category="D"   value="陸上絲綢之路"> Continental Silk Road
+        </label>
+        <label class="category-button">
+            <input type="checkbox" class="category-checkbox" id="qita-Checkbox" data-category="D"   value="其他"> Others
+        </label>
+        </div>
+
+
+        
+        <hr width="100%" />
+        <button class="category-sub" id="dynastyButton" onclick="toggleContainer('dynastyCategoryContainer')">Historical Period</button>
+        
+        <div class="subcategory-container" id="dynastyCategoryContainer">
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox category-select-all" data-category="B" data-value="-1"> Select All
+           </label>  
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="xia-Checkbox" data-category="B" data-value="5" value="史前至夏商周"> From Pre-historic Times to the Xia, Shang and Zhou Dynasties 
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="qinhan-Checkbox" data-category="B" data-value="1005" value="秦漢"> Qin and Han Dynasties
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="sanguo-Checkbox" data-category="B" data-value="2005" value="三國兩晉南北朝"> The Three Kingdoms, Eastern and Western Jin Dynasties, and Southern and Northern Dynasties
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="sui-Checkbox" data-category="B" data-value="3005" value="隋"> Sui Dynasty
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="tang-Checkbox" data-category="B" data-value="4005" value="唐"> Tang Dynasty
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="song-Checkbox" data-category="B" data-value="5005" value="宋"> Song Dynasty
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="yuan-Checkbox" data-category="B" data-value="6005" value="元"> Yuan Dynasty
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="ming-Checkbox"data-category="B" data-value="7005" value="明"> Ming Dynasty
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="qing-Checkbox" data-category="B" data-value="8005" value="清"> Qing Dynasty
+        </label>
+        </div>
+
+        
+           
+        <hr width="100%" />
+
+
+        
+        <button class="category-sub" id="waysButton" onclick="toggleContainer('waysCategoryContainer')">Function</button>
+
+
+        <div class="subcategory-container" id="waysCategoryContainer"> 
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox category-select-all" data-category="C"> Select All
+           </label>  
+
+            <label class="category-button"> 
+                <input type="checkbox" class="category-checkbox" id="zongjiao-Checkbox" data-category="C" value="宗教信仰"> Religious Belief 
+            </label>
+            <label class="category-button"> 
+                <input type="checkbox" class="category-checkbox" id="chaogong-Checkbox" data-category="C" value="朝貢"> Tribute
+            </label>
+            <label class="category-button"> 
+                <input type="checkbox" class="category-checkbox" id="shenfen-Checkbox" data-category="C" value="身份象徵"> Symbol of Social Status
+            </label>
+            <label class="category-button"> 
+                <input type="checkbox" class="category-checkbox" id="junshi-Checkbox" data-category="C" value="軍事"> Military Affairs
+            </label>
+            <label class="category-button"> 
+                <input type="checkbox" class="category-checkbox" id="wenhua-Checkbox" data-category="C" value="文化娛樂"> Culture and Emtertainment
+            </label>
+            <label class="category-button"> 
+                <input type="checkbox" class="category-checkbox" id="jiaotong-Checkbox" data-category="C" value="交通運輸"> Transport
+            </label>
+            <label class="category-button"> 
+                <input type="checkbox" class="category-checkbox" id="nongye-Checkbox" data-category="C" value="農業生產"> Religious Belief
+            </label>
+            <label class="category-button"> 
+                <input type="checkbox" class="category-checkbox" id="yinshi-Checkbox" data-category="C" value="飲食"> Food
+            </label>
+            
+        </div>
+        <hr width="100%" />
+        <button class="category-sub" id="areaButton" onclick="toggleContainer('areaCategoryContainer')">Geographic Area</button>
+
+    <div class="subcategory-container" id="areaCategoryContainer">  
+        <label class="category-button">
+            <input type="checkbox" class="category-checkbox category-select-all" data-category="E"> Select All
+       </label>
+        <label class="category-button">
+            <input type="checkbox" class="category-checkbox" id="asiaButton" data-category="E" onclick="toggleAsiaContainer()">Asia
+        </label>
+        <div class="asia-container" id="asiaContainer">
+        <label class="asia-button"> 
+            <input type="checkbox" class="category-checkbox" id="zhong-Checkbox" data-category="E" value="中亞"> Central Asia 
+        </label>
+        <label class="asia-button"> 
+            <input type="checkbox" class="category-checkbox" id="xi-Checkbox" data-category="E" value="西亞"> West Asia 
+        </label>
+        <label class="asia-button"> 
+            <input type="checkbox" class="category-checkbox" id="na-Checkbox" data-category="E" value="南亞"> South Asia 
+        </label>
+        <label class="asia-button"> 
+            <input type="checkbox" class="category-checkbox" id="dongnan-Checkbox" data-category="E" value="東南亞"> Southeast Asia 
+        </label>
+        <label class="asia-button"> 
+            <input type="checkbox" class="category-checkbox" id="dong-Checkbox" data-category="E" value="東亞"> East Asia 
+        </label>
+        <label class="asia-button"> 
+            <input type="checkbox" class="category-checkbox" id="bei-Checkbox" data-category="E" value="北亞"> North Asia
+        </label>
+        </div>
+
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="ouzhou-Checkbox" data-category="E" value="歐洲"> Europe
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="feizhou-Checkbox" data-category="E" value="非洲"> Africa
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="beimeizhou-Checkbox" data-category="E" value="北美洲">North America
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="nanmeizhou-Checkbox" data-category="E" value="南美洲">South America
+        </label>
+        <label class="category-button"> 
+            <input type="checkbox" class="category-checkbox" id="dayagnzhou-Checkbox" data-category="E" value="大洋洲"> Oceania
+        </label>
+        
+    </div>
+      
+    </div>
+    <i class="toggle-icon" id="toggle"> </i>
+
+
+
+    <!-- 内容容器 -->
+    <div id="content-container" class="hidden">
+        
+    </div>
+
+    <script src="/script/site.js"></script>
+    <script src="/script/script.js"></script>
+    <script src="/script/move.js"></script>
+    <!-- <script src="/script/time.js"></script>  -->
+    <script src="/script/moves/dogMove.js"></script>
+    <script src="/script/moves/lionMove.js"></script>
+    <script src="/script/moves/catMove.js"></script>
+    <script src="/script/moves/camelMove.js"></script>
+    <script src="/script/moves/horseMove.js"></script>
+    <script src="/script/moves/rabbitMove.js"></script>
+    <script src="/script/moves/yakMove.js"></script>
+    <script src="/script/moves/leopardMove.js"></script>
+    <script src="/script/moves/cheetahMove.js"></script>
+    <script src="/script/moves/elephantMove.js"></script>
+    <script src="/script/moves/giraffeMove.js"></script>
+    <script src="/script/moves/zebraMove.js"></script>
+    <script src="/script/moves/rhinoMove.js"></script>
+    <script src="/script/moves/antelopeMove.js"></script>
+    <script src="/script/moves/ostrichMove.js"></script>
+    <script src="/script/moves/hawkMove.js"></script>
+    <script src="/script/moves/parrotMove.js"></script>
+    <script src="/script/moves/peacockMove.js"></script>
+    <script src="/script/moves/turkeyMove.js"></script>
+    <script src="/script/moves/muscovyMove.js"></script>
+    <script src="/script/moves/swallowMove.js"></script>
+    <script src="/script/moves/sealMove.js"></script>
+    <script src="/script/moves/otterMove.js"></script>
+    <script src="/script/moves/beaverMove.js"></script>
+    <script src="/script/moves/shellMove.js"></script>
+    <script src="/script/moves/turtleMove.js"></script>
+    <script src="/script/moves/coralMove.js"></script>
+
+    <script src="/script/en.js"></script>
+    
+</body>
+</html>

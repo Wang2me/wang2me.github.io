@@ -1,0 +1,446 @@
+        /* 禁止选择文本 */
+body {
+    -webkit-user-select: none; /* Safari 和 Chrome */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* 标准语法 */
+    cursor: default; /* 鼠标指针样式设置为默认，以防止出现选择光标 */
+}
+/* 地图容器的样式 */
+#map-container {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 100%;
+    height: 83%;
+    
+    background-color: #c7f00e;
+    z-index:0;
+    }
+
+.external-container{
+    position: absolute;  
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #0eecf0;
+    }
+
+
+       
+/* 图片按钮的样式 */
+.image-button1 {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 1;
+    }
+.image-button2 {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        right: 5%;
+        cursor: pointer;
+        z-index: 1;
+        }
+/* 文字的样式 */
+.text {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: #333;
+    font-size: 16px;
+            
+    display: none;
+    }
+
+        
+
+/* 选项卡按钮的样式 */
+.tab-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    top :50%;
+    margin-right: 0px;
+    z-index: 1;
+    }
+
+/* 选项卡内容的样式 */
+.tab-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    }
+       
+        
+        
+        
+.category-ss{
+   font-size: small;
+   display:flex;
+}
+
+
+
+.category-container {
+    position: relative;
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    background-color: #d8d1d0;
+    padding: 10px;
+    top:25%;
+    
+    transition: display 0.5s; /* 添加过渡动画以平滑显示/隐藏 */
+   
+    font-size: 15pt;
+    /* 添加垂直滚动条 */
+    overflow:auto;
+    max-height:80vh; /* 设置最大高度 */
+    
+    z-index: 1;
+
+    
+    transition: display 0.5s ease;
+    
+}
+.category-container::-webkit-scrollbar {
+    width: 0.5em; /* 宽度设置为0.5em */
+}
+
+.category-container::-webkit-scrollbar-track {
+    background-color: transparent; /* 轨道背景色设置为透明 */
+}
+
+.category-container::-webkit-scrollbar-thumb {
+    background-color: #d8d1d0; /* 滚动条颜色 */
+    border-radius: 20px; /* 滚动条的圆角 */
+}
+.category-sub{
+    z-index: 4;
+
+}
+
+
+.subcategory-container{
+    position: relative;
+    flex-direction: column;
+    align-items: left;
+    display:flex;
+    padding: 0px;
+    margin-bottom: 5px; /* 添加一些底部间距，使得标签之间有空白 */
+    background-color: #c4f10e;
+    
+    z-index:4;
+    transition: width 0.5s; /* 添加过渡动画以平滑显示/隐藏 */
+    font-size: 12pt;
+}
+.s-container{
+    position: relative;
+    flex-direction: column;
+    align-items: left;
+    display:flex;
+    padding: 0px;
+    margin-bottom: 5px; /* 添加一些底部间距，使得标签之间有空白 */
+    background-color: #c4f10e;
+    
+    z-index:4;
+    transition: width 0.5s; /* 添加过渡动画以平滑显示/隐藏 */
+    font-size: 14pt;
+}
+.ss-container{
+    position: relative;
+    flex-direction: column;
+    align-items: left;
+    display:flex;
+    padding: 10px;
+    margin-bottom: 5px; /* 添加一些底部间距，使得标签之间有空白 */
+    background-color: #c4f10e;
+    
+    z-index:4;
+    transition: width 0.5s; /* 添加过渡动画以平滑显示/隐藏 */
+    font-size: 14pt;
+}
+
+.toggle-icon {
+    position: absolute;
+    top: 50%; /* 将图标垂直居中 */
+    left: 15%; /* 放置在右侧 */
+    transform: translateY(-50%); /* 使其垂直居中 */
+    width: 50px;
+    height: 50px;
+    background-image: url('/media/animal_icon/rhino.png');
+    background-size: cover;
+    cursor: pointer;
+    z-index: 4; /* 设置一个较高的 z-index，以便位于 .category-container 之上 */
+    transition: left 0.5s; /* 添加过渡动画以平滑移动 */
+    /* background: #fff; */
+    /* border: 0; */
+    box-shadow: 0 1px 2px rgba(60,64,67,0.3), 0 2px 6px 2px rgba(60,64,67,0.15);
+    width: 23px ;
+    height: 48px;
+    cursor: pointer;
+    border-left: 1px solid #dadce0;
+    border-radius: 0 8px 8px 0;
+    background: #fff 7px center/7px 10px no-repeat;
+   
+
+
+}
+
+.category-container.hidden .toggle-icon {
+    left: 90%; /* 移至页面最右侧 */
+}
+
+    /* 单个分类按钮样式 */
+    .category-button {
+        background-color: #dff39d;
+        border: none;
+        /* padding: 10px 20px; */
+        margin: 2px;
+        font-size: 10pt;
+        /* cursor: pointer; */
+        z-index: 4;
+    }
+
+    /* 选中按钮样式 */
+    .selected {
+        background-color: #007bff;
+        color: #fff;
+        z-index: 4;
+    }
+
+/* 时间轴 */
+   
+.timeline-container{
+    position: absolute;
+    bottom: 0%;
+    z-index: 5;
+    width: 100%;
+    right:0%;
+    background-color: #c7f00e;
+    z-index:4 ;
+    height:10%;
+}
+#slider {
+    position: absolute;
+    right:5%;
+    width: 90%; /* 时间轴的宽度，根据需要调整 */
+    
+    z-index: 99999;
+  }
+
+  .timeline-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 10.25%;
+    
+}
+.button-container{
+    position: absolute;
+    bottom:30%;
+    z-index: 5;
+    width: 95%;
+    left: 5%;
+    height: fit-content;
+    z-index:4 ;
+    
+}
+
+.timeline-button:hover {
+    background-color: #2980b9;
+}
+/* .timeline-text-container{
+    position: absolute;
+    bottom: 0%;
+    z-index: 5;
+    width: 100%;
+    right:0%;
+    background-color: #c7f00e;
+    z-index:4 ;
+    height:15%;
+} */
+
+
+
+
+.asia-button {
+    display: flex;
+        background-color: #f80000;
+        border: none;
+        /* padding: 10px 20px; */
+        /* margin: 2px; */
+        font-size: 8pt;
+        /* cursor: pointer; */
+        z-index: 4;
+        width: auto;
+    }
+    
+    .info-image {
+        width: 200px;
+        height: auto;
+        display: block; /* 使图像变为块级元素，可以使用margin: 0 auto;实现水平居中 */
+        margin: 0 auto; /* 通过设置左右外边距为auto，实现水平居中 */
+        
+    }
+    
+    .info-window {
+        width: 400px;
+        height: 200px;
+        text-align: left; /* 将文本内容水平居中 */
+        
+        
+    }
+    .info-reference{
+        font-size: 6pt;
+    }
+    .info-image-content{
+        font-size: 6pt;
+    }
+    img[src="media/animal_icon/0_icon.png"] {
+        width: 25px; /* 图标宽度 */
+        height: 25px; /* 图标高度 */
+        /* 你可以添加其他样式，例如旋转、阴影等 */
+    }
+    img[src="media/animal_icon/1_icon.png"] {
+        width: 25px; /* 图标宽度 */
+        height: 25px; /* 图标高度 */
+        /* 你可以添加其他样式，例如旋转、阴影等 */
+    }
+    img[src="media/animal_icon/2_icon.png"] {
+        width: 25px; /* 图标宽度 */
+        height: 25px; /* 图标高度 */
+        /* 你可以添加其他样式，例如旋转、阴影等 */
+    }
+    img[src="media/animal_icon/3_icon.png"] {
+        width: 25px; /* 图标宽度 */
+        height: 25px; /* 图标高度 */
+        /* 你可以添加其他样式，例如旋转、阴影等 */
+    }
+    img[src="media/animal_icon/4_icon.png"] {
+        width: 25px; /* 图标宽度 */
+        height: 25px; /* 图标高度 */
+        /* 你可以添加其他样式，例如旋转、阴影等 */
+    }
+    img[src="media/animal_icon/5_icon.png"] {
+        width: 25px; /* 图标宽度 */
+        height: 25px; /* 图标高度 */
+        /* 你可以添加其他样式，例如旋转、阴影等 */
+    }
+    img[src="media/animal_icon/6_icon.png"] {
+        width: 25px; /* 图标宽度 */
+        height: 25px; /* 图标高度 */
+        /* 你可以添加其他样式，例如旋转、阴影等 */
+    }
+    img[src="media/animal_icon/7_icon.png"] {
+        width: 25px; /* 图标宽度 */
+        height: 25px; /* 图标高度 */
+        /* 你可以添加其他样式，例如旋转、阴影等 */
+    }
+
+    .custom-cluster {
+        background-color: #f44336; /* 聚合标记的背景颜色 */
+        /* border-radius: 50%; 圆形聚合标记 */
+        /* color: white; 文本颜色 */
+        /* font-weight: bold; 加粗文本 */
+        /* text-align: center; 居中文本 */
+        line-height: 40px; /* 文本垂直居中 */
+        width: 40px; /* 宽度 */
+        height: 40px; /* 高度 */
+    }
+
+
+
+
+    .openWindow{
+        position: absolute;
+        left:0;
+    }
+    #Image{
+        width: 90%;
+        z-index: 0;
+    }
+
+.zoomcontainer{
+    position: absolute;  
+    display:grid;
+
+    width: 4%;
+    right:1%;
+    top:50%;
+    z-index: 11;
+    background-color: #30f00e;
+}
+
+
+.vertical-slider-container {
+    height: 100px; /* 设置容器高度 */
+    display: flex;
+    flex-direction: column-reverse; /* 垂直排列 */
+    position: relative;
+    width: 4%; /* 宽度 */
+    
+    margin: auto; /* 水平居中 */
+    
+}
+
+.vertical-slider {
+    appearance: slider-vertical;
+    width: 100%;
+    height: 100%;
+    /* padding: 0px; 调整内部填充，使按钮在轴内部 */
+    /* position: relative; */
+    /* transform-origin: right top; */
+   
+}
+
+#controlImage {
+    width: 30px; /* 设置宽度 */
+    height: 30px; /* 设置高度 */
+  }
+/* CSS Styles */
+.image-container {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    z-index: 1000;
+    max-width: 80vw;
+    max-height: 80vh;
+    overflow: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+    border-radius: 5px; /* Add rounded corners */
+
+  }
+  
+  .modal-content {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+  }
+  
