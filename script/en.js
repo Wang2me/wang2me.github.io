@@ -140,12 +140,15 @@ function switchLanguageTo(language) {
             infowindows[key].close();
           } else {
             let content = '<div class="info-window" id="infoContainer">' +
-                '<h1>' + marker.content.title + '</h1>' +
+                '<div class="info-header">' +   // 添加一个包含图标和 ID 的容器
+                '<img class="info-icon" src="' + marker.icon.url + '" alt="Marker Icon">' + key+  // 图标显示在顶部
+                // '<p class="info-marker-id">' + key + '</p>' +                                // 标记的ID
+                '</div>' +  // 关闭 info-header
+                // '<h1>' + marker.content.title + '</h1>' +
                 '<p>' + marker.content.description + '</p>' +
                 '<p class="info-reference">' + (language === 'cn' ? '参考：' : 'Reference: ') + marker.content.reference + '</p>' +
-                //'<img class="info-image" src="' + marker.content.image + '" alt="">' +
-                '<img class="info-image" src="' + marker.content.image + '" alt="" onclick="enlargeImage(this)">' + 
-    (marker.content.image_content ? '<p class="info-reference">' + marker.content.image_content + '</p>' : '') + // Add conditional check
+                '<img class="info-image" src="' + marker.content.image + '" alt="" onclick="enlargeImage(this)">' +
+                (marker.content.image_content ? '<p class="info-reference">' + marker.content.image_content + '</p>' : '') +
                 '</div>';
     
             let infowindow = new google.maps.InfoWindow({

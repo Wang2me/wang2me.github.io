@@ -198,6 +198,7 @@ function createMarker(position, type, label, categories, content) {
             E: categories.E || []
         },
         content: content,
+        
         //visible: true
     });
 

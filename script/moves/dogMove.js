@@ -450,7 +450,7 @@ markers.dog49 = createMarker({lat:39.9300,lng:116.4015}, 'dog','北京',{ A:['do
   ,description_cn:'清朝皇帝喜愛狩獵，其參與的狩獵活動一般在秋季舉行，被稱為｢木蘭秋狝｣。因此，獵犬也是清朝皇室大量飼養的動物。著名的傳教士郎世寧和艾啟蒙分別創作過《十駿犬圖》，其內容是乾隆皇帝的十隻獵犬。這兩版《十駿犬圖》分別由台北故宮博物院和北京故宮博物院收藏。根據其中的文字信息，乾隆的獵犬大多是來自西藏、蒙古和歐洲的貢品。'  
   ,description_en:'The emperors of the Qing Dynasty 清朝 loved hunting, and the Imperial hunts of the Qing Dynasty were usually held in autumn. Therefore, the hound was also a large number of animals kept in the Qing palace. The famous missionaries Giuseppe Castiglione and Ignatius Sichelbart have each created paintings of the ten hunting dogs of the Qianlong Emperor 乾隆, namely the "Ten Prized Dogs". These two editions of the "Ten Prized Dogs" are in the collections of the National Palace Museum in Taipei and the Palace Museum in Beijing 北京. According to the text, most of Qianlong\'s dogs were tributes from Xizang 西藏, Mongolia, and Europe.'
 ,reference:'1. 曾誠，〈兩岸故宮《十駿犬圖》與康雍乾三帝寵物情結〉，《紫禁城》，期2（2018年3月），頁51-62。<br>&emsp;&emsp;&emsp;2. 清郎世寧畫十駿犬，國立故宮博物院網站，digitalarchive.npm.gov.tw/Painting/Content?pid=13599&Dept=P。<br>&emsp;&emsp;&emsp;3. 艾啟蒙十駿犬圖冊，故宮博物院網站，www.dpm.org.cn/collection/paint/232591.html。'  
-  ,image:'media/OneDrive_1_2024-1-8/227. (Qing Dynasty, Ten Prized Dogs Ts\'ang-ni, housed in National Palace Museum).jpg'
+  ,image:'https://storage.googleapis.com/wan2me_image/OneDrive_1_2024-1-8/227.%20(Qing%20Dynasty%2C%20Ten%20Prized%20Dogs%20Ts\'ang-ni%2C%20housed%20in%20National%20Palace%20Museum).jpg'
   ,image_content_en:'Qing Dynasty, Ten Prized Dogs Ts\'ang-ni, housed in National Palace Museum'
   ,image_content_cn:'清，郎世寧畫十駿犬蒼猊犬，國立故宮博物院藏'
    ,referenceUrl:''});

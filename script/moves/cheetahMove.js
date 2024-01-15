@@ -84,7 +84,7 @@ markers.cheetah8 = createMarker({lat:40.7733,lng:114.8712}, 'cheetah','河北張
  ,description_cn:'元朝由蒙古人建立，是中國歷史上第一個由遊牧民族建立的大一統王朝。狩獵是蒙古文化中流行的娛樂活動。和其他朝代相比，「豹獵」活動在元朝尤為興盛。由元代宮廷畫家劉貫道所繪製的《元世祖出獵圖》即為一例。這幅畫創作於至元十七年（公元1280年），其內容為元世祖忽必烈和自己的皇后及一眾隨從打獵的場景。繪畫中有多種用於狩獵的動物，包括馬、狗、鷹以及一隻獵豹。在繪畫的下半部，這隻戴著嘴套的獵豹蹲坐在一名騎士背後。'  
  ,description_en:'The Yuan Dynasty 元朝, founded by the Mongols, was the first unified dynasty in Chinese history founded by nomadic peoples. Hunting was a popular entertainment in Mongolian culture. Compared with other dynasties, "cheetah hunting" was especially prevalent in the Yuan Dynasty. The "Scroll Painting of Yuan Dynasty Ancestor Go Hunting", painted by the court painter Liu Guandao 劉貫道, is evidence of this. This painting, dating from 1280, shows the Kublai Khan on his hunting trip with his empress and a group of servants. There are a variety of animals for hunting in the painting, including horses, dogs, eagles, and a cheetah. In the lower half of the painting, the muzzled cheetah sits behind a rider.'
 ,reference:'1. 陳曉偉，〈「馬負文豹」與草原遊獵圖像探析〉，《故宮博物院院刊》，期6（2016年11月），頁95-97。<br>&emsp;&emsp;&emsp;2. 畫元世祖出獵圖，國立故宮博物院網站，theme.npm.edu.tw/khan/Article.aspx?sNo=03009149。'
- ,image:'/media/OneDrive_1_2024-1-8/300. (Yuan Dynasty, Scroll Painting of Yuan Dynasty Ancestor Go Hunting [detail], housed in National Palace Museum).jpg'
+ ,image:'https://storage.cloud.google.com/wan2me_image/OneDrive_1_2024-1-8/300.%20(Yuan%20Dynasty%2C%20Scroll%20Painting%20of%20Yuan%20Dynasty%20Ancestor%20Go%20Hunting%20%5Bdetail%5D%2C%20housed%20in%20National%20Palace%20Museum).jpg'
  ,image_content_cn:'元，元世祖出獵圖[局部]，國立故宮博物院藏'
  ,image_content_en:'Yuan Dynasty, Scroll Painting of Yuan Dynasty Ancestor Go Hunting [detail], housed in National Palace Museum'
    ,referenceUrl:''});  		
