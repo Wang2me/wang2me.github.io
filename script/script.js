@@ -36,7 +36,7 @@ var markers = {};
 
 function initMap() {
     var bounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(-75, -180),
+        new google.maps.LatLng(-71, -180),
         new google.maps.LatLng(75, 180)
     );
 

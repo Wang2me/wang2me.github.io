@@ -40,7 +40,7 @@ markers.antelope1 = createMarker({ lat:45.6423,lng:25.5790}, 'antelope','羅馬�
     ,description_cn:'《職貢圖》是中國古代的一種紀實性繪畫，主要描繪外國使者的朝貢情況。台北故宮博物院收藏了一卷唐代畫家閻立本創作的《職貢圖》。研究者們認為這幅圖描繪了古代東南亞地區的使者們向唐朝進貢的情景。在這幅圖中可以看到其中一個使者牽著一隻作為貢品的羚羊。'  
     ,description_en:'The "Portraits of Periodical Offering" are documentary paintings in ancient China, which mainly represent the tributary by foreign envoys. The National Palace Museum in Taipei houses a roll of this painting created by the Tang Dynasty 唐朝 painter Yan Liben 閻立本. Researchers believe that this painting depicts the tribute journey from ancient Southeastern Asia to the Tang Dynasty. In this picture it can be seen that one of the envoys is holding a gazelle as a tribute.'
 	,reference:'1. 唐閻立本職貢圖卷，國立故宮博物院，digitalarchive.npm.gov.tw/Painting/Content?pid=25&Dept=P。'
-    ,image:'media/OneDrive_1_2024-1-8/400. (Tang Dynasty, Tribute Bearers by Yan Liben, housed in National Palace Museum).jpeg'
+    ,image:'https://storage.cloud.google.com/wan2me_image/OneDrive_1_2024-1-8/400.%20(Tang%20Dynasty%2C%20Tribute%20Bearers%20by%20Yan%20Liben%2C%20housed%20in%20National%20Palace%20Museum).jpeg'
     ,image_content_cn:'唐，閻立本職貢圖卷，國立故宮博物院藏'
     ,image_content_en:'Tang Dynasty, Tribute Bearers by Yan Liben, housed in National Palace Museum'
    ,referenceUrl:''});		
