@@ -72,7 +72,7 @@ markers.peacock6 = createMarker({lat:25.1218,lng:85.4574}, 'peacock','印度那�
   
   markers.peacock7 = createMarker({ lat:20.9095,lng:110.0846}, 'peacock','海南雷州',{ A:['peacock'],B:['唐'],C:['飲食'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
- ,description_cn:'契丹唐代的海南島有大量的野生孔雀。唐朝人認為孔雀有解毒的功效，因此當地人會捕獲孔雀以食用。是古代中國北方的遊牧民族，建立了遼朝。「豹獵」的習俗在契丹文化中也有所保留。遼代的獵豹來自來自西域地區的朝貢。例如，重熙二十一年（公元1052年），高昌回鶻向遼進貢馬和獵豹。'  
+ ,description_cn:'唐代的海南島有大量的野生孔雀。唐朝人認為孔雀有解毒的功效，因此當地人會捕獲孔雀以食用。是古代中國北方的遊牧民族，建立了遼朝。「豹獵」的習俗在契丹文化中也有所保留。遼代的獵豹來自來自西域地區的朝貢。例如，重熙二十一年（公元1052年），高昌回鶻向遼進貢馬和獵豹。'  
  ,description_en:'During the Tang Dynasty 唐朝, there were large numbers of wild peacocks on Hainan Island 海南島. The Tang people believed that peacocks had the power to detoxify poison, so the local people would catch peacocks for eating.	'
 ,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 97.'  
  ,image:''
