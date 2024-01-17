@@ -34,6 +34,66 @@ function switchToChinese() {
     //switchLanguageTo('cn');
 }
 
+// // 定义英文到中文的键名映射
+// const keyMappings = {
+//   'dog42': '狗42',
+//   'cat': '猫',
+//   // 添加其他键名的映射...
+// };
+
+// 定义英文到中文的键名映射
+const keyMappings = {};
+
+// 添加动物名称对应的中文翻译及模式匹配
+function setAnimalPatternMapping(animalName, chineseTranslation, maxNumber) {
+  for (let i = 1; i <= maxNumber; i++) { // 设置从1到maxNumber的映射
+    const key = animalName + i;
+    keyMappings[key] = `${chineseTranslation}${i}`;
+  }
+}
+
+// 添加动物名称对应的中文翻译及模式匹配
+setAnimalPatternMapping('cat', '猫', 38);
+setAnimalPatternMapping('dog', '狗', 53);
+setAnimalPatternMapping('lion', '狮', 37);
+setAnimalPatternMapping('camel', '駱駝', 68);
+setAnimalPatternMapping('horse', '馬', 71);
+setAnimalPatternMapping('rabbit', '兔', 3);
+setAnimalPatternMapping('yak', '氂牛', 8);
+setAnimalPatternMapping('leopard', '豹子', 15);
+setAnimalPatternMapping('cheetah', '獵豹', 12);
+setAnimalPatternMapping('elephant', '象', 56);
+setAnimalPatternMapping('rihno', '犀牛', 29);
+setAnimalPatternMapping('giraffe', '長頸鹿', 6);
+setAnimalPatternMapping('zebra', '斑馬', 3);
+setAnimalPatternMapping('antelope', '羚羊', 6);
+setAnimalPatternMapping('ostrich', '鴕鳥', 8);
+setAnimalPatternMapping('hawk', '鷹', 15);
+setAnimalPatternMapping('parrot', '鸚鵡', 14);
+setAnimalPatternMapping('peacock', '孔雀', 9);
+setAnimalPatternMapping('turkey','火鷄', 3);
+setAnimalPatternMapping('muscovy','番鴨', 5);
+setAnimalPatternMapping('swallow','燕子', 7);
+setAnimalPatternMapping('seal','海豹', 4);
+setAnimalPatternMapping('otter','海獺', 2);
+setAnimalPatternMapping('beaver','河狸', 4);
+setAnimalPatternMapping('shell','貝', 10);
+setAnimalPatternMapping('turtle','龜', 9);
+setAnimalPatternMapping('coral','珊瑚', 8 );
+
+// 添加其他动物名称对应的中文翻译及模式匹配...
+
+console.log(keyMappings);
+
+
+// 获取映射后的键名对应的值
+function getMappedValue(key, language) {
+  if (keyMappings[key]) {
+    return keyMappings[key][language] || keyMappings[key]['en']; // 如果没有对应的语言模式，则使用英文值作为默认值
+  } else {
+    return key; // 如果找不到映射，则返回原始的键名
+  }
+}
 
 // 切换语言的函数
 function switchLanguageTo(language) {
@@ -100,6 +160,7 @@ function switchLanguageTo(language) {
         'hawk10','hawk11', 'hawk12', 'hawk13', 'hawk14', 'hawk15',
         'parrot1', 'parrot2', 'parrot3', 'parrot4', 'parrot5', 'parrot6', 'parrot7', 'parrot8', 'parrot9', 
         'parrot10','parrot11', 'parrot12', 'parrot13', 'parrot14',
+
         'peacock1', 'peacock2', 'peacock3', 'peacock4', 'peacock5', 'peacock6', 'peacock7', 'peacock8', 'peacock9', 
         'turkey1', 'turkey2', 'turkey3',
         'muscovy1', 'muscovy2', 'muscovy3', 'muscovy4', 'muscovy5',
@@ -141,10 +202,11 @@ function switchLanguageTo(language) {
           } else {
             let content = '<div class="info-window" id="infoContainer">' +
                 '<div class="info-header">' +   // 添加一个包含图标和 ID 的容器
-                '<img class="info-icon" src="' + marker.icon.url + '" alt="Marker Icon">' + key+  // 图标显示在顶部
-                // '<p class="info-marker-id">' + key + '</p>' +                                // 标记的ID
+                //'<img class="info-icon" src="' + marker.icon.url + '" alt="Marker Icon">' + key+  // 图标显示在顶部
+                '<img class="info-icon" src="' + marker.icon.url + '" alt="Marker Icon">' +
+                 (language === 'cn' ? keyMappings[key] : key) +  // 图标显示在顶部                              // 标记的ID
                 '</div>' +  // 关闭 info-header
-                // '<h1>' + marker.content.title + '</h1>' +
+                '<h1>' + marker.content.title + '</h1>' +
                 '<p>' + marker.content.description + '</p>' +
                 '<p class="info-reference">' + (language === 'cn' ? '参考：' : 'Reference: ') + marker.content.reference + '</p>' +
                 '<img class="info-image" src="' + marker.content.image + '" alt="" onclick="enlargeImage(this)">' +
