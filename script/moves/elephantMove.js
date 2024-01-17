@@ -1,11 +1,12 @@
 //<br>&emsp;&emsp;&emsp;
+
 //史前
 { 
 markers.elephant1 = createMarker({ lat:31.5106,lng:74.3568}, 'elephant','巴基斯坦拉合爾',{ A:['elephant'], B:['史前至夏商周'],C:['軍事'],D:['其他'],E:['南亞'] }
 ,{  title_cn: '描述',title_en: 'Description'
     ,description_cn: '歷史學家們普遍認為，最早將大象用於軍事的是吠陀時期的古印度人。古印度人認為60歲是大象最適合投入戰場的年紀。最晚至公元前六世紀，戰象在古印度已經十分普遍，一支軍隊中可能擁有上千服役的戰象，每頭戰象可背負七名裝備劍、長矛和盔甲的戰士。'
     ,description_en: 'Historians generally believe that the earliest use of elephants for military purposes was by the ancient Indians during the Vedic period. Ancient Indians regarded 60 years old as the best age for elephants to go into battle. At the latest by the 6th century BCE, war elephants were so common in ancient India that a troop could have thousands of elephants in service, each carrying seven warriors armed with swords, spears, and armor.	1. Sarva Daman Singh, Ancient India Warfare: With Special Special Reference to the Vedic Period (Delhi: Motilal Banarsidass Publishers, 1989), pp. 80-84.'
-    ,reference:'1. Nikolai Spassov and Todor Stoytchev, “The Dromedary Domestication Problem: 3000 BC Rock Art Evidence for the Existence of Wild One-humped Camel in Central Arabia”, Historia Naturalis Bulgarica, Vol 16 (September, 2004), pp.151-158.'
+    ,reference:'1. Sarva Daman Singh, Ancient India Warfare: With Special Special Reference to the Vedic Period (Delhi: Motilal Banarsidass Publishers, 1989), pp. 80-84.'
     ,imag:''
     ,referenceUrl:''
 });	

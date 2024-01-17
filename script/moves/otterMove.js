@@ -26,7 +26,7 @@
 
 //唐
 {
-markers.otter1 = createMarker({lat:61.2016,lng:-149.9157}, 'otter','美國安克雷奇',{ A:['otter'], B:['清'],C:['身份象徵'],D:['海上絲綢之路'],E:['北美洲'] }
+markers.otter1 = createMarker({lat:61.2016,lng:210.0843}, 'otter','美國安克雷奇',{ A:['otter'], B:['清'],C:['身份象徵'],D:['海上絲綢之路'],E:['北美洲'] }
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '海獺主要分佈於北太平洋海域。清朝時，俄國的探險隊跨過白令海峽，在阿拉斯加地區大肆獵殺海獺以獲取皮毛。這些海獺皮很多通過黑龍江地區傳入清朝，是貴族和高級官員所鐘愛的衣物原料。'
     ,description_en:'Sea otters are mainly spread in the North Pacific Ocean. During the Qing Dynasty 清朝, expeditions from the Russian Empire crossed the Bering Strait and hunted sea otters in Alaska for their fur. Many of these sea otter furs were introduced to the Qing Dynasty through the Heilongjiang 黑龍江 region and were popular clothing material for nobles and high-ranking officials.'
@@ -105,10 +105,10 @@ var beijing ={lat:39.9171,lng:116.3797};//北京
 
 
 
-var newCoords_otter1_1= {lat:63.0603,lng:179.3438};
-var newCoords_otter1_2= {lat:53.3825,lng:124.0956};
-var newCoords_otter1_3= {lat:44.6016,lng:129.3217};
-var newCoords_otter1_4= RandomCoords(beijing);
+var newCoords_otter1_1= {lat:63.0603,lng:-180.6562};
+var newCoords_otter1_2= {lat:53.3825,lng:-236.0956};
+var newCoords_otter1_3= {lat:44.6016,lng:-231.3217};
+var newCoords_otter1_4= {lat:39.9131,lng:-243.6543};
 
 
 var newCoords_otter2_1= {lat:41.4894,lng:-71.3173};

@@ -595,6 +595,11 @@ toggleIcon.addEventListener('click', function() {
         categoryContainer.style.display = 'flex';
         toggleIcon.style.left = '15%'; // 将图标移动回初始位置
     }
+    if (toggleIcon.classList.contains('expanded')) {
+        toggleIcon.classList.remove('expanded'); // 如果有 expanded 类名，则移除
+    } else {
+        toggleIcon.classList.add('expanded'); // 如果没有 expanded 类名，则添加
+    }
 });
 
 var slider = document.getElementById('slider');

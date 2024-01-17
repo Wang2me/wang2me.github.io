@@ -49,7 +49,7 @@
 }
 
 //明
-{ markers.turkey2 = createMarker({ lat:19.0515,lng:256.3241}, 'turkey','墨西哥曼薩尼約',{ A:['turkey'], B:['明'],C:['飲食'],D:['其他'],E:['北美洲'] },
+{ markers.turkey2 = createMarker({ lat:19.0515,lng:-104.3242}, 'turkey','墨西哥曼薩尼約',{ A:['turkey'], B:['明'],C:['飲食'],D:['其他'],E:['北美洲'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'十五世紀末期至十六世紀中期，隨著歐洲人通過遠洋航行發現了新大陸，大量殖民者進入了美洲。西班牙商人將美洲的火雞作為肉食販賣至歐洲，運輸火雞的海上路線經過印度和土耳其。因此，英國人以為火雞原產於土耳其，而法國人以為火雞原產於印度，這就是英語和法語中｢turkey｣和｢d’Inde｣兩個詞語的來源。'  
      ,description_en:'During the period from the late fifteenth century to the mid-sixteenth century, a large number of colonists entered the Americas with the discovery of the New World by Europeans through ocean voyages. Spanish merchants traded turkeys from the Americas to Europe as meat, and the maritime route for transporting turkeys passed through India and Turkey. As a result, the English believed that turkeys originated in Turkey, while the French believed that turkeys originated in India, which is the origin of the words "turkey" and "d\'Inde" in English and French.'
@@ -89,7 +89,7 @@ for (var i = 0; i < turkeys.length; i++) {
 
 
 
-var newCoords_turkey2_1= {lat:19.0698,lng:72.8367};
+var newCoords_turkey2_1= {lat:19.0698,lng:-287.1633};
 var newCoords_turkey2_2= {lat:41.0370,lng:28.9561};
 var newCoords_turkey2_3= {lat:48.8536,lng:2.3105};
 var newCoords_turkey2_4= {lat:51.5110,lng:-0.1270};

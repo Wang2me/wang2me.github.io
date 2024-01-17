@@ -121,10 +121,11 @@ var beijing ={lat:39.9171,lng:116.3797};//北京
 
 
 var newCoords_seal1_1= RandomCoords(xian);
-var newCoords_seal2_1= {lat:63.0603,lng:179.3438};
-var newCoords_seal2_2= {lat:53.3825,lng:124.0956};
-var newCoords_seal2_3= {lat:44.6016,lng:129.3217};
-var newCoords_seal2_4= RandomCoords(beijing);
+var newCoords_seal2_1= {lat:63.0603,lng:-180.6562};
+var newCoords_seal2_2= {lat:53.3825,lng:-236.0956};
+var newCoords_seal2_3= {lat:44.6016,lng:-231.3217};
+var newCoords_seal2_4= {lat:39.9141,lng:-243.6513};
+
 var newCoords_seal3_1= {lat:41.4894,lng:-71.3173};
 var newCoords_seal3_2= {lat:40.7097,lng:-74.0319};
 var newCoords_seal3_3= {lat:16.5081,lng:-24.2041};
@@ -133,6 +134,7 @@ var newCoords_seal3_5= {lat:-5.9205,lng:105.8755};
 var newCoords_seal3_6= {lat:22.1957,lng:113.5415};
 var newCoords_seal3_7= {lat:23.1256,lng:113.2677};
 
+var newCoords_seal4_0= {lat:-8.2413,lng:-32.7553};
 var newCoords_seal4_1= {lat:40.7097,lng:-74.0319};
 var newCoords_seal4_2= {lat:16.5081,lng:-24.2041};
 var newCoords_seal4_3= {lat:-33.9145,lng:18.3954};
@@ -269,7 +271,7 @@ slider.addEventListener('input', function() {
     //清
     if(currentValue >=8000 && currentValue <=9000){
         
-        var points_4 = [initialCoords_seal4, newCoords_seal4_1, newCoords_seal4_2,newCoords_seal4_3,newCoords_seal4_4,newCoords_seal4_5,newCoords_seal4_6,newCoords_seal4_6];
+        var points_4 = [initialCoords_seal4, newCoords_seal4_0, newCoords_seal4_1, newCoords_seal4_2,newCoords_seal4_3,newCoords_seal4_4,newCoords_seal4_5,newCoords_seal4_6,newCoords_seal4_6];
         var points_2 = [initialCoords_seal2, newCoords_seal2_1, newCoords_seal2_2,newCoords_seal2_3,newCoords_seal2_4,newCoords_seal2_4];
         var points_3 = [initialCoords_seal3, newCoords_seal3_1, newCoords_seal3_2,newCoords_seal3_3,newCoords_seal3_4,newCoords_seal3_5,newCoords_seal3_6,newCoords_seal3_6];
 

@@ -202,15 +202,19 @@ function switchLanguageTo(language) {
           } else {
             let content = '<div class="info-window" id="infoContainer">' +
                 '<div class="info-header">' +   // 添加一个包含图标和 ID 的容器
-                //'<img class="info-icon" src="' + marker.icon.url + '" alt="Marker Icon">' + key+  // 图标显示在顶部
+                '<h1>' + marker.content.title + '</h1>' +
+                '<div class="info-details">' +
                 '<img class="info-icon" src="' + marker.icon.url + '" alt="Marker Icon">' +
                  (language === 'cn' ? keyMappings[key] : key) +  // 图标显示在顶部                              // 标记的ID
                 '</div>' +  // 关闭 info-header
-                '<h1>' + marker.content.title + '</h1>' +
+                '</div>' +
+                
+                
                 '<p>' + marker.content.description + '</p>' +
                 '<p class="info-reference">' + (language === 'cn' ? '参考：' : 'Reference: ') + marker.content.reference + '</p>' +
                 '<img class="info-image" src="' + marker.content.image + '" alt="" onclick="enlargeImage(this)" oncontextmenu="return false;">' +
                 (marker.content.image_content ? '<p class="info-reference">' + marker.content.image_content + '</p>' : '') +
+                
                 '</div>';
     
             let infowindow = new google.maps.InfoWindow({
@@ -225,7 +229,8 @@ function switchLanguageTo(language) {
       }
     }
     
-    
+
+
 
 }
 window.onload = function () {

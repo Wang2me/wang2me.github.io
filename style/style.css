@@ -191,6 +191,27 @@ body {
 
 
 }
+.toggle-icon::before {
+    content: ''; /* 为伪元素添加内容 */
+    position: absolute;
+    top: 50%; /* 垂直居中定位 */
+    left: 3px; /* 根据需要调整水平位置 */
+    transform: translateY(-50%); /* 垂直方向居中 */
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent; /* 创建三角形形状 */
+    border-bottom: 8px solid transparent; /* 创建三角形形状 */
+    border-right: 13px solid black; /* 创建三角形形状并设置颜色 */
+    transition: transform 0.3s ease; /* 添加过渡效果以平滑切换 */
+}
+
+/* 当信息栏展开时，旋转三角形图标 */
+.toggle-icon.expanded::before {
+    transform: rotate(180deg);
+    top: 35%; /* 垂直居中定位 */
+
+}
+
 
 .category-container.hidden .toggle-icon {
     left: 90%; /* 移至页面最右侧 */
@@ -343,7 +364,6 @@ body {
 
 
 
-
 .asia-button {
     display: flex;
         background-color: #dff39d;
@@ -363,10 +383,17 @@ body {
         margin: 0 auto; /* 通过设置左右外边距为auto，实现水平居中 */
         
     }
-    .info-icon {
-        width: 20px;
-        
+    .info-header {
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Center items vertically */
     }
+    
+    .info-icon {
+        width: 20px; /* Set the width of the icon */
+        margin-right: 10px; /* Add spacing between icon and text */
+        vertical-align: middle;
+    }
+   
     .info-window {
         width: 400px;
         height: 200px;
@@ -374,6 +401,8 @@ body {
         text-indent: 2em;
         
     }
+
+ 
     .info-reference{
         font-size: 11px;
     }
@@ -587,13 +616,14 @@ body {
     z-index: 6;
     
   }
-  #title{
+  #title {
     position: absolute;
-    font-size: 25px;
-    top: 3%;
-    width: 80%;
-    left: 20%;
-    z-index: 2;
+    top: 50%; /* 使标题垂直居中 */
+    left: 40%; /* 使标题水平居中 */
+    transform: translate(-50%, -50%); /* 将标题水平和垂直居中 */
+    font-size: 26px;
+    z-index: 7;
+    letter-spacing: 5px; /* 设置字间距为2像素 */
   }
   #languagePane{
     width: 5%;

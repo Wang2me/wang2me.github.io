@@ -131,7 +131,7 @@ var beijing ={lat:39.9171,lng:116.3797};//北京
 
 
 
-var newCoords_muscovy2_1= {lat:24.7427,lng:121.6938};
+var newCoords_muscovy2_1= {lat:24.7427,lng:-238.3062};
 
 var newCoords_muscovy3_1= {lat:24.2597,lng:116.9433};
 var newCoords_muscovy4_1= {lat:20.0381,lng:110.1773};

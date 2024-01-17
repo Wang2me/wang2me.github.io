@@ -21,16 +21,16 @@ markers.giraffe2 = createMarker({ lat:22.5652,lng:88.3522}, 'giraffe','印度加
    
 markers.giraffe3 = createMarker({ lat:27.1356,lng:57.0539}, 'giraffe','伊朗米納卜',{ A:['giraffe'], B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞']},
    {title_cn: '描述',title_en: 'Description'  
-	,description_cn:'忽魯謨斯，即如今伊朗米納卜，地處霍爾木茲海峽，是進入波斯灣的必經之路。鄭和的船隊曾多次到達此處。1414年，忽魯謨斯國王跟隨鄭和的船隊返回北京，向永樂皇帝進貢馬匹。此外，獅子和長頸鹿也是忽魯謨斯經常攜帶的貢品。'  
-	,description_en:'Hormuz, the present-day Minab in Iran, was located on the essential route into the Persian Gulf. Zheng He 鄭和 visited this place on several occasions. In 1414, the King of Hormuz visited Beijing 北京 with Zheng He and offered horses to Yongle Emperor 永樂皇帝 as tribute. In addition, lions and giraffes were often the tributes from Hormuz.'
+	,description_cn:'忽魯謨斯，即如今伊朗米納卜，地處霍爾木茲海峽，是進入波斯灣的必經之路。鄭和的船隊曾多次到達此處。1414年，忽魯謨斯國王跟隨鄭和的船隊返回北京，向永樂皇帝進貢馬匹。此外，獅子、長頸鹿、斑馬、鴕鳥、羚羊也是忽魯謨斯經常攜帶的貢品。'  
+	,description_en:'Hormuz, the present-day Minab in Iran, was located on the essential route into the Persian Gulf. Zheng He 鄭和 visited this place on several occasions. In 1414, the King of Hormuz visited Beijing 北京 with Zheng He and offered horses to Yongle Emperor 永樂皇帝 as tribute. In addition, lions, giraffes, zebras, ostriches, and oryxes were often the tributes from Hormuz.'
 	 ,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8452。<br>&emsp;&emsp;&emsp;2. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁85-86。'  
 	,image:''
 	,referenceUrl:''});
     
 markers.giraffe4 = createMarker({ lat:12.7917,lng:44.9990}, 'giraffe','也門亞丁',{ A:['giraffe'], B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
    {title_cn: '描述',title_en: 'Description'  
-	,description_cn:'亞丁在明代被稱為阿丹。據史書記載，阿丹國王十分崇敬中國，用大量珍寶與鄭和進行貿易。鄭和船隊從阿丹帶回了長頸鹿、獅子、豹、花貓、鴕鳥等動物。'  
-	,description_en:'The king of Aden greatly respected the Ming Dynasty 明朝 and traded with Zheng He 鄭和 for a large number of treasures. Zheng He\'s fleet brought back giraffes, lions, leopards, spotted cats, ostriches and other animals from Aden.'
+	,description_cn:'亞丁在明代被稱為阿丹。據史書記載，阿丹國王十分崇敬中國，用大量珍寶與鄭和進行貿易。鄭和船隊從阿丹帶回了長頸鹿、獅子、豹、花貓、斑馬、鴕鳥等動物。'  
+	,description_en:'The king of Aden greatly respected the Ming Dynasty 明朝 and traded with Zheng He 鄭和 for a large number of treasures. Zheng He\'s fleet brought back giraffes, lions, leopards, spotted cats, zebras,  ostriches and other animals from Aden.'
 	 ,reference:'1. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁71。'  
 	,image:''
 	,referenceUrl:''});

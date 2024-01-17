@@ -4,13 +4,12 @@ markers.beaver1 = createMarker({ lat:43.6727,lng:-79.4091}, 'beaver','加拿大�
        ,description_cn: '河狸，又名海狸，是北美洲的原生動物之一。哥倫布發現新大陸後，歐洲國家紛紛前往美洲建立殖民地。17世紀，荷蘭殖民者在美國東北部建立了新尼德蘭，其範圍大致包括如今的紐約州、康涅狄格州和新澤西州。荷蘭商人在北美五大湖區大量獵殺河狸以獲取皮毛，再銷售至歐洲。在荷蘭畫家維梅爾的作品《軍官和面帶微笑的少女》中，軍官頭頂的氈帽就是以河狸皮為原料製作的。'
        ,description_en: 'Beavers are one of the native animals of North America. Following Columbus\' discovery of the New World, European countries started establishing colonies in the Americas. In the 17th century, Dutch colonists established New Netherland in the northeastern United States, which covered approximately the present-day States of New York, Connecticut, and New Jersey. Dutch traders hunted beavers in the Great Lakes region for the furs and sold them in Europe. In the painting "Officer and Laughing Girl" by the Dutch painter Johannes Vermeer, the hat on the officer\'s head was made from beaver hides.'
 	   ,reference:'1. Timothy Brook,Vermeer\'s Hat: The Seventeenth Century and the Dawn of the Global World (New York and London: Bloomsbury Press, 2008), pp. 29-46.<br>&emsp;&emsp;&emsp;2. Officer and Laughing Girl, The Frick Collection, collections.frick.org/objects/275/officer-and-laughing-girl.'
-       ,image:'media/OneDrive_1_2024-1-8/472.(1657, Officer and Laughing Girl, housed in The Frick Madison).jpg'
+       ,image:'media/OneDrive_1_2024-1-8/472.(1657, Officer and Laughing Girl, housed in The Frick Madison).jpeg'
        ,image_content_cn:'公元1657年，軍官和面帶微笑的少女，弗里克收藏館藏'
        ,image_content_en:'1657, Officer and Laughing Girl, housed in The Frick Collection'
    ,referenceUrl:''
     });			
 //美國紐約，荷蘭代夫特	--
-
 markers.beaver2 = createMarker({ lat:30.0012,lng:-90.0464}, 'beaver','美國新奧爾良',{ A:['beaver'], B:['清'],C:['身份象徵'],D:['其他'],E:['北美洲'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'17世紀，法國人在魁北克建立了第一個殖民定居點。此後，聖勞倫斯河流域和密西西比河流域都被納入法國殖民地的勢力範圍，即新法蘭西。法國殖民者與北美洲的印第安人合作大量獵殺動物以獲取皮毛，尤其是河狸皮。在法國國王路易十四的支持下，北美洲和歐洲之間的皮毛貿易成為新法蘭西的支柱產業。'  
@@ -20,7 +19,6 @@ markers.beaver2 = createMarker({ lat:30.0012,lng:-90.0464}, 'beaver','美國新�
 	,referenceUrl:''
     });
 //加拿大魁北克，加拿大聖皮埃爾港，法國勒阿弗爾	---
-       
 markers.beaver3 = createMarker({ lat:44.9744,lng:-93.2701}, 'beaver','美國明尼阿波利斯',{ A:['beaver'], B:['清'],C:['身份象徵'],D:['其他'],E:['北美洲']},
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'17世紀，和其他歐洲國家一樣，英國殖民者也在美洲開闢了殖民地。至18世紀初期，英國通過戰爭先後擊敗了荷蘭和法國，幾乎搶奪了他們在北美的全部殖民地。此後，英國壟斷了北美洲和歐洲之間的皮毛貿易。在皮毛貿易的鼎盛時期，每年有上百萬美洲河狸被獵殺。 murgh｣（意為｢駱駝鳥｣），這一詞彙被直接翻譯成了中文，取代了原本的｢大雀｣等詞彙。在北魏的歷史記載中，薩珊王朝的鴕鳥甚至衍生出了可以食用火焰、鋼鐵等傳說。'  
@@ -29,7 +27,7 @@ markers.beaver3 = createMarker({ lat:44.9744,lng:-93.2701}, 'beaver','美國明�
 	,image:''
 	,referenceUrl:''});
 //美國普利茅斯，英國普利茅斯，英國倫敦	---
-   
+
 markers.beaver4 = createMarker({lat:42.3321,lng:-83.0648}, 'beaver','美國底特律',{ A:['beaver'], B:['清'],C:['身份象徵'],D:['海上絲綢之路'],E:['北美洲'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'美國獨立後，皮毛成為美國向中國輸出的主要貿易商品。1785年，紐約和廣州之間的貿易航線開通。至19世紀初期，中美間的皮毛貿易達到頂峰，每年有數萬張河狸皮運輸至廣州。'  
@@ -38,7 +36,6 @@ markers.beaver4 = createMarker({lat:42.3321,lng:-83.0648}, 'beaver','美國底�
 	,image:''
 	,referenceUrl:''});
 //美國紐約，佛得角，南非開普敦，印度尼西亞巽他海峽，中國澳門，廣東廣州	------
-
 
    
 // 获取时间轴元素和标记
