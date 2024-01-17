@@ -13,7 +13,7 @@ markers.giraffe2 = createMarker({ lat:22.5652,lng:88.3522}, 'giraffe','印度加
 	,description_cn:'榜葛剌位於如今的孟加拉國以及印度東部地區。榜葛剌曾經兩次向明朝進貢長頸鹿。在台北故宮博物院收藏有一幅名為《名人畫麒麟沈度頌》的繪畫，其內容是永樂十二年（公元1414年）榜葛剌使者進貢的長頸鹿。研究人員認為，這幅畫應該是由明朝宮廷畫師繪製並賞賜給大臣的，有政治宣傳的意義。'  
 	,description_en:'Bengal was located in the present-day Bangladesh and the eastern part of India. The giraffes were contributed by Bengal to the Ming Dynasty 明朝 on two occasions. The "Kylin with an Ode with Shen Du", a painting housed in the National Palace Museum in Taipei, represents the giraffe as tribute from Bengal in 1414. Researchers believe that this painting was created by the court painters, and awarded to the minister for political publicity.'
 	,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8446。<br>&emsp;&emsp;&emsp;2. 四方來朝：職貢圖特展，國立故宮博物院，theme.npm.edu.tw/exh109/FourQuarters/ch/page-2.html#main。'  
-	,image:'https://storage.cloud.google.com/wan2me_image/OneDrive_1_2024-1-8/391.%20(Ming%20Dynasty%2C%20Kylin%20with%20an%20Ode%20with%20Shen%20Du%2C%20housed%20in%20National%20Palace%20Museum).jpg'
+	,image:'media/OneDrive_1_2024-1-8/391. (Ming Dynasty, Kylin with an Ode with Shen Du, housed in National Palace Museum).jpg'
 	,image_content_cn:'明，明人畫麒麟沈度頌，國立故宮博物院藏'
 	,image_content_en:'Ming Dynasty, Kylin with an Ode with Shen Du, housed in National Palace Museum'
    ,referenceUrl:''

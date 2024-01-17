@@ -5,7 +5,7 @@
             description_cn: '生有翅膀的獅子是古代中東地區的典型神獸形象，古埃及的斯芬克斯就是這樣一種神獸。斯芬克斯有一對翅膀、獅子的身體和人的頭。位於埃及吉薩的獅身人面像，因其被視為古代世界七大奇跡之一，而可能是世界上最著名的斯芬克斯雕像了。'
             ,description_en:'The lions with wings were the typical images of the ancient world of West Asia and North Africa, and the Sphinx in ancient Egyptian mythology was one such creature. The Sphinx has a pair of wings, the body of a lion, and the head of a man. The Great Sphinx of Giza may be the most famous Sphinx statue since it was considered one of the Seven Wonders of the World.'
 			,reference: '1. 尚永琪，《蓮花上的獅子——圖說歐亞獅子文化》（香港：中華書局，2015），頁36-38。<br>&emsp;&emsp;&emsp;2. Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur, UNESCO World Heritage Convention Webstie, whc.unesco.org/zh/list/86.'
-            , imag: 'media/lion/212 Great Sphinx of Giza.jpg'
+            , imag: ''
             , referenceUrl: 'whc.unesco.org/zh/list/86.'
         });
 
@@ -28,7 +28,9 @@
             , description_cn: '獅子在佛教文化中有著神聖的意義。據說，佛祖釋迦牟尼的化身之一就是獅子。在公元前三世紀，印度孔雀王朝的第三位君主阿育王崇尚佛教，他在佛教聖地鹿野苑建造了許多雕刻著獅子的石柱，象徵著佛法的傳播。'
             ,description_en:'The lion has a divine meaning in Buddhist culture. It is said that one of the incarnations of the Buddha was a lion. In the third century BCE, Ashoka, the third Mauryan Emperor in India, revered Buddhism. He built many stone pillars carved with lions to symbolize the spread of Buddhism in Sarnath, a sacred Buddhist site.'
 			,reference: '1. 尚永琪，《蓮花上的獅子——圖說歐亞獅子文化》（香港：中華書局，2015），頁36-38。<br>&emsp;&emsp;&emsp;2. Capital of Ashokan pillar, Archaeological Museum Sarnath Website, www.sarnathmuseumasi.org/gallery/Gallery3%20Acc%20No%20355.html.'
-            , image: 'media/lion/214 Capital of Ashokan pillar.jpg'
+            , image: 'media/OneDrive_1_2024-1-8/244. (3rd Century BCE, Capital of Ashokan Pillar, housed in Archaeological Museum Sarnath).jpg'
+            ,image_content_cn:'公元前三世紀，阿育王石柱柱頭，鹿野苑考古博物館藏'
+            ,image_content_en:'3rd Century BCE, Capital of Ashokan Pillar, housed in Archaeological Museum Sarnath'
             , referenceUrl: ''
         });
 
