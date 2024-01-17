@@ -209,7 +209,7 @@ function switchLanguageTo(language) {
                 '<h1>' + marker.content.title + '</h1>' +
                 '<p>' + marker.content.description + '</p>' +
                 '<p class="info-reference">' + (language === 'cn' ? '参考：' : 'Reference: ') + marker.content.reference + '</p>' +
-                '<img class="info-image" src="' + marker.content.image + '" alt="" onclick="enlargeImage(this)">' +
+                '<img class="info-image" src="' + marker.content.image + '" alt="" onclick="enlargeImage(this)" oncontextmenu="return false;">' +
                 (marker.content.image_content ? '<p class="info-reference">' + marker.content.image_content + '</p>' : '') +
                 '</div>';
     

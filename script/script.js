@@ -1142,3 +1142,8 @@ function enlargeImage(img) {
     // Append the image container to the body of the document
     document.body.appendChild(imageContainer);
   }
+  document.addEventListener('contextmenu', event => {
+    if (event.target.tagName === 'IMG') {
+        event.preventDefault();
+    }
+});
