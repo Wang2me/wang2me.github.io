@@ -240,14 +240,14 @@ window.onload = function () {
     initMap();
     // 创建折线并将其添加到地图
    line1 = new google.maps.Polyline({
-      path: [{ lat:	41.0136	,lng:	28.9765},kailuo,{lat:21.4177,lng:39.8007 },jibudi,{lat:27.1334,lng:57.0739},guli,xilan,maliujia,taihai,zhangjiagang
+      path: [{ lat:	41.0136	,lng:	28.9765},kailuo,{lat:21.4177,lng:39.8007 },{ lat:12.7917,lng:44.9990},{ lat:	17.0151,lng:54.0945 },{lat:27.1334,lng:57.0739},guli,xilan,{ lat:22.5652,lng:88.3522},maliujia,nanhai,{ lat:15.8813,lng:108.3390 },taihai,zhangjiagang
       ],
       icons: [{
         icon: lineSymbol,
         offset: '100%'
       }],
       geodesic: true,
-      strokeColor: '#0000FF', // 初始颜色为红色
+      strokeColor: '#0000FF', // 初始颜色为蓝
       strokeOpacity: 0.8,
       strokeWeight: 3,
       map: map
