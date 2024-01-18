@@ -646,15 +646,20 @@ body {
     position: absolute;
     right: 0%;
     bottom: 10%;
-    width:10%;
+    width:auto;
     flex-direction: column;
     align-items: left;
-    /* display:flex; */
+    display:flex;
     background-color: #b5e88d;
     z-index:4;
     font-size: 12pt;
+    align-items: center; /* 垂直居中对齐 */
 }
-
+.line-dis{
+   
+    flex-direction: row;
+    
+}
 #line1 + label {
     color: #000dff; /* 设置文本颜色为红色 */
   }
