@@ -36,9 +36,11 @@ var markers = {};
 
 function initMap() {
     var bounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(-71, -180),
+        new google.maps.LatLng(-72, -180),
         new google.maps.LatLng(75, 180)
     );
+  // 将折线添加到地图
+
 
     map = new google.maps.Map(document.getElementById('map-container'), {
         center: { lat: 34.123, lng: 108.456 },
@@ -1032,6 +1034,7 @@ function toggleContainer(containerId) {
     }
 }
 
+
 var currentValue = parseInt(slider.value);
 
 
@@ -1152,3 +1155,68 @@ function enlargeImage(img) {
         event.preventDefault();
     }
 });
+
+var xian= {lat:34.2655,lng:108.9508};//西安
+var luoyang= {lat:34.6321,lng:102.4470}//洛阳
+var kaifeng ={lat:34.7872,lng:104.3081};//开封
+var beijing ={lat:39.9171,lng:116.3797};//北京
+
+//河西走廊:敦煌-酒泉-张掖-武威
+var dunhuang= { lat:	40.1030	,lng:94.6618 }; 
+var wuwei = {lat:37.9283,lng:102.6371};
+var jiuquan={lat:39.7237,lng:98.3444}
+var zhangye = {lat:38.9177,lng:100.3065};
+//海上絲路：古里-xilan-palk-馬六甲
+
+
+var guli ={lat:11.2618,lng:75.7822};
+var xilan={lat:6.9397,lng:79.8259};
+var palk={lat:10.0803,lng:80.1207};
+var maliujia={lat:2.2373,lng:102.1691};
+var kailuo={lat:	30.0444 ,lng:31.2357};
+var kemolin={lat:8.0864,lng:77.5355};
+var jibudi={lat:11.8125,lng:41.9678};
+var taihai={lat:24.2877,lng:119.5445};
+var zhangjiagang={lat:31.8774,lng:120.4609};
+var nanhai={lat:-0.3778,lng:106.0436};
+
+//定义向前箭头图标作为折线动画的线符号
+var lineSymbol = {
+    path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+    strokeColor: '#000000', // 蓝色
+    strokeOpacity: 0.8, // 不透明度
+  };
+  
+var lineSymbolSquare = {
+    path: 'M -0.5,-0.5 0.5,-0.5 0.5,0.5 -0.5,0.5 Z', // 定义一个近似正方形的路径
+    fillColor: '#FFFFFF', // 填充颜色
+    fillOpacity: 1, // 填充不透明度
+    strokeColor: '#000000', // 边框颜色
+    strokeWeight: 0 // 边框宽度
+};
+
+
+
+  function animateCircle(line) {
+    var count = 0;
+    window.setInterval(function() {
+      count = (count + 1) % 200;
+      // 在每个时间间隔内更新箭头的位置
+      line.set('icons', [
+        {
+          icon: lineSymbolSquare,
+          offset: count / 2 + '%',
+          repeat: '5%' // 控制箭头是否重复出现
+        }
+      ]);
+    }, 100); // 控制速度
+  }
+// 将折线添加到地图
+function toggleLines(checkboxId, line) {
+    var checkbox = document.getElementById(checkboxId);
+    if (checkbox.checked) {
+      line.setMap(map); // 显示折线
+    } else {
+      line.setMap(null); // 隐藏折线
+    }
+  }

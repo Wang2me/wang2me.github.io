@@ -45,8 +45,14 @@
         <button title="switch to English version"><img class="image-button1" id="languageSwitch" src="/media/En.png" alt="switch language"></button>
     </div>
         <!-- 文字 -->
-        
-        
+    <div class="line-button">   
+        <!-- <button id="line"onclick="toggleLines1()">隐藏/显示折线1</button>
+        <button id="line"onclick="toggleLines2()">隐藏/显示折线2</button> -->
+            <input type="checkbox" id="line2" onchange="toggleLines('line2', line2)"checked><label for="line1">路上絲綢之路綫路</label>
+            <input type="checkbox" id="line1" onchange="toggleLines('line1', line1)"checked><label for="line1">海上絲綢之路綫路</label>
+
+
+    </div> 
         <!-- 选项卡容器 -->
         <div class="tabs">
 
@@ -57,6 +63,8 @@
         </div>
 
        <div class="zoomcontainer" id="zoom">
+
+
         <button id="zoomInButton">+</button>        
         <div class="vertical-slider-container">
             <input type="range" id="zoomSlider" min="0" max="4" value="2" step="1" list="tickmarks" class="vertical-slider">
@@ -69,7 +77,6 @@
             </datalist>
         </div>
         <button id="zoomOutButton">-</button>
-
        </div>
 
         <div class="timeline-container"id="timeline">

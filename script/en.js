@@ -233,10 +233,48 @@ function switchLanguageTo(language) {
 
 
 }
+
+var line1,line2
 window.onload = function () {
 
     initMap();
-       
+    // 创建折线并将其添加到地图
+   line1 = new google.maps.Polyline({
+      path: [{ lat:	41.0136	,lng:	28.9765},kailuo,{lat:21.4177,lng:39.8007 },jibudi,{lat:27.1334,lng:57.0739},guli,xilan,maliujia,taihai,zhangjiagang
+      ],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#0000FF', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+  
+  
+    line2 = new google.maps.Polyline({
+      path: [xian,luoyang,wuwei,zhangye,jiuquan,dunhuang,{ lat:	41.7137,lng:82.9605 },{ lat:37.1004,lng:79.9154},{ lat:39.5027,lng:75.9126},{ lat: 39.6327, lng:66.8958 },{ lat:	34.5386,lng:69.1375 },{ lat:34.0097,lng:71.5173},{ lat:	33.3089,lng:44.3642 }
+      ],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#FF0000', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+  
+    line1.setMap(map);
+    line2.setMap(map);
+  
+    animateCircle(line1);
+    animateCircle(line2);
+ 
+
     }
 
 	

@@ -88,11 +88,13 @@ for (var i = 0; i < turkeys.length; i++) {
 }
 
 
+var newCoords_turkey2_0= {lat:2.2373,lng:-257.8309};
+var newCoords_turkey2_01= {lat:11.2618,lng:-284.2178};
 
 var newCoords_turkey2_1= {lat:19.0698,lng:-287.1633};
-var newCoords_turkey2_2= {lat:41.0370,lng:28.9561};
-var newCoords_turkey2_3= {lat:48.8536,lng:2.3105};
-var newCoords_turkey2_4= {lat:51.5110,lng:-0.1270};
+var newCoords_turkey2_2= {lat:41.0370,lng:-331.0439};
+var newCoords_turkey2_3= {lat:48.8536,lng:-357.6895};
+var newCoords_turkey2_4= {lat:51.5110,lng:-359.8730};
 
 var newCoords_turkey3_1= {lat:-6.9607,lng:143.5580};
 var newCoords_turkey3_2= {lat:29.9851,lng:122.2120};
@@ -176,7 +178,7 @@ slider.addEventListener('input', function() {
     if(currentValue >=7000 && currentValue <8000){
         
         
-        var points_2 = [initialCoords_turkey2, maliujia,newCoords_turkey2_1, newCoords_turkey2_2,newCoords_turkey2_3,newCoords_turkey2_4,newCoords_turkey2_4];
+        var points_2 = [initialCoords_turkey2,newCoords_turkey2_0,newCoords_turkey2_01,newCoords_turkey2_1, newCoords_turkey2_2,newCoords_turkey2_3,newCoords_turkey2_4,newCoords_turkey2_4];
         
 
     // 计算当前阶段的目标点的索引
