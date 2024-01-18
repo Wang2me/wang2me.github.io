@@ -936,17 +936,32 @@ document.addEventListener('DOMContentLoaded', function() {
 // 获取所有复选框
 var checkboxes = document.querySelectorAll('input[type="checkbox"]');
 
-// 为每个复选框添加更改事件监听器暂停播放
-checkboxes.forEach(function(checkbox) {
-    checkbox.addEventListener('change', function() {
+// // 为每个复选框添加更改事件监听器暂停播放
+// checkboxes.forEach(function(checkbox) {
+//     checkbox.addEventListener('change', function() {
        
-            // 如果复选框被选中，则暂停自动滑块函数
-            clearInterval(intervalId);
-            intervalId = null;
-            controlImage.src = 'media/animal_icon/play.png';
+//             // 如果复选框被选中，则暂停自动滑块函数
+//             clearInterval(intervalId);
+//             intervalId = null;
+//             controlImage.src = 'media/animal_icon/play.png';
         
         
                            
+//     });
+// });
+
+// 为所有朝代类别复选框添加更改事件监听器
+checkboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+        // 根据朝代类别复选框的改变来处理
+        if (checkbox.id === 'xia-Checkbox' || checkbox.id === 'qinhan-Checkbox' || checkbox.id ==='sanguo-Checkbox'|| 
+        checkbox.id ==='sui-Checkbox'|| checkbox.id ==='tang-Checkbox'|| checkbox.id ==='song-Checkbox'||
+        checkbox.id === 'yuan-Checkbox'|| checkbox.id ==='ming-Checkbox'||checkbox.id === 'qing-Checkbox') {
+            // 如果复选框被选中，则暂停自动滑块函数
+            clearInterval(intervalId);
+            intervalId = null;
+            controlImage.src = 'media/animal_icon/play.png'; // 更新控制图像的来源
+        }
     });
 });
 //复选框全选
