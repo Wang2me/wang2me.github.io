@@ -879,7 +879,7 @@
 
             var points_27 = [initialCoords_lion27,  newCoords_lion27_1, jiuquan,wuwei,newCoords_lion27_2,newCoords_lion27_2];
             var points_28 = [initialCoords_lion28,  newCoords_lion28_1, maliujia,taihai,zhangjiagang,newCoords_lion28_2,newCoords_lion28_2];
-            var points_29 = [initialCoords_lion29, guli,xilan,maliujia, taihai, zhangjiagang, newCoords_lion29_1, newCoords_lion29_1];
+            var points_29 = [initialCoords_lion29, dunhuang,wuwei,zhangye, newCoords_lion29_1, newCoords_lion29_1];
             var points_30 = [initialCoords_lion30,  newCoords_lion30_1, zhangye,newCoords_lion30_2,newCoords_lion30_2];
             var points_31 = [initialCoords_lion31,  taihai, zhangjiagang, newCoords_lion31, newCoords_lion31];
             var points_32 = [initialCoords_lion32, guli, xilan,  palk, maliujia, taihai, zhangjiagang, newCoords_lion32, newCoords_lion32];

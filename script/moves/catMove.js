@@ -389,7 +389,8 @@ function RandomCoords(coords) {
 
 var xian= {lat:34.2655,lng:108.9508};//西安
 var luoyang= {lat:34.6321,lng:102.4470}//洛阳
-var kaifeng ={lat:34.7872,lng:104.3081};//开封
+var kaifeng ={lat:34.7845,lng:114.2722};//开封
+
 var beijing ={lat:39.9171,lng:116.3797};//北京
 
 

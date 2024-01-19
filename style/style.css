@@ -23,7 +23,10 @@ body {
     width: 100%;
     height: 13%;
     z-index: 1;
-    
+    background-color: #f8ebd6;
+    /* #f8ebd6; */
+    border-bottom: 2px solid #1a73e8; /* 添加上边框 */
+
     }
 
 
@@ -32,7 +35,7 @@ body {
 .image-button1 {
     display: flex;
     position: absolute;
-    top: 10px;
+    top: 40px;
     right: 10px;
     cursor: pointer;
     z-index: 1;
@@ -101,7 +104,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     background-color: #638889;
-    padding: 10px;
+    padding: 20px;
     top: 13%;  /* 使用 top 属性来调整垂直位置 */
     
     font-size: 15pt;
@@ -126,7 +129,7 @@ body {
     z-index: 4;
     flex-shrink: 0; /* 设置按钮不随父容器尺寸变化而收缩 */
     border: none;
-  /* color: white; */
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -255,17 +258,21 @@ body {
     z-index: 5;
     width: 100%;
     right: 0;
-    background-image: url('/media/age.png');
-    background-size: cover;
+    /* background-image: url('/media/age.png'); */
+    /* background-size: cover; */
     background-position: center;
+    opacity: 1;
     height: 10%;
+    background-color: #EBD9B4;
+    border-top: 2px solid #1a73e8; /* 添加上边框 */
+    
 }
 
 #slider {
     position: absolute;
     right:5%;
-    width: 90%; 
-    top: 10%;
+    width: 88%; 
+    top: 0%;
     z-index: 99;
     color: #ffffff; 
     background-color: #333333; 
@@ -322,12 +329,14 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 10.25%;
-    
 }
 .timeline-text-container {
+    position:absolute;
     display:flex;
     justify-content: space-between;
-    width: 90%;
+    width: 88%;
+    right: 5%;
+    top: 18%;
     margin: 0 auto;
 }
 
@@ -338,9 +347,9 @@ body {
 }
 .timeline-text {
     text-align: center; /* 居中文本 */
-    font-size: 14px;
+    font-size: 18px;
     /* font-weight: bold; 设置文字加粗 */
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 .separator {
@@ -412,7 +421,6 @@ body {
         height: 200px;
         text-align: left; /* 将文本内容水平居中 */
         text-indent: 2em;
-        
     }
 
  
@@ -490,17 +498,17 @@ body {
         position: relative;
     }
 
-.zoomcontainer{
-    position: absolute;  
-    display:grid;
-
-    width: 4%;
-    right:1%;
-    top:50%;
-    z-index: 11;
-    background-color: #638889;
-}
-
+    .zoomcontainer {
+        position: absolute;
+        display: grid;
+        width: 4%;
+        right: 1%;
+        top: 50%;
+        z-index: 11;
+        background-color: #638889;
+        border-radius: 10px; /* 添加圆角 */
+    }
+    
 .vertical-slider-container {
     height: 100px; 
     flex-direction: column-reverse; 
@@ -563,13 +571,14 @@ body {
     width: 30px; /* 设置宽度 */
     height: 30px; /* 设置高度 */
     position: relative;
-    top: 20%;
+    top: 15%;
+    left: 4%;
 
   }
 #openWindow{
     position: absolute;
     top: 60%;
-    left:0;
+    left:3%;
 }
 /* CSS Styles */
 .image-container {
@@ -601,40 +610,61 @@ body {
     cursor: pointer;
   }
   #banner {
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 100%;
     right: 0;
-    
-    opacity: 0.9;
+    background-color: #9DBC98;
     z-index: 5;
   }
-  
-  #logo1 {
-    width: 10%;
-    height: auto;
-    position: relative;
+
+  .logo-container {
+    width: 20%;
+    position: fixed;
     z-index: 6;
-    
-  }#logo2 {
-    position: relative;
-    width:10%;
-    height: auto;
-    z-index: 6;
-    
-  }  #logo3{
-    position: relative;
-    width: 10%;
-    height: auto;
-    z-index: 6;
-    
+    top: 65px; /* Adjust this value as needed for vertical positioning */
+    right: -180px; /* Adjust this value as needed for horizontal positioning */
+}
+
+  .logo-container a img {
+    transition: transform 0.2s; /* 添加平滑过渡动画 */
   }
+  
+  .logo-container a div:hover img {
+    transform: scale(1.1); /* 鼠标悬停时放大 */
+  }
+  
+#logo1 {
+    width: 30px; /* Adjust this value as needed for the width of the logos */
+    height: auto;
+    margin-right: 10px; /* Adjust this value as needed for space between logos */
+
+}
+
+#logo2 {
+    width:30px; /* Adjust this value as needed for the width of the logos */
+    height: auto;
+    margin-right: 10px; /* Adjust this value as needed for space between logos */
+
+
+}
+
+#logo3 {
+    width: 30px; /* Adjust this value as needed for the width of the logos */
+    height: auto;
+    margin-right: 10px; /* Adjust this value as needed for space between logos */
+
+    
+}
+
+
   #title {
     position: absolute;
-    top: 50%; /* 使标题垂直居中 */
-    left: 40%; /* 使标题水平居中 */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    top: 40%; /* 使标题垂直居中 */
+    left: 35%; /* 使标题水平居中 */
     transform: translate(-50%, -50%); /* 将标题水平和垂直居中 */
-    font-size: 26px;
+    font-size: 28px;
     z-index: 7;
     letter-spacing: 5px; /* 设置字间距为2像素 */
   }
@@ -666,3 +696,4 @@ body {
   #line2 + label {
     color: #ff0000; /* 设置文本颜色为红色 */
   }
+

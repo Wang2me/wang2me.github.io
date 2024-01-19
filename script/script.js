@@ -36,7 +36,7 @@ var markers = {};
 
 function initMap() {
     var bounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(-72, -180),
+        new google.maps.LatLng(-80, -180),
         new google.maps.LatLng(75, 180)
     );
   // 将折线添加到地图
@@ -1225,6 +1225,48 @@ var lineSymbolSquare = {
         }
       ]);
     }, 100); // 控制速度
+  }  
+  function animateCi6(line) {
+    var count = 0;
+    window.setInterval(function() {
+      count = (count + 1) % 200;
+      // 在每个时间间隔内更新箭头的位置
+      line.set('icons', [
+        {
+          icon: lineSymbolSquare,
+          offset: count / 2 + '%',
+          repeat: '30%' // 控制箭头是否重复出现
+        }
+      ]);
+    }, 10); // 控制速度
+  } 
+   function animateCi7(line) {
+    var count = 0;
+    window.setInterval(function() {
+      count = (count + 1) % 200;
+      // 在每个时间间隔内更新箭头的位置
+      line.set('icons', [
+        {
+          icon: lineSymbolSquare,
+          offset: count / 2 + '%',
+          repeat: '12%' // 控制箭头是否重复出现
+        }
+      ]);
+    }, 25); // 控制速度
+  }
+  function animateCi8(line) {
+    var count = 0;
+    window.setInterval(function() {
+      count = (count + 1) % 200;
+      // 在每个时间间隔内更新箭头的位置
+      line.set('icons', [
+        {
+          icon: lineSymbolSquare,
+          offset: count / 2 + '%',
+          repeat: '30%' // 控制箭头是否重复出现
+        }
+      ]);
+    }, 20); // 控制速度
   }
 // 将折线添加到地图
 function toggleLines(checkboxId, line) {
@@ -1235,3 +1277,29 @@ function toggleLines(checkboxId, line) {
       line.setMap(null); // 隐藏折线
     }
   }
+  function toggleMultipleLines(checkboxId, line2, line3) {
+    var checkbox = document.getElementById(checkboxId);
+    if (checkbox.checked) {
+        line2.setMap(map); // 显示折线1
+        line3.setMap(map); // 显示折线2
+        line5.setMap(map); // 显示折线2
+        line6.setMap(map); // 显示折线2
+        line7.setMap(map); // 显示折线2
+        line8.setMap(map); // 显示折线2
+        line9.setMap(map); // 显示折线2
+        line10.setMap(map); // 显示折线2
+        line11.setMap(map); // 显示折线2
+
+    } else {
+        line3.setMap(null); // 隐藏折线1
+        line2.setMap(null); // 隐藏折线2
+        line5.setMap(null); // 隐藏折线2
+        line6.setMap(null); // 隐藏折线2
+        line7.setMap(null); // 隐藏折线2
+        line8.setMap(null); // 隐藏折线2
+        line9.setMap(null); // 隐藏折线2
+        line10.setMap(null); // 隐藏折线2
+        line11.setMap(null); // 隐藏折线2
+
+    }
+}

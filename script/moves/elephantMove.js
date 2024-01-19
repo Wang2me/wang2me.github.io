@@ -582,6 +582,7 @@ var newCoords_elephant25_1= {lat:37.0541,lng:79.7794};
 var newCoords_elephant25_2= RandomCoords(luoyang);
 
 var luoyang= {lat:34.6321,lng:112.4470}//洛阳
+var kaifeng ={lat:34.7845,lng:114.2722};//开封
 
 var newCoords_elephant27_1= RandomCoords(luoyang);
 var newCoords_elephant30_1= RandomCoords(xian);
@@ -799,7 +800,7 @@ slider.addEventListener('input', function() {
      var points_7 =  [initialCoords_elephant7, newCoords_elephant7_1,newCoords_elephant7_1];
      var points_10 = [initialCoords_elephant10, newCoords_elephant10_1, newCoords_elephant10_1];
      var points_11 = [initialCoords_elephant11, newCoords_elephant11_1,newCoords_elephant11_1];
-     var points_12 = [initialCoords_elephant12,  kailuo,jibudi,guli,newCoords_elephant12_1, newCoords_elephant12_2,newCoords_elephant12_2];
+     var points_12 = [initialCoords_elephant12,  kailuo,jibudi,guli,guli,xilan,maliujia,newCoords_elephant12_1, newCoords_elephant12_2,newCoords_elephant12_2];
      
  // 计算当前阶段的目标点的索引
      

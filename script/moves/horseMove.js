@@ -494,7 +494,7 @@ markers.horse54 = createMarker({lat: 43.9232,lng:116.0318}, 'horse','內蒙古�
  ,referenceUrl:''});  
 //安徽合肥	lat: 43.9212,lng:116.0328
 
-markers.horse55 = createMarker({lat:58.1469,lng:41.5827}, 'horse','俄羅斯馬薩尼諾',{ A:['horse'],B:['元'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse55 = createMarker({lat:51.3432,lng:135.4925}, 'horse','俄羅斯特林',{ A:['horse'],B:['元'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元朝在全國範圍內設立了大量驛站，其職責主要包括物資運輸、郵遞官方文書和信件等。馬站是其中最常見的一種驛站，配備了大量馬匹作為交通運輸的工具。元代驛馬最多的地方是遼陽行省，位於如今的中國東北地區，管有驛馬共計6515匹。'  
  ,description_en:'The Yuan Dynasty 元朝 set up a large number of posts around the nation, and their responsibilities mainly included transportation of goods, mailing official documents and letters, etc. The most common type of post was the horse station, which was equipped with a large number of horses for transportation.  In the Yuan Dynasty, it was the Liaoyang province 遼陽行省, located in present-day northeastern China, that had the most number of burden horses, with a total of 6,515 horses in its possession.'
@@ -525,7 +525,7 @@ markers.horse57 = createMarker({lat:43.0707,lng:12.6184}, 'horse','意大利阿�
 
 //明
 {
-markers.horse58 = createMarker({lat:37.1053,lng:79.9172 }, 'horse','內蒙古興安盟',{ A:['horse'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse58 = createMarker({lat:46.0943,lng:122.0553 }, 'horse','內蒙古興安盟',{ A:['horse'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'遼東馬市設立於如今的遼寧省開原縣，主要貿易對象是東北地區的蒙古部落。明朝主要出口絲綢、麻布等紡織品，以交換蒙古部落的馬匹。這些馬匹主要供給遼東地區軍用。遼東馬市在明朝初期就已經設立，一直是明朝主要的進口馬匹的途徑之一。'  
  ,description_en:'The Liaodong Horse Market 遼東馬市 was established in present-day Kaiyuan County 開原縣, Liaoning 遼寧, and its main target traders were the Mongolian tribes of the northeastern region. The Ming Dynasty 明朝 mainly exported textiles such as silk and linen in exchange for horses from the Mongolian tribes. These horses were mainly for military use in the Liaodong region 遼東地區. The Liaodong Horse Market was established at the beginning of the Ming Dynasty and has been one of the main ways to introduce horses during the Ming Dynasty.'

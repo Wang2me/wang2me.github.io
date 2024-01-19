@@ -63,7 +63,7 @@ setAnimalPatternMapping('yak', '氂牛', 8);
 setAnimalPatternMapping('leopard', '豹子', 15);
 setAnimalPatternMapping('cheetah', '獵豹', 12);
 setAnimalPatternMapping('elephant', '象', 56);
-setAnimalPatternMapping('rihno', '犀牛', 29);
+setAnimalPatternMapping('rhino', '犀牛', 29);
 setAnimalPatternMapping('giraffe', '長頸鹿', 6);
 setAnimalPatternMapping('zebra', '斑馬', 3);
 setAnimalPatternMapping('antelope', '羚羊', 6);
@@ -234,13 +234,13 @@ function switchLanguageTo(language) {
 
 }
 
-var line1,line2
+var line1,line2,line3,line4,line5,line6,line7,line8,line9,line10,line11
 window.onload = function () {
 
     initMap();
     // 创建折线并将其添加到地图
    line1 = new google.maps.Polyline({
-      path: [{ lat:	41.0136	,lng:	28.9765},kailuo,{lat:21.4177,lng:39.8007 },{ lat:12.7917,lng:44.9990},{ lat:	17.0151,lng:54.0945 },{lat:27.1334,lng:57.0739},guli,xilan,{ lat:22.5652,lng:88.3522},maliujia,nanhai,{ lat:15.8813,lng:108.3390 },taihai,zhangjiagang
+      path: [{lat:41.8945347,lng:12.4928},kailuo,{lat:21.4177,lng:39.8007 },{ lat:12.7917,lng:44.9990},{ lat:	17.0151,lng:54.0945 },{lat:18.9795612,lng:57.8518},{lat:20.1900845,lng:58.7137},{lat:22.5226275,lng:59.7923},{lat:27.1334,lng:57.0739},guli,{lat:8.0847458,lng:77.4466},xilan,{lat:13.0474733,lng:80.0441},{ lat:22.5652,lng:88.3522},maliujia,nanhai,{lat:4.4518,lng:114.6058},{ lat:15.8813,lng:108.3390 },{lat:23.1235716,lng:113.1974872},{lat:24.8760838,lng:118.6640},{lat:30.2685609,lng:120.1555}
       ],
       icons: [{
         icon: lineSymbol,
@@ -253,10 +253,9 @@ window.onload = function () {
       map: map
     });
   
-  
+  //露露
     line2 = new google.maps.Polyline({
-      path: [xian,luoyang,wuwei,zhangye,jiuquan,dunhuang,{ lat:	41.7137,lng:82.9605 },{ lat:37.1004,lng:79.9154},{ lat:39.5027,lng:75.9126},{ lat: 39.6327, lng:66.8958 },{ lat:	34.5386,lng:69.1375 },{ lat:34.0097,lng:71.5173},{ lat:	33.3089,lng:44.3642 }
-      ],
+      path: [{ lat:	41.0136	,lng:	28.9765},{ lat:	33.3089,lng:44.3642 },{lat:35.7208,lng:51.32420 },{ lat: 39.6327, lng:66.8958 },{ lat:40.4013,lng:71.8151 },{ lat:39.5027,lng:75.9126},{ lat:	41.7137,lng:82.9605 },dunhuang],
       icons: [{
         icon: lineSymbol,
         offset: '100%'
@@ -267,12 +266,143 @@ window.onload = function () {
       strokeWeight: 3,
       map: map
     });
+    line3 = new google.maps.Polyline({
+      path: [{ lat: 25.3176, lng: 82.9739 },{lat:28.6873,lng:77.1969},{ lat:31.5106,lng:74.3568},{ lat:34.0097,lng:71.5173}, { lat:	34.5386,lng:69.1375 },{ lat: 36.7580, lng: 66.8966 }, { lat: 39.6327, lng:66.8958 },{ lat:40.4013,lng:71.8151 },{ lat:39.5027,lng:75.9126},{ lat:37.1004,lng:79.9154},dunhuang,jiuquan,zhangye, wuwei,xian, luoyang,kaifeng,beijing,nanjing,{lat:30.2685609,lng:120.1555}],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#FF0000', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+    line5 = new google.maps.Polyline({
+      path: [{ lat:	41.0136	,lng:	28.9765},{lat:44.3996318,lng:26.0546},{lat:46.9329463,lng:31.8431},{lat:47.1931245,lng:51.7529},{lat:39.6570063,lng:66.9009},{lat:42.8220759,lng:75.2786},{lat:43.2301323,lng:76.8359},{lat:43.8256072,lng:87.5868},{lat:42.9477445,lng:89.17888},dunhuang],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#FF0000', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+    line6 = new google.maps.Polyline({
+      path: [{lat:23.1281782,lng:113.2394},{lat:25.8309598,lng:114.9042},kaifeng ],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#FF0000', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+    line7 = new google.maps.Polyline({
+      path: [{lat:53.7166339,lng:91.4246},{lat:52.5149593,lng:103.9046},{lat:47.9089525,lng:106.8864},{lat:40.7667145,lng:114.8712},beijing],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#FF0000', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+    line8 = new google.maps.Polyline({
+      path: [{lat:36.2465846,lng:126.8526},{lat:39.0300957,lng:125.6923},{lat:41.2658438,lng:123.2246},beijing],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#FF0000', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+
+    line9 = new google.maps.Polyline({
+      path: [{lat:52.9366236,lng:139.7379},{lat:44.6260491,lng:128.4490},{lat:46.0757244,lng:122.0206},{lat:42.2564273,lng:118.8669},beijing],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#FF0000', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+
+    line10 = new google.maps.Polyline({
+      path: [{lat:25.6093764,lng:100.2309},{lat:24.887296,lng:102.8028},{lat:30.6409644,lng:104.0071},{lat:34.5768454,lng:105.7021},xian],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#FF0000', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+    line11 = new google.maps.Polyline({
+      path: [{lat:29.6413697,lng:91.0321},{lat:30.6409644,lng:104.0071},{lat:34.5768454,lng:105.7021},xian],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#FF0000', // 初始颜色为红色
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
+    
+//海路
+    line4 = new google.maps.Polyline({
+      path: [{lat:2.0291775,lng:45.3368},{lat:18.9795612,lng:57.8518},{lat:20.1900845,lng:58.7137},{lat:22.5226275,lng:59.7923},{lat:27.1334,lng:57.0739},guli,{lat:8.0847458,lng:77.4466},xilan,{lat:13.0474733,lng:80.0441},{ lat:22.5652,lng:88.3522},maliujia,nanhai,{lat:4.4518,lng:114.6058},{ lat:15.8813,lng:108.3390 },{lat:23.1235716,lng:113.1974872},{lat:24.8760838,lng:118.6640},{lat:30.2685609,lng:120.1555}
+      ],
+      icons: [{
+        icon: lineSymbol,
+        offset: '100%'
+      }],
+      geodesic: true,
+      strokeColor: '#0000FF', // 初始颜色为蓝
+      strokeOpacity: 0.8,
+      strokeWeight: 3,
+      map: map
+    });
   
     line1.setMap(map);
     line2.setMap(map);
+    line3.setMap(map);
+    line4.setMap(map);
+    line5.setMap(map);
+    line6.setMap(map);
+    line7.setMap(map);
+    line8.setMap(map);
+    line9.setMap(map);
+    line10.setMap(map);
+    line11.setMap(map);
   
     animateCircle(line1);
     animateCircle(line2);
+    animateCircle(line3);
+    animateCircle(line4);
+    animateCircle(line5);
+    animateCi6(line6);
+    animateCi7(line7);
+    animateCi8(line8);
+    animateCi8(line9);
+    animateCi6(line10);
+    animateCi6(line11);
  
 
     }
