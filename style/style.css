@@ -619,11 +619,11 @@ body {
   }
 
   .logo-container {
-    width: 20%;
+    width: 30%;
     position: fixed;
     z-index: 6;
-    top: 65px; /* Adjust this value as needed for vertical positioning */
-    right: -180px; /* Adjust this value as needed for horizontal positioning */
+    top: 0px; /* Adjust this value as needed for vertical positioning */
+    right: -140px; /* Adjust this value as needed for horizontal positioning */
 }
 
   .logo-container a img {
@@ -635,14 +635,14 @@ body {
   }
   
 #logo1 {
-    width: 30px; /* Adjust this value as needed for the width of the logos */
+    width: 100px; /* Adjust this value as needed for the width of the logos */
     height: auto;
     margin-right: 10px; /* Adjust this value as needed for space between logos */
 
 }
 
 #logo2 {
-    width:30px; /* Adjust this value as needed for the width of the logos */
+    width:100px; /* Adjust this value as needed for the width of the logos */
     height: auto;
     margin-right: 10px; /* Adjust this value as needed for space between logos */
 
@@ -650,7 +650,7 @@ body {
 }
 
 #logo3 {
-    width: 30px; /* Adjust this value as needed for the width of the logos */
+    width: 85px; /* Adjust this value as needed for the width of the logos */
     height: auto;
     margin-right: 10px; /* Adjust this value as needed for space between logos */
 
@@ -658,13 +658,23 @@ body {
 }
 
 
-  #title {
+  #title1 {
     position: absolute;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    top: 40%; /* 使标题垂直居中 */
-    left: 35%; /* 使标题水平居中 */
+    top: 15%; /* 使标题垂直居中 */
+    left: 15%; /* 使标题水平居中 */
     transform: translate(-50%, -50%); /* 将标题水平和垂直居中 */
     font-size: 28px;
+    z-index: 7;
+    letter-spacing: 5px; /* 设置字间距为2像素 */
+  }
+  #title2 {
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    top: 55%; /* 使标题垂直居中 */
+    left: 35%; /* 使标题水平居中 */
+    transform: translate(-50%, -50%); /* 将标题水平和垂直居中 */
+    font-size: 20px;
     z-index: 7;
     letter-spacing: 5px; /* 设置字间距为2像素 */
   }
@@ -683,7 +693,7 @@ body {
     background-color: #b5e88d;
     z-index:4;
     font-size: 12pt;
-    align-items: center; /* 垂直居中对齐 */
+    align-items:start; /* 垂直居中对齐 */
 }
 .line-dis{
    
