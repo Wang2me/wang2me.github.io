@@ -620,10 +620,10 @@ body {
 
   .logo-container {
     width: 30%;
-    position: fixed;
+    position: absolute;
     z-index: 6;
     top: 0px; /* Adjust this value as needed for vertical positioning */
-    right: -140px; /* Adjust this value as needed for horizontal positioning */
+    right: -90px; /* Adjust this value as needed for horizontal positioning */
 }
 
   .logo-container a img {
@@ -635,14 +635,14 @@ body {
   }
   
 #logo1 {
-    width: 100px; /* Adjust this value as needed for the width of the logos */
+    width: 120px; /* Adjust this value as needed for the width of the logos */
     height: auto;
     margin-right: 10px; /* Adjust this value as needed for space between logos */
 
 }
 
 #logo2 {
-    width:100px; /* Adjust this value as needed for the width of the logos */
+    width:120px; /* Adjust this value as needed for the width of the logos */
     height: auto;
     margin-right: 10px; /* Adjust this value as needed for space between logos */
 
@@ -650,7 +650,7 @@ body {
 }
 
 #logo3 {
-    width: 85px; /* Adjust this value as needed for the width of the logos */
+    width: 100px; /* Adjust this value as needed for the width of the logos */
     height: auto;
     margin-right: 10px; /* Adjust this value as needed for space between logos */
 

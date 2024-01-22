@@ -1285,29 +1285,15 @@ function toggleLines(checkboxId, line) {
       line.setMap(null); // 隐藏折线
     }
   }
-  function toggleMultipleLines(checkboxId, line2, line3) {
+  function toggleMultipleLines(checkboxId, ...lines) {
     var checkbox = document.getElementById(checkboxId);
     if (checkbox.checked) {
-        line2.setMap(map); // 显示折线1
-        line3.setMap(map); // 显示折线2
-        line5.setMap(map); // 显示折线2
-        line6.setMap(map); // 显示折线2
-        line7.setMap(map); // 显示折线2
-        line8.setMap(map); // 显示折线2
-        line9.setMap(map); // 显示折线2
-        line10.setMap(map); // 显示折线2
-        line11.setMap(map); // 显示折线2
-
+        lines.forEach(function(line) {
+            line.setMap(map); // 显示折线
+        });
     } else {
-        line3.setMap(null); // 隐藏折线1
-        line2.setMap(null); // 隐藏折线2
-        line5.setMap(null); // 隐藏折线2
-        line6.setMap(null); // 隐藏折线2
-        line7.setMap(null); // 隐藏折线2
-        line8.setMap(null); // 隐藏折线2
-        line9.setMap(null); // 隐藏折线2
-        line10.setMap(null); // 隐藏折线2
-        line11.setMap(null); // 隐藏折线2
-
+        lines.forEach(function(line) {
+            line.setMap(null); // 隐藏折线
+        });
     }
 }
