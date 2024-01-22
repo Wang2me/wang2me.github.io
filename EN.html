@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html lang="zh_en">
-<head>
-    <meta charset="UTF-8">
-    <title>交互地图googleapi</title>
-    <!-- 引入 Google Maps JavaScript API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkS_NQZ6f1uts0OL68H6KkwmSBnt25ObU&language=en"></script>
-    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
-
-    <!-- <script type="text/javascript">
-        window._AMapSecurityConfig = {
-            securityJsCode:'9e63b05fbd15ebf099eeafd756f1279b',
-        }
-    </script>
-    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=19eebd1efaac152d1fda10073849d423"></script>  -->
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <title>絲綢之路的動物與人互動地圖</title>
+        <!-- 引入 Google Maps JavaScript API -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkS_NQZ6f1uts0OL68H6KkwmSBnt25ObU&language=en"></script>
+        <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     
-
-
-
-    <!-- 样式 -->
-    <link rel="stylesheet" type="text/css" href="/style/base.css">
-    <link rel="stylesheet" type="text/css" href="/style/style.css">
-</head>
+        <!-- <script type="text/javascript">
+            window._AMapSecurityConfig = {
+                securityJsCode:'9e63b05fbd15ebf099eeafd756f1279b',
+            }
+        </script>
+        <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=19eebd1efaac152d1fda10073849d423"></script>  -->
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+    
+        <link rel="icon" type="image/png" href="/media/animal_icon/baby.png">
+    
+        <!-- 样式 -->
+        <link rel="stylesheet" type="text/css" href="/style/base.css">
+        <link rel="stylesheet" type="text/css" href="/style/style.css">
+    </head>
 
 
 
 <body>
-    <!-- 外部容器，放置按钮和选项卡 -->
     <div class="external-container">
-        
-        <!-- 图片按钮 -->
+
+
+        <!-- <img id="banner" src="/media/banner_shade2.png"> -->
+            
+            <p id="title1"> Ancient China-Foreign Relation Interactive Map Database Project​
+            </p>
+           
+         <p id="title2"> "Animal and People on Silk Road" Database​
+        </p>   
     </div>
+
+    <div class="logo-container">
+            
+        <a href="/media/logo3.png" onclick="window.open('https://www.qef.org.hk/tc/c_index.html'); return false;"><img id="logo3" src="/media/logo3.png"alt="Your Button Description"></a>
+        <a href="/media/cihk.png" onclick="window.open('https://www.polyu.edu.hk/cihk/'); return false;"><img id="logo1" src="/media/cihk.png"alt="Your Button Description"></a>
+        <a href="/media/polyu.png" onclick="window.open('https://www.polyu.edu.hk/'); return false;"><img id="logo2" src="/media/polyu.png"alt="Your Button Description"></a>
+        
+    </div>  
     <!-- <img class="image-button" src="/media/animal_icon/cat.png" alt="按钮" id="imageButton"> -->
     <div id="languagePane">
-        <button title="switch to English version"><img class="image-button1" id="languageSwitch" src="/media/Cn.png" alt="switch language"></button>
-    </div>
-        <!-- 文字 -->
         
 
+        <button title="switch to English version"><img class="image-button1" id="languageSwitch" src="/media/En.png" alt="switch language"></button>
+    </div>
+        <!-- 文字 -->
+    <div class="line-button">   
+        <!-- <button id="line"onclick="toggleLines1()">隐藏/显示折线1</button>
+        <button id="line"onclick="toggleLines2()">隐藏/显示折线2</button> -->
+        <div class="line-dis"><input type="checkbox" id="line2" onchange="toggleMultipleLines('line2', line2, line3)" checked><label for="line2">Continental Silk Road Route</label></div>
+            
+        <div class="line-dis"><input type="checkbox" id="line1" onchange="toggleMultipleLines('line1', line1,line4)"checked><label for="line1">Maritime Silk Road Route</label></div>
+
+    </div> 
         <!-- 选项卡容器 -->
         <div class="tabs">
 
-            <button class="tab-button" onclick="showTab('tab1')">选项卡 </button>
-            <button class="tab-button" onclick="showTab('tab2')">选项卡 2</button>
-        </div>
+            <!-- <button class="tab-button" onclick="showTab('tab1')">选项卡 </button> -->
+            <!-- <button class="tab-button" onclick="showTab('tab2')">选项卡 2</button> -->
+            <!-- .<a href="https://www.flaticon.com/free-icons" title="icons" id="openWindow">icons created by Freepik - Flaticon</a> -->
 
+        </div>
        <div class="zoomcontainer" id="zoom">
         <button id="zoomInButton">+</button>        
         <div class="vertical-slider-container">
@@ -61,14 +84,56 @@
         <button id="zoomOutButton">-</button>
 
        </div>
+  
 
         <div class="timeline-container"id="timeline">
           <input type="range" id="slider" min="-1" max="8999" step="1" value="0" >
 
           <img id="controlImage" src="/media/animal_icon/play.png" alt="按钮">
-          <img id="Image" src="/media/age.jpg" alt="按钮">
+          <!-- <img id="Image" src="/media/age.jpg" alt="按钮"> -->
           <a href="/BC.html" id="openWindow">Correlation Table</a>
-
+          <div class="timeline-text-container">
+            <div class="timeline-item">          
+                <span class="separator">|</span>
+                <span class="timeline-text" >From Pre-historic Times to the Xia, Shang and Zhou Dynasties</span>
+            </div>
+            <div class="timeline-item">          
+                <span class="separator">|</span>
+                <span class="timeline-text" ></span>Qin and Han Dynasties</span>
+            </div>
+            <div class="timeline-item"> 
+                <span class="separator">|</span>
+                <span class="timeline-text" >The Three Kingdoms, Eastern and Western Jin Dynasties, and Southern and Northern Dynasties</span>
+            </div>
+            <div class="timeline-item"> 
+                <span class="separator">|</span>
+                <span class="timeline-text" >Sui Dynasty</span>
+            </div>
+            <div class="timeline-item">          
+                <span class="separator">|</span>
+                <span class="timeline-text" >Tang Dynasty</span>
+            </div>
+            <div class="timeline-item">          
+                <span class="separator">|</span>
+                <span class="timeline-text" >Song Dynasty</span>    
+          </div>
+          <div class="timeline-item">  
+                <span class="separator">|</span>
+                <span class="timeline-text" >Yuan Dynasty</span>
+          </div>
+          <div class="timeline-item">          
+                <span class="separator">|</span>
+                <span class="timeline-text" >Ming Dynasty</span>
+          </div>
+          <div class="timeline-item">          
+                <span class="separator">|</span>
+                <span class="timeline-text" >Qing Dynasty</span>
+          </div>
+                
+          <span class="separator">|</span>
+            
+          
+        </div>
           <!-- <div class="timeline-text-container">
             <div class="button-container" id="buttonContainer">
                 <button class="timeline-button" id="button" data-value="0">史前至夏商周</button>
@@ -135,6 +200,9 @@
                     <label class="category-button">
                         <input type="checkbox" class="category-checkbox" id="rabbit-Checkbox" data-category="A"  value="rabbit"> Rabbit
                     </label>
+                    <label class="category-button">
+                        <input type="checkbox" class="category-checkbox" id="camel-Checkbox" data-category="A"  value="camel"> Camel
+                    </label>
                 </div>
             
 
@@ -145,9 +213,7 @@
             <button class="category-ss" id="animalButton" onclick="toggleContainer('ss2-Container')">Mammal(wild)</button>
            
             <div class="ss-container" id="ss2-Container">
-            <label class="category-button">
-                <input type="checkbox" class="category-checkbox" id="camel-Checkbox" data-category="A"  value="camel"> Camel
-            </label>
+
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="rhino-Checkbox" data-category="A"  value="rhino"> Rhino
             </label>
@@ -183,7 +249,7 @@
             <div class="ss-container" id="ss3-Container">               
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="ostrich-Checkbox" data-category="A"  value="ostrich"> Ostrich
-            </label></div>
+            </label>
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="hawk-Checkbox" data-category="A"  value="hawk"> Hawk
             </label>
@@ -202,12 +268,13 @@
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="swallow-Checkbox" data-category="A"  value="swallow"> Swallow
             </label>
+        </div>
             <button class="category-ss" id="animalButton" onclick="toggleContainer('ass4-Container')">Fishes</button>
          
             <div class="ss-container" id="ss4-Container">  
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="seal-Checkbox" data-category="A"  value="seal"> Seal
-            </label></div>
+            </label>
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="otter-Checkbox" data-category="A"  value="otter"> Sea otter
             </label>
@@ -223,6 +290,7 @@
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="coral-Checkbox" data-category="A"  value="coral"> Coral
             </label>
+        </div>
         </div>
         
         <hr width="100%" />
