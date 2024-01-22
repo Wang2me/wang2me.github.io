@@ -104,7 +104,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     background-color: #638889;
-    padding: 20px;
+    padding: 30px;
     top: 13%;  /* 使用 top 属性来调整垂直位置 */
     
     font-size: 15pt;
@@ -390,7 +390,7 @@ body {
     display: flex;
         background-color: #dff39d;
         border: none;
-        /* padding: 10px 20px; */
+        padding: 0px 10px;
         margin: 2px;
         font-size: 8pt;
         /* cursor: pointer; */

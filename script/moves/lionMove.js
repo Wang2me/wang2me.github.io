@@ -198,7 +198,7 @@
             , referenceUrl: ''
         });
 
-    markers.lion20 = createMarker({ lat: 34.7973, lng: 114.3072 }, 'lion', '河南開封', { A: ['lion'], B: ['宋'], C: ['文化娛樂'], D: ['其他'], E: ['東亞'] },
+    markers.lion20 = createMarker({ lat: 34.7973, lng: 114.3082 }, 'lion', '河南開封', { A: ['lion'], B: ['宋'], C: ['文化娛樂'], D: ['其他'], E: ['東亞'] },
         {
             title_cn: '描述',title_en: 'Description'
             , description_cn: '根據《東京夢華錄》記載，宋代元宵節的戲曲表演中，有｢舞獅豹｣一節。可見舞獅在宋代已經成為中國文化中流行的節慶活動。宋代宮廷畫家蘇漢臣所繪的《百子嬉春圖》，其內容為春節期間兒童進行娛樂活動的場景，其中的獅子是兩名孩童扮成的，有著綠色的鬃毛和藍色的皮膚，其形象已經很接近現在的舞獅。'
@@ -210,7 +210,7 @@
             ,referenceUrl: ''
         });
 
-    markers.lion21 = createMarker({ lat: 34.7970, lng: 114.3077 }, 'lion', '河南開封', { A: ['lion'], B: ['宋'], C: ['宗教信仰'], D: ['其他'], E: ['東亞'] },
+    markers.lion21 = createMarker({ lat: 34.7940, lng: 114.3017 }, 'lion', '河南開封', { A: ['lion'], B: ['宋'], C: ['宗教信仰'], D: ['其他'], E: ['東亞'] },
         {
             title_cn: '描述',title_en: 'Description'
             , description_cn: '獅子作為文殊菩薩的坐騎，這一觀念發展至宋代已經深入人心。重陽節時，北宋首都汴梁（今河南開封）的寺廟都會舉辦法會。其中部分僧人騎乘獅子講經說法，吸引遊人觀看。'

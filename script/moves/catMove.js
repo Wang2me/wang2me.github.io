@@ -143,7 +143,7 @@ markers.cat15 = createMarker({ lat:36.8088,lng:118.0398}, 'cat','山東淄博',{
 //唐
 {
  
-markers.cat16= createMarker({lat:34.6127,lng:112.4436 }, 'cat','河南洛陽',{ A:['cat'],B:['唐'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
+markers.cat16= createMarker({lat:34.6227,lng:112.4476 }, 'cat','河南洛陽',{ A:['cat'],B:['唐'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'武則天是中國歷史上唯一的女皇帝。她在正式稱帝前，受到唐高宗的寵幸，而在後宮鬥爭中驅逐並誅殺了王皇后和蕭淑妃。據史書記載，蕭淑妃被殺前曾詛咒武則天來世變成老鼠，而自己來世變成貓以便向武則天復仇。武則天因此而禁止在後宮養貓。然而，可能是因為太喜愛貓，武則天稱帝後解除了不准養貓的限制。據說她曾經在朝堂上展示自己飼養的貓和鸚鵡，在百官面前，那隻貓突然性情大變，將鸚鵡咬死了。這件事也被後世文人附會為武則天統治終結的預兆。由此可見，貓是唐朝皇室十分喜愛的動物，飼養寵物貓在唐朝宮廷十分普遍。'  
   ,description_en:'Wu Zetian 武則天 was the only female emperor in Chinese history. Before she became emperor, she was favored by Emperor Gaozong of the Tang Dynasty 唐高宗 and expelled and killed Empress Wang 王皇后 and Consort Xiao 蕭淑妃 in a harem struggle. According to historical records, before she was killed, Consort Xiao cursed Wu Zetian to become a mouse in the next life and herself to become a cat, so that she could take revenge on Wu Zetian. As a result, Wu Zetian forbade the keeping of cats in the harem.However, perhaps because she loved cats so much, Wu Zetian lifted the ban on keeping cats after she became emperor. She once displayed her cat and parrot in the court, and the cat suddenly went berserk and bit the parrot to death in front of many officials. This incident was also interpreted by later scholars as a harbinger of the end of Wu Zetian\'s reign.These accounts indicate that cats were very popular with the royals of the Tang Dynasty 唐朝 and that keeping pet cats was very common in the Tang court.'

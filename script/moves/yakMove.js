@@ -59,7 +59,7 @@
 //唐
 {
 	
-   markers.yak5 = createMarker({lat:34.9981,lng:104.6293}, 'yak','甘肅隴西',{ A:['yak'], B:['唐'],C:['軍事'],D:['其他'],E:['東亞'] },
+   markers.yak5 = createMarker({lat:35.0081,lng:104.6293}, 'yak','甘肅隴西',{ A:['yak'], B:['唐'],C:['軍事'],D:['其他'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'唐代在隴右地區設立了大量牧監來管理官方牲畜的牧養（今甘肅地區）。天寶十三載（公元754年），隴右牧所管理的牛、馬、羊、駱駝等牲畜共計605603頭。其中氂牛有143頭。'  
     ,description_en:'The Tang Dynasty 唐朝 established official pastures in the Longyou 隴右 areas (present-day Gansu Province 甘肅省). In 754, the total number of cattle, horses, sheep, camels, and other livestock under the management of Longyou Pastures exceeded 600,000, including 143 yaks.'

@@ -90,7 +90,7 @@ markers.camel11 = createMarker({ lat:    47.8717,lng:106.7570 }, 'camel','蒙古
 	,image:''
 	,referenceUrl:''});
 
-markers.camel12 = createMarker({ lat:    34.2555,lng:108.9208 }, 'camel','陝西西安',{ A:['camel'],B:['秦漢'],C:['軍事'],D:['其他'],E:['東亞'] },
+markers.camel12 = createMarker({ lat:    34.2575,lng:108.9208 }, 'camel','陝西西安',{ A:['camel'],B:['秦漢'],C:['軍事'],D:['其他'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'由於大量駱駝傳入中原地區，漢朝設立了專門管理飼養駱駝的機構，比如橐泉、牧橐等。因為駱駝是古代行軍作戰中重要的馱畜，所以這些機構隸屬於中央軍事機構太僕寺，其相應的負責官員則是監長或者令丞。'  
 	,description_en:'With the introduction of a large number of camels, the Han Dynasty 漢朝 set up institutions dedicated to the management of camels, such Tuoquan 橐泉 and Mutuo 牧橐. Because camels were important beasts of burden in ancient military affairs, these institutions were subordinate to the central military institution Taipusi 太僕寺 and were headed by military officials.'
@@ -154,7 +154,7 @@ markers.camel19 = createMarker({ lat:	40.2754,lng:111.2014 }, 'camel','內蒙古
 	,image:''
 	,referenceUrl:''});
 
-markers.camel20 = createMarker({ lat:	34.6143,lng:112.4526 }, 'camel','河南洛陽',{ A:['camel'],B:['三國兩晉南北朝' ],C:['身份象徵'],D:['其他'],E:['東亞']},
+markers.camel20 = createMarker({ lat:	34.6173,lng:112.4426 }, 'camel','河南洛陽',{ A:['camel'],B:['三國兩晉南北朝' ],C:['身份象徵'],D:['其他'],E:['東亞']},
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'魏晉南北朝時期，曹魏、西晉、北魏等政權都曾在洛陽建都。酈道元《水經注》中記載：魏明帝曹叡於皇宮南門外設立兩銅駝，該街道也由此得名｢銅駝街｣。宋代典籍《太平御覽》則引述陸機《洛陽記》中說法：銅駝高約九尺，為東漢時所鑄。雖然銅駝出現的時間有所爭議，但不可否認的是，｢銅駝｣這一地標性建築在漢以後是公認的皇權象徵。'  
 	,description_en:'During the period of the Three Kingdoms 三國, Eastern and Western Jin Dynasties 兩晉, and Northern and Southern Dynasties 南北朝, many government select Luoyang 洛陽 as their capitals, such as Cao Wei 曹魏, Western Jin 西晉, and Northern Wei 北魏. During the reign of Emperor Ming of Wei 魏明帝, two bronze camels were set up outside the south gate of Luoyang Imperial Palace, and the street was also named “Tongtuo 銅駝 (bronze camel) Street”. The bronze camel became a symbol of imperial power after the Han Dynasty.'
@@ -218,7 +218,7 @@ markers.camel27 = createMarker({ lat:	33.3089,lng:44.3642 }, 'camel','伊拉克�
 	,image:''
 	,referenceUrl:''});//廣東廣州，北京
 
-markers.camel28 = createMarker({ lat:	34.6126,lng:112.4548 }, 'camel','河南洛陽',{ A:['camel'],B:['三國兩晉南北朝'],C:['農業生產'],D:['其他'],E:['東亞'] },
+markers.camel28 = createMarker({ lat:	34.6106,lng:112.4518 }, 'camel','河南洛陽',{ A:['camel'],B:['三國兩晉南北朝'],C:['農業生產'],D:['其他'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'北魏太和十八年（公元488年），京都地區遭受嚴重的旱災，再加上牛疫流行，當地農民選擇駱駝代替牛進行耕種。'  
 	,description_en:'In 488, the capital of Northern Wei 北魏 suffered a severe drought and cattle epidemic. Farmers used camels for cultivating instead cattles.'
@@ -387,7 +387,7 @@ markers.camel48 = createMarker({ lat:42.2494,lng:118.8892}, 'camel','內蒙古�
      ,image:''
      ,referenceUrl:''});
 
-markers.camel49 = createMarker({lat:38.4811,lng:106.1825 }, 'camel','寧夏銀川',{ A:['camel'],B:['宋'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel49 = createMarker({lat:38.4811,lng:106.1925 }, 'camel','寧夏銀川',{ A:['camel'],B:['宋'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'景德四年（公元1004年），北宋與西夏在保安軍（今陝西志丹）設置榷場進行互市貿易。北宋用絲綢等紡織品交易西夏的牛、羊、馬駱駝等牲畜。'  
      ,description_en:'In 1004, the Northern Song 北宋 and the Tangut people set up “quechang 榷場” for trading in Baoanjun 保安軍 (present-day Zhidan 志丹, Shaanxi 陝西). The Northern Song Dynasty used silk and other textiles to trade cattle, sheep, horses and camels.'

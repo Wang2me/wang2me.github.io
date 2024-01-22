@@ -719,24 +719,32 @@ slider.addEventListener('input', function() {
 });
 //获取亚洲地区的容器
 function toggleAsiaContainer(currentValue) {
-    var asiaContainer = document.getElementById('asiaContainer'); // 获取亚洲地区的容器
-    var asiaCheckboxes = asiaContainer.querySelectorAll('.category-checkbox'); // 获取亚洲地区的子复选框
+    var asiaContainer = document.getElementById('asiaContainer');
+    var asiaCheckboxes = asiaContainer.querySelectorAll('.category-checkbox');
 
-    // 切换亚洲地区容器的显示和隐藏状态
-    if (asiaContainer.style.display === 'none' || asiaContainer.style.display === '') {
-        asiaContainer.style.display = 'block';
-        // 自动勾选亚洲地区的所有子复选框
-        asiaCheckboxes.forEach(function(checkbox) {
-            checkbox.checked = true;
-        });
-    } else {
-        asiaContainer.style.display = 'none';
-        // 取消勾选亚洲地区的所有子复选框
-        asiaCheckboxes.forEach(function(checkbox) {
-            checkbox.checked = false;
-        });
-    }
-    filterMarkers(currentValue);
+    var asiaButton = document.getElementById('asiaButton');
+    asiaButton.addEventListener('click', function() {
+        if (asiaContainer.style.display === 'none' || asiaContainer.style.display === '') {
+            showContainer(asiaContainer, asiaCheckboxes);
+        } else {
+            hideContainer(asiaContainer, asiaCheckboxes);
+        }
+        filterMarkers(currentValue);
+    });
+}
+
+function showContainer(container, checkboxes) {
+    container.style.display = 'block';
+    checkboxes.forEach(function(checkbox) {
+        checkbox.checked = true;
+    });
+}
+
+function hideContainer(container, checkboxes) {
+    container.style.display = 'none';
+    checkboxes.forEach(function(checkbox) {
+        checkbox.checked = false;
+    });
 }
 
     // 打开新窗口

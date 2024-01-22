@@ -66,7 +66,7 @@ markers.horse7 = createMarker({  lat:    34.3263,lng:108.6827 }, 'horse','陝西
  ,image:''
  ,referenceUrl:''});
 
-markers.horse8 = createMarker({ lat:34.2535,lng:108.9228},'horse','陝西西安',{ A:['horse'],B:['秦漢'],C:['軍事'],D:['其他'],E:['東亞'] },
+markers.horse8 = createMarker({ lat:34.2535,lng:108.9348},'horse','陝西西安',{ A:['horse'],B:['秦漢'],C:['軍事'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'馬是古代非常重要的軍事資源。西漢非常重視馬的管理，設立了多個部門負責飼養、訓練和使用。這些部門都隸屬於西漢的中央軍事機構太僕寺。'  
  ,description_en:'Horses were a very important military resource in ancient China. The Western Han Dynasty 西漢 attached great importance to the management of horses and set up several departments responsible for the raising, training and use of horses. These departments were all subordinate to the Taipu Si 太僕寺, the central military organization of the Western Han Dynasty.'
@@ -295,7 +295,7 @@ markers.horse32 = createMarker({ lat:    39.6352, lng:66.9058}, 'horse','烏茲�
  ,referenceUrl:''});
 //新疆吐魯番，陝西西安	lat:42.9453621,lng:89.1707-lat:34.2555,lng:108.9208
  
-markers.horse34 = createMarker({ lat:	35.0017,lng:104.6339 }, 'horse','甘肅隴西',{ A:['horse'],B:['唐'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse34 = createMarker({ lat:	35.0017,lng:104.6439 }, 'horse','甘肅隴西',{ A:['horse'],B:['唐'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'唐代在隴右地區設立了大量牧監來管理官方牲畜的牧養（今甘肅地區）。天寶十三載（公元754年），隴右牧所管理的牛、馬、羊、駱駝等牲畜共計605603頭。其中馬有325792匹，駱駝有563頭。美國著名漢學家薛愛華認為，大量遊牧民族在唐朝時遷入中國，包括突厥人、吐谷渾人、粟特人等。這些移民很可能被官方牧場大量僱傭進行放牧工作。'  
  ,description_en:'"The Tang Dynasty 唐朝 established official pastures on the Longyou 隴右 areas (present-day Gansu Province 甘肅省). In 754, the total number of cattle, horses, sheep, camels and other livestock under the management of Longyou Pastures exceeded 600,000, including 325,792 horses and 563 camels.Edward Hetzel Schafer, a famous American sinologist, argues that a large number of nomadic peoples immigrated to China during the Tang Dynasty, including the Turkic peoples, the Tuyuhuns, and the Sogdians. It is probable that these immigrants were employed by the official pastures in large numbers for herding work."'
@@ -428,7 +428,7 @@ markers.horse47 = createMarker({lat:25.6016,lng:100.2285 }, 'horse','雲南大�
  ,referenceUrl:''});
  //廣西桂林，河南開封	-lat:25.2809775,lng:110.2325-lat:34.7847,lng:114.2722
 
-markers.horse48 = createMarker({ lat:38.4835,lng:106.1818}, 'horse','寧夏銀川',{ A:['horse'],B:['宋'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse48 = createMarker({ lat:38.4935,lng:106.1918}, 'horse','寧夏銀川',{ A:['horse'],B:['宋'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'馬是西夏政權重要的軍事資源。據記載，每名西夏士兵可配備戰馬一匹。景德四年（公元1004年），北宋與西夏在保安軍（今陝西志丹）設置榷場進行互市貿易。北宋用絲綢等紡織品交易西夏的牛、羊、馬、駱駝等牲畜。'  
  ,description_en:'Horses were an important military resource of the Tangut regime. It was recorded that each Tangut soldier could be equipped with one warhorse. In 1004, the Northern Song 北宋 and the Tangut people set up “quechang 榷場” for trading in Baoanjun 保安軍 (present-day Zhidan 志丹, Shaanxi 陝西). The Northern Song Dynasty used silk and other textiles to trade cattle, sheep, horses, and camels.'
