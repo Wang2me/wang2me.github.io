@@ -619,11 +619,11 @@ body {
   }
 
   .logo-container {
-    width: 30%;
+/*     width: 30%; */
     position: absolute;
     z-index: 6;
     top: 0px; /* Adjust this value as needed for vertical positioning */
-    right: -90px; /* Adjust this value as needed for horizontal positioning */
+    right: 0px; /* Adjust this value as needed for horizontal positioning */
 }
 
   .logo-container a img {
