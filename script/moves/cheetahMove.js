@@ -48,7 +48,7 @@ markers.cheetah4 = createMarker({ lat:40.3757,lng:71.7958 }, 'cheetah','烏茲�
   ,image:''
   ,referenceUrl:''});
 
-markers.cheetah5 = createMarker({ lat:33.5113,lng:36.2702}, 'cheetah','敘利亞大馬士革',{ A:['cheetah'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['西亞'] },
+markers.cheetah5 = createMarker({ lat:33.5113,lng:36.2802}, 'cheetah','敘利亞大馬士革',{ A:['cheetah'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['西亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'大食國是唐宋史書中對阿拉伯帝國的稱呼。唐高宗永徽二年（公元651年），阿拉伯帝國第三任哈里發奧斯曼派遣使節抵達長安（今陝西西安）朝貢，其後雙方往來密切。天寶六載（公元747年），大食國派遣使者向唐朝進貢六頭獵豹。'  
   ,description_en:'In 651, the Arab Empire sent envoys to pay tribute to Chang\'an 長安 (present-day Xi\'an 西安, Shaanxi 陝西), and the two countries had close contacts thereafter. In 747, the Arabian Empire sent envoys to the Tang Dynasty to pay tribute to the six cheetahs.'
@@ -56,7 +56,7 @@ markers.cheetah5 = createMarker({ lat:33.5113,lng:36.2702}, 'cheetah','敘利亞
   ,image:''
   ,referenceUrl:''});
 
-markers.cheetah6 = createMarker({lat:36.4687,lng:52.3444 }, 'cheetah','伊朗阿莫勒',{ A:['cheetah'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['西亞'] },
+markers.cheetah6 = createMarker({lat:36.4687,lng:52.3644 }, 'cheetah','伊朗阿莫勒',{ A:['cheetah'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['西亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'塔巴里斯坦位於裏海南岸，原本屬於薩珊王朝。薩珊波斯被阿拉伯帝國攻滅後，塔巴里斯坦保持獨立，並繼續以波斯王的名義向唐朝進貢。天寶六載（公元747年），塔巴里斯坦以波斯國王的名義向唐朝進貢四頭獵豹。'  
   ,description_en:'Tabaristan, located on the southern coast of the Caspian Sea, originally belonged to the Sassanian Empire. After the Sasanian Empire was conquered by the Arabian Empire, Tabaristan maintained its independence and continued to pay tribute to the Tang Dynasty 唐朝 in the name of the Persian King. In 747, Tabaristan sent four cheetahs to the Tang Dynasty as tributes.'

@@ -346,6 +346,7 @@ body {
 
 }
 .timeline-text {
+    /* position: absolute; */
     text-align: center; /* 居中文本 */
     font-size: 18px;
     /* font-weight: bold; 设置文字加粗 */
