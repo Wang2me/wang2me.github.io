@@ -185,13 +185,13 @@ function initMap() {
 
 
 
-function createMarker(position, type, label, categories, content, currentLanguage) {
+function createMarker(position, type, label, categories, content) {
     // 在地图上创建标记
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(position.lat, position.lng),
         map:null,
         icon: iconInfo[type],
-        title: '', // Set title based on language
+        title: label,
         attributes: {
             A: categories.A || [],
             B: categories.B || [],
@@ -1180,9 +1180,11 @@ function enlargeImage(img) {
 });
 
 var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:102.4470}//洛阳
-var kaifeng ={lat:34.7872,lng:104.3081};//开封
-var beijing ={lat:39.9171,lng:116.3797};//北京
+var luoyang= {lat:34.6321,lng:112.4470}//洛阳
+var kaifeng ={lat:34.7872,lng:114.3081};//开封
+var beijing ={lat:39.9171,lng:116.3897};//北京
+var nanjing={lat:32.0435,lng:118.7501}//南京
+
 
 //河西走廊:敦煌-酒泉-张掖-武威
 var dunhuang= { lat:	40.1030	,lng:94.6618 }; 
@@ -1311,3 +1313,34 @@ function toggleLines(checkboxId, line) {
 
     }
 }
+
+
+// 定义一个函数，生成指定范围内的随机数
+function getRandomNumber(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+// 定义一个函数，生成新的坐标对象，并添加随机数
+function RandomCoords(coords) {
+    var randomLat = coords.lat + getRandomNumber(-0.066, 0.066); // 在-0.1到0.1之间生成随机数
+    var randomLng = coords.lng + getRandomNumber(-0.090, 0.090); // 在-0.1到0.1之间生成随机数
+    return { lat: randomLat, lng: randomLng };
+}
+// // 修改后的函数，保证生成的坐标之间存在一定距离
+
+// function RandomCoords(coords) {
+//     var earthRadius = 6371; // 地球半径（单位：公里）
+//     var randomAngle = Math.random() * 2 * Math.PI;
+//     // 生成随机距离
+//     // var distance = Math.random() * (maxDistance - minDistance) + minDistance;
+
+//     // 生成随机方位角
+//         // 生成随机距离在范围内
+//         var randomDistance = Math.sqrt(Math.random()) * 15; // 生成随机距离
+    
+//     // 根据随机方位角和随机距离计算新坐标的纬度和经度
+//     var randomLat = coords.lat + (180 / Math.PI) * (randomDistance / earthRadius) * Math.cos(randomAngle);
+//     var randomLng = coords.lng + (180 / Math.PI) * (randomDistance / earthRadius) * Math.sin(randomAngle);
+
+//     return { lat: randomLat, lng: randomLng };
+// }

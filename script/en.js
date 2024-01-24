@@ -240,7 +240,7 @@ window.onload = function () {
     initMap();
     // 创建折线并将其添加到地图
    line1 = new google.maps.Polyline({
-      path: [{lat:41.8945347,lng:12.4928},kailuo,{lat:21.4177,lng:39.8007 },{ lat:12.7917,lng:44.9990},{ lat:	17.0151,lng:54.0945 },{lat:18.9795612,lng:57.8518},{lat:20.1900845,lng:58.7137},{lat:22.5226275,lng:59.7923},{lat:27.1334,lng:57.0739},guli,{lat:8.0847458,lng:77.4466},xilan,{lat:13.0474733,lng:80.0441},{ lat:22.5652,lng:88.3522},maliujia,nanhai,{lat:4.4518,lng:114.6058},{ lat:15.8813,lng:108.3390 },{lat:23.1235716,lng:113.1974872},{lat:24.8760838,lng:118.6640},{lat:30.2685609,lng:120.1555}
+      path: [{lat:41.8945347,lng:12.4928},kailuo,{lat:21.4177,lng:39.8007 },{ lat:12.7917,lng:44.9990},{ lat:	17.0151,lng:54.0945 },{lat:18.9795612,lng:57.8518},{lat:20.1900845,lng:58.7137},{lat:22.5226275,lng:59.7923},{lat:27.1334,lng:57.0739},guli,{lat:8.0847458,lng:77.4466},xilan,{lat:13.0474733,lng:80.0441},{ lat:22.5652,lng:88.3522},maliujia,nanhai,{lat:4.4518,lng:114.6058},{ lat:15.8813,lng:108.3390 },{lat:23.1281782,lng:113.2394},{lat:24.8760838,lng:118.6640},{lat:30.2685609,lng:120.1555}
       ],
       icons: [{
         icon: lineSymbol,
@@ -255,7 +255,7 @@ window.onload = function () {
   
   //露露
     line2 = new google.maps.Polyline({
-      path: [{ lat:	41.0136	,lng:	28.9765},{ lat:	33.3089,lng:44.3642 },{lat:35.7208,lng:51.32420 },{ lat: 39.6327, lng:66.8958 },{ lat:40.4013,lng:71.8151 },{ lat:39.5027,lng:75.9126},{ lat:	41.7137,lng:82.9605 },dunhuang],
+      path: [{ lat:	41.0136	,lng:	28.9765},{ lat:	33.3089,lng:44.3642 },{lat:35.7208,lng:51.32420 },{ lat: 39.6327, lng:66.9658 },{ lat:40.4013,lng:71.8151 },{ lat:39.5027,lng:75.9126},{ lat:	41.7137,lng:82.9605 },dunhuang],
       icons: [{
         icon: lineSymbol,
         offset: '100%'
@@ -267,7 +267,7 @@ window.onload = function () {
       map: map
     });
     line3 = new google.maps.Polyline({
-      path: [{ lat: 25.3176, lng: 82.9739 },{lat:28.6873,lng:77.1969},{ lat:31.5106,lng:74.3568},{ lat:34.0097,lng:71.5173}, { lat:	34.5386,lng:69.1375 },{ lat: 36.7580, lng: 66.8966 }, { lat: 39.6327, lng:66.8958 },{ lat:40.4013,lng:71.8151 },{ lat:39.5027,lng:75.9126},{ lat:37.1004,lng:79.9154},dunhuang,jiuquan,zhangye, wuwei,xian, luoyang,kaifeng,beijing,nanjing,{lat:30.2685609,lng:120.1555}],
+      path: [{ lat: 25.3176, lng: 82.9739 },{lat:28.6873,lng:77.1969},{ lat:31.5106,lng:74.3568},{ lat:34.0097,lng:71.5173}, { lat:	34.5386,lng:69.1375 },{ lat: 36.7580, lng: 66.8966 }, { lat: 39.6327, lng:66.9658 },{ lat:40.4013,lng:71.8151 },{ lat:39.5027,lng:75.9126},{ lat:37.1004,lng:79.9154},dunhuang,{lat:40.0563662,lng:96.7451},jiuquan,zhangye, wuwei,xian,{lat:34.4990696,lng:109.4947}, luoyang,kaifeng,beijing,nanjing,{lat:30.2685609,lng:120.1555}],
       icons: [{
         icon: lineSymbol,
         offset: '100%'
@@ -279,7 +279,7 @@ window.onload = function () {
       map: map
     });
     line5 = new google.maps.Polyline({
-      path: [{ lat:	41.0136	,lng:	28.9765},{lat:44.3996318,lng:26.0546},{lat:46.9329463,lng:31.8431},{lat:47.1931245,lng:51.7529},{lat:39.6570063,lng:66.9009},{lat:42.8220759,lng:75.2786},{lat:43.2301323,lng:76.8359},{lat:43.8256072,lng:87.5868},{lat:42.9477445,lng:89.17888},dunhuang],
+      path: [{ lat:	41.0136	,lng:	28.9765},{lat:44.3996318,lng:26.0546},{lat:46.9329463,lng:31.8431},{lat:47.1931245,lng:51.7529},{ lat: 39.6327, lng:66.9658 },{lat:42.8220759,lng:75.2786},{lat:43.2301323,lng:76.8359},{lat:43.8256072,lng:87.5868},{lat:42.9477445,lng:89.17888},dunhuang],
       icons: [{
         icon: lineSymbol,
         offset: '100%'
@@ -367,7 +367,7 @@ window.onload = function () {
     
 //海路
     line4 = new google.maps.Polyline({
-      path: [{lat:2.0291775,lng:45.3368},{lat:18.9795612,lng:57.8518},{lat:20.1900845,lng:58.7137},{lat:22.5226275,lng:59.7923},{lat:27.1334,lng:57.0739},guli,{lat:8.0847458,lng:77.4466},xilan,{lat:13.0474733,lng:80.0441},{ lat:22.5652,lng:88.3522},maliujia,nanhai,{lat:4.4518,lng:114.6058},{ lat:15.8813,lng:108.3390 },{lat:23.1235716,lng:113.1974872},{lat:24.8760838,lng:118.6640},{lat:30.2685609,lng:120.1555}
+      path: [{lat:2.0291775,lng:45.3368},{lat:18.9795612,lng:57.8518},{lat:20.1900845,lng:58.7137},{lat:22.5226275,lng:59.7923},{lat:27.1334,lng:57.0739},guli,{lat:8.0847458,lng:77.4466},xilan,{lat:13.0474733,lng:80.0441},{ lat:22.5652,lng:88.3522},maliujia,nanhai,{lat:4.4518,lng:114.6058},{ lat:15.8813,lng:108.3390 },{lat:23.1281782,lng:113.2394},{lat:24.8760838,lng:118.6640},{lat:30.2685609,lng:120.1555}
       ],
       icons: [{
         icon: lineSymbol,
@@ -403,16 +403,45 @@ window.onload = function () {
     animateCi8(line9);
     animateCi6(line10);
     animateCi6(line11);
- 
+ 	
+	// 在指定的地图上创建闪烁的点并带有title
+
+
+// 在给定的位置列表上创建闪烁的点
+var positions = [
+  {lat: 39.6327, lng:66.9358 }, guli, xian, luoyang, beijing
+  // 添加更多的位置...
+];
+
+// positions.forEach(function(position, index) {
+//   createBlinkingMarker(map, position, 'Point ' + (index + 1));
+// });
 
     }
 
 	
+
+
 	
 	
-	
-	
-	
+    function createBlinkingMarker(map, position, title) {
+      var marker = new google.maps.Marker({
+          position: position,
+          map: map,
+          title: title
+      });
+    
+      // 使标记点闪烁
+      var count = 0;
+      window.setInterval(function() {
+          if (count % 2 === 0) {
+              marker.setMap(null);
+          } else {
+              marker.setMap(map);
+          }
+          count++;
+      }, 1000); // 设置闪烁时间间隔为500毫秒
+    }
 	
 	
 	

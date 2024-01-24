@@ -55,7 +55,7 @@ markers.turtle3 = createMarker({lat:41.8945347,lng:12.4928}, 'turtle','意大利
 //唐
 {
          
- markers.turtle4 = createMarker({lat:-6.8915,lng:109.6739}, 'turtle','印度尼西亞北加浪岸',{ A:['turtle'], B:['唐'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+ markers.turtle4 = createMarker({lat:-6.8915,lng:109.6439}, 'turtle','印度尼西亞北加浪岸',{ A:['turtle'], B:['唐'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'訶陵，又稱闍婆，是爪哇島北部的一個古代國家。元和十三年（公元818年），訶陵向唐朝進貢了鸚鵡和玳瑁。'  
   ,description_en:'Kalingga Kingdom was an ancient Kingdom located on the north coast of Java. In 818, Kalingga contributed parrots and tortoiseshell to the Tang Dynasty.'
@@ -64,7 +64,7 @@ markers.turtle3 = createMarker({lat:41.8945347,lng:12.4928}, 'turtle','意大利
   ,referenceUrl:''});
  
   
-markers.turtle5 = createMarker({lat:-6.8915,lng:109.6709}, 'turtle','印度尼西亞北加浪岸',{ A:['turtle'],B:['宋'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.turtle5 = createMarker({lat:-6.8915,lng:109.6909}, 'turtle','印度尼西亞北加浪岸',{ A:['turtle'],B:['宋'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'闍婆（今爪哇島北部）曾向北宋進貢過白鸚鵡，此外還有珍珠、玳瑁等珠寶。'  
  ,description_en:'The Kalingga Kingdom (present-day northern Java) contributed white parrots to the Northern Song Dynasty 北宋, as well as pearls, tortoiseshells, and other jewels.'
@@ -90,7 +90,7 @@ markers.turtle7 = createMarker({ lat:13.7266,lng:100.5125}, 'turtle','泰國曼�
     ,referenceUrl:''});	     
 
     
-   markers.turtle8 = createMarker({lat:2.2029,lng:102.2426}, 'turtle','馬來西亞馬六甲',{ A:['turtle'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+   markers.turtle8 = createMarker({lat:2.1929,lng:102.3026}, 'turtle','馬來西亞馬六甲',{ A:['turtle'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'馬六甲蘇丹國，在《明史》中被稱為滿剌加。鄭和下西洋時，其國王跟隨鄭和一同返回，成為了明王朝的藩屬國。該國地處馬六甲海峽，是連接印度洋和太平洋的必經之路，也是古代東西方海上貿易的中轉站。因此，當地的奢侈品貿易非常繁榮。根據記載，玳瑁是常見的來自於滿剌加的貢品。'  
     ,description_en:'Zheng He 鄭和 once reached Malacca Sultanate on his ocean voyages. The Malacca Sultanate became a tributary of the Ming Dynasty 明朝 and maintain a close relationship for a long time. Located in the Strait of Malacca, the state was an essential route connecting the Indian and Pacific Oceans and was also a transit point for the ancient maritime trade between the East and the West. Therefore, the trade of luxury goods was very prosperous in the region. It is recorded that tortoiseshells were common tribute from Malacca Sultanate.'
@@ -106,7 +106,7 @@ markers.turtle7 = createMarker({ lat:13.7266,lng:100.5125}, 'turtle','泰國曼�
    
 
     
-   markers.turtle9 = createMarker({lat:1.4754,lng:103.8907}, 'turtle','馬來西亞柔佛',{ A:['turtle'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+   markers.turtle9 = createMarker({lat:1.9344,lng:103.4085}, 'turtle','馬來西亞柔佛',{ A:['turtle'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'柔佛位於馬來半島的南部。明朝時，玳瑁是常見的來自柔佛的貢品之一。'  
     ,description_en:'Johor is located in the southern part of the Malay Peninsula. During the Ming Dynasty 明朝, tortoiseshell was one of the most common tributes from Johor.'
@@ -149,23 +149,7 @@ for (var i = 0; i < turtles.length; i++) {
 
 // 定义新坐标和初始坐标
 
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
 
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
-
-var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:112.4470}//洛阳
-var kaifeng ={lat:34.7872,lng:114.3081};//开封
-var beijing ={lat:39.9171,lng:116.3797};//北京
-var nanjing={lat:32.0435,lng:118.7501}//南京
 
 var newCoords_turtle3_1= {lat:16.8043076,lng:107.0779};
 var newCoords_turtle3_2= RandomCoords(luoyang);
@@ -187,24 +171,6 @@ var newCoords_turtle9_1= RandomCoords(beijing);
 
 
 
-
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1130	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:11.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:11.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:119.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
 
 
 function getInitialCoords(turtle) {

@@ -58,7 +58,7 @@
     ,image_content_en:'Ming Dynasty, Zebra in Yiyu Tuzhi, housed in Cambridge University Library'
    ,referenceUrl:''});	
 
-     markers.zebra2 = createMarker({ lat:27.1376,lng:57.0724 }, 'zebra','伊朗米納卜',{ A:['zebra'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞']},
+     markers.zebra2 = createMarker({ lat:27.1476,lng:57.0724 }, 'zebra','伊朗米納卜',{ A:['zebra'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞']},
      {title_cn: '描述',title_en: 'Description'  
       ,description_cn:'忽魯謨斯，即如今伊朗米納卜，地處霍爾木茲海峽，是進入波斯灣的必經之路。鄭和的船隊曾多次到達此處。1414年，忽魯謨斯國王跟隨鄭和的船隊返回北京，向永樂皇帝進貢馬匹。此外，獅子、長頸鹿、斑馬、鴕鳥、羚羊也是忽魯謨斯經常攜帶的貢品。'  
       ,description_en:'Hormuz, the present-day Minab in Iran, was located on the essential route into the Persian Gulf. Zheng He 鄭和 visited this place on several occasions. In 1414, the King of Hormuz visited Beijing 北京 with Zheng He and offered horses to Yongle Emperor 永樂皇帝 as tribute. In addition, lions, giraffes, zebras, ostriches, and oryxes were often the tributes from Hormuz.'

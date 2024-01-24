@@ -34,7 +34,7 @@
             , referenceUrl: ''
         });
 
-    markers.lion4 = createMarker({ lat: 36.1628, lng: 54.3338 }, 'lion', '伊朗達姆甘', { A: ['lion'], B: ['秦漢'], C: ['朝貢'], D: ['陸上絲綢之路'], E: ['西亞'] },
+    markers.lion4 = createMarker({ lat: 36.1628, lng: 54.3388 }, 'lion', '伊朗達姆甘', { A: ['lion'], B: ['秦漢'], C: ['朝貢'], D: ['陸上絲綢之路'], E: ['西亞'] },
         {
             title_cn: '描述',title_en: 'Description'
             , description_cn: '獅子不是中國的原生物種，其傳入依靠的是西域國家的朝貢。章和元年（公元87年），安息（今伊朗）國王遣使向東漢進貢獅子，這是中國史書中最早的關於貢獅的明確記載。此後，永元十三年（公元101年），安息再次向東漢進貢獅子和鴕鳥。'
@@ -250,7 +250,7 @@
             , referenceUrl: 'www.zgbk.com/ecph/words?SiteID=1&ID=231255&Type=bkztb&SubID=705'
         });//浙江杭州,北京
 
-    markers.lion25 = createMarker({ lat: 39.9042, lng: 116.4074 }, 'lion', '北京', { A: ['lion'], B: ['明'], C: ['身份象徵'], D: ['其他'], E: ['東亞'] },
+    markers.lion25 = createMarker(RandomCoords(beijing), 'lion', '北京', { A: ['lion'], B: ['明'], C: ['身份象徵'], D: ['其他'], E: ['東亞'] },
         {
             title_cn: '描述',title_en: 'Description'
             , description_cn: '補子，是明清時期官服前胸和後背上的方形刺繡，用來表明官階。根據明代禮制，獅子是一品和二品武官可以使用的補子圖案。而到了明朝中後期，獅子補則被濫用，普通武官的官服也可以使用獅子補。'
@@ -260,7 +260,7 @@
             , referenceUrl: ''
         });
 
-    markers.lion26 = createMarker({ lat: 39.9245, lng: 116.4074 }, 'lion', '北京', { A: ['lion'], B: ['明'], C: ['朝貢'], D: ['陸上絲綢之路','海上絲綢之路'], E: ['東亞'] },
+    markers.lion26 = createMarker(RandomCoords(beijing), 'lion', '北京', { A: ['lion'], B: ['明'], C: ['朝貢'], D: ['陸上絲綢之路','海上絲綢之路'], E: ['東亞'] },
         {
             title_cn: '描述',title_en: 'Description'
             , description_cn: '明代建立了詳細的朝貢和回賜制度。各國所進貢的獅子需要先經過會同館評判價值，然後由錦衣衛飼養和訓練。這些獅子可能會加入明朝皇帝的儀仗隊，或者在重要的慶典上進行表演。'
@@ -331,7 +331,7 @@
             , referenceUrl: ''
         });//北京
 
-    markers.lion33 = createMarker({ lat: 27.1377, lng: 57.0684 }, 'lion', '伊朗米纳卜', { A: ['lion'], B: ['明'], C: ['朝貢'], D: ['海上絲綢之路'], E: ['西亞'] },
+    markers.lion33 = createMarker({ lat: 27.1277, lng: 57.0684 }, 'lion', '伊朗米纳卜', { A: ['lion'], B: ['明'], C: ['朝貢'], D: ['海上絲綢之路'], E: ['西亞'] },
         {
             title_cn: '描述',title_en: 'Description'
             , description_cn: '忽魯謨斯，即如今伊朗米納卜，地處霍爾木茲海峽，是進入波斯灣的必經之路，鄭和的船隊曾多次到達此處。1414年，忽魯謨斯國王跟隨鄭和的船隊返回北京，向永樂皇帝進貢馬匹。此外，獅子和長頸鹿也是忽魯謨斯經常攜帶的貢品。'
@@ -361,7 +361,7 @@
             , referenceUrl: ''
         });//北京
 
-    markers.lion36 = createMarker({ lat:-0.3466,lng:42.5423  }, 'lion', '索馬里朱巴蘭', { A: ['lion'], B: ['明'], C: ['朝貢'], D: ['海上絲綢之路'], E: ['非洲'] },
+    markers.lion36 = createMarker({ lat:1.2535,lng:42.5378  }, 'lion', '索馬里朱巴蘭', { A: ['lion'], B: ['明'], C: ['朝貢'], D: ['海上絲綢之路'], E: ['非洲'] },
         {
             title_cn: '描述',title_en: 'Description'
             , description_cn: '索馬里的朱巴蘭州，在明代時被稱為竹布。鄭和下西洋時曾經到過此處，記載了當地出產獅子、豹、鴕鳥等動物。永樂年間，竹布曾向明朝朝貢。'
@@ -401,17 +401,7 @@
 
     // 定义新坐标和初始坐标
 
-    // 定义一个函数，生成指定范围内的随机数
-    function getRandomNumber(min, max) {
-        return Math.random() * (max - min) + min;
-    }
 
-    // 定义一个函数，生成新的坐标对象，并添加随机数
-    function RandomCoords(coords) {
-        var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
-        var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
-        return { lat: randomLat, lng: randomLng };
-    }
 
     var newcoords_lion4 = { lat: 34.637, lng: 112.452 };
     var newCoords_lion4 = RandomCoords(newcoords_lion4);

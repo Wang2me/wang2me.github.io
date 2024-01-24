@@ -64,7 +64,7 @@ markers.cat6 = createMarker({lat:34.5371,lng:109.8582 }, 'cat','陝西渭南華�
  ,image:''
  ,referenceUrl:''});			
 
- markers.cat8 = createMarker({lat:34.33035,lng:108.6839 }, 'cat','陝西咸陽',{ A:['cat'], B:['史前至夏商周'],C:['農業生產'],D:['其他'],E:['東亞'] },
+ markers.cat8 = createMarker({lat:34.3383,lng:108.6899 }, 'cat','陝西咸陽',{ A:['cat'], B:['史前至夏商周'],C:['農業生產'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'先秦時期，｢貓｣又被稱為｢狸｣。也有人認為，｢貓｣是指家貓，而｢狸｣是指｢野貓｣。戰國時期，人們嘗試馴養當地的野貓。在當時的諸多文獻中，如《韓非子》和《呂氏春秋》，都有飼養｢狸｣捕鼠的記載。'  
  ,description_en:'In the pre-Qin period 先秦時期, the "Mao 貓" (cat in Chinese) was more commonly known as "Li 狸" in China. Some scholars believe that "Li" refers specifically to wildcats. During the Warring States period 戰國時期, people attempted to domesticate the local wildcats for deratization.'
@@ -93,7 +93,7 @@ markers.cat10 = createMarker({  lat:23.9417,lng:35.4874 }, 'cat','埃及Berenice
  ,referenceUrl:''});
 //印度阿穆達巴	-lat:23.0194534,lng:72.5640
 
-markers.cat11 = createMarker({  lat:34.3303,lng:108.6839 }, 'cat','陝西西安',{ A:['cat'],B:['秦漢'],C:['飲食'],D:['其他'],E:['東亞']},
+markers.cat11 = createMarker({  lat:34.3103,lng:108.6839 }, 'cat','陝西西安',{ A:['cat'],B:['秦漢'],C:['飲食'],D:['其他'],E:['東亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'2002年，中國的考古學家在漢長安城遺址（今陝西西安）中發現了一塊貓骨。該貓骨的體型較大，說明這隻貓生前受到了人類良好的餵養。與貓骨一同出土的，還有其他十一種動物的骸骨。考古學家們推測，這些動物骸骨可能被當作廚餘垃圾而被丟棄到城墻外。'  
  ,description_en:'In 2002, Chinese archaeologists discovered a cat skeleton at the site of Han Chang\'an City 漢長安城遺址 (present-day Xi\'an 西安, Shaanxi 陝西).  The large size of the bone suggests that the cat was well-fed by humans.  Along with the cat skeleton, the skeletons of eleven other animal species were unearthed.  Archaeologists speculate that these animal bones may have been discarded outside the city walls as kitchen garbage.'
@@ -118,7 +118,7 @@ markers.cat13 = createMarker({  lat:28.2233,lng:112.9361 }, 'cat','湖南長沙'
  ,image:''
  ,referenceUrl:''});				
 
-markers.cat14 = createMarker({  lat:37.9261,lng:102.6339 }, 'cat','甘肅武威',{ A:['cat'],B:['秦漢'],C:['文化娛樂'],D:['陸上絲綢之路'],E:['東亞']},
+markers.cat14 = createMarker({  lat:37.9161,lng:102.6339 }, 'cat','甘肅武威',{ A:['cat'],B:['秦漢'],C:['文化娛樂'],D:['陸上絲綢之路'],E:['東亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'磨嘴子遺址是位於甘肅武威的一系列漢代公墓遺跡，其中出土了一件木雕臥貓。該木貓長19釐米，高6釐米，造型簡單並繪有墨色條紋。由於甘肅武威地處河西走廊，是連接中原和西域的必經之路，有歷史學家認為，該木貓的出土可能證明了家貓通過絲綢之路向中國傳播並替代了中國本土野貓的過程。'  
  ,description_en:'The Site of Mozuizi 磨嘴子遺址, located in Wuwei 武威, Gansu 甘肅, was a public tomb group in the Han Dynasty 漢朝. Archeologists found a wooden cat with a simple shape and black strip. The wooden cat is 19 cm in length and 6 cm in height.  Since Wuwei was located in the Hexi Corridor 河西走廊, which was the necessary route between the Central Plains and the Western Regions, some historians believe that this wooden cat may prove that domestic cats were introduced to China through the Continental Silk Road and replaced the native Chinese wildcats.'
@@ -244,7 +244,7 @@ markers.cat26 = createMarker({ lat:21.4175,lng:39.778}, 'cat','沙特阿拉伯�
 //浙江杭州	-lat:30.2625874,lng:120.1294
      
 
-markers.cat27 = createMarker({ lat:31.2978,lng:120.5793}, 'cat','江蘇蘇州',{ A:['cat'],B:['元'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
+markers.cat27 = createMarker({ lat:31.2978,lng:120.5893}, 'cat','江蘇蘇州',{ A:['cat'],B:['元'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元代人購買或領養貓需要繪製一張｢納貓契｣，意為人和貓之前簽訂契約。契約上有貓的名字和畫像，並希望貓在神明的見證下不會離家出走。這種習可能俗始於南宋時期，發展到元代時已經十分流行。'  
  ,description_en:'In the Yuan Dynasty 元朝, people were required to prepare a "Na Mao Qi 納貓契" (Cat Contract) when buying or adopting a cat, which means that a contract was made between humans and cats. The contract included the name and portrait of the cat and the prayer that the cat would not run away from home under the witness of the gods. This custom may started from the Southern Song Dynasty 南宋 and became very popular during the Yuan Dynasty.'
@@ -295,7 +295,7 @@ markers.cat31 = createMarker({ lat:36.2910,lng:59.5874}, 'cat','伊朗馬什哈�
  ,image_content_en:'Ming Dynasty, Cats Below Flowers, housed in National Palace Museum'
    ,referenceUrl:''});
    
-markers.cat32 = createMarker({ lat:12.7862,lng:45.0164}, 'cat','也門亞丁',{ A:['cat'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
+markers.cat32 = createMarker({ lat:12.7762,lng:45.0164}, 'cat','也門亞丁',{ A:['cat'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'亞丁在明代被稱為阿丹。據史書記載，阿丹國王十分崇敬中國，用大量珍寶與鄭和進行貿易。鄭和船隊從阿丹帶回了長頸鹿、獅子、豹、花貓、鴕鳥等動物。其中花貓可能是非洲當地的藪貓。'  
  ,description_en:'The king of Aden greatly respected the Ming Dynasty 明朝 and traded with Zheng He 鄭和 for a large number of treasures. Zheng He\'s fleet brought back giraffes, lions, leopards, spotted cats, zebras,  ostriches and other animals from Aden.'
@@ -306,7 +306,7 @@ markers.cat32 = createMarker({ lat:12.7862,lng:45.0164}, 'cat','也門亞丁',{ 
 
 //清
 {
-markers.cat33 = createMarker({lat:39.9146,lng:116.3889}, 'cat','北京',{ A:['cat'],B:['清'],C:['文化娛樂'],D:['海上絲綢之路'],E:['東亞'] },
+markers.cat33 = createMarker(RandomCoords(beijing), 'cat','北京',{ A:['cat'],B:['清'],C:['文化娛樂'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'清代延續了明代在宮廷中養貓的傳統，其中飼養的主要品種是獅貓。咸豐元年（公元1851年），一個名為白三喜的太監和侄子合謀偷取皇宮中的獅貓，事發後被判處重刑，並公佈在當時的邸報上。'  
  ,description_en:'The Qing Dynasty 清朝 continued the tradition of keeping cats in the palace during the Ming Dynasty 明朝, and the main species raised was the lion cat. In 1851, a eunuch named Bai Sanxi 白三喜 and his nephew conspired to steal lion cats from the imperial palace and were sentenced to heavy imprisonment. This event was published in the gazette at the time.'
@@ -339,7 +339,7 @@ markers.cat36 = createMarker({ lat:26.2203,lng:127.7148}, 'cat','日本琉球',{
  ,referenceUrl:''});
 //廣東廣州	-lat:23.1260928,lng:103.2597
 
-markers.cat37 = createMarker({ lat:23.1245,lng:113.2572}, 'cat','廣東廣州',{ A:['cat'],B:['清'],C:['飲食'],D:['其他'],E:['東亞'] },
+markers.cat37 = createMarker({ lat:23.1245,lng:113.2472}, 'cat','廣東廣州',{ A:['cat'],B:['清'],C:['飲食'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'廣東人喜好食用蛇羹。而在清代，廣東人將蛇肉與貓肉一同燉羹，名為｢龍虎菜｣。'  
  ,description_en:'Snake soup once was very popular in Guangdong 廣東. During the Qing Dynasty 清朝, people in Guangdong stewed snake meat and cat meat together in a soup, called "dragon and tiger dish".'
@@ -375,23 +375,6 @@ for (var i = 0; i < cats.length; i++) {
 
 // 定义新坐标和初始坐标
 
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
-
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
-
-var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:102.4470}//洛阳
-var kaifeng ={lat:34.7845,lng:114.2722};//开封
-
-var beijing ={lat:39.9171,lng:116.3797};//北京
 
 
 
@@ -410,7 +393,7 @@ var newCoords_cat30_2= {lat:41.9579,lng:-70.6690};
 var newCoords_cat31_1= RandomCoords(beijing)
 var newCoords_cat32_1= RandomCoords(beijing)
 
-var newCoords_cat36_1= {lat:23.1260,lng:113.2597};
+var newCoords_cat36_1= {lat:23.1110,lng:113.2597};
 
 
 

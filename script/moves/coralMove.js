@@ -68,7 +68,7 @@ markers.coral3 = createMarker({lat:4.4990,lng:114.4864}, 'coral','文萊',{ A:['
  //伊朗米納卜，印度孟買，印度尼西亞北加浪岸，文萊，越南藩切，廣州	-lat:27.1350845,lng:57.0505-lat:19.0833572,lng:72.8384-lat:-6.8915866,lng:109.6739-lat:4.4990189,lng:114.4864-lat:10.9255322,lng:108.07855-lat:23.1319466,lng:113.2588
   
   
-markers.coral5 = createMarker({lat:13.7266,lng:100.5105}, 'coral','泰國曼谷',{ A:['coral'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.coral5 = createMarker({lat:13.7366,lng:100.5105}, 'coral','泰國曼谷',{ A:['coral'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'泰國在明朝時被稱為暹羅。鄭和下西洋時曾多次到達暹羅並進行貿易。暹羅經常前往明朝進行朝貢，珊瑚是常見的來自暹羅的貢品。'  
  ,description_en:'Zheng He 鄭和 visited Thailand and traded there several times during his voyages to the West. Thailand regularly paid tribute to the Ming Dynasty 明朝. Corals were common tribute from Thailand.'
@@ -76,7 +76,7 @@ markers.coral5 = createMarker({lat:13.7266,lng:100.5105}, 'coral','泰國曼谷'
  ,imag:''
  ,referenceUrl:''});		
  
-markers.coral6 = createMarker({ lat:2.2049,lng:102.2426}, 'coral','馬來西亞馬六甲',{ A:['coral'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.coral6 = createMarker({ lat:2.1849,lng:102.2626}, 'coral','馬來西亞馬六甲',{ A:['coral'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'馬六甲蘇丹國，在《明史》中被稱為滿剌加。鄭和下西洋時，其國王跟隨鄭和一同返回，成為了明王朝的藩屬國。該國地處馬六甲海峽，是連接印度洋和太平洋的必經之路，也是古代東西方海上貿易的中轉站。因此，當地的奢侈品貿易非常繁榮。根據記載，珊瑚是常見的來自於滿剌加的貢品。'  
  ,description_en:'Zheng He 鄭和 once reached Malacca Sultanate on his ocean voyages. The Malacca Sultanate became a tributary of the Ming Dynasty 明朝 and maintain a close relationship for a long time. Located in the Strait of Malacca, the state was an essential route connecting the Indian and Pacific Oceans and was also a transit point for the ancient maritime trade between the East and the West. Therefore, the trade of luxury goods was very prosperous in the region. It is recorded that tcorals were common tribute from Malacca Sultanate.'
@@ -145,23 +145,8 @@ for (var i = 0; i < corals.length; i++) {
 
 // 定义新坐标和初始坐标
 
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
 
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
 
-var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:112.4470}//洛阳
-var kaifeng ={lat:34.7872,lng:114.3081};//开封
-var beijing ={lat:39.9171,lng:116.3797};//北京
-var nanjing={lat:32.0435,lng:118.7501}//南京
 
 
 var newCoords_coral1_1= RandomCoords(xian);
@@ -186,30 +171,6 @@ var newCoords_coral6_3= RandomCoords(beijing);
 
 var newCoords_coral7_1= RandomCoords(beijing);
 var newCoords_coral8_1= RandomCoords(beijing);
-
-
-
-
-
-
-
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1130	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:11.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:11.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:119.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
 
 
 function getInitialCoords(coral) {

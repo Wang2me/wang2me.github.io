@@ -33,7 +33,7 @@ markers.shell2 = createMarker({lat:21.6604,lng:109.2038}, 'shell','廣西合浦'
 });
 
 
-markers.shell3 = createMarker({lat:23.1227,lng:113.2485}, 'shell','廣東廣州',{ A:['shell'], B:['秦漢'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞']},
+markers.shell3 = createMarker({lat:23.1127,lng:113.2485}, 'shell','廣東廣州',{ A:['shell'], B:['秦漢'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞']},
 {title_cn: '描述',title_en: 'Description'  
 ,description_cn:'紫貝，又稱阿拉伯寶螺，廣泛分佈於太平洋的溫暖水域中。這種生物的殼有一定藥用價值。西漢時，南越國曾向漢武帝進貢五百顆紫貝。'  
 ,description_en:'The Arabian cowries are widely spread in the warm waters of the Pacific Ocean. The shells of this creature were materials of medicines in ancient times. During the Western Han Dynasty 西漢, the Nanyue State 南越國 sent 500 Arabian cowries as tribute to Emperor Wu of the Han Dynasty 漢武帝.'
@@ -155,30 +155,15 @@ for (var i = 0; i < shells.length; i++) {
 
 // 定义新坐标和初始坐标
 
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
 
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
 
-var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:112.4470}//洛阳
-var kaifeng ={lat:34.7872,lng:114.3081};//开封
-var beijing ={lat:39.9171,lng:116.3797};//北京
-var nanjing={lat:32.0435,lng:118.7501}//南京
 
 
 var newCoords_shell3_1= RandomCoords(xian);
 
 var newCoords_shell4_1= {lat:25.2926758,lng:60.6423};
 var newCoords_shell4_2= {lat:19.0621877,lng:72.8387};
-var newCoords_shell4_3= {lat:23.1226069,lng:113.2575};
+var newCoords_shell4_3= {lat:23.1126,lng:113.2575};
 
 var newCoords_shell5_1= {lat:23.1279512,lng:113.2616};
 var newCoords_shell5_2= RandomCoords(xian);
@@ -196,27 +181,6 @@ var newCoords_shell9_3= RandomCoords(beijing);
 var newCoords_shell10_1= RandomCoords(beijing);
 
 
-
-
-
-
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1130	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:11.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:11.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:119.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
 
 
 function getInitialCoords(shell) {
@@ -345,7 +309,7 @@ slider.addEventListener('input', function() {
     }
     //唐
     if (currentValue >= 4000 && currentValue < 5000) {
-        var points_5 = [initialCoords_shell5,maliujia,nanhai,newCoords_shell5_1, newCoords_shell5_1];
+        var points_5 = [initialCoords_shell5,maliujia,nanhai,newCoords_shell5_1, newCoords_shell5_2, newCoords_shell5_2];
    
         // 计算当前阶段的目标点的索引
             var targetIndex_5 = Math.floor((currentValue - 4000) / (1000 / (points_5.length-1)));

@@ -154,7 +154,7 @@ markers.horse18 = createMarker({ lat: 42.1612,lng:77.4779 }, 'horse','吉爾吉�
  ,referenceUrl:''});//陕西西安
 
  
-markers.horse19 = createMarker({ lat:	40.2754,lng:111.2014 }, 'horse','內蒙古托克托縣',{ A:['horse'],B:['秦漢'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse19 = createMarker({ lat:	40.2654,lng:111.1814 }, 'horse','內蒙古托克托縣',{ A:['horse'],B:['秦漢'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'東漢初期，匈奴部落陷入內戰，並最終分裂為南匈奴和北匈奴。南匈奴單于率領部落向東漢投降，漢光武帝允許其部落居住在雲中郡（今內蒙古托克托縣）。建武二十六年（公元50年），南匈奴單于遣使貢駱駝兩頭、毛色有文采的馬十匹，東漢王朝回賜橙、橘、龍眼、荔枝。'  
  ,description_en:'In the early Eastern Han Dynasty 東漢, the Xiongnu 匈奴 tribes fell into civil war and eventually divided into the Southern Xiongnu 南匈奴 and the Northern Xiongnu 北匈奴. The Chanyu 單于 of Southern Xiongnu surrendered to the Eastern Han Dynasty, and Emperor Guangwu of the Han Dynasty 漢光武帝 allowed his tribe to live in Yunzhong County 雲中郡 (present-day Tuoketuo County 托克托縣, Nei Menggu 內蒙古). In 50, Chanyu of the Southern Xiongnu sent two camels and ten horses with patterned fur to the Han Dynasty as tribute. As a reward, the Eastern Han Dynasty gave oranges, longan, and lychees to the Southern Xiongnu.'
@@ -200,7 +200,7 @@ markers.horse23 = createMarker({ lat:23.2343162,lng:77.3853}, 'horse','印度博
 }
 //三国
 {
-    markers.horse24 = createMarker({ lat:    39.6327, lng:66.8958 }, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['三國兩晉南北朝' ],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞']},
+    markers.horse24 = createMarker({ lat:    39.6227, lng:66.9258 }, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['三國兩晉南北朝' ],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'涼州（今甘肅武威）地處河西走廊，在陸上絲綢之路的交通中有著重要的意義。魏晉時期，西域使者向中國朝貢，必須經過此處。由於地理位置優越，涼州商貿繁榮，西域商人常在此地與漢人交易，以西域的馬和狗向漢人換取絲綢。'  
  ,description_en:'Liangzhou 涼州 (present-day Wuwei 武威, Gansu 甘肅) is located in the Hexi Corridor 河西走廊, which had an important role in the transportation of the Continental Silk Road. During the Wei and Jin Dynasties 魏晉時期, envoys from the Western Regions had to pass through this area to pay tribute to China. Due to its advantageous location, foreign trade flourished in Liangzhou. The merchants from Western Regions often traded with the Han people here, exchanging horses and dogs for silk in China.'
@@ -226,7 +226,7 @@ markers.horse26 = createMarker({lat: 37.5942,lng:108.7921 }, 'horse','陝西靖�
  ,referenceUrl:''});
 							
 
-markers.horse27 = createMarker({ lat:	41.7251,lng:82.9132 }, 'horse','新疆庫車',{ A:['horse'],B:['三國兩晉南北朝' ],C:['軍事'],D:['陸上絲綢之路'],E:['東亞']},
+markers.horse27 = createMarker({ lat:	41.7251,lng:82.9232 }, 'horse','新疆庫車',{ A:['horse'],B:['三國兩晉南北朝' ],C:['軍事'],D:['陸上絲綢之路'],E:['東亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'太平真君六年（公元445年），北魏將領萬度歸率領五千騎兵，從涼州（今甘肅武威）出發向西穿越沙漠，進攻西域。萬度歸先後擊敗了焉耆（今新疆焉耆）和龜茲（今新疆庫車）繳獲馬、駱駝等牲畜數萬頭。此戰以後，北魏完全掌握了陸上絲綢之路東段的主導權。'  
  ,description_en:'In 445, Wan Dugui 萬度歸, a general of the Northern Wei Dynasty 北魏, led 5,000 cavalry to attack the Western Regions by crossing the desert from Liangzhou 涼州 (present-day Wuwei, Gansu). He defeated Karasahr (present-day Yanqi 焉耆, Xinjiang 新疆) and Kucha (present-day Kuche 庫車, Xinjiang) and seized tens of thousands of livestock such as horses and camels. After this battle, the Northern Wei Dynasty completely dominated the eastern section of the Continental Silk Road.'
@@ -244,7 +244,7 @@ markers.horse28 = createMarker({ lat: 33.3059,lng:44.3622 }, 'horse','伊拉克�
  ,referenceUrl:''});
  //青海海北	-lat:36.952615,lng:100.8982
 
-markers.horse29 = createMarker({ lat:42.2484,lng:118.8922 }, 'horse','內蒙古赤峰',{ A:['horse'],B:['三國兩晉南北朝'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse29 = createMarker({ lat:42.2584,lng:118.8922 }, 'horse','內蒙古赤峰',{ A:['horse'],B:['三國兩晉南北朝'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南北朝時期，中國東北地區有許多遊牧民族部落，比如庫莫奚人和契丹人。庫莫奚人和契丹人都曾經多次向北魏進貢馬和皮毛，並長期和北魏進行互市貿易。。'  
  ,description_en:'During the Northern and Southern Dynasties 南北朝, there were many nomadic tribes in northeastern China, such as the Kumo Xi 庫莫奚 and the Khitan. Both the Kumo Xi and the Khitans contributed horses and furs to the Northern Wei Dynasty 北魏 and traded with the Northern Wei Dynasty for a long time.'
@@ -274,7 +274,7 @@ markers.horse31 = createMarker({ lat:40.8210,lng:111.7339  }, 'horse','內蒙古
  ,referenceUrl:''});
 //內蒙古托克托縣	-lat: 40.2752,lng:111.1941
 
-markers.horse32 = createMarker({ lat:    39.6352, lng:66.9058}, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['隋'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.horse32 = createMarker({ lat:    39.6252, lng:66.9358}, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['隋'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'隋代設置了專門負責管理朝貢的外交部門鴻臚寺。隋煬帝時期，又在洛陽建國門外設置了隸屬於鴻臚寺的四方館。四方館的官員叫做四方使者，分別負責接待來自不同地區的使節，管理他們的交通工具，比如馬、駱駝、車輛等。除此以外，四方館還負責監管與不同國家的互市貿易。'  
  ,description_en:'The Sui Dynasy 隋朝 set up Honglusi 鴻臚寺, a diplomatic department in charge of tributes. During the period of Emperor Yang of the Sui Dynasty 隋煬帝, Sifangguan 四方館, the subordinate department of Honglusi, was established in Luoyang 洛陽, mainly responsible for receiving envoys from different regions and managing their horses, camels, and vehicles. In addition, the Sifangguan was also responsible for the supervision of the international trade.'
@@ -286,7 +286,7 @@ markers.horse32 = createMarker({ lat:    39.6352, lng:66.9058}, 'horse','烏茲�
 
 //唐
 {
-    markers.horse33 = createMarker({ lat:    39.6354, lng:66.9108	 }, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+    markers.horse33 = createMarker({ lat:    39.6354, lng:66.9308	 }, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'唐朝承襲隋朝官制，依然由鴻臚寺負責管理朝貢事宜。貢品中的馬和駱駝由鴻臚寺和太僕寺共同評定價值，其中最優良的被選出在朝堂上陳列。此外鴻臚寺的下屬部門還需要管理長安城（今陝西西安）的外族牲畜貿易。唐朝進口的牲畜主要有馬、駱駝、牛、羊等。唐高宗時期牲畜互市設於安善坊和大業坊，後來因為地處長安城南不方便交易，而遷移至東市。'  
  ,description_en:'The Tang Dynasty 唐朝 inherited the official system of the Sui Dynasty 隋朝, and the tribute affairs still were managed by the Honglusi 鴻臚寺. The horses and camels in the tributes would be assessed by Honglusi and Taipusi 太僕寺 together, and selected the best for review on the court.It was also responsible for managing the trade of foreign livestock in the Chang\'an City 長安城 (present-day Xi\'an 西安, Shaanxi 陝西). The main livestock imported by the Tang Dynasty were horses, camels, cattle, and sheep. During the reign of Emperor Gaozong of the Tang Dynasty 唐高宗, the places for exotic livestock trade were located in Anshan Fang 安善坊 and Daye Fang 大業坊. These two places were located in the south of Chang\'an City, and later the livestock trade was moved to the East Market of Chang\'an City due to the problem of transportation.'
@@ -333,7 +333,7 @@ markers.horse37 = createMarker({ lat:29.6543417,lng:91.096}, 'horse','西藏拉�
   ,referenceUrl:''});
 //陝西西安	-lat:34.2555,lng:108.9208
 
-markers.horse38 = createMarker({lat: 47.5521,lng:102.5542 }, 'horse','蒙古鄂爾渾河谷',{ A:['horse'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse38 = createMarker({lat: 47.3521,lng:102.6042 }, 'horse','蒙古鄂爾渾河谷',{ A:['horse'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'回紇，後改稱回鶻，是唐朝中期在北方草原崛起的遊牧民族國家。安史之亂以後，唐朝國力減弱，回紇取得了事實上的獨立。唐朝後期，回紇每年向唐朝貢馬萬匹以交換大量絲綢。因為曾經幫助過唐朝平定安史之亂，回紇的這種朝貢其實是一種強迫性的貿易，給唐朝帶來了極大的財政負擔。'  
   ,description_en:'The Uyghur Khaganate was a nomadic nation that emerged from the northern steppe in the middle of the Tang Dynasty 唐朝. After the An Lushan Rebellion 安史之亂, the Tang Dynasty was weakened and Uyghur Khaganate achieved independence in fact. During the later Tang Dynasty, they sent 10,000 horses to the Tang every year in exchange for large quantities of silk. Because they had helped the Tang Dynasty to pacify the An Lushan Rebellion, this tribute was actually a kind of coercive trade, which put an extreme financial burden on the Tang Dynasty.'
@@ -360,7 +360,7 @@ markers.horse40 = createMarker({lat:41.7231,lng:82.9102 }, 'horse','新疆庫車
   ,referenceUrl:''});
 //陝西西安	-lat:34.2555,lng:108.9208
 
-markers.horse41 = createMarker({  lat:39.6418,lng:66.8100}, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.horse41 = createMarker({  lat:39.6418,lng:66.8500}, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'康居位於如今烏茲別克斯坦的撒馬爾罕，是古代西域國家之一。貞觀元年（公元627年），康居王首次向唐朝進貢，其貢品是當地出產的好馬。此後，康居和唐朝保持良好的外交關係。'  
   ,description_en:'Kangju 康居, located in present-day Samarkand, Uzbekistan, was one of the kingdoms in ancient Western Regions. In 627, the king of Kangju sent his first tribute to the Tang Dynasty 唐朝, which was a good horse from Central Asia. Since then, Kangju and the Tang Dynasty maintained friendly diplomatic relations.'
@@ -388,7 +388,7 @@ markers.horse43= createMarker({lat:36.2468,lng:126.8691 }, 'horse','韓國扶餘
   ,referenceUrl:''});
 //陝西西安	-lat:34.2555,lng:108.9208
  
-markers.horse44 = createMarker({lat:35.8183,lng:129.2539  }, 'horse','韓國慶州',{ A:['horse'],B:['唐'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞'] },
+markers.horse44 = createMarker({lat:35.8033,lng:129.2539  }, 'horse','韓國慶州',{ A:['horse'],B:['唐'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'新羅是朝鮮半島中南部地區的古代國家。唐玄宗時期，新羅曾派遣使者向中國進貢三匹小型馬和兩隻幼犬。這名使者最後留在唐朝成為了一名管理朝貢的官員。'  
   ,description_en:'Silla was an ancient kingdom located in the southern and central parts of the Korean Peninsula. During the reign of Emperor Xuanzong of the Tang Dynasty 唐玄宗, the Silla sent an envoy to China to pay tribute to three ponies and two puppies. This envoy eventually stayed in the Tang Dynasty 唐朝 and became an official who managed the tribute.'
@@ -455,7 +455,7 @@ markers.horse50 = createMarker({lat: 43.9232,lng:116.0318 }, 'horse','內蒙古�
  ,referenceUrl:''});
 	
 
-markers.horse51 = createMarker({lat:42.9453,lng:89.1707 }, 'horse','新疆吐魯番',{ A:['horse'],B:['宋'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse51 = createMarker({lat:42.9653,lng:89.1707 }, 'horse','新疆吐魯番',{ A:['horse'],B:['宋'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'唐朝滅亡後，一部分回鶻人遷入西域，在高昌（今新疆吐魯番）建立了政權，被稱為｢西州回鶻｣或｢高昌回鶻｣。他們也就是如今維吾爾人的祖先。北宋時期，高昌回鶻多次遣使朝貢。據史書記載，咸平四年（公元1001年），高昌回鶻向北宋貢獻良馬、單峰駝、無峰駝。'  
  ,description_en:'After the fall of the Tang Dynasty 唐朝, some Uighurs moved to the Western Regions and founded the Qocho Kingdom in Gaochang 高昌 (present-day Tulufan 吐魯番, Xinjiang 新疆). During the Northern Song Dynasty 北宋, the Qocho paid tribute for many times. According to historical records, the Qocho sent good horses, dromedary camels and no-hump camels to the Northern Song Dynasty in 1001.'
@@ -464,7 +464,7 @@ markers.horse51 = createMarker({lat:42.9453,lng:89.1707 }, 'horse','新疆吐魯
  ,referenceUrl:''});
 //甘肅張掖，河南開封	-lat:38.9445,lng:100.3902-lat:34.7847,lng:114.2722
 
-markers.horse52 = createMarker({lat:41.7201,lng:82.9092 }, 'horse','新疆庫車',{ A:['horse'],B:['宋'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse52 = createMarker({lat:41.7301,lng:82.9092 }, 'horse','新疆庫車',{ A:['horse'],B:['宋'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'龜茲位於如今的新疆庫車，是古代西域國家之一。據記載，龜茲曾向宋朝進貢過名馬、單峰駝以及各種玉石。'  
  ,description_en:'Kucha, located in present-day Kuche 庫車, Xinjiang 新疆, was one of the ancient kingdoms in Western Regions. According to the historical records, Kucha contributed good horses, dromedary camels, and various kinds of jade to the Song Dynasty 宋朝.'
@@ -473,7 +473,7 @@ markers.horse52 = createMarker({lat:41.7201,lng:82.9092 }, 'horse','新疆庫車
  ,referenceUrl:''});
 //河南開封	-lat:34.7847,lng:114.2722
 
-markers.horse53 = createMarker({lat:40.9964,lng:28.8996 }, 'horse','土耳其伊斯坦布爾',{ A:['horse'],B:['宋'],C:['朝貢'],D:['海上絲綢之路'],E:['歐洲'] },
+markers.horse53 = createMarker({lat:41.0064,lng:29.0196 }, 'horse','土耳其伊斯坦布爾',{ A:['horse'],B:['宋'],C:['朝貢'],D:['海上絲綢之路'],E:['歐洲'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'大秦，又稱拂菻，是中國古籍中對東羅馬帝國的稱呼。元豐四年（公元1081年），該國向宋朝貢馬、刀劍和珠寶，其使節向宋朝皇帝報告說單峰駝和葡萄酒是該國特產。'  
  ,description_en:'After the fall of the Tang Dynasty 唐朝, some Uighurs moved to the Western Regions and founded the Qocho Kingdom in Gaochang 高昌 (present-day Tulufan 吐魯番, Xinjiang 新疆). During the Northern Song Dynasty 北宋, the Qocho paid tribute for many times. According to historical records, the Qocho sent good horses, dromedary camels and no-hump camels to the Northern Song Dynasty in 1001.'
@@ -485,7 +485,7 @@ markers.horse53 = createMarker({lat:40.9964,lng:28.8996 }, 'horse','土耳其伊
 
 //元
 {
-markers.horse54 = createMarker({lat: 43.9232,lng:116.0318}, 'horse','內蒙古錫林郭勒',{ A:['horse'],B:['元'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse54 = createMarker({lat: 43.9232,lng:116.0718}, 'horse','內蒙古錫林郭勒',{ A:['horse'],B:['元'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元朝是由蒙古人建立的大一統王朝。馬對於元朝有著重要的意義。元朝在全國範圍內推廣畜牧業，共設立有十四處官方牧馬場，其中最特殊的一個是廬州牧馬場。這座牧馬場位於如今的安徽合肥，這是中國歷史上第一個南方地區的大型牧馬場。這裡出產的馬匹主要供給淮西地區的軍用。'  
  ,description_en:'The Yuan Dynasty 元朝 was a unified Dynasty established by the Mongols. Horses were significant to the Yuan Dynasty. The Yuan Dynasty promoted horse husbandry throughout the nation and set up 14 official horse ranches. The most special one was the Luzhou 廬州 Horse Ranch, which was located in present-day Hefei 合肥, Anhui 安徽. This was the first large-scale horse ranch in the southern region of Chinese history. The horses produced here were mainly for military use in the region of Huai River 淮河.'
@@ -494,7 +494,7 @@ markers.horse54 = createMarker({lat: 43.9232,lng:116.0318}, 'horse','內蒙古�
  ,referenceUrl:''});  
 //安徽合肥	lat: 43.9212,lng:116.0328
 
-markers.horse55 = createMarker({lat:51.3432,lng:135.4925}, 'horse','俄羅斯特林',{ A:['horse'],B:['元'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse55 = createMarker({lat:52.9432,lng:139.7225}, 'horse','俄羅斯特林',{ A:['horse'],B:['元'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元朝在全國範圍內設立了大量驛站，其職責主要包括物資運輸、郵遞官方文書和信件等。馬站是其中最常見的一種驛站，配備了大量馬匹作為交通運輸的工具。元代驛馬最多的地方是遼陽行省，位於如今的中國東北地區，管有驛馬共計6515匹。'  
  ,description_en:'The Yuan Dynasty 元朝 set up a large number of posts around the nation, and their responsibilities mainly included transportation of goods, mailing official documents and letters, etc. The most common type of post was the horse station, which was equipped with a large number of horses for transportation.  In the Yuan Dynasty, it was the Liaoyang province 遼陽行省, located in present-day northeastern China, that had the most number of burden horses, with a total of 6,515 horses in its possession.'
@@ -552,7 +552,7 @@ markers.horse60 = createMarker({lat: 47.7287,lng:96.8128 }, 'horse','蒙古烏�
  ,referenceUrl:''}); 
 //山西大同	-lat:40.0903,lng:113.2223
 
-markers.horse61 = createMarker({lat:39.6418,lng:66.8038}, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.horse61 = createMarker({lat:39.6418,lng:66.8638}, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'明太祖朱元璋在位時，曾多次派使節前往撒馬爾罕。直到洪武二十年（公元1387年），統治此地的蒙古人帖木兒首次向明朝貢十五匹馬和兩頭駱駝。此後，撒馬爾罕經常遣使朝貢。'  
  ,description_en:'Emperor Taizu of the Ming Dynasty 明太祖 once sent envoys to Samarkand several times. It wasn\'t until 1387 that the Mongols, who ruled the Samarkand, first paid tribute to the Ming Dynasty 明朝. The tribute included fifteen horses and two camels.'
@@ -561,7 +561,7 @@ markers.horse61 = createMarker({lat:39.6418,lng:66.8038}, 'horse','烏茲別克�
  ,referenceUrl:''});
 //江蘇南京	-lat:32.0853,lng:118.7328
 
-markers.horse62 = createMarker({lat:42.8735,lng:93.4621 }, 'horse','新疆哈密',{ A:['horse'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse62 = createMarker({lat:42.8735,lng:93.4821 }, 'horse','新疆哈密',{ A:['horse'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'哈密位於西域前往中原的交通要道，西域國家向明朝貢都需要經過哈密，哈密使節也經常和其他國家的使節結伴而行。哈密每三到五年向明朝進貢一次，貢品主要有璞玉、馬和駱駝。'  
  ,description_en:'Hami 哈密 was located on the main traffic route connecting Western Regions and the Ming Dynasty 明朝. The other kingdoms in Western Regions would pass through Hami to pay tribute to the Ming. Hami paid tribute to the Ming Dynasty every three to five years, mainly offering jade, horses, and camels.'
@@ -570,7 +570,7 @@ markers.horse62 = createMarker({lat:42.8735,lng:93.4621 }, 'horse','新疆哈密
  ,referenceUrl:''});     
 //北京	42.8745,lng:93.4601-lat:39.9171,lng:116.3797
 
-markers.horse63 = createMarker({lat:37.1023,lng:79.9132 }, 'horse','新疆和田',{ A:['horse'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse63 = createMarker({lat:37.0923,lng:79.9132 }, 'horse','新疆和田',{ A:['horse'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'于闐位於如今新疆和田。明朝時，于闐商人經常冒充貢使，攜帶大量馬、駝、玉石等物進入中國。其沿途差旅費用由明朝廷負責，並在返回途中多次停留售賣貨物。明仁宗朱高熾得知後命官員斥責這些于闐商人，其後來自于闐的朝貢逐漸減少。'  
  ,description_en:'Khotan was located in present-day Hetian 和田, Xinjiang 新疆. Khotan merchants often pretended to be tribute envoys and brought a large number of horses, camels, jade, and other goods into China. The travel expenses along the way were reimbursed by the Ming government, and they often sold goods to residents on their way back. The Hongxi Emperor learned that situation later and ordered officials to reprimand these Khotan merchants. After that, the tribute from Khotan gradually declined.'
@@ -597,7 +597,7 @@ markers.horse65 = createMarker({lat:2.2338,lng:102.1772}, 'horse','馬來西亞�
  ,referenceUrl:''}); 
 //廣東廣州，江蘇南京，北京	-lat:23.1400,lng:113.2097-lat:32.0853,lng:118.7328-lat:39.9171,lng:116.3797
 
-markers.horse66 = createMarker({lat:21.4342,lng:39.6840}, 'horse','沙特阿拉伯麥加',{ A:['horse'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
+markers.horse66 = createMarker({lat:21.4342,lng:39.7740}, 'horse','沙特阿拉伯麥加',{ A:['horse'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'麥加是伊斯蘭教的發祥地，在明朝時被稱為天方。據記載，嘉靖四年（公元1525年），天方遣使貢獻馬和駱駝。'  
  ,description_en:'Mecca is the birthplace of Islam. In 1525, Mecca sent horses and camels to the Ming Dynasty 明朝 as tribute.'
@@ -639,7 +639,7 @@ markers.horse67 = createMarker({lat:27.1360,lng:57.0620}, 'horse','伊朗米納�
   ,referenceUrl:''});
 //遼寧沈陽	-lat:41.81484,lng:123.3677
 
-  markers.horse70 = createMarker({lat:43.9252,lng:116.0318}, 'horse','內蒙古錫林郭勒',{ A:['horse'],B:['清'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
+  markers.horse70 = createMarker({lat:43.9352,lng:116.0618}, 'horse','內蒙古錫林郭勒',{ A:['horse'],B:['清'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
   {title_cn: '描述',title_en: 'Description'  
    ,description_cn:'烏蘭察布是蒙古商隊和漢人的主要交易地點，蒙古商隊從漢人處購得布匹和茶磚，主要賣出牛、羊、馬、駱駝以及毛皮。'  
    ,description_en:'Wulanchabu 烏蘭察布 was the main trading place between Mongolian caravans and Han people. Mongolian caravans bought cloth and tea bricks from Han people, and mainly sold cattle, sheep, horses, camels, and furs.'
@@ -648,7 +648,7 @@ markers.horse67 = createMarker({lat:27.1360,lng:57.0620}, 'horse','伊朗米納�
    ,referenceUrl:''});
 //內蒙古烏蘭察布	-lat:41.0179,lng:113.0475
 
-   markers.horse71 = createMarker({lat:43.9139,lng:81.3175}, 'horse','新疆伊犁',{ A:['horse'],B:['清'],C:['農業生產'],D:['陸上絲綢之路'],E:['東亞'] },
+   markers.horse71 = createMarker({lat:43.9239,lng:81.3175}, 'horse','新疆伊犁',{ A:['horse'],B:['清'],C:['農業生產'],D:['陸上絲綢之路'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'新疆的伊犁等地也是清朝重要的馬匹產地。當地牧民主要在天山山麓至巴里坤湖一帶放牧，每年可產馬五萬餘匹。新疆出產的馬皮製品遠銷俄國、英國等歐洲國家。	'  
     ,description_en:'Yili 伊犁 in Xinjiang 新疆 was also an important horse production area in the Qing Dynasty 清朝. Local herdsmen mainly grazed in the foothills of the Tian Shan 天山 to the Barkol Lake area, with an annual production of more than 50,000 horses. The horsehide products from Xinjiang were exported to Russia, Britain, and other European countries.'
@@ -682,22 +682,7 @@ for (var i = 0; i < horses.length; i++) {
 
 // 定义新坐标和初始坐标
 
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
 
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
-
-var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:112.4470}//洛阳
-var kaifeng ={lat:34.7872,lng:114.3081};//开封
-var beijing ={lat:39.9171,lng:116.3797};//北京
 
 var newCoords_horse4_1= {lat:36.6143,lng:114.5050};
 
@@ -780,7 +765,7 @@ var newCoords_horse59_8= {lat:31.1388,lng:97.1666};
 var newCoords_horse59_9= {lat:29.6489,lng:91.1157};
 
 var newCoords_horse60_1= {lat:40.0903,lng:113.2223};
-var newCoords_horse61_1= {lat:32.0853,lng:118.7358};
+var newCoords_horse61_1= {lat:32.0853,lng:118.7558};
 var newCoords_horse62_1= RandomCoords(beijing);
 var newCoords_horse63_1= RandomCoords(beijing);
 var newCoords_horse64_1= {lat:41.2623,lng:123.2332};
@@ -794,27 +779,6 @@ var newCoords_horse69_1= {lat:41.8141,lng:123.3677};
 var newCoords_horse70_1= {lat:41.0179,lng:113.0475};
 var newCoords_horse71_1= {lat:43.8231,lng:87.6115};
 var newCoords_horse71_2= {lat:43.596752,lng:93.0086};
-
-
-
-
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1130	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:11.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:11.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:119.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
 
 
 function getInitialCoords(horse) {

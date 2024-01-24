@@ -89,7 +89,7 @@ markers.leopard8 = createMarker({ lat:42.2497,lng:130.2945 }, 'leopard','朝鮮�
 
 //唐
 {
-markers.leopard9 = createMarker({ lat:39.7702,lng:64.4532	 }, 'leopard','烏茲別克斯坦布拉哈',{ A:['leopard'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.leopard9 = createMarker({ lat:39.7502,lng:64.4732	 }, 'leopard','烏茲別克斯坦布拉哈',{ A:['leopard'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'安國是古代西域國家之一，位於現在烏茲別克斯坦的布哈拉。開元十四年（公元726年），安國向唐朝進貢雄豹和雌豹各一頭。'  
  ,description_en:'The An Kingdom 安國 was one of the states in  ancient Western Regions, located in present-day Bukhara, Uzbekistan. In 726, the An Kingdom paid tribute to the Tang Dynasty 唐朝 with a male leopard and a female leopard.'
@@ -112,7 +112,7 @@ markers.leopard10 = createMarker({ lat:8.8938,lng:76.6103 }, 'leopard','印度�
 }
 //元
 {
-markers.leopard11 = createMarker({lat:21.4135,lng:39.7995}, 'leopard','沙特阿拉伯麥加',{ A:['leopard'],B:['元'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
+markers.leopard11 = createMarker({lat:21.3835,lng:39.7795}, 'leopard','沙特阿拉伯麥加',{ A:['leopard'],B:['元'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元代將從阿拉伯或波斯遷入中國的穆斯林稱為｢回回｣。蒙古統治者給予回回商人許多特權，尤其是元朝的對外貿易場所主要由他們負責。許多回回商人以元朝皇室的名義在中亞、西亞等地區大量收購獅子、豹、鷹等動物，再通過海路運輸至中國。據記載，杭州的驛站甚至在一個月內接待回回商人超過1200人，供給人及各種動物的肉食高達1300斤。'  
  ,description_en:'The Huihui 回回 people were Muslims who migrated to China from Arabia or Persia during the Yuan Dynasty 元朝. The Mongol rulers granted many privileges to the Huihui merchants, especially the management of foreign trading venues. Many Huihui merchants purchased large quantities of lions, leopards, eagles, and other animals in Central and West Asia in the name of the Yuan Dynasty royal family, and then transported these animals to China by maritime routes. It was recorded that the stage station in Hangzhou 杭州 even received more than 1,200 merchants in a month, offering as much as 1,300 jins 斤 of meat to people and animals of all kinds.'
@@ -142,7 +142,7 @@ markers.leopard13 = createMarker({lat:39.9294,lng:116.3888 }, 'leopard','北京�
 ,image_content_en:'Ming Dynasty, Bronze Warrior Plate in Leopard House, housed in National Museum of China'
    ,referenceUrl:''}); 
 	
-markers.leopard14 = createMarker({lat:12.7879,lng:45.0197 }, 'leopard','也門亞丁',{ A:['leopard'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
+markers.leopard14 = createMarker({lat:12.7879,lng:45.0297 }, 'leopard','也門亞丁',{ A:['leopard'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'亞丁在明代被稱為阿丹。據史書記載，阿丹國王十分崇敬中國，用大量珍寶與鄭和進行貿易。鄭和船隊從阿丹帶回了長頸鹿、獅子、豹、花貓、鴕鳥等動物。'  
  ,description_en:'The king of Aden greatly respected the Ming Dynasty 明朝 and traded with Zheng He 鄭和 for a large number of treasures. Zheng He\'s fleet brought back giraffes, lions, leopards, spotted cats, zebras,  ostriches and other animals from Aden.'
@@ -150,7 +150,7 @@ markers.leopard14 = createMarker({lat:12.7879,lng:45.0197 }, 'leopard','也門�
  ,image:''
  ,referenceUrl:''}); 
 
-markers.leopard15 = createMarker({lat:-0.3497,lng:42.5469 }, 'leopard','索馬里朱巴蘭',{ A:['leopard'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['非洲'] },
+markers.leopard15 = createMarker({lat:1.2435,lng:42.5578}, 'leopard','索馬里朱巴蘭',{ A:['leopard'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['非洲'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'鄂圖曼帝國在明代被稱為｢魯迷｣。嘉靖和萬曆年間，魯迷曾多次向明朝索馬里的朱巴蘭州，在明代時被稱為竹布。鄭和下西洋時曾經到過此處，記載了當地出產獅子、豹、鴕鳥等動物。永樂年間，竹布曾向明朝朝貢。進貢狗、獅子、犀牛等動物。'  
  ,description_en:'The Jubaland of Somalia, which was visited by Zheng He\'s 鄭和 fleet, was recorded as producing lions, leopards, ostriches and other animals. During the Yongle 永樂 period, Jubaland once paid tribute to the Ming Dynasty 明朝.'
@@ -183,24 +183,6 @@ for (var i = 0; i < leopards.length; i++) {
 
 // 定义新坐标和初始坐标
 
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
-
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
-
-var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:112.4470}//洛阳
-var kaifeng ={lat:34.7872,lng:114.3081};//开封
-var beijing ={lat:39.9171,lng:116.3797};//北京
-
-
 
 var newCoords_leopard3_1= RandomCoords(xian);
 
@@ -218,28 +200,6 @@ var newCoords_leopard12_1= RandomCoords(beijing);
 var newCoords_leopard14_1= RandomCoords(beijing);
 var newCoords_leopard15_1= RandomCoords(beijing);
 
-
-
-
-
-
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1130	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:11.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:11.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:119.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
 
 
 function getInitialCoords(leopard) {

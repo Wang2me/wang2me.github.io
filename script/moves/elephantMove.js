@@ -11,7 +11,7 @@ markers.elephant1 = createMarker({ lat:31.5106,lng:74.3568}, 'elephant','巴基�
     ,referenceUrl:''
 });	
 
-markers.elephant2 = createMarker({ lat:23.4856,lng:77.7396}, 'elephant','印度桑吉',{ A:['elephant'], B:['史前至夏商周'],C:['宗教信仰'],D:['其他'],E:['南亞'] },
+markers.elephant2 = createMarker({ lat:23.4756,lng:77.7396}, 'elephant','印度桑吉',{ A:['elephant'], B:['史前至夏商周'],C:['宗教信仰'],D:['其他'],E:['南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'佛陀釋迦牟尼的誕生就與象有關。在佛教傳說中，釋迦牟尼的母親摩耶夫人懷孕前夢到一頭六牙白象進入自己的腹中。因此，象在佛教中有著重要的意義和地位，被認為是大威力和大智慧的化身。在桑吉的佛教古建築群中，至今保留有孔雀王朝時期的佛教石刻。這些可追溯至公元前三世紀的雕塑證明了古印度佛教徒對象的崇拜。'  
  ,description_en:'The birth of the Buddha was associated with the elephant. In Buddhist legend, the Maya, the mother of the Buddha, dreamed of a six-tusked white elephant entering her womb before she was conceived. Therefore, the elephant has an important significance and role in Buddhism in that it is considered to be the embodiment of power and wisdom.In the Buddhist Monuments at Sanchi, Buddhist stone carvings from the Maurya Empire have been maintained today. These carvings, dating back to the 3rd century BCE, are evidence of the worship of elephants by the Buddhists of ancient India.'
@@ -29,7 +29,7 @@ markers.elephant3 = createMarker({ lat:34.5402,lng:69.1738 }, 'elephant','阿富
  ,referenceUrl:''});
 
  //土耳其Derbent	-lat:38.0115918,lng:32.0098
-markers.elephant4 = createMarker({ lat:34.0147,lng:9.2309 }, 'elephant','突尼斯',{ A:['elephant'], B:['史前至夏商周'],C:['軍事'],D:['其他'],E:['非洲'] },
+markers.elephant4 = createMarker({ lat:36.8141466,lng:10.1743 }, 'elephant','突尼斯',{ A:['elephant'], B:['史前至夏商周'],C:['軍事'],D:['其他'],E:['非洲'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'迦太基是位於北非的古代王國，其政治中心位於如今的突尼斯。為了爭奪地中海貿易路線的控制權，迦太基和羅馬帝國多次爆發戰爭。歷史學家認為，迦太基人馴養了非洲象用於作戰。第二次布匿戰爭期間，漢尼拔率領迦太基軍隊翻越比利牛斯山和阿爾卑斯山，入侵意大利北部地區。迦太基軍隊中有數十頭戰象，將羅馬軍隊打得節節敗退。後來，羅馬軍隊在大西庇阿的率領下反攻迦太基，雙方在北非的扎馬進行決戰。羅馬軍隊通過陣型的安排化解了象兵的衝鋒，進而擊敗了漢尼拔的迦太基軍隊。第二次布匿戰爭結束後，羅馬人將非洲的戰象帶入了歐洲。'  
  ,description_en:'Carthage was an ancient kingdom in North Africa, with its political center in present-day Tunisia. The Carthaginians and the Romans fought several wars for control of the Mediterranean trade routes. Historians believe that the Carthaginians raised African elephants for the battlefield. During the Second Punic War, Hannibal led the Carthaginian army to invade Italy from the north by crossing the Pyrenees and the Alps. The Roman army was defeated one after another because they could not resist the dozens of war elephants in the Carthaginian army. Later the Roman army counter-attacked Carthage under the leadership of Scipio Africanus and the two sides fought a duel at Zama in North Africa. The Roman army defeated Hannibal‘s Carthaginian army by neutralizing an elephant charge through formation. After the Second Punic War, the Romans brought African war elephants to Europe.'
@@ -85,7 +85,7 @@ markers.elephant9 = createMarker({ lat:34.2981,lng:108.4836}, 'elephant','陝西
 ,image_content_en:'Western Han Dynasty, Stone Crouching Elephant in Huo Qubing Tomb, housed in Maoling Museum'
    ,referenceUrl:''});
 				
-markers.elephant10 = createMarker({ lat:23.1208,lng:113.2366}, 'elephant','廣東廣州',{ A:['elephant'],B:['秦漢'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞'] },
+markers.elephant10 = createMarker({ lat:23.1180,lng:113.2366}, 'elephant','廣東廣州',{ A:['elephant'],B:['秦漢'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南越國是秦末漢初時期的一個割據政權，由趙佗建立，其疆域範圍大概包括現在的廣東、廣西、海南、香港、澳門、以及越南的中北部地區。其治所位於番禺（今廣東廣州）。漢武帝時期，南越國曾進貢象和鸚鵡。後來，南越國被攻滅，從此南越國併入漢朝的版圖。番禺由此成為漢朝海上貿易的都會，主要進口象牙、犀角等物。'  
  ,description_en:'The Nanyue State 南越國 was a ruling regime founded by Zhao Tuo 趙佗 in the late Qin 秦 and early Han Dynasties 漢朝. Its territory roughly covered the present-day areas of Guangdong 廣東, Guangxi 廣西, Hainan 河南, Hong Kong, Macao, and the north-central part of Vietnam. Its capital was located in Panyu 番禺 (present-day Guangzhou 廣州, Guangdong 廣州). During the period of Emperor Wu of the Han Dynasty 漢武帝, the Nanyue State once paid elephants and parrots as tributes to Western Han. Later, the Nanyue was conquered and incorporated into the Han Dynasty. Panyu became the metropolis of the Han Dynasty\'s maritime trade, mainly importing ivory and rhino horn.	'
@@ -134,7 +134,7 @@ markers.elephant14 = createMarker({ lat:23.1732,lng:113.1815}, 'elephant','廣�
  ,referenceUrl:''});
 //江蘇南京	-lat:32.0326,lng:118.7452
  
-markers.elephant15 = createMarker({ lat:23.1712,lng:113.1815 }, 'elephant','廣東廣州',{ A:['elephant'],B:['三國兩晉南北朝'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞'] },
+markers.elephant15 = createMarker({ lat:23.1512,lng:113.1815 }, 'elephant','廣東廣州',{ A:['elephant'],B:['三國兩晉南北朝'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'公元280年，晉武帝消滅東吳，交州也隨之成為西晉的領土。之後，交州向西晉進貢大象，因此晉武帝下令製作一架大車，由象牽引。從此象車進入中國皇帝出行的儀仗隊中。'  
  ,description_en:'In 280, Emperor Wu of the Jin Dynasty 晉武帝 destroyed Eastern Wu 東吳, and Jiaozhou 交州 became part of the territory of Western Jin 西晉. Later, Jiaozhou contributed elephants to the Western Jin Dynasty, and Emperor Wu of Jin ordered to make a large carriage to be drawn by the elephants. From then on, the elephant carriages were part of the ceremonial procession of the Chinese emperors\' traveling.'
@@ -142,7 +142,7 @@ markers.elephant15 = createMarker({ lat:23.1712,lng:113.1815 }, 'elephant','廣�
  ,image:''
  ,referenceUrl:''});
  
-markers.elephant16 = createMarker({ lat:15.8813,lng:108.3390 }, 'elephant','越南會安',{ A:['elephant'],B:['三國兩晉南北朝'],C:['朝貢'],D:['陸上絲綢之路'],E:['東南亞'] },
+markers.elephant16 = createMarker({ lat:15.8813,lng:108.3890 }, 'elephant','越南會安',{ A:['elephant'],B:['三國兩晉南北朝'],C:['朝貢'],D:['陸上絲綢之路'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'林邑是位於越南中部地區的古國。東晉時期，林邑曾多次進貢象和鸚鵡。'
  ,description_en:'Champa was an ancient state located in the central region of Vietnam. During the period of the Eastern Jin Dynasty 東晉, Champa contributed elephants and parrots several times.'
@@ -151,7 +151,7 @@ markers.elephant16 = createMarker({ lat:15.8813,lng:108.3390 }, 'elephant','越�
  ,referenceUrl:''});
 //江蘇南京	-lat:32.0356525,lng:118.7452
  
-markers.elephant17 = createMarker({lat:15.8778,lng:108.3379 }, 'elephant','越南會安',{ A:['elephant'],B:['三國兩晉南北朝'],C:['軍事'],D:['其他'],E:['東南亞'] },
+markers.elephant17 = createMarker({lat:15.8978,lng:108.3379 }, 'elephant','越南會安',{ A:['elephant'],B:['三國兩晉南北朝'],C:['軍事'],D:['其他'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'林邑是位於越南中部地區的古國。南朝宋曾經派遣檀和之和宗愨討伐林邑，林邑以披著鎧甲的大象抵禦。宗愨認為獅子威服百獸，於是下令製作了大量的獅子模型。林邑的大象部隊受驚而潰散，林邑的首都被攻克。'  
  ,description_en:'Champa was an ancient kingdom located in the central region of Vietnam. During the Song of Southern Dynasties 南朝宋, Tan Hezhi 檀和之 and Zong Que 宗愨 were deployed to invade Champa. Champa resisted with armored elephants. Zong Que thought that the lions were the kings of the beasts and ordered soldiers to make a large number of models of lions. These elephants were frightened and dispersed, and the capital of Champa was conquered.'
@@ -194,7 +194,7 @@ markers.elephant21 = createMarker({ lat:6.6931,lng:101.3828 }, 'elephant','泰�
  ,referenceUrl:''});
  //江蘇南京	-lat:32.0345041,lng:118.7393
  
-markers.elephant22 = createMarker({ lat:34.6387,lng:112.4241 }, 'elephant','河南洛陽',{ A:['elephant'],B:['三國兩晉南北朝' ],C:['身份象徵'],D:['其他'],E:['東亞']},
+markers.elephant22 = createMarker(RandomCoords(luoyang), 'elephant','河南洛陽',{ A:['elephant'],B:['三國兩晉南北朝' ],C:['身份象徵'],D:['其他'],E:['東亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'北魏皇室所使用的象輦，由兩頭象牽引。象輦是北魏皇室舉行祭祀活動時，皇太后所乘坐的車駕。'  
  ,description_en:'The elephant carriage used by the Northern Wei Dynasty 北魏 was drawn by two elephants.It was the vehicle in which the Empress Dowager travelled during the rituals of the Northern Wei Dynasty.'
@@ -202,7 +202,7 @@ markers.elephant22 = createMarker({ lat:34.6387,lng:112.4241 }, 'elephant','河�
  ,image:''
  ,referenceUrl:''});
  
-markers.elephant23 = createMarker({ lat:34.6367,lng:112.4241}, 'elephant','河南洛陽',{ A:['elephant'],B:['三國兩晉南北朝'],C:['宗教信仰'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.elephant23 = createMarker(RandomCoords(luoyang), 'elephant','河南洛陽',{ A:['elephant'],B:['三國兩晉南北朝'],C:['宗教信仰'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'隨著佛教在北魏傳播，洛陽的佛寺逐漸興旺起來。僧人每年在洛陽城內舉行遊行。而象作為佛教中的神獸，在遊行過程中會馱載佛陀的畫像以向民眾展示。'  
  ,description_en:'With the spread of Buddhism in the Northern Wei Dynasty 北魏, the Buddhist temples in Luoyang 洛陽 gradually flourished. The monks held annual processions in the city of Luoyang. The elephants, as sacred animals in Buddhism, carry pictures of Buddha during the procession to show to the public.'
@@ -210,7 +210,7 @@ markers.elephant23 = createMarker({ lat:34.6367,lng:112.4241}, 'elephant','河�
  ,image:''
  ,referenceUrl:''});
 		
-markers.elephant24 = createMarker({ lat:34.0097,lng:71.5173}, 'elephant','巴基斯坦白沙瓦',{ A:['elephant'],B:['三國兩晉南北朝' ],C:['朝貢'],D:['陸上絲綢之路'],E:['南亞']},
+markers.elephant24 = createMarker({ lat:33.9997,lng:71.5173}, 'elephant','巴基斯坦白沙瓦',{ A:['elephant'],B:['三國兩晉南北朝' ],C:['朝貢'],D:['陸上絲綢之路'],E:['南亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'乾陀羅，又譯作犍陀羅，是古代西域國家之一，位於如今的阿富汗和巴基斯坦部分地區。北魏永平二年（公元509年），幹陀羅向北魏進貢了一頭白象。這頭白象一直在洛陽城中飼養，當時洛陽的一處地名｢白象坊｣因此而命名。'  
  ,description_en:'Gandhara was an ancient kingdom in Western Regions, located in parts of present-day Afghanistan and Pakistan. In 509, Gandhara sent a white elephant as tribute to the Northern Wei Dynasty 北魏. This white elephant was kept in the city of Luoyang 洛陽. The "Baixiang Fang 白象坊" (White Elephant Square) in Luoyang was named for this tribute elephant.'
@@ -264,7 +264,7 @@ markers.elephant29 = createMarker({ lat:31.8597,lng:106.7356 }, 'elephant','四�
  ,image:''
  ,referenceUrl:''});
  
-markers.elephant30 = createMarker({ lat:15.8832,lng:108.3351}, 'elephant','越南會安',{ A:['elephant'],B:['唐'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.elephant30 = createMarker({ lat:15.8632,lng:108.3051}, 'elephant','越南會安',{ A:['elephant'],B:['唐'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'林邑（今越南中部）在唐太宗在位期間就曾進貢大象。其後，林邑多次向唐朝進貢動物，包括犀牛和鸚鵡。'  
  ,description_en:'Champa paid elephants as tribute during the period of Taizong Emperor of the Tang Dynasty.  Afterward, Champa repeatedly contributed animals, including rhinos and parrots, to the Tang Dynasty.'
@@ -275,7 +275,7 @@ markers.elephant30 = createMarker({ lat:15.8832,lng:108.3351}, 'elephant','越�
  
 markers.elephant31 = createMarker({ lat:17.9696,lng:102.6281  }, 'elephant','老撾永珍',{ A:['elephant'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路' ],E:['東南亞']},
 {title_cn: '描述',title_en: 'Description'  
- ,description_cn:'開皇八年（公元588年），北方的突厥陸真臘，又名文單，是唐朝時期從真臘分裂出來的國家，大致位於如今的老撾。陸真臘多次向唐朝進貢大象，這些大象都經過訓練，在唐朝宮廷中主要用於動物表演。唐德宗時期，唐朝皇室飼養的來自陸真臘的大象共計三十二頭。唐德宗下令將這些大象全部放生。向隋進貢馬萬匹、羊兩萬隻、牛和駱駝各五百頭，並請求與隋開放互市進行貿易。隋文帝應許了突厥的請求。'  
+ ,description_cn:'開皇八年（公元588年），北方的突厥陸真臘，又名文單，是唐朝時期從真臘分裂出來的國家，大致位於如今的老撾。陸真臘多次向唐朝進貢大象，這些大象都經過訓練，在唐朝宮廷中主要用於動物表演。唐德宗時期，唐朝皇室飼養的來自陸真臘的大象共計三十二頭。唐德宗下令將這些大象全部放生。'  
  ,description_en:'Land Chenla, also known as Wendan 文單, was an ancient state divided from the Chenla, located in modern Laos. The elephants from Land Chenla were sent to the Tang Dynasty 唐朝 as tributes many times. These elephants were trained and were mainly used for animal performances in the Tang court. During the reign of Emperor Dezong of the Tang Dynasty 唐德宗, the Tang royal garden kept 32 elephants from Land Chenla. Emperor Tang Dezong ordered all these elephants to be released.'
   ,reference:'1. 文單國，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=333683&Type=bkztb&SubID=711。<br>&emsp;&emsp;&emsp;2. 劉昫等，《舊唐書·本紀第十一》（北京：中華書局，1997），頁298。<br>&emsp;&emsp;&emsp;3. 劉昫等，《舊唐書·本紀第十二》（北京：中華書局，1997），頁320。'
  ,image:''
@@ -304,7 +304,7 @@ markers.elephant32 = createMarker({lat:7.3727,lng:80.2894}, 'elephant','斯里�
  ,referenceUrl:''});
 //江西贛州，河南開封	-lat:25.8246208,lng:114.9143
  
-markers.elephant34 = createMarker({ lat:20.2834,lng:105.9045}, 'elephant','越南華閭',{ A:['elephant'],B:['宋'],C:['朝貢'],D:['陸上絲綢之路'],E:['東南亞'] },
+markers.elephant34 = createMarker({ lat:20.2764,lng:105.9045}, 'elephant','越南華閭',{ A:['elephant'],B:['宋'],C:['朝貢'],D:['陸上絲綢之路'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'北宋時期，越南北部地區建立了一個新的國家，即前黎朝。公元981年，前黎朝與北宋之間發生軍事衝突，北宋戰敗。之後前黎朝向北宋進貢犀牛和象，北宋也對前黎朝進行冊封，雙方進入和平交往的階段。'  
  ,description_en:'During the Northern Song Dynasty 北宋, a new kingdom was established in the northern dart of Vietnam, namely the Early Le Dynasty. In 981, a military conflict occurred between the Early Le Dynasty and the Northern Song Dynasty, and the Northern Song Dynasty was defeated. Afterwards, the Early Le Dynasty contributed rhinos and elephants to the Northern Song Dynasty, and the Northern Song Dynasty recognized the regime of the Early Le Dynasty, thus the two sides entered the stage of peaceful communication.'
@@ -343,7 +343,7 @@ markers.elephant37 = createMarker({lat:39.3776,lng:76.0500}, 'elephant','新疆�
 //元
 {
  
-markers.elephant38 = createMarker({lat:39.8678,lng:116.3816}, 'elephant','北京',{ A:['elephant'],B:['元'],C:['身份象徵'],D:['其他'],E:['東亞'] },
+markers.elephant38 = createMarker(RandomCoords(beijing), 'elephant','北京',{ A:['elephant'],B:['元'],C:['身份象徵'],D:['其他'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'元朝皇帝極為喜愛大象。元朝時有一種象轎，由兩頭大象馱載。至元十七年（公元1280年），元世祖忽必烈下令製作象轎，從此以後象轎成為元朝皇帝出行時乘坐的交通工具。除此以外，在元朝皇帝的儀仗隊中，還有六頭裝有蓮座的大象。'  
   ,description_en:'The Emperors of the Yuan Dynasty 元朝 were very fond of elephants. During the Yuan Dynasty, there was a kind of elephant litter which was carried by two elephants. In 1280, Kublai, the founder of the Yuan Dynasty, ordered the production of elephant litter, which became the official transport of the Yuan emperors when they traveled. Except, there were six elephants setting lotus form seats in the Yuan emperor’s guard of honour.	'
@@ -378,7 +378,7 @@ markers.elephant41 = createMarker({lat:10.7968,lng:106.6126}, 'elephant','越南
 //北京	
   
 
-markers.elephant42 = createMarker({lat:16.4637,lng:107.5859}, 'elephant','越南順華',{ A:['elephant'],B:['元'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.elephant42 = createMarker({lat:16.4737,lng:107.5859}, 'elephant','越南順華',{ A:['elephant'],B:['元'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'安南是位於越南北部的古代國家。元世祖時期，安南多次進貢大象。'  
   ,description_en:'Annam was an ancient kingdom located in the northern part of Vietnam. During the reign of Emperor Shizu of the Yuan Dynasty 元世祖, Annam repeatedly sent elephants as tribute.	'
@@ -387,7 +387,7 @@ markers.elephant42 = createMarker({lat:16.4637,lng:107.5859}, 'elephant','越南
   ,referenceUrl:''});    
 //北京	
   
-markers.elephant43= createMarker({lat:15.0481,lng:100.8869 }, 'elephant','泰國華富里',{ A:['elephant'],B:['元'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.elephant43= createMarker({lat:15.0531,lng:100.8869 }, 'elephant','泰國華富里',{ A:['elephant'],B:['元'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'羅斛國，又名羅渦國，是位於泰國中南部地區的古代國家。元世祖統治時期，羅斛國派遣使者向元朝進貢，貢品就包括鸚鵡、象牙、犀角、黃金、以及各類香料。'  
   ,description_en:'The Lavo Kingdom was an ancient political entity located in the south-central region of Thailand. During the period of Emperor Shizu of Yuan 元世祖, the Lavo Kingdom sent envoys to the Yuan Dynasty 元朝 to pay tribute, which included parrots, ivory, rhino horns, gold, and various kinds of spices.'
@@ -398,7 +398,7 @@ markers.elephant43= createMarker({lat:15.0481,lng:100.8869 }, 'elephant','泰國
 }
 //明
 {
-markers.elephant44 = createMarker({lat:39.9286,lng:116.3979}, 'elephant','北京',{ A:['elephant'],B:['明'],C:['朝貢'],D:['陸上絲綢之路','海上絲綢之路'],E:['東亞'] },
+markers.elephant44 = createMarker(RandomCoords(beijing),'elephant','北京',{ A:['elephant'],B:['明'],C:['朝貢'],D:['陸上絲綢之路','海上絲綢之路'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'明代建立了詳細的朝貢和回賜制度。各國所進貢的象需要先經過會同館評判價值，然後由錦衣衛飼養和訓練。明代時，江南地區給寵物洗澡的習俗流傳至北京。每年農曆六月六日，負責養象的錦衣衛們會帶著所有大象在北京城外的河中洗澡。對於當時的北京居民來說，大象還是一種十分罕見的動物，他們為了偷窺大象洗澡甚至會提前躲藏在樹上。但這種行為是非常危險的，大象可能會因為陌生人的偷窺而受驚，並將陌生人踩踏致死。'  
   ,description_en:'The Ming Dynasty 明朝 established a detailed tribute system. The elephants as tribute were first evaluated by the Huitongguan 會同館, and then bred and trained by the "Jinyiwei 錦衣衛" (Embroidered Uniform Guard). During the Ming Dynasty, the custom of bathing pets in the south of the Yangtze River spread to Beijing 北京. Every year on the sixth day of the sixth month of the Lunar Calendar, the soldiers of Jinyiwei in charge of raising elephants would take all the elephants to bathe in the river outside the city of Beijing. Elephants were still a very rare animal for Beijing residents at the time, and they would even hide in the trees in advance to peek at the elephants taking a bath. However, this behavior was very dangerous, as the elephant could be frightened by the peeping of the strangers and trampled to death by them.	'
@@ -406,7 +406,7 @@ markers.elephant44 = createMarker({lat:39.9286,lng:116.3979}, 'elephant','北京
   ,image:''
   ,referenceUrl:''});		
   
-markers.elephant45 = createMarker({ lat:39.9256,lng:116.3979}, 'elephant','北京',{ A:['elephant'],B:['明'],C:['身份象徵'],D:['其他'],E:['東亞'] },
+markers.elephant45 = createMarker(RandomCoords(beijing), 'elephant','北京',{ A:['elephant'],B:['明'],C:['身份象徵'],D:['其他'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'大象在明朝政治活動中扮演著重要的角色，它們需要參加皇帝的儀仗隊，並在大型慶典上用於展覽或表演。除此以外，明朝皇室還有一種名為象車的大型車駕。《出警圖》，現存於台北故宮博物院的明代畫作，其中就能看到在萬曆皇帝的出行隊伍中有這種由四頭大象拉動的巨大車駕。'  
   ,description_en:'Elephants played an important role in the political activities of the Ming Dynasty 明朝, as they were required to participate in the Emperor\'s guard of honor and were used for exhibitions or performances at large ceremonies. In addition, the Ming Dynasty royal family also had a large vehicle called the elephant carriage. "Departure Herald", a Ming Dynasty painting now in the National Palace Museum in Taipei, in which we can see this huge carriage pulled by four elephants in the Wanli Emperor\'s 萬曆皇帝 traveling procession.	'
@@ -425,7 +425,7 @@ markers.elephant46 = createMarker({ lat:16.4774,lng:107.5682}, 'elephant','越�
   ,referenceUrl:''});
 //江蘇南京	-lat:32.057561,lng:118.7423
   
-markers.elephant47 = createMarker({lat:15.8767,lng:108.3506}, 'elephant','越南會安',{ A:['elephant'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.elephant47 = createMarker({lat:15.8867,lng:108.3606}, 'elephant','越南會安',{ A:['elephant'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'占城是向明朝進貢大象最多的國家。從明太祖時期到明憲宗時期，占城持續進貢大象。此外，象牙、犀角和香料也是占城的主要貢品。'  
   ,description_en:'Champa was the country that introduced the largest number of elephants to the Ming Dynasty. From the period of Emperor Taizu of the Ming Dynasty 明太祖 to the period of Emperor Xianzong of the Ming Dynasty 明憲宗, the elephants were continuously contributed by Champa. In addition, ivory, rhino horns and spices were also major contributors from Champa.'
@@ -461,7 +461,7 @@ markers.elephant50 = createMarker({lat:7.6055,lng:79.7725}, 'elephant','斯里�
   ,referenceUrl:''});
 //北京	
   
-markers.elephant51 = createMarker({lat:1.1142,lng:44.0300}, 'elephant','索馬里巴拉韋',{ A:['elephant'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['非洲'] },
+markers.elephant51 = createMarker({lat:1.1042,lng:44.0300}, 'elephant','索馬里巴拉韋',{ A:['elephant'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['非洲'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'不剌哇，與木骨都束接壤，即是如今索馬里的巴拉韋。該地出產東非劍羚、斑馬、犀牛、大象、駱駝以及各種香料，曾數次朝貢。'  
   ,description_en:'Barawa, a small country border on Mogadishu, once paid tribute to Ming Dynasty 明朝 several times. In historical records, this country produced Eastern Africian oryx, zebras, rhinos, elephants, camels, and spices.'
@@ -481,7 +481,7 @@ markers.elephant52 = createMarker({lat:19.8866,lng:102.1063}, 'elephant','老撾
 }
 //清
 {
-markers.elephant53 = createMarker({lat:39.9200,lng:116.3844}, 'elephant','北京',{ A:['elephant'],B:['清'],C:['身份象徵'],D:['其他'],E:['東亞'] },
+markers.elephant53 = createMarker(RandomCoords(beijing), 'elephant','北京',{ A:['elephant'],B:['清'],C:['身份象徵'],D:['其他'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'撒拉和明朝一樣，象在清朝也是皇室儀仗隊的成員，在大型慶典或者政治活動中用於展覽。清朝也延續了明朝時的養象習俗，每年農曆六月六日在宣武門外的河中給大象們洗澡。這一場景引來北京當地居民的圍觀。但清朝同樣無法解決大象容易受驚並踩傷或踩死民眾的問題，只能逐漸減少飼養大象，至光緒時期清朝皇室已不再飼養大象。族是中國信仰伊斯蘭教的少數民族之一，如今主要定居在青海省循化縣。歷史學家認為該族可能是元代時遷入中國的。根據撒拉族的傳說，在撒馬爾罕有兩兄弟，他們帶著十八名族人，牽著一頭白駱駝，馱著古蘭經向東遷徙。在到達中國青海的時候駱駝遺失了，等他們尋找到駱駝的時候，發現駱駝在一口清泉旁化成了石頭。他們決定在此處定居，並將此地命名為｢駱駝泉｣。'  
   ,description_en:'Like in the Ming Dynasty 明朝, elephants were part of the royal guard of honor in the Qing Dynasty 清朝 and were used for exhibitions during large-scale ceremonies or political events. The Qing Dynasty also continued the custom of keeping elephants from the Ming Dynasty by bathing them in the river outside Xuanwumen 宣武門 on the sixth day of the sixth lunar month. The spectacle attracted crowds of Beijing 北京 residents. However, the Qing Dynasty was also unable to solve the problem of elephants being easily frightened and trampling people to death, so it could only gradually reduce the number of elephants kept, and by the Guangxu 光緒 period, the Qing royal family no longer kept any elephants.'
@@ -489,7 +489,7 @@ markers.elephant53 = createMarker({lat:39.9200,lng:116.3844}, 'elephant','北京
   ,image:''
   ,referenceUrl:''});     				
 
-markers.elephant54 = createMarker({lat:39.9200,lng:116.3814}, 'elephant','北京',{ A:['elephant'],B:['清'],C:['宗教信仰'],D:['海上絲綢之路'],E:['東亞'] },
+markers.elephant54 = createMarker(RandomCoords(beijing), 'elephant','北京',{ A:['elephant'],B:['清'],C:['宗教信仰'],D:['海上絲綢之路'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'《乾隆皇帝洗象圖》是一幅清朝時的繪畫作品，現存於北京故宮博物院。這幅畫繪製於乾隆十五年（公元1750年），其內容是乾隆皇帝裝扮成普賢菩薩的樣子，觀看自己的僕人們清洗一頭白象。儘管這幅畫的署名是清朝畫家丁觀鵬，但研究者們認為這幅畫的繪製過程有西方傳教士的參與，是東西方畫家們合作的結果。乾隆皇帝信仰佛教，除了修建佛寺、翻譯佛經，還命令宮廷畫師繪製了許多佛教主題的繪畫，這幅畫應該就是其中一件作品。'  
   ,description_en:'Emperor Qianlong and Washing Elephant" is a painting dated to the Qing Dynasty 清朝, and is now housed in the Palace Museum in Beijing 北京. It was painted in 1750 and shows the Qianlong Emperor 乾隆皇帝 dressed as Samantabhadra watching his servants clean a white elephant. Although the painting was signed by the Chinese painter Ding Guanpeng 丁觀鵬, researchers suggest that it was painted with the participation of Western missionaries. It was the outcome of cooperation between Eastern and Western painters. The Qianlong Emperor believed in Buddhism. In addition to building Buddhist temples and translating Buddhist scriptures, he also ordered his court painters to produce many paintings on Buddhist themes, of which this painting must be one.'
@@ -539,19 +539,6 @@ for (var i = 0; i < elephants.length; i++) {
 
 
 
-// 定义新坐标和初始坐标
-
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
-
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
 
 var newCoords_elephant3_1= {lat:38.0115,lng:32.0098};
 
@@ -570,19 +557,15 @@ var newCoords_elephant11_1= RandomCoords(luoyang);
 var newCoords_elephant12_1= {lat:23.1396,lng:113.2579};
 var newCoords_elephant12_2= RandomCoords(luoyang);
 
-var xian= {lat:34.2655,lng:108.9508};//西安
 
 var newCoords_elephant13_1= {lat:36.3322,lng:114.6175};
 var newCoords_elephant14_1= {lat:32.0326,lng:118.7452};
 var newCoords_elephant15_1= RandomCoords(luoyang);
-var newCoords_elephant16_1= {lat:32.0356,lng:118.7452};
+var newCoords_elephant16_1= {lat:32.0356,lng:118.7652};
 var newCoords_elephant21_1= {lat:32.0345,lng:118.7393};
 var newCoords_elephant24_1= RandomCoords(luoyang);
 var newCoords_elephant25_1= {lat:37.0541,lng:79.7794};
 var newCoords_elephant25_2= RandomCoords(luoyang);
-
-var luoyang= {lat:34.6321,lng:112.4470}//洛阳
-var kaifeng ={lat:34.7845,lng:114.2722};//开封
 
 var newCoords_elephant27_1= RandomCoords(luoyang);
 var newCoords_elephant30_1= RandomCoords(xian);
@@ -615,29 +598,8 @@ var newCoords_elephant50_1= RandomCoords(beijing);
 var newCoords_elephant51_1= RandomCoords(beijing);
 var newCoords_elephant52_1= RandomCoords(beijing);
 
-var beijing ={lat:39.9171,lng:116.3797};//北京
 var newCoords_elephant55_1= RandomCoords(beijing);
 var newCoords_elephant56_1= RandomCoords(beijing);
-
-
-
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1130	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:11.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:11.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:119.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
 
 
 function getInitialCoords(elephant) {

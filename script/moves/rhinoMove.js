@@ -114,7 +114,7 @@ markers.rhino11 = createMarker({lat:23.1290,lng:113.2596}, 'rhino','廣東廣州
  ,referenceUrl:''});
 //江蘇南京	-lat:32.0522602,lng:118.7421
 
- markers.rhino12 = createMarker({ lat:11.5541,lng:104.9182}, 'rhino','柬埔寨金邊',{ A:['rhino'],B:['三國兩晉南北朝'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+ markers.rhino12 = createMarker({ lat:11.5641,lng:104.9182}, 'rhino','柬埔寨金邊',{ A:['rhino'],B:['三國兩晉南北朝'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'扶南國是南北朝時期的一個印度化的古代國家，位於中南半島南部，其領土範圍大概包括現在的泰國南部、柬埔寨、越南南部。大同五年（公元539年），扶南國向梁武帝進貢了一頭犀牛。'  
  ,description_en:'Funan 扶南 was an ancient Indianized kingdom during the Northern and Southern Dynasties 南北朝, located in the southern part of Mainland Southeast Asia, with its territory roughly encompassing what is now southern Thailand, Cambodia, and southern Vietnam. In 539, Funan paid tribute to Emperor Wu of the Liang Dynasty 梁武帝 with a rhino.'
@@ -207,7 +207,7 @@ markers.rhino20 = createMarker({ lat:16.4558,lng:107.5820}, 'rhino','越南順�
 
      
 
-markers.rhino21 = createMarker({lat:15.0461,lng:100.8869}, 'rhino','泰國華富里',{ A:['rhino'],B:['元'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.rhino21 = createMarker({lat:15.0461,lng:100.8969}, 'rhino','泰國華富里',{ A:['rhino'],B:['元'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'羅斛國，又名羅渦國，是位於泰國中南部地區的古代國家。元世祖統治時期，羅斛國派遣使者向元朝進貢，貢品就包括鸚鵡、象牙、犀角、黃金、以及各類香料。'  
  ,description_en:'The Lavo Kingdom was an ancient political entity located in the south-central region of Thailand. During the period of Emperor Shizu of Yuan 元世祖, the Lavo Kingdom sent envoys to the Yuan Dynasty 元朝 to pay tribute, which included parrots, ivory, rhino horns, gold, and various kinds of spices.'
@@ -260,7 +260,7 @@ markers.rhino25 = createMarker({ lat:2.1977,lng:102.2612}, 'rhino','馬來西亞
  ,image:''
  ,referenceUrl:''});
 
- markers.rhino27 = createMarker({ lat:1.1191,lng:44.0277}, 'rhino','索馬里巴拉韋',{ A:['rhino'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['非洲'] },
+ markers.rhino27 = createMarker({ lat:1.1191,lng:44.0177}, 'rhino','索馬里巴拉韋',{ A:['rhino'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['非洲'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'不剌哇，與木骨都束接壤，即是如今索馬里的巴拉韋。該地出產東非劍羚、斑馬、犀牛、大象、駱駝以及各種香料，曾數次朝貢。'  
  ,description_en:'Barawa, a small country border on Mogadishu, once paid tribute to Ming Dynasty 明朝 several times. In historical records, this country produced Eastern Africian oryx, zebras, rhinos, elephants, camels, and spices.'
@@ -313,22 +313,6 @@ for (var i = 0; i < rhinos.length; i++) {
 
 // 定义新坐标和初始坐标
 
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
-
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
-
-var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:102.4470}//洛阳
-var kaifeng ={lat:34.7845,lng:114.2722};//开封
-var beijing ={lat:39.9171,lng:116.3797};//北京
 
 
 
@@ -338,7 +322,7 @@ var newCoords_rhino10_2= {lat:16.8052,lng:107.0775};
 var newCoords_rhino10_3= RandomCoords(xian);
 
 var newCoords_rhino11_1= {lat:32.0522,lng:118.7421};
-var newCoords_rhino12_1= {lat:32.0573,lng:118.7437};
+var newCoords_rhino12_1= {lat:32.0573,lng:118.7637};
 var newCoords_rhino14_1= RandomCoords(luoyang);
 var newCoords_rhino16_1= RandomCoords(xian);
 
@@ -365,23 +349,6 @@ var newCoords_rhino29_4=  {lat:50.8807,lng:4.7059};
 var newCoords_rhino29_5=  RandomCoords(beijing);
 
 
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1030	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:10.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:10.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:109.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
 
 
 function getInitialCoords(rhino) {

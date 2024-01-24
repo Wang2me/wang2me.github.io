@@ -67,14 +67,14 @@ markers.camel8 = createMarker({ lat:	39.6035,lng:109.7736},'camel','內蒙古鄂
      ,image:''
 	,referenceUrl:''});
 
-markers.camel9 = createMarker({ lat:	43.9212,lng:116.0328 }, 'camel','內蒙古錫林郭勒盟',{ A:['camel'],B:['史前至夏商周'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel9 = createMarker({ lat:	43.9212,lng:116.0528 }, 'camel','內蒙古錫林郭勒盟',{ A:['camel'],B:['史前至夏商周'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'根據《史記·蘇秦列傳》中的記載，燕國和代國以擁有駱駝而知名。可見早在戰國時期，來自北方草原的駱駝已經被當作重要的戰略資源，由官方組織專門的人員進行飼餵。'  
 	,description_en:'According to the Shi Ji 史記(Records of Grand Historian), the Yan State 燕國 and Dai State 代國 were well-known for owning camels. This evidence shows that camels from the northern grasslands had been regarded as important strategic resources and were managed by official organizations as early as the Warring States Period 戰國時期.'
 	 ,reference:'1. 司馬遷，《史記·蘇秦列傳》（北京：中華書局，1997），頁2260-2261。'  
 	,imag:''});
 
-markers.camel10 = createMarker({ lat:	47.9120,lng:106.8838 }, 'camel','蒙古烏蘭巴托',{ A:['camel'],B:['秦漢'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel10 = createMarker({ lat:	47.9020,lng:106.8838 }, 'camel','蒙古烏蘭巴托',{ A:['camel'],B:['秦漢'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'西漢初年，位於中國北方草原的匈奴逐漸崛起，對漢王朝的統治構成了威脅。由於當時的漢朝國力尚弱，無力通過戰爭解決匈奴問題，漢王朝的統治者以「和親」的方式減少匈奴入侵的可能。在和匈奴交往的過程中，駱駝以朝貢品的形式傳入中國。例如，公元前176年，匈奴冒頓單于遣使入漢，修書要求和親。由於匈奴兵力強盛，漢文帝不得不應許和親。而在匈奴使者攜帶的奉獻中，便有駱駝、馬匹和車輛。'  
 	,description_en:'In the early period of the Western Han Dynasty 西漢, the Xiongnu 匈奴, located in the northern steppe of China, gradually emerged and threatened the rule of the Central Plain are. As the Han Dynasty was still weak and could not solve the Xiongnu problem by war, the rulers used the method of "heqin 和親" (marriage alliance) to reduce the invasion from Xiongny. In the interaction with the Xiongnu, camels were introduced to China as tributes. For example,  in 176 BCE, the Modu Chanyu 冒頓單于 wrote a letter requesting a marriage. The Emperor Wen of the Han Dynasty 漢文帝 had to accept the request of Modu Chanyu. Among the  tribute carried by the Xiongnu envoys were camels, horses and carriages.'
@@ -82,7 +82,7 @@ markers.camel10 = createMarker({ lat:	47.9120,lng:106.8838 }, 'camel','蒙古烏
 	,image:''
 	,referenceUrl:''});
 
-markers.camel11 = createMarker({ lat:    47.8717,lng:106.7570 }, 'camel','蒙古烏蘭巴托',{ A:['camel'],B:['秦漢'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel11 = createMarker({ lat:    47.9017,lng:106.8570 }, 'camel','蒙古烏蘭巴托',{ A:['camel'],B:['秦漢'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'漢王朝另一個獲取駱駝的方式便是貿易。中原王朝儘需要出口絲、麻等紡織品，便可以換取驢、騾、駱駝等貴重的牲畜。漢武帝的財政大臣桑弘羊極力支持這種貿易。他認為這種貿易既可以獲得利益，又能損耗遊牧民族的戰鬥力。'  
 	,description_en:'Another way for the Han Dynasty 漢朝 to obtain camels was through trade. The Chinese people only needed to export textiles in exchange for valuable livestock such as donkeys, mules, and camels. Sang Hongyang 桑弘羊, the finance minister of Emperor Wu of the Han Dynasty 漢武帝, extremely supported this silk-livestock trade. He believed that this kind of trade could not only gain benefits, but also deplete the combat effectiveness of nomadic peoples.'
@@ -90,7 +90,7 @@ markers.camel11 = createMarker({ lat:    47.8717,lng:106.7570 }, 'camel','蒙古
 	,image:''
 	,referenceUrl:''});
 
-markers.camel12 = createMarker({ lat:    34.2575,lng:108.9208 }, 'camel','陝西西安',{ A:['camel'],B:['秦漢'],C:['軍事'],D:['其他'],E:['東亞'] },
+markers.camel12 = createMarker({ lat:    34.2675,lng:108.9208 }, 'camel','陝西西安',{ A:['camel'],B:['秦漢'],C:['軍事'],D:['其他'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'由於大量駱駝傳入中原地區，漢朝設立了專門管理飼養駱駝的機構，比如橐泉、牧橐等。因為駱駝是古代行軍作戰中重要的馱畜，所以這些機構隸屬於中央軍事機構太僕寺，其相應的負責官員則是監長或者令丞。'  
 	,description_en:'With the introduction of a large number of camels, the Han Dynasty 漢朝 set up institutions dedicated to the management of camels, such Tuoquan 橐泉 and Mutuo 牧橐. Because camels were important beasts of burden in ancient military affairs, these institutions were subordinate to the central military institution Taipusi 太僕寺 and were headed by military officials.'
@@ -98,7 +98,7 @@ markers.camel12 = createMarker({ lat:    34.2575,lng:108.9208 }, 'camel','陝西
 	,image:''
 	,referenceUrl:''});
 
-markers.camel13 = createMarker({ lat:    34.3253,lng:108.6877 }, 'camel','陝西咸陽',{ A:['camel'],B:['秦漢'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
+markers.camel13 = createMarker({ lat:    34.3453,lng:108.6877 }, 'camel','陝西咸陽',{ A:['camel'],B:['秦漢'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'上林苑是漢武帝時期修建的皇家園林，其中飼養著許多奇珍異獸以供皇帝觀賞和娛樂。根據西漢文學家司馬相如所寫的文章，上林苑中有駱駝、野馬、犀牛、象等動物。在陝西咸陽漢景帝平陵叢葬坑中，考古學家發現了作為陪葬品的33匹駱駝的骸骨。這些骸骨保存地非常完成，可以推測是漢景帝生前擁有的觀賞動物。'  
 	,description_en:'The Shanglin Garden 上林苑 was a royal garden built during the reign of Emperor Wu of the Han Dynasty 漢武帝. A lot of exotic animals were kept in the Shanglin Garden for the Emperor\'s viewing and entertainment. According to an article written by Sima Xiangru 司馬相如, a literateur of the Western Han Dynasty 西漢, there were camels, wild horses, rhinos, elephants raised in the Shanglin Garden.Archaeologists discovered the bones of 33 camels in the burial pit of the Pingling Mausoleum 平陵 of Emperor Jing of the Han Dynasty 漢景帝 in Xianyang 咸陽, Shaanxi 陝西. The preservation of these bones is very complete, and it can be speculated that they were ornamental animals owned by Emperor Jing of the Han Dynasty during his lifetime. '
@@ -122,7 +122,7 @@ markers.camel15 = createMarker({ lat:	41.9480,lng:101.0497 }, 'camel','內蒙古
 	,image:''
 	,referenceUrl:''});
 
-markers.camel16 = createMarker({ lat:	34.5386,lng:69.1375 }, 'camel','阿富汗喀布爾',{ A:['camel'],B:['秦漢'],C:['交通運輸'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.camel16 = createMarker({ lat:	34.5586,lng:69.1575 }, 'camel','阿富汗喀布爾',{ A:['camel'],B:['秦漢'],C:['交通運輸'],D:['陸上絲綢之路'],E:['中亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'｢駱駝載樂｣畫像磚，1979年出土於四川成都，現存於四川博物院。這件畫像磚上描繪了一匹雙峰駝馱載著一位擊鼓樂手的形象。有學者認為，這件文物的出土意味著東漢時期南方絲綢之路和西北絲綢之路是相連的，而駱駝也作為馱載工具參與到南方絲綢之路的貿易當中。'
     ,description_en:'In 1979, a portrait brick of the Eastern Han Dynasty 東漢 was unearthed in Chengdu 成都, Sichuan Province 四川省, depicting a Bactrian camel carrying a drummer.  Some scholars believe that the excavation of this cultural relic means that the Southern Silk Road and the Northwest Silk Road were connected in the Han Dynasty, and camels also participated in the trade of the Southern Silk Road as a carrying tool.'
@@ -146,7 +146,7 @@ markers.camel18 = createMarker({ lat:	40.2752,lng:111.1941 }, 'camel','內蒙古
 	,image:''
 	,referenceUrl:''});//陕西西安
 
-markers.camel19 = createMarker({ lat:	40.2754,lng:111.2014 }, 'camel','內蒙古托克托縣',{ A:['camel'],B:['秦漢'],C:['宗教信仰'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel19 = createMarker({ lat:	40.2654,lng:111.2014 }, 'camel','內蒙古托克托縣',{ A:['camel'],B:['秦漢'],C:['宗教信仰'],D:['陸上絲綢之路'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'南匈奴歸附東漢後，依然保留了許多遊牧民族的生活習慣。例如，他們在祭祀活動期間會進行賽馬和鬥駱駝等娛樂活動。'  
 	,description_en:'After the Southern Xiongnu 南匈奴 joined the Eastern Han Dynasty 東漢, they still retained some customs of the nomadic people. They would engage in recreational activities such as horse racing and camel fighting during their sacrificial ceremonies.'
@@ -154,7 +154,7 @@ markers.camel19 = createMarker({ lat:	40.2754,lng:111.2014 }, 'camel','內蒙古
 	,image:''
 	,referenceUrl:''});
 
-markers.camel20 = createMarker({ lat:	34.6173,lng:112.4426 }, 'camel','河南洛陽',{ A:['camel'],B:['三國兩晉南北朝' ],C:['身份象徵'],D:['其他'],E:['東亞']},
+markers.camel20 = createMarker(RandomCoords(luoyang), 'camel','河南洛陽',{ A:['camel'],B:['三國兩晉南北朝' ],C:['身份象徵'],D:['其他'],E:['東亞']},
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'魏晉南北朝時期，曹魏、西晉、北魏等政權都曾在洛陽建都。酈道元《水經注》中記載：魏明帝曹叡於皇宮南門外設立兩銅駝，該街道也由此得名｢銅駝街｣。宋代典籍《太平御覽》則引述陸機《洛陽記》中說法：銅駝高約九尺，為東漢時所鑄。雖然銅駝出現的時間有所爭議，但不可否認的是，｢銅駝｣這一地標性建築在漢以後是公認的皇權象徵。'  
 	,description_en:'During the period of the Three Kingdoms 三國, Eastern and Western Jin Dynasties 兩晉, and Northern and Southern Dynasties 南北朝, many government select Luoyang 洛陽 as their capitals, such as Cao Wei 曹魏, Western Jin 西晉, and Northern Wei 北魏. During the reign of Emperor Ming of Wei 魏明帝, two bronze camels were set up outside the south gate of Luoyang Imperial Palace, and the street was also named “Tongtuo 銅駝 (bronze camel) Street”. The bronze camel became a symbol of imperial power after the Han Dynasty.'
@@ -162,7 +162,7 @@ markers.camel20 = createMarker({ lat:	34.6173,lng:112.4426 }, 'camel','河南洛
     ,image:''
 	,referenceUrl:''});
 
-markers.camel21 = createMarker({ lat:	37.5922,lng:108.7901 }, 'camel','陝西靖邊',{ A:['camel'],B:['三國兩晉南北朝'],C:['身份象徵'],D:['其他'],E:['東亞'] },
+markers.camel21 = createMarker({ lat:	37.5822,lng:108.7901 }, 'camel','陝西靖邊',{ A:['camel'],B:['三國兩晉南北朝'],C:['身份象徵'],D:['其他'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'匈奴人赫連勃勃建立了五胡十六國中的胡夏政權。龍昇七年（公元413年），赫連勃勃建都統萬城（陝西靖邊），並仿效漢人政權，於宮殿前設置銅鑄大鼓、飛廉、翁仲、銅駝等物。'  
     ,description_en:'Helian Bobo 赫連勃勃 founded the Xiongnu 匈奴 authority named Hu Xia 胡夏. In 413, he built the captical at Tongwancheng 統萬城 (present-day Jingbian 靖邊, Shaanxi 陝西), and imitated the Han people to build palaces and set up bronze camels.'
@@ -170,7 +170,7 @@ markers.camel21 = createMarker({ lat:	37.5922,lng:108.7901 }, 'camel','陝西靖
     ,image:''
 	,referenceUrl:''});
 
-markers.camel22 = createMarker({ lat:	40.1346,lng:94.6459 }, 'camel','甘肅敦煌',{ A:['camel'],B:['三國兩晉南北朝' ],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞']},
+markers.camel22 = createMarker({ lat:	40.1346,lng:94.6559 }, 'camel','甘肅敦煌',{ A:['camel'],B:['三國兩晉南北朝' ],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞']},
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'魏晉南北朝時期，人們已經發現駱駝在西北地區沙漠環境中有不可替代的價值，並在前往西域的路途中大量騎乘駱駝。敦煌是前往西域的重要關口。在西晉的文獻中，敦煌以西前往外國途中有廣袤的沙漠，而駱駝可以探知沙漠中的地下水。駱駝一旦發現水源便會停止不前，並用四足踏地的方式提醒人們。在北魏的文獻中，且末（今新疆且末縣）被沙漠所包圍，夏季時常有沙塵暴。商旅攜帶的駱駝預知到沙塵暴來襲時，便會圍在一起，將口鼻埋在沙中。這時人也會和駱駝一起，模仿駱駝的樣子用毛氈掩蓋口鼻，等待風沙停止，否則會有生命危險。'  
 	,description_en:'After the Han Dynasty 漢朝, people had already realised the irreplaceable value of camels in the desert environment of the northwestern region, and rised them extensively on the way to the Western Regions.Dunhuang 敦煌 was an important port for travelling to the Western Regions. In Western Jin 西晉 literature, there were vast deserts between Dunhuang and foreign countries, and camels could detect underground water in the desert. Once the camels found a water source, they would stop and alert people by stamping on the ground with all four feet.In Northern Wei 北魏 texts, the Qiemo 且末 (present-day Qiemo County 且末縣, Xinjiang 新疆) was surrounded by desert, and sandstorms were common in the summer. When the camels carried by the merchants predicted the sandstorms, they would gather together and bury their mouths and noses in the sand. At this time, people will also be with the camels, imitating the camels with blankets to cover their noses and mouths, waiting for the sandstorm to stop, otherwise, it would be life-threatening.'
@@ -178,7 +178,7 @@ markers.camel22 = createMarker({ lat:	40.1346,lng:94.6459 }, 'camel','甘肅敦�
 	,image:''
 	,referenceUrl:''});//河南開封
 
-markers.camel23 = createMarker({ lat:	37.5938,lng:108.7946}, 'camel','陝西靖邊',{ A:['camel'],B:['三國兩晉南北朝'],C:['軍事'],D:['其他'],E:['東亞'] },
+markers.camel23 = createMarker({ lat:	37.5838,lng:108.8046}, 'camel','陝西靖邊',{ A:['camel'],B:['三國兩晉南北朝'],C:['軍事'],D:['其他'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'公元427年，北魏太武帝拓跋燾攻破胡夏都城統萬城（今陝西靖邊），胡夏滅亡。拓跋燾認為秦隴地區水草優良，在此地設置官方牧場。據北魏的歷史記載，此地畜產有馬二百萬餘匹、駱駝一百萬餘頭。'  
 	,description_en:'In 427, Tuoba Tao 拓跋燾, the Emperor Taiwu of the Northern Wei 北魏太武帝, captured the Tongwancheng 統萬城 (present-day Jingbian 靖邊, Shaanxi 陝西)and destroyed the Hu Xia Dynasty 胡夏. He later set up an official ranch here, recording two million horses and one million camels at its peak.'
@@ -186,7 +186,7 @@ markers.camel23 = createMarker({ lat:	37.5938,lng:108.7946}, 'camel','陝西靖�
 	,image:''
 	,referenceUrl:''});//北京
 
-markers.camel24 = createMarker({ lat:	41.7137,lng:82.9605 }, 'camel','新疆庫車',{ A:['camel'],B:['三國兩晉南北朝' ],C:['軍事'],D:['陸上絲綢之路'],E:['東亞']},
+markers.camel24 = createMarker({ lat:	41.7237,lng:82.9605 }, 'camel','新疆庫車',{ A:['camel'],B:['三國兩晉南北朝' ],C:['軍事'],D:['陸上絲綢之路'],E:['東亞']},
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'太平真君六年（公元445年），北魏將領萬度歸率領五千騎兵，從涼州（今甘肅武威）出發向西穿越沙漠，進攻西域。萬度歸先後擊敗了焉耆（今新疆焉耆）和龜茲（今新疆庫車）繳獲馬、駱駝等牲畜數萬頭。此戰以後，北魏完全掌握了陸上絲綢之路東段的主導權。'  
 	,description_en:'In 445, Wan Dugui 萬度歸, a general of the Northern Wei Dynasty 北魏, led 5,000 cavalry to attack the Western Regions by crossing the desert from Liangzhou 涼州 (present-day Wuwei, Gansu). He defeated Karasahr (present-day Yanqi 焉耆, Xinjiang 新疆) and Kucha (present-day Kuche 庫車, Xinjiang) and seized tens of thousands of livestock such as horses and camels. After this battle, the Northern Wei Dynasty completely dominated the eastern section of the Continental Silk Road.'
@@ -194,7 +194,7 @@ markers.camel24 = createMarker({ lat:	41.7137,lng:82.9605 }, 'camel','新疆庫�
     ,image:''
 	,referenceUrl:''});//浙江杭州,北京
 
-markers.camel25 = createMarker({ lat:	41.7114,lng:82.9664 }, 'camel','新疆庫車',{ A:['camel'],B:['三國兩晉南北朝'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel25 = createMarker({ lat:	41.7214,lng:82.9664 }, 'camel','新疆庫車',{ A:['camel'],B:['三國兩晉南北朝'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'根據北魏的歷史記載，龜茲（今新疆庫車）曾經遣使進貢七十頭｢名駝｣。｢名駝｣又稱｢明駝｣、｢鳴駝｣，在南北朝時期廣泛出現在文字記載中。北魏樂府詩《木蘭辭》中便有｢願借明駝千里足｣一語。唐代《酉陽雜俎》認為，｢明駝｣是指駱駝伏地時腹不觸地，有光從足間漏出，｢名駝｣和｢鳴駝｣應為訛稱。'  
 	,description_en:'Kucha (presen-day Kuche 庫車, Xinjiang 新疆) once sent 70 “mingtuo 明駝” (bright camels) as tributes to Northern Wei 北魏. The “bright camel’ may describe the situation that the light passing between the legs when camel kneeling. '
@@ -218,7 +218,7 @@ markers.camel27 = createMarker({ lat:	33.3089,lng:44.3642 }, 'camel','伊拉克�
 	,image:''
 	,referenceUrl:''});//廣東廣州，北京
 
-markers.camel28 = createMarker({ lat:	34.6106,lng:112.4518 }, 'camel','河南洛陽',{ A:['camel'],B:['三國兩晉南北朝'],C:['農業生產'],D:['其他'],E:['東亞'] },
+markers.camel28 = createMarker(RandomCoords(luoyang), 'camel','河南洛陽',{ A:['camel'],B:['三國兩晉南北朝'],C:['農業生產'],D:['其他'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'北魏太和十八年（公元488年），京都地區遭受嚴重的旱災，再加上牛疫流行，當地農民選擇駱駝代替牛進行耕種。'  
 	,description_en:'In 488, the capital of Northern Wei 北魏 suffered a severe drought and cattle epidemic. Farmers used camels for cultivating instead cattles.'
@@ -274,7 +274,7 @@ markers.camel34 = createMarker({ lat:	35.0027,lng:104.6349 }, 'camel','甘肅隴
     ,image:''
 	,referenceUrl:''});
 
-markers.camel35 = createMarker({lat:47.4242,lng:102.6966 }, 'camel','蒙古鄂爾渾河谷',{ A:['camel'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel35 = createMarker({lat:47.4242,lng:102.7166 }, 'camel','蒙古鄂爾渾河谷',{ A:['camel'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'唐朝初期，突厥是來自北方的最主要威脅。唐朝和突厥各部落之間時而和平、時而戰爭。唐太宗時期，薛延陀部落曾經獻馬五萬匹、牛和駱駝一萬頭、羊十萬隻以請求和親。'  
      ,description_en:'In the early Tang Dynasty 唐朝, the Turkic Khaganate was the most important threat from the north. There were times of peace and war between the Tang Dynasty and the Turkic tribes. During the period of Emperor Taizong of the Tang Dynasty 唐太宗, the Xueyantuo 薛延陀 tribe once offered 50,000 horses, 10,000 cattle and camels, and 100,000 sheep as tribute, to ask for "heqin 和親" (marriage alliance).'
@@ -282,7 +282,7 @@ markers.camel35 = createMarker({lat:47.4242,lng:102.6966 }, 'camel','蒙古鄂�
      ,image:''
      ,referenceUrl:''});
 
-markers.camel36 = createMarker({ lat:	41.7125,lng:82.9638 }, 'camel','新疆庫車',{ A:['camel'],B:['唐'],C:['宗教信仰'],D:['其他'],E:['東亞'] },
+markers.camel36 = createMarker({ lat:	41.7125,lng:82.9538 }, 'camel','新疆庫車',{ A:['camel'],B:['唐'],C:['宗教信仰'],D:['其他'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'龜茲位於如今的新疆庫車，是古代西域國家之一。龜茲國在新年時有長達七日的慶祝活動，在此期間會鬥牛、馬、駱駝作樂，並通過勝負來占卜下一年的畜牧情況。'  
      ,description_en:'Kucha, located in present-day Kuche 庫車, Xinjiang 新疆, was one of the ancient kingdoms in Western Regions. Kucha has a seven-day celebration in the New Year. During this period, there were bulls, horses, and camels fightings, and the results will be used to predict the animal husbandry situation in the next year.'
@@ -290,7 +290,7 @@ markers.camel36 = createMarker({ lat:	41.7125,lng:82.9638 }, 'camel','新疆庫�
      ,image:''
      ,referenceUrl:''});
 
-markers.camel37 = createMarker({ lat:37.1004,lng:79.9154}, 'camel','新疆和田',{ A:['camel'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel37 = createMarker({ lat:37.1004,lng:79.9254}, 'camel','新疆和田',{ A:['camel'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'于闐位於如今的新疆和田，是古代西域國家之一。唐玄宗執政時期，于闐曾向唐朝進貢過馬和駱駝。'  
      ,description_en:'Khotan, located in present-day Hetian 和田, Xinjiang 新疆, was one of the ancient kingdoms in Western Regions. During the period of Emperor Xuanzong of the Tang Dynasty 唐玄宗, the Khotan once sent horses and camels as tributes to the Tang Dynasty.'
@@ -339,7 +339,7 @@ markers.camel42 = createMarker({ lat:38.8528,lng:115.4610}, 'camel','河北保�
      ,image:''
      ,referenceUrl:''});    
 
-markers.camel43= createMarker({lat:42.9453,lng:89.1707 }, 'camel','新疆吐魯番',{ A:['camel'],B:['宋'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel43= createMarker({lat:42.9453,lng:89.1607 }, 'camel','新疆吐魯番',{ A:['camel'],B:['宋'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'唐滅亡以後，一部分遷入的回鶻人在甘州（今甘肅張掖）建立政權。北宋時期，大量的甘州回鶻商人以駱駝馱載貨物，往來於中原和西域之間進行貿易。党項人崛起建立西夏後，時常劫掠回鶻商人，陸上絲綢之路東段的貿易因此受到嚴重打擊。'  
      ,description_en:'After the fall of the Tang Dynasty 唐朝, Chinese history once again entered a short period of division known as the "Five Dynasties and Ten Kingdoms 五代十國". At this time, the Khitan people in the north grew up and established the Liao Dynasty 遼朝. In 945, Emperor Taizong of the Liao Dynasty 遼太宗 led his army southward to attack Later Jin 後晉, fighting at Yangcheng 陽城 (present-day Baoding 保定, Hebei 河北). At the crucial moment, a storm burst out and the wind was against the Khitan army. The generals of the Later Jin took the opportunity to lead their knights to charge the Liao\'s encirclement. As a result, the Liao army was defeated and Emperor Taizong of the Liao Dynasty escaped by riding a white camel.'
@@ -355,7 +355,7 @@ markers.camel44 = createMarker({lat:42.9432,lng:89.1728  }, 'camel','新疆吐�
      ,image:''
      ,referenceUrl:''});
 
-markers.camel45 = createMarker({ lat:	41.7147,lng:82.9611}, 'camel','新疆庫車',{ A:['camel'],B:['宋'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel45 = createMarker({ lat:	41.7047,lng:82.9311}, 'camel','新疆庫車',{ A:['camel'],B:['宋'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'龜茲位於如今的新疆庫車，是古代西域國家之一。據記載，龜茲曾向宋朝進貢過名馬、單峰駝以及各種玉石。'  
      ,description_en:'Kucha, located in present-day Kuche 庫車, Xinjiang 新疆, was one of the ancient kingdoms in Western Regions. According to the historical records, Kucha contributed good horses, dromedary camels, and various kinds of jade to the Song Dynasty 宋朝.'
@@ -411,7 +411,7 @@ markers.camel51 = createMarker({lat:34.7847,lng:114.2722 }, 'camel','河南開�
      ,image:''
      ,referenceUrl:''});
 
-markers.camel52 = createMarker({lat:39.9171,lng:116.3797 }, 'camel','北京',{ A:['camel'],B:['元'],C:['身份象徵'],D:['其他'],E:['東亞'] },
+markers.camel52 = createMarker(RandomCoords(beijing), 'camel','北京',{ A:['camel'],B:['元'],C:['身份象徵'],D:['其他'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'元朝皇帝的儀仗隊中，有六頭裝有蓮座的大象，這些大象由六名南越軍人牽引。其後是九頭有彩旗裝飾的駱駝。皇帝出行時，九個駱駝騎手會擊鼓以壯聲勢，這種駱駝被稱為｢駝鼓｣。元代宮廷畫家劉貫道所繪製的《元世祖出獵圖》創作於至元十七年（公元1280年），其內容為元世祖忽必烈和自己的皇后及一眾隨從打獵的場景。在繪畫的上半部分，可以看到一支為皇帝攜帶物資的駱駝隊伍。'  
      ,description_en:'"The emperor’s guard of honour in the Yuan Dynasty 元朝 included six elephants setting lotus form seats and nine camels decorated with colour flags. When the emperor was traveling, the camel riders would beat the drums to make their presence felt. Therefore, these camels were also called “tuogu 駝鼓”(camel drums).The ""Scroll Painting of Yuan Dynasty Ancestor Go Hunting"" was painted in 1280 by the court painter Liu Guandao 劉貫道. This painting shows the Kublai Khan on his hunting trip with his empress and a group of servants. In the upper part of the painting, we can see a troop of camels carrying supplies for the emperor."'
@@ -429,7 +429,7 @@ markers.camel53 = createMarker({lat:39.6527,lng:66.9909 }, 'camel','烏茲別克
      ,image:''
      ,referenceUrl:''});     
 
-markers.camel54 = createMarker({lat:39.9175,lng:116.3767}, 'camel','北京',{ A:['camel'],B:['明'],C:['朝貢'],D:['其他'],E:['東亞'] },
+markers.camel54 = createMarker(RandomCoords(beijing), 'camel','北京',{ A:['camel'],B:['明'],C:['朝貢'],D:['其他'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'明代建立了詳細的朝貢和回賜制度。進獻的駱駝需要先由會同館和典牧所評判品質，選取優良的駱駝在朝堂上陳列。經皇帝檢閱後再發往內府各部門交收。到萬曆年間，駱駝不再於朝堂上檢閱，而是核查後直接發往不同部門。而回賜一般為絲織品，通常情況下每頭駱駝回賜彩段三表裏或四表裏。'  
      ,description_en:'The Ming Dynasty 明朝 established a detailed tribute system. The camels in tributes would be assessed by Huitongguan 會同館 and Dianmusuo 典牧所. The best camels were selected to be displayed to the emperor in the court.  During the Wanli 萬曆 period, the review on court was cancelled, and the camels were directly received by different departments. Usually, the “huici 回賜” for camels were coloured silk and satin.'
@@ -438,7 +438,7 @@ markers.camel54 = createMarker({lat:39.9175,lng:116.3767}, 'camel','北京',{ A:
      ,image_content:''
 ,referenceUrl:''});  
 
-markers.camel55 = createMarker({lat: 47.7317,lng:96.8148}, 'camel','蒙古烏里雅蘇臺',{ A:['camel'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel55 = createMarker({lat: 47.7317,lng:96.8348}, 'camel','蒙古烏里雅蘇臺',{ A:['camel'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'瓦剌是興起於蒙古西部的蒙古部落。正統三年（公元1438年），明朝在大同開設馬市，從瓦剌進口馬和駱駝。'  
      ,description_en:'Oirat was the Mongol group that emerged from the western part of Mongolia. In 1438, the Ming Dynasty 明朝 opened the horse market in Datong 大同, and traded with Oiratr to import horses and camels.'
@@ -446,7 +446,7 @@ markers.camel55 = createMarker({lat: 47.7317,lng:96.8148}, 'camel','蒙古烏里
      ,image:''
      ,referenceUrl:''});  
 
-markers.camel56 = createMarker({lat:39.6547,lng:66.9949}, 'camel','烏茲別克斯坦撒馬爾罕',{ A:['camel'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.camel56 = createMarker({lat:39.6547,lng:66.9749}, 'camel','烏茲別克斯坦撒馬爾罕',{ A:['camel'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'明太祖朱元璋在位時，曾多次派使節前往撒馬爾罕。直到洪武二十年（公元1387年），統治此地的蒙古人帖木兒首次向明朝貢十五匹馬和兩頭駱駝。此後，撒馬爾罕經常遣使朝貢。'  
      ,description_en:'Emperor Taizu of the Ming Dynasty 明太祖 once sent envoys to Samarkand several times. It wasn\'t until 1387 that the Mongols, who ruled the Samarkand, first paid tribute to the Ming Dynasty 明朝. The tribute included fifteen horses and two camels.'
@@ -462,7 +462,7 @@ markers.camel57 = createMarker({lat:42.8745,lng:93.4601 }, 'camel','新疆哈密
      ,image:''
      ,referenceUrl:''});     
 
-markers.camel58 = createMarker({lat:37.1053,lng:79.9172 }, 'camel','新疆和田',{ A:['camel'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel58 = createMarker({lat:37.1053,lng:79.9272 }, 'camel','新疆和田',{ A:['camel'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'于闐位於如今新疆和田。明朝時，于闐商人經常冒充貢使，攜帶大量馬、駝、玉石等物進入中國。其沿途差旅費用由明朝廷負責，並在返回途中多次停留售賣貨物。明仁宗朱高熾得知後命官員斥責這些于闐商人，其後來自于闐的朝貢逐漸減少。'  
      ,description_en:'Khotan was located in present-day Hetian 和田, Xinjiang 新疆. Khotan merchants often pretended to be tribute envoys and brought a large number of horses, camels, jade, and other goods into China. The travel expenses along the way were reimbursed by the Ming government, and they often sold goods to residents on their way back. The Hongxi Emperor learned that situation later and ordered officials to reprimand these Khotan merchants. After that, the tribute from Khotan gradually declined.'
@@ -510,7 +510,7 @@ markers.camel63 = createMarker({lat:	14.5365,lng:49.1137 }, 'camel','也門穆�
      ,image:''
      ,referenceUrl:''});  
      
-markers.camel64 = createMarker({lat:40.0175,lng:116.3677}, 'camel','北京',{ A:['camel'],B:['清'],C:['交通運輸'],D:['其他'],E:['東亞'] },
+markers.camel64 = createMarker({lat:39.9775,lng:116.2877}, 'camel','北京',{ A:['camel'],B:['清'],C:['交通運輸'],D:['其他'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'清代北京地區冬季主要依靠煤來取暖，這些燃料主要是由駱駝來運輸的。這些｢煤駱駝｣夏季在北京西山牧養，冬季便結成駝隊，每日進城售賣煤炭。北京的｢煤駱駝｣在峰值時可達一千八百頭。'  
      ,description_en:'During the Qing Dynasty 清朝, the Beijing 北京 area mainly relied on coal for heating in winter, and the fuel was mainly transported by camels. These "coal camels" are herded in the Western Mountain of Beijing in summer, and going to the city every day to sell coal in winter. Beijing\'s "coal camels" could reach 1800 at their peak.'
@@ -518,7 +518,7 @@ markers.camel64 = createMarker({lat:40.0175,lng:116.3677}, 'camel','北京',{ A:
      ,image:''
      ,referenceUrl:''});      
 
-markers.camel65 = createMarker({lat:47.7337,lng:96.8128}, 'camel','蒙古烏里雅蘇臺',{ A:['camel'],B:['清'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel65 = createMarker({lat:47.7397,lng:96.8328}, 'camel','蒙古烏里雅蘇臺',{ A:['camel'],B:['清'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'清王朝的駱駝很多來自於蒙古各部落的朝貢。崇德三年（公元1638年），喀爾喀三汗向清太宗皇太極進貢｢九白｣，即一頭白駱駝和八匹白馬。由此｢九白｣成為清代蒙古部落朝貢的慣例。'  
      ,description_en:'Many camels in Qing Dynasty 清朝 came from different Mongolian tribes as tribute. In 1638, the Khalka Mongolians paid tribute to Huang Taiji 皇太極 with “jiubai 九白” (nine white), which means one white camel and eight white horses. Since then, the "jiubai" became the tribute standard from Mengolians in Qing Dynasty.'
@@ -571,17 +571,6 @@ for (var i = 0; i < camels.length; i++) {
 
 // 定义新坐标和初始坐标
 
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
-    return Math.random() * (max - min) + min;
-}
-
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
-    var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
-    var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
-    return { lat: randomLat, lng: randomLng };
-}
 
 var newCoords_camel3_1= {lat:25.6846,lng:32.6372};
 var newCoords_camel3_2= {lat:36.7456,lng:10.1206};
@@ -598,7 +587,6 @@ var newCoords_camel6_3= {lat:36.7436,lng:10.1226};
 var newCoords_camel7_1= {lat:33.4460,lng:43.1909};
 var newCoords_camel7_2= {lat:36.1633,lng:54.3171};
 var newCoords_camel7_3= {lat:37.9633,lng:58.0854};
-var xian= {lat:34.2655,lng:108.9508};//西安
 var newCoords_camel10_1= RandomCoords(xian);
 var newCoords_camel11_1= RandomCoords(xian);
 var newCoords_camel14_1= {lat:40.3798,lng:71.7080};
@@ -609,7 +597,6 @@ var newCoords_camel16_2= {lat:24.3810,lng:98.5553};
 var newCoords_camel16_3= {lat:24.9959,lng:102.7155};
 var newCoords_camel16_4= {lat:30.6299,lng:104.0493};
 var newCoords_camel17_1= RandomCoords(xian);
-var luoyang= {lat:34.6321,lng:112.4470}//洛阳
 var newCoords_camel18_1= RandomCoords(luoyang);
 var newCoords_camel22_1= {lat:38.1650,lng:85.4808};
 var newCoords_camel24_1= {lat:42.0643,lng:86.4965};
@@ -630,7 +617,7 @@ var newCoords_camel39_1= {lat:29.7077,lng:115.9634};
 var newCoords_camel41_1= RandomCoords(luoyang);
 var newCoords_camel41_2= {lat:39.4826,lng:115.9634};
 
-var kaifeng ={lat:34.7872,lng:114.3081};//开封
+
 var newCoords_camel43_1= RandomCoords(luoyang);
 var newCoords_camel43_2= RandomCoords(kaifeng);
 var newCoords_camel44_1= RandomCoords(kaifeng);
@@ -646,7 +633,7 @@ var newCoords_camel51_1= {lat:22.2669,lng:109.9823};
 
 var newCoords_camel53_1={lat:35.8596,lng:102.4197};
 
-var beijing ={lat:39.9171,lng:116.3797};//北京
+
 var newCoords_camel55_1= {lat:40.0903,lng:113.2223};
 var newCoords_camel56_1= {lat:32.0853,lng:118.7328}
 var newCoords_camel57_1= RandomCoords(beijing);
@@ -661,25 +648,6 @@ var newCoords_camel63_1= RandomCoords(beijing);
 
 var newCoords_camel65_1= {lat:41.8148,lng:123.3677};
 var newCoords_camel68_1= {lat:40.9865,lng:113.1296};
-
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1130	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:11.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:11.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:119.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
-
 
 function getInitialCoords(camel) {
     const position = camel.getPosition();

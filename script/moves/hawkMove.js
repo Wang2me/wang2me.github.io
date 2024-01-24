@@ -114,7 +114,7 @@ markers.hawk6 = createMarker({ lat:43.9702,lng:128.6424}, 'hawk','黑龍江寧�
 {
 
      
-   markers.hawk10 = createMarker({ lat:39.9028,lng:116.4036 }, 'hawk','北京',{ A:['hawk'],B:['元'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
+   markers.hawk10 = createMarker(RandomCoords(beijing), 'hawk','北京',{ A:['hawk'],B:['元'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'元朝由蒙古人建立，是中國歷史上第一個由遊牧民族建立的大一統王朝。狩獵是蒙古文化中流行的娛樂活動。在當時的中國北方，人們開發出一種獵鷹和獵狗配合的狩獵技術。元朝設立了專門的部門來管理獵鷹的飼養，甚至修訂了有關法律來規範養鷹人的行為。'  
     ,description_en:'The Yuan Dynasty 元朝, founded by the Mongols, was the first unified dynasty in Chinese history founded by nomadic peoples. Hunting was a popular entertainment in Mongolian culture. In northern China at that time, people developed a hunting technique that combined falcons with hounds. The Yuan Dynasty set up a special department to manage the breeding of falcons and even amended the relevant laws to regulate the behavior of the raiser.'
@@ -146,7 +146,7 @@ markers.hawk12 = createMarker({lat:21.4214,lng:39.8069}, 'hawk','沙特阿拉伯
 
 //明
 {
-markers.hawk13 = createMarker({lat:42.9455,lng:89.1735}, 'hawk','新疆吐魯番',{ A:['hawk'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.hawk13 = createMarker({lat:42.9555,lng:89.1735}, 'hawk','新疆吐魯番',{ A:['hawk'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'永樂六年（公元1408年），吐魯番的僧人第一次向明朝朝貢。一共有八名僧人獲得了永樂皇帝的賞賜。此後，吐魯番的僧人經常向明朝進貢。他們帶來的貢品中就有獵鷹。'  
  ,description_en:'In 1408, the monks from Turpan (present-day Tulufan 吐魯番, Xinjiang 新疆) paid tribute to the Ming Dynasty 明朝 for the first time. A total of eight monks were rewarded by the Yongle Emperor 永樂皇帝. Since then, the monks of Turpan regularly paid tribute to the Ming Dynasty. Falcons were one of the tributes that they brought.'
@@ -195,28 +195,6 @@ for (var i = 0; i < hawks.length; i++) {
 }
 
 
-
-// 定义新坐标和初始坐标
-
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
-
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
-
-var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:112.4470}//洛阳
-var kaifeng ={lat:34.7872,lng:114.3081};//开封
-var beijing ={lat:39.9171,lng:116.3797};//北京
-
-
-
 var newCoords_hawk6_1= RandomCoords(xian);
 
 var newCoords_hawk8_1= RandomCoords(kaifeng);
@@ -232,27 +210,6 @@ var newCoords_hawk14_1= RandomCoords(beijing);
 var newCoords_hawk15_1= RandomCoords(beijing);
 
 
-
-
-
-
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1130	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:11.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:11.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:119.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
 
 
 function getInitialCoords(hawk) {

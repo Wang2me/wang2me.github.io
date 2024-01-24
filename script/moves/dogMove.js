@@ -40,7 +40,7 @@ markers.dog4 = createMarker({ lat: 28.4503,lng:117.9395 }, 'dog','江西上饒',
  ,image:''
  ,referenceUrl:''});		
 
-markers.dog5 = createMarker({lat:36.0957,lng:114.3529}, 'dog','河南安陽',{ A:['dog'], B:['史前至夏商周'],C:['農業生產'],D:['其他'],E:['東亞'] },
+markers.dog5 = createMarker({lat:36.1057,lng:114.3529}, 'dog','河南安陽',{ A:['dog'], B:['史前至夏商周'],C:['農業生產'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'狗作為陪葬犧牲在晚商的喪葬風俗中非常流行。考古學家針對河南安陽殷墟出土狗骸骨進行研究，發現可以檢測年齡的84隻個體中大部分不足一歲。這一發現說明商代人偏好使用幼犬作為陪葬犧牲。'  
  ,description_en:'Dogs as burial sacrifices were very popular in the funeral customs of the Late Shang Dynasty 商朝. Archaeologists studying dog skeletons excavated from the site of Yinxu in Anyang, Henan Province, found that most of the 84 individuals whose ages could be detected were less than one year old. This finding illustrates the Shang people\'s preference for using young dogs as burial sacrifices.'
@@ -92,7 +92,7 @@ markers.dog10 = createMarker({ lat:34.3336,lng:108.7082 }, 'dog','陝西咸陽',
  ,image:''
  ,referenceUrl:''});
 
- markers.dog11 = createMarker({ lat:34.6149,lng:112.4546 }, 'dog','河南洛陽',{ A:['dog'],B:['秦漢'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
+ markers.dog11 = createMarker(RandomCoords(luoyang), 'dog','河南洛陽',{ A:['dog'],B:['秦漢'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'漢靈帝也是知名的愛狗人士。根據史書記載，他給自己的狗戴進賢冠（一種漢代的禮帽）並配綬帶，和大臣們的服飾相同。這可能是歷史上最早的寵物狗服裝。'  
  ,description_en:'Emperor Ling of the Han Dynasty 漢靈帝 was also a well-known dog lover. According to historical records, he dressed his dogs in top hats and ribbons, the same as the ministers\' costumes. These may be the earliest pet dog clothes in history.'
@@ -137,7 +137,7 @@ markers.dog15 = createMarker({ lat:39.6421,lng:66.9752 }, 'dog','烏茲別克斯
  ,referenceUrl:''});
 //甘肅武威，河南洛陽	-lat:37.9316111,lng:102.6251
 
-markers.dog16 = createMarker({ lat:34.6140,lng:112.4413}, 'dog','河南洛陽',{ A:['dog'],B:['三國兩晉南北朝'],C:['交通運輸'],D:['其他'],E:['東亞'] },
+markers.dog16 = createMarker(RandomCoords(luoyang), 'dog','河南洛陽',{ A:['dog'],B:['三國兩晉南北朝'],C:['交通運輸'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:' 陸機是西晉著名文學家。傳說他在洛陽做官時，曾有一隻名為｢黃耳｣的黃犬。黃耳曾多次多次往返於洛陽和吳郡（今江蘇蘇州）之間，為陸機傳遞信件。｢黃犬｣因此成為漢語中的典故，意為家書。	'  
  ,description_en:'Lu Ji 陸機 was a famous literatus of the Western Jin Dynasty 西晉. A legend says that when he was an official in Luoyang 洛陽, he had a yellow dog named "Huang Er 黃耳" (Yellow Ear). The Huang Er traveled between Luoyang and Wujun (present-day Suzhou, Jiangsu) many times to deliver letters for him. Therefore, the phrase "yellow dog" became an allusion in the Chinese language, meaning family letters.'
@@ -230,7 +230,7 @@ markers.dog25 = createMarker({lat:35.7208,lng:51.32420 }, 'dog','伊朗德黑蘭
   ,image:''
   ,referenceUrl:''});
 
-markers.dog26 = createMarker({ lat:39.7681,lng:64.4522 }, 'dog','烏茲別克斯坦布拉哈',{ A:['dog'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.dog26 = createMarker({ lat:39.7481,lng:64.4522 }, 'dog','烏茲別克斯坦布拉哈',{ A:['dog'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'安國是古代西域國家之一，位於現在烏茲別克斯坦的布哈拉。武則天執政時期，安國向中國朝貢了一隻兩頭犬。'  
   ,description_en:'The An Kingdom 安國 was one of the states in  ancient Western Regions, located in present-day Bukhara, Uzbekistan. During the period of Wu Zetian 武則天, the An Kingdom paid tribute to China with a two-headed dog.'
@@ -290,7 +290,7 @@ markers.dog32 = createMarker({ lat:34.8038,lng:114.3476}, 'dog','河南開封',{
  ,image:''
  ,referenceUrl:''});		
 
-markers.dog33 = createMarker({lat:30.2734,lng:120.1270 }, 'dog','浙江杭州',{ A:['dog'],B:['宋'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
+markers.dog33 = createMarker({lat:30.2734,lng:120.1370 }, 'dog','浙江杭州',{ A:['dog'],B:['宋'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'在南宋的都城臨安（今浙江杭州），寵物產業更加繁榮，寵物商品也更加豐富。除了各式各樣的貓糧、狗糧、貓窩、狗窩外，部分商戶還提供為貓狗理髮的服務。'  
  ,description_en:'In Lin\'an 臨安 (present-day Hangzhou 杭州, Zhejiang 浙江), the capital of the Southern Song Dynasty 南宋, the pet industry was more prosperous and the goods for pets were more varied. In addition to the multiple food and houses for pets, some merchants also offered haircutting services for dogs and cats. '
@@ -298,7 +298,7 @@ markers.dog33 = createMarker({lat:30.2734,lng:120.1270 }, 'dog','浙江杭州',{
  ,image:''
  ,referenceUrl:''});		
  
-markers.dog34 = createMarker({ lat:30.2714,lng:120.1240}, 'dog','浙江杭州',{ A:['dog'],B:['宋'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
+markers.dog34 = createMarker({ lat:30.2914,lng:120.1240}, 'dog','浙江杭州',{ A:['dog'],B:['宋'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南宋時期，臨安（今浙江杭州）發展出了獨特的寵物習俗。農曆六月初六，人們帶著自己的貓狗去河邊洗澡。農曆十二月廿五日，人們祭祀灶神，並製作赤豆粥給貓狗分食。'  
  ,description_en:'During the Southern Song Dynasty 南宋, the unique pet custom has been developed in Lin\'an 臨安 (present-day Hangzhou 杭州, Zhejiang 浙江). On the 6th day of the 6th lunar month, people took their cats and dogs to the river to bathe. On the twenty-fifth day of the twelfth lunar month, people make worshiped the Kitchen God and share red bean porridge with cats and dogs.'
@@ -322,7 +322,7 @@ markers.dog36 = createMarker({lat:40.1391,lng:94.6438 }, 'dog','甘肅敦煌',{ 
  ,image:''
  ,referenceUrl:''});
 	  
-markers.dog37 = createMarker({lat:39.9300,lng:116.4015 }, 'dog','北京',{ A:['dog'],B:['宋'],C:['軍事'],D:['其他'],E:['東亞'] },
+markers.dog37 = createMarker(RandomCoords(beijing), 'dog','北京',{ A:['dog'],B:['宋'],C:['軍事'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'兩宋時期，中原王朝受到北方遊牧民族政權的威脅，比如契丹人建立的遼和女真人建立的金。遼和金的軍隊中均飼養有大量軍犬，這些軍犬在夜晚負責軍營的警戒，令宋軍很難有機會偷襲遼軍和金軍。'  
  ,description_en:'The Song Dynasty 宋朝 was threatened by nomadic regimes in the north, such as the Liao Dynasty 遼朝 established by the Khitan and the Jin Dynasty 金朝 established by the Jurchen. Both the Liao and Jin armies had a large number of military dogs, which were responsible for guarding the barracks at night so that the Song army had no chance to sneak up on the Liao and Jin armies.'
@@ -351,7 +351,7 @@ markers.dog39 = createMarker({lat:57.1503,lng:-2.0973 }, 'dog','英國阿伯丁'
 
 //元
 {
-markers.dog40 = createMarker({lat:39.9252,lng:116.3939}, 'dog','北京',{ A:['dog'],B:['元'],C:['宗教信仰'],D:['其他'],E:['東亞'] },
+markers.dog40 = createMarker(RandomCoords(beijing), 'dog','北京',{ A:['dog'],B:['元'],C:['宗教信仰'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元朝的統治者蒙古族保留了許多北方遊牧民族的風俗習慣。在元大都（今北京），每年冬季有「射草狗」的活動。草狗即用乾草製作的一隻狗造型的箭靶，皇室和貴族成員向這隻草狗射箭直至其損毀。射箭完畢後，由蒙古巫師進行祭祀，以祈求祛病消災。'  
  ,description_en:'The Mongols, rulers of the Yuan Dynasty 元朝, retained many of the customs of the nomadic peoples of the north. In the Dadu 大都 (present-day Beijing 北京), there was an annual winter event of "shooting grass dog". Grass Dog was a dog-shaped arrow target made of dry grass. Members of the royal family and nobility shot arrows at the grass dog until it was damaged. After that, Mongolian witches perform rituals to pray for the removal of diseases and calamities.'
@@ -389,7 +389,7 @@ markers.dog43 = createMarker({lat:21.4164,lng:39.8179}, 'dog','沙特阿拉伯�
 
 //明
 {
-markers.dog44 = createMarker({lat:39.9300,lng:116.4015 }, 'dog','北京',{ A:['dog'],B:['明'],C:['文化娛樂'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.dog44 = createMarker(RandomCoords(beijing), 'dog','北京',{ A:['dog'],B:['明'],C:['文化娛樂'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'唐代時從歐洲傳入中國的｢拂菻狗｣，經過數百年的培育，在明代已經成為北京地區的特產。據說哈巴狗就是從｢拂菻狗｣繁育而來的。明代宦官極愛飼養這種小狗，甚至放置在衣袖中隨身攜帶。'  
  ,description_en:'The "Rome dog" was introduced to China from Europe during the Tang Dynasty 唐朝, and after centuries of cultivation, it became the specialty of the Beijing 北京 area during the Ming Dynasty. It\'s said that the pugs were bred from the "Rome dog". Eunuchs in the Ming Dynasty 明朝 were extremely fond of keeping these puppies and even carried them in their sleeves.'
@@ -397,7 +397,7 @@ markers.dog44 = createMarker({lat:39.9300,lng:116.4015 }, 'dog','北京',{ A:['d
  ,image:''
  ,referenceUrl:''}); 
 
-markers.dog45 = createMarker({lat:42.9874,lng:89.1162 }, 'dog','新疆吐魯番',{ A:['dog'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.dog45 = createMarker({lat:42.9574,lng:89.1562 }, 'dog','新疆吐魯番',{ A:['dog'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'哈密位於西域前往中原的交通要道，西域國家向明朝貢都需要經過哈密，哈密使節也經常和其他國家的使節結伴而行。嘉靖三年（公元1524年），西域使者經哈密向明貢犬。'  
  ,description_en:'Hami 哈密 was located on the main traffic route connecting Western Regions and the Ming Dynasty 明朝. The other countries in Western Regions would pass through Hami to pay tribute to the Ming. In 1524, envoys from the Western Regions paid dogs as tributes to Ming Dynasty via Hami.'
@@ -435,7 +435,7 @@ markers.dog48 = createMarker({lat:51.2139,lng:3.2097 }, 'dog','比利時布魯�
 
 //清
 {
-markers.dog49 = createMarker({lat:39.9300,lng:116.4015}, 'dog','北京',{ A:['dog'],B:['清'],C:['文化娛樂'],D:['海上絲綢之路'],E:['東亞'] },
+markers.dog49 = createMarker(RandomCoords(beijing), 'dog','北京',{ A:['dog'],B:['清'],C:['文化娛樂'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'雍正皇帝是清朝皇帝中最知名的愛狗人士。他有兩隻寵物犬，分別名為｢百福｣和｢造化｣，清宮檔案中記錄有十餘條為兩隻犬製作服裝的命令。慈禧太后則喜愛飼養哈巴狗，據說她經常和外國公使夫人們交流養狗經驗。'  
  ,description_en:'The Yongzheng Emperor 雍正 was the most well-known dog lover among the Qing Dynasty 清朝 emperors. He had two pet dogs, and there were more than a dozen orders in the Qing Palace records to make clothes for the two dogs. Empress Dowager Cixi 慈禧太后 loved to keep pugs, and it is said that she often exchanged dog-keeping experiences with the wives of foreign ambassadors.'
@@ -445,7 +445,7 @@ markers.dog49 = createMarker({lat:39.9300,lng:116.4015}, 'dog','北京',{ A:['do
 ,image_content_en:'Qing Dynasty, Green Silk Dog Clothing with Begonia and Chrysanthemum Patterns, housed in Palace Museum'
    ,referenceUrl:''});
 		
- markers.dog50 = createMarker({lat:40.9502,lng:117.9534}, 'dog','河北承德',{ A:['dog'],B:['清'],C:['文化娛樂'],D:['陸上絲綢之路','海上絲綢之路'],E:['東亞'] },
+ markers.dog50 = createMarker({lat:40.9402,lng:117.9534}, 'dog','河北承德',{ A:['dog'],B:['清'],C:['文化娛樂'],D:['陸上絲綢之路','海上絲綢之路'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'清朝皇帝喜愛狩獵，其參與的狩獵活動一般在秋季舉行，被稱為｢木蘭秋狝｣。因此，獵犬也是清朝皇室大量飼養的動物。著名的傳教士郎世寧和艾啟蒙分別創作過《十駿犬圖》，其內容是乾隆皇帝的十隻獵犬。這兩版《十駿犬圖》分別由台北故宮博物院和北京故宮博物院收藏。根據其中的文字信息，乾隆的獵犬大多是來自西藏、蒙古和歐洲的貢品。'  
   ,description_en:'The emperors of the Qing Dynasty 清朝 loved hunting, and the Imperial hunts of the Qing Dynasty were usually held in autumn. Therefore, the hound was also a large number of animals kept in the Qing palace. The famous missionaries Giuseppe Castiglione and Ignatius Sichelbart have each created paintings of the ten hunting dogs of the Qianlong Emperor 乾隆, namely the "Ten Prized Dogs". These two editions of the "Ten Prized Dogs" are in the collections of the National Palace Museum in Taipei and the Palace Museum in Beijing 北京. According to the text, most of Qianlong\'s dogs were tributes from Xizang 西藏, Mongolia, and Europe.'
@@ -472,7 +472,7 @@ markers.dog49 = createMarker({lat:39.9300,lng:116.4015}, 'dog','北京',{ A:['do
     ,image:''
     ,referenceUrl:''}); 
 		
-markers.dog53 = createMarker({lat:23.1247,lng:113.2493}, 'dog','廣東廣州',{ A:['dog'],B:['清'],C:['文化娛樂'],D:['海上絲綢之路'],E:['東亞'] },
+markers.dog53 = createMarker({lat:23.1347,lng:113.2493}, 'dog','廣東廣州',{ A:['dog'],B:['清'],C:['文化娛樂'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'清代外銷瓷在歐美十分流行。歐美商人甚至會來到廣州專門訂製他們想要的瓷器圖案。獵犬是清代外銷瓷器的場景題材之一，相關的收藏品至今在國際拍賣會上仍十分常見。	'  
  ,description_en:'During Qing Dynasty, export porcelains were very popular in Europe and America. European and American merchants would even come to Guangzhou 廣州 to order the porcelain patterns they wanted. Hounds were one of the subjects of export porcelain in the Qing Dynasty, and related collections are still very popular at international auctions.'
@@ -504,22 +504,7 @@ for (var i = 0; i < dogs.length; i++) {
 
 // 定义新坐标和初始坐标
 
-// 定义一个函数，生成指定范围内的随机数
-function getRandomNumber(min, max) {
- return Math.random() * (max - min) + min;
-}
 
-// 定义一个函数，生成新的坐标对象，并添加随机数
-function RandomCoords(coords) {
- var randomLat = coords.lat + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- var randomLng = coords.lng + getRandomNumber(-0.05, 0.05); // 在-0.1到0.1之间生成随机数
- return { lat: randomLat, lng: randomLng };
-}
-
-var xian= {lat:34.2655,lng:108.9508};//西安
-var luoyang= {lat:34.6321,lng:112.4470}//洛阳
-var kaifeng ={lat:34.7872,lng:114.3081};//开封
-var beijing ={lat:39.9171,lng:116.3797};//北京
 
 var newCoords_dog2_1= {lat:25.6906,lng:32.6404};
 var newCoords_dog7_1= {lat:36.6229,lng:114.5243};
@@ -577,23 +562,6 @@ var newCoords_dog53_3= {lat:51.4997,lng:359.8838};
 
 
 
-
-//河西走廊:敦煌-酒泉-张掖-武威
-var dunhuang= { lat:	40.1130	,lng:94.6618 }; 
-var wuwei = {lat:37.9283,lng:102.6371};
-var jiuquan={lat:39.7237,lng:98.3444}
-var zhangye = {lat:38.9177,lng:100.3065};
-//海上絲路：古里-xilan-palk-馬六甲
-var guli ={lat:11.2618,lng:75.7822};
-var xilan={lat:6.9397,lng:79.8259};
-var palk={lat:10.0803,lng:80.1207};
-var maliujia={lat:2.2373,lng:102.1691};
-var kailuo={lat:	30.0444 ,lng:31.2357};
-var kemolin={lat:8.0864,lng:77.5355};
-var jibudi={lat:11.8125,lng:41.9678};
-var taihai={lat:24.2877,lng:119.5445};
-var zhangjiagang={lat:31.8774,lng:120.4609};
-var nanhai={lat:-0.3778,lng:106.0436};
 
 
 function getInitialCoords(dog) {
