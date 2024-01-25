@@ -711,3 +711,23 @@ body {
     color: #ff0000; /* 设置文本颜色为红色 */
   }
 
+
+ 
+.gm-style-iw button {
+margin:10px
+ } 
+.info-window-city{
+    width: 400px;
+    height: 300px;
+}
+#introwindow {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }

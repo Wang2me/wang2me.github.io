@@ -406,46 +406,42 @@ window.onload = function () {
  	
 	// 在指定的地图上创建闪烁的点并带有title
 
+  // var positions = [
+  //   {lat: 39.6327, lng:66.9358 },
+  //    guli, xian, luoyang, beijing,dunhuang,kaifeng,maliujia,nanjing,
+  //   // 添加更多的位置...guazhou,quanzhou,hangzhou,
+  // ];
+  
+  // // Populate the cities array
+  // positions.forEach(function(position, index) {
+  //   var city = createBlinkingMarker(map, position, 'Point ' + (index + 1));
+  //   cities.push(city);
+  // });
 
 // 在给定的位置列表上创建闪烁的点
-var positions = [
-  {lat: 39.6327, lng:66.9358 }, guli, xian, luoyang, beijing
-  // 添加更多的位置...
-];
 
-// positions.forEach(function(position, index) {
-//   createBlinkingMarker(map, position, 'Point ' + (index + 1));
-// });
+createBlinkingMarker(map, xian, '西安', '这是标记点1的信息窗口内容');
+createBlinkingMarker(map, {lat: 39.6327, lng:66.9358 }, '撒馬爾罕', '这是标记111口内容');
+createBlinkingMarker(map, guli, '古里', '这是标记111口内容');
+createBlinkingMarker(map, luoyang, '洛陽', '这是标记111口内容');
+createBlinkingMarker(map, beijing, '北京', '这是标记111口内容');
+createBlinkingMarker(map, kaifeng, '開封', '这是标记111口内容');
+createBlinkingMarker(map, dunhuang, '敦煌', '这是标记111口内容');
+createBlinkingMarker(map, maliujia, '馬六甲', '这是标记111口内容');
+createBlinkingMarker(map, nanjing, '南京', '这是标记111口内容');
+createBlinkingMarker(map,{lat:23.1281782,lng:113.2394}, '廣州', '这是标记111口内容');
+createBlinkingMarker(map, {lat:24.8760838,lng:118.6640}, '泉州', '这是标记111口内容');
+createBlinkingMarker(map, {lat:30.2685609,lng:120.1555}, '杭州', '这是标记111口内容');
 
-    }
-
-	
 
 
-	
-	
-    function createBlinkingMarker(map, position, title) {
-      var marker = new google.maps.Marker({
-          position: position,
-          map: map,
-          title: title
-      });
-    
-      // 使标记点闪烁
-      var count = 0;
-      window.setInterval(function() {
-          if (count % 2 === 0) {
-              marker.setMap(null);
-          } else {
-              marker.setMap(map);
-          }
-          count++;
-      }, 1000); // 设置闪烁时间间隔为500毫秒
-    }
-	
-	
-	
-	
+
+}
+
+// var cities = []; // Declare the cities array outside of any function scope
+
+
+
 	
 	
 	

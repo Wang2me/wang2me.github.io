@@ -27,7 +27,9 @@
 
 
 <body>
-
+    <div id="introwindow">
+        <p>在这里放入城市简介的文字内容</p>
+      </div>
     <!-- 外部容器，放置按钮和选项卡 -->
     <div class="external-container">
 
@@ -54,6 +56,8 @@
     </div>
         <!-- 文字 -->
         <div class="line-button">
+            <div class="line-dis"><input type="checkbox" id="city1" onchange="togglecity('city1')" checked><label for="city">絲綢之路主要城市簡介</label></div>
+
             <div class="line-dis"><input type="checkbox" id="line2" onchange="toggleMultipleLines('line2', line2, line3, line5, line6, line7, line8, line9, line10, line11)" checked><label for="line2">陸上絲綢之路綫路</label></div>
             
             <div class="line-dis"><input type="checkbox" id="line1" onchange="toggleMultipleLines('line1', line4, line1)" checked><label for="line1">海上絲綢之路綫路</label></div>
@@ -169,8 +173,10 @@
 
 
 
+        <button class="category-sub" id="cityButton"onclick="toggleintro()" >城市簡介</button>
        
 
+        <hr width="100%" />
        
 
 

@@ -1287,6 +1287,25 @@ function toggleLines(checkboxId, line) {
       line.setMap(null); // 隐藏折线
     }
   }
+
+  function togglecity(checkboxId) {
+    var checkbox = document.getElementById(checkboxId);
+    if (checkbox.checked) {
+        blinkingMarkers.forEach(function(marker) {
+            marker.setMap(map); // 显示每个标记点
+            if (!marker.blinkInterval) {
+                startBlinking(marker); // 开始闪烁每个标记点
+            }
+        });
+    } else {
+        blinkingMarkers.forEach(function(marker) {
+            stopBlinking(marker); // 停止闪烁每个标记点
+            marker.setMap(null); // 隐藏每个标记点
+        });
+    }
+}
+ 
+
   function toggleMultipleLines(checkboxId, line2, line3,line5,line6,line7,line8,line9,line10,line11) {
     var checkbox = document.getElementById(checkboxId);
     if (checkbox.checked) {
@@ -1313,6 +1332,125 @@ function toggleLines(checkboxId, line) {
 
     }
 }
+// function startBlinking(marker) {
+//     if (!marker.blinkInterval) {
+//         marker.blinkInterval = window.setInterval(function() {
+//             if (marker.getVisible()) {
+//                 marker.setVisible(false);
+//             } else {
+//                 marker.setVisible(true);
+//             }
+//         }, 1000); // Set the blinking interval to 1 second
+//     }
+// }
+
+// function stopBlinking(marker) {
+//     if (marker.blinkInterval) {
+//         window.clearInterval(marker.blinkInterval);
+//         marker.blinkInterval = null;
+//     }
+// }
+
+// //修改 createBlinkingMarker 函数来保存闪烁定时器引用
+// function createBlinkingMarker(map, position, title) {
+//     var marker = new google.maps.Marker({
+//         position: position,
+//         map: map,
+//         title: title
+//     });
+
+//     // 开始闪烁
+//     marker.blinkInterval = window.setInterval(function() {
+//         if (marker.getVisible()) {
+//             marker.setVisible(false);
+//         } else {
+//             marker.setVisible(true);
+//         }
+//     }, 1000);
+
+//     // 添加鼠标悬停事件处理程序
+//     marker.addListener('mouseover', function() {
+//         stopBlinking(marker); // 停止闪烁
+//         marker.setAnimation(google.maps.Animation.BOUNCE); // 放大图标
+//     });
+
+//     // 添加鼠标移出事件处理程序
+//     marker.addListener('mouseout', function() {
+//         startBlinking(marker); // 开始闪烁
+//         marker.setAnimation(null); // 取消放大图标
+//     });
+
+//     // 添加点击事件处理程序
+//     marker.addListener('click', function() {
+//         var infoWindow = new google.maps.InfoWindow({
+//             content: '这里是标记点的信息' // 替换为所需内容
+//         });
+//         infoWindow.open(map, marker); // 在点击的位置打开信息窗口
+//     });
+
+//     return marker; 
+// }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// var blinkingIntervals = new Map(); // 使用Map存储每个标记点的闪烁定时器引用
+
+// function createBlinkingMarker(map, position, title) {
+//     var marker = new google.maps.Marker({
+//         position: position,
+//         map: map,
+//         title: title
+//     });
+
+//     startBlinking(marker); // 默认开始闪烁
+
+//     // 添加鼠标悬停事件处理程序
+//     marker.addListener('mouseover', function() {
+//         stopBlinking(marker); // 停止对应标记点的闪烁
+//         marker.setAnimation(google.maps.Animation.BOUNCE); // 放大图标
+//         marker.setZIndex(google.maps.Marker.MAX_ZINDEX + 1); // 提高图标层级
+//         map.setOptions({draggableCursor:'pointer'}); // 更改鼠标指针样式
+//     });
+
+//     // 添加鼠标移出事件处理程序
+//     marker.addListener('mouseout', function() {
+//         startBlinking(marker); // 重新开始对应标记点的闪烁
+//         marker.setAnimation(null); // 取消放大图标
+//         marker.setZIndex(google.maps.Marker.MAX_ZINDEX); // 恢复图标层级
+//         map.setOptions({draggableCursor:null}); // 恢复鼠标指针样式
+//     });
+
+//     // 添加点击事件处理程序
+//     marker.addListener('click', function() {
+//         var infoWindow = new google.maps.InfoWindow({
+//             content: '这里是标记点的信息' // 替换为所需内容
+//         });
+//         infoWindow.open(map, marker); // 在点击的位置打开信息窗口
+//     });
+
+//     return marker; 
+// }
+
+// function startBlinking(marker) {
+//     if (!blinkingIntervals.has(marker)) {
+//         var interval = window.setInterval(function() {
+//             if (marker.getVisible()) {
+//                 marker.setVisible(false);
+//             } else {
+//                 marker.setVisible(true);
+//             }
+//         }, 1000);
+//         blinkingIntervals.set(marker, interval);
+//     }
+// }
+
+// function stopBlinking(marker) {
+//     if (blinkingIntervals.has(marker)) {
+//         clearInterval(blinkingIntervals.get(marker));
+//         blinkingIntervals.delete(marker);
+//     }
+// }
+
 
 
 // 定义一个函数，生成指定范围内的随机数
@@ -1344,3 +1482,104 @@ function RandomCoords(coords) {
 
 //     return { lat: randomLat, lng: randomLng };
 // }
+
+var blinkingMarkers = []; // 存储所有闪烁标记
+// 创建一个透明的覆盖物层
+
+function createBlinkingMarker(map, position, title, content) {
+    var marker = new google.maps.Marker({
+        position: position,
+        map: map,
+        title: title,
+        // zIndex: 99999 // 设置 zIndex 为 100
+    });
+
+
+
+    startBlinking(marker); // 默认开始闪烁
+    blinkingMarkers.push(marker); // 将闪烁标记添加到数组中
+
+    // 添加鼠标悬停事件处理程序
+    marker.addListener('mouseover', function() {
+        stopAllBlinking(); // 停止所有闪烁标记
+        marker.setAnimation(google.maps.Animation.BOUNCE); // 放大图标
+    });
+
+    // 添加鼠标移出事件处理程序
+    marker.addListener('mouseout', function() {
+        showAllMarkers(); // 显示所有标记
+        startAllBlinking(); // 开始所有闪烁标记
+        marker.setAnimation(null); // 取消放大图标
+    });
+
+    // 添加点击事件处理程序
+    marker.addListener('click', function() {
+        var infoWindow_city = new google.maps.InfoWindow({
+            content: content
+        });
+        infoWindow_city.setOptions({className: 'info-window-city'}); // 添加类别
+        infoWindow_city.open(map, marker);
+        closeOtherInfoWindows(infoWindow_city); // 关闭其他已打开的信息窗口
+        map.setZoom(8); // 设置缩放级别为 15
+        map.setCenter(marker.getPosition()); // 将地图中心设置为标记点的位置
+
+    });
+
+    return marker; 
+}
+
+function startBlinking(marker) {
+    var visible = true; // 初始状态为可见
+
+    var interval = window.setInterval(function() {
+        if (visible) {
+            marker.setVisible(false); // 如果标记当前可见，则隐藏标记
+            visible = false; // 更新状态为不可见
+        } else {
+            marker.setVisible(true); // 如果标记当前不可见，则显示标记
+            visible = true; // 更新状态为可见
+        }
+    }, 1000);
+    marker.blinkingInterval = interval; // 将定时器引用存储在标记对象上
+}
+
+function stopBlinking(marker) {
+    clearInterval(marker.blinkingInterval); // 清除对应标记的定时器
+}
+
+function stopAllBlinking() {
+    for (var i = 0; i < blinkingMarkers.length; i++) {
+        stopBlinking(blinkingMarkers[i]);
+    }
+}
+
+function startAllBlinking() {
+    for (var i = 0; i < blinkingMarkers.length; i++) {
+        startBlinking(blinkingMarkers[i]);
+    }
+}
+
+function showAllMarkers() {
+    for (var i = 0; i < blinkingMarkers.length; i++) {
+        blinkingMarkers[i].setVisible(true);
+    }
+}
+function closeOtherInfoWindows(currentInfoWindow) {
+    for (var i = 0; i < blinkingMarkers.length; i++) {
+        if (blinkingMarkers[i].infoWindow && blinkingMarkers[i].infoWindow !== currentInfoWindow) {
+            blinkingMarkers[i].infoWindow.close();
+        }
+    }
+}
+
+
+// 在 JavaScript 中编写 toggleintro 函数来处理点击事件
+function toggleintro() {
+        var customWindow = document.getElementById('introwindow');
+        if (customWindow.style.display === 'none') {
+          customWindow.style.display = 'block';
+        } else {
+          customWindow.style.display = 'none';
+        }
+    
+}
