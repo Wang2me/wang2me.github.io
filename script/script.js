@@ -1576,7 +1576,7 @@ function closeOtherInfoWindows(currentInfoWindow) {
 // 在 JavaScript 中编写 toggleintro 函数来处理点击事件
 function toggleintro() {
         var customWindow = document.getElementById('introwindow');
-        if (customWindow.style.display === 'none') {
+        if (customWindow.style.display === 'none'||customWindow.style.display === '') {
           customWindow.style.display = 'block';
         } else {
           customWindow.style.display = 'none';
