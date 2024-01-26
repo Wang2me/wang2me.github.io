@@ -722,7 +722,7 @@ margin:10px
 }
 #introwindow {
     position: absolute;
-  display: block;
+  display: none;
 
     top: 50%;
     left: 50%;
