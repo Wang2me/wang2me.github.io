@@ -100,7 +100,7 @@ body {
 .category-container {
     position: absolute;
     display: flex;
-    width: 15%;
+    width: 20%;
     flex-direction: column;
     justify-content: flex-start;
     background-color: #638889;
@@ -184,7 +184,7 @@ body {
 .toggle-icon {
     position: absolute;
     top: 50%; /* 将图标垂直居中 */
-    left: 15%; /* 放置在右侧 */
+    left: 20%; /* 放置在右侧 */
     transform: translateY(-50%); /* 使其垂直居中 */
     width: 50px;
     height: 50px;
