@@ -595,7 +595,7 @@ toggleIcon.addEventListener('click', function() {
         toggleIcon.style.left = '0'; // 将图标移动到屏幕的左边缘
     } else {
         categoryContainer.style.display = 'flex';
-        toggleIcon.style.left = '15%'; // 将图标移动回初始位置
+        toggleIcon.style.left = '20%'; // 将图标移动回初始位置
     }
     if (toggleIcon.classList.contains('expanded')) {
         toggleIcon.classList.remove('expanded'); // 如果有 expanded 类名，则移除
