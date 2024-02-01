@@ -732,12 +732,45 @@ margin:10px
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 10;
     font-size: medium;
-  /* margin-left: 40px; */
-  /* text-indent: 40px; */
+    padding-top: 20px;
+padding-bottom: 30px;
   padding-left: 40px;
   padding-right: 20px;
   }
  #introtitle{
 
     text-align: center;
+  }
+ #x{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+  }
+  #introcontent{
+      margin-left: 40px;
+  }
+
+  #qr{
+    position: absolute;
+    top:15%;
+    left:30%;
+    width: 500px;
+    z-index: 10;
+  }
+  #qrcontainer{
+    display: none;
+
+ 
+    z-index: 10;
+  }
+  #xx{
+    position: absolute;
+    top:15%;
+    left:58%;
+    z-index: 11;
+  }
+  .material-icons{
+    right:3%;
+    top:40%;
+    position: absolute;
   }

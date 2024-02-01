@@ -16,7 +16,7 @@
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" type="image/png" href="/media/animal_icon/baby.png">
 
     <!-- 样式 -->
@@ -27,27 +27,32 @@
 
 
 <body>
+        <div id="qrcontainer">
+        <button id="xx" onclick="document.getElementById('qrcontainer').style.display='none'">x</button>
+        <img src="website_qr_code.png" id="qr" >
+        </div>
     <div id="introwindow">
+        <button id="x" onclick="document.getElementById('introwindow').style.display='none'">x</button>
         <div id="introtitle">
             <p>古代絲綢之路簡介</p>
 
         </div>
         <p>絲綢之路，是古代中國透過陸路和海路，與其他文明進行政治、經貿、文化交流的網絡。</p>    
-        
-    <p>西漢時期，張騫兩次出使西域，足跡遠及中亞諸國、諸部落。陸上絲綢之路由此而開闢。陸上絲綢之路的起點是長安（今陝西西安）及洛陽，經甘肅、新疆，通往中亞、西亞、以及歐洲。</p>    
-    <p>直至唐朝中期，陸上絲綢之路都是古代中外交流最主要的路線。各地物質、文化、藝術、宗教等匯聚在都城長安。</p>    
-    <p>唐朝後期，中國北方政治格局發生變化，經濟重心移至南方和東南沿海。海上絲綢之路逐漸取代陸上絲綢之路。</p>    
-    <p>北宋期間，廣州、泉州等地設市舶司，管理海上貿易。對外貿易的發達也成為了海上絲綢之路繁榮的關鍵。</p>    
-    <p>明朝前期，鄭和七次率領艦隊下西洋，是中國古代史上最重要的航海活動。</p>    
-    <p>明清時期，海路貿易覆蓋了亞洲、歐洲、非洲甚至美洲，真正地構建了全球貿易網絡。</p>
-    
+        <div id="introcontent">   
+    <p>● 西漢時期，張騫兩次出使西域，足跡遠及中亞諸國、諸部落。陸上絲綢之路由此而開闢。陸上絲綢之路的起點是長安（今陝西西安）及洛陽，經甘肅、新疆，通往中亞、西亞、以及歐洲。</p>    
+    <p>● 直至唐朝中期，陸上絲綢之路都是古代中外交流最主要的路線。各地物質、文化、藝術、宗教等匯聚在都城長安。</p>    
+    <p>● 唐朝後期，中國北方政治格局發生變化，經濟重心移至南方和東南沿海。海上絲綢之路逐漸取代陸上絲綢之路。</p>    
+    <p>● 北宋期間，廣州、泉州等地設市舶司，管理海上貿易。對外貿易的發達也成為了海上絲綢之路繁榮的關鍵。</p>    
+    <p>● 明朝前期，鄭和七次率領艦隊下西洋，是中國古代史上最重要的航海活動。</p>    
+    <p>● 明清時期，海路貿易覆蓋了亞洲、歐洲、非洲甚至美洲，真正地構建了全球貿易網絡。</p>
+        </div>
     
     </div>
     <!-- 外部容器，放置按钮和选项卡 -->
     <div class="external-container">
+        
+        <i class="material-icons" onclick="showImage()" style="cursor:pointer;">share</i>
 
-
-        <!-- <img id="banner" src="/media/banner_shade2.png"> -->
             
             <p id="title1">古代中外交流互動地圖計劃 </p>
            
@@ -65,15 +70,16 @@
     <div id="languagePane">
         
 
+
         <button title="switch to English version"><img class="image-button1" id="languageSwitch" src="/media/En.png" alt="switch language"></button>
     </div>
         <!-- 文字 -->
         <div class="line-button">
             <div class="line-dis"><input type="checkbox" id="city" onchange="togglecity('city')" checked><label for="city">絲綢之路主要城市簡介</label></div>
 
-            <div class="line-dis"><input type="checkbox" id="line2" onchange="toggleMultipleLines('line2', line2, line3, line5, line6, line7, line8, line9, line10, line11)" checked><label for="line2">陸上絲綢之路綫路</label></div>
+            <div class="line-dis"><input type="checkbox" id="line2" onchange="toggleMultipleLines('line2', line2, line3, line5, line6, line7, line8, line9, line10, line11)" checked><label for="line2">陸上絲綢之路</label></div>
             
-            <div class="line-dis"><input type="checkbox" id="line1" onchange="toggleMultipleLines('line1', line4, line1)" checked><label for="line1">海上絲綢之路綫路</label></div>
+            <div class="line-dis"><input type="checkbox" id="line1" onchange="toggleMultipleLines('line1', line4, line1)" checked><label for="line1">海上絲綢之路</label></div>
         </div> 
         <!-- 选项卡容器 -->
         <div class="tabs">

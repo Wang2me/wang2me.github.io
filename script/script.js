@@ -1491,7 +1491,7 @@ function createBlinkingMarker(map, position, title, content) {
         position: position,
         map: map,
         title: title,
-        // zIndex: 99999 // 设置 zIndex 为 100
+        zIndex: 99999 // 设置 zIndex 为 100
     });
 
 
@@ -1583,3 +1583,12 @@ function toggleintro() {
         }
     
 }
+function showImage() {
+    var customWindow = document.getElementById('qrcontainer');
+        if (customWindow.style.display === 'none'||customWindow.style.display === '') {
+          customWindow.style.display = 'block';
+        } else {
+          customWindow.style.display = 'none';
+        }
+    
+  }
