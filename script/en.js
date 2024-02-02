@@ -420,18 +420,18 @@ window.onload = function () {
 
 // 在给定的位置列表上创建闪烁的点
 
-createBlinkingMarker(map, xian, '西安', '这是标记点1的信息窗口内容');
-createBlinkingMarker(map, {lat: 39.6327, lng:66.9358 }, '撒馬爾罕', '这是标记111口内容');
-createBlinkingMarker(map, guli, '古里', '这是标记111口内容');
-createBlinkingMarker(map, luoyang, '洛陽', '这是标记111口内容');
-createBlinkingMarker(map, beijing, '北京', '这是标记111口内容');
-createBlinkingMarker(map, kaifeng, '開封', '这是标记111口内容');
-createBlinkingMarker(map, dunhuang, '敦煌', '这是标记111口内容');
-createBlinkingMarker(map, maliujia, '馬六甲', '这是标记111口内容');
-createBlinkingMarker(map, nanjing, '南京', '这是标记111口内容');
-createBlinkingMarker(map,{lat:23.1281782,lng:113.2394}, '廣州', '这是标记111口内容');
-createBlinkingMarker(map, {lat:24.8760838,lng:118.6640}, '泉州', '这是标记111口内容');
-createBlinkingMarker(map, {lat:30.2685609,lng:120.1555}, '杭州', '这是标记111口内容');
+createBlinkingMarker(map, xian, '西安', '西安，古稱長安，是漢朝、唐朝等多個中國古代王朝的首都，也是陸上絲綢之路的起點。');
+createBlinkingMarker(map, {lat: 39.6327, lng:66.9358 }, '撒馬爾罕', '撒馬爾罕位於烏茲別克斯坦，是中亞最古老的城市之一。撒馬爾罕在中國古代被稱為康居或康國，是陸上絲綢之路重要的交通樞紐。');
+createBlinkingMarker(map, guli, '古里', '科澤科德，在明朝時被稱為古里。該地位於印度西南海岸，是鄭和下西洋經過的重要一站。');
+createBlinkingMarker(map, luoyang, '洛陽', '洛陽是中國歷史最悠久的城市之一，曾有十三個王朝在此地建都，是陸上絲綢之路起點的延伸。');
+createBlinkingMarker(map, beijing, '北京', '北京是元、明、清三朝的首都。13世紀以後，北京一直是絲綢之路上重要的國際化大都市。');
+createBlinkingMarker(map, kaifeng, '開封', '開封是北宋的首都。在當時，開封是是絲綢之路上重要的國際化大都市。');
+createBlinkingMarker(map, dunhuang, '敦煌', '敦煌位於河西走廊的最西端。在古代，它是中原地區前往西域的必經之路，是陸上絲綢之路交通中的重要一站。');
+createBlinkingMarker(map, maliujia, '馬六甲', '馬六甲，在明朝時被稱為滿剌加。該地位於馬來西亞的馬六甲海峽，是海上絲綢之路重要的交通樞紐。');
+createBlinkingMarker(map, nanjing, '南京', '南京歷史悠久，有多個王朝在此地建都。明朝時，南京是鄭和七下西洋的起點。');
+createBlinkingMarker(map,{lat:23.1281782,lng:113.2394}, '廣州', '廣州在兩千餘年的歷史中，一直是中國對外貿易的重要港口城市，是海上絲綢之路的起點之一。');
+createBlinkingMarker(map, {lat:24.8760838,lng:118.6640}, '泉州', '泉州歷史悠久，經貿繁榮，是宋元時期海上絲綢之路的起點。');
+createBlinkingMarker(map, {lat:30.2685609,lng:120.1555}, '杭州', '杭州是南宋的首都，經貿發達。在宋元時期，杭州是海上絲綢之路的中心城市之一。');
 
 
 

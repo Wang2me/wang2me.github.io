@@ -121,7 +121,7 @@ for (var i = 0; i < antelopes.length; i++) {
 
 var newCoords_antelope1_1= {lat:41.0298,lng:28.9625};
 var newCoords_antelope1_2= {lat:34.5400,lng:69.0510};
-var newCoords_antelope1_3= RandomCoords(beijing);
+var newCoords_antelope1_3= RandomCoords(xian);
 
 var newCoords_antelope2_1= {lat:16.4532,lng:107.5694};
 var newCoords_antelope2_2= RandomCoords(xian);

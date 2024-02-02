@@ -1520,8 +1520,8 @@ function createBlinkingMarker(map, position, title, content) {
         infoWindow_city.setOptions({className: 'info-window-city'}); // 添加类别
         infoWindow_city.open(map, marker);
         closeOtherInfoWindows(infoWindow_city); // 关闭其他已打开的信息窗口
-        map.setZoom(8); // 设置缩放级别为 15
-        map.setCenter(marker.getPosition()); // 将地图中心设置为标记点的位置
+        //map.setZoom(8); // 设置缩放级别为 15
+        //map.setCenter(marker.getPosition()); // 将地图中心设置为标记点的位置
 
     });
 
