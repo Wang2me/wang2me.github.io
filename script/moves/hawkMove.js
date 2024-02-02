@@ -1,5 +1,5 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
     markers.hawk1 = createMarker({ lat:36.6322,lng:39.5187}, 'hawk','敘利亞Tell Chuera',{ A:['hawk'], B:['史前至夏商周'],C:['文化娛樂'],D:['陸上絲綢之路'],E:['西亞'] }
@@ -45,7 +45,7 @@ markers.hawk4 = createMarker({ lat:34.6361,lng:112.4430}, 'hawk','河南洛陽',
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南北朝時期，隨著北方的胡人大量遷居，獵鷹逐漸成為中國北方地區的貴族們流行的娛樂。北魏皇族成員元坦飼養獵鷹和獵犬數百隻，幾乎每天都要進行狩獵活動。北齊的最後一位皇帝高恆，甚至為自己的獵鷹們封賞官職。這種現象體現了中華文明對遊牧民族風俗習慣的接納和吸收。'  
  ,description_en:'During the Northern and Southern Dynasties 南北朝, falconry gradually became a popular entertainment for the nobles of northern China, with a large number of Hu people 胡人 moving in from the north. Yuan Tan 元坦, a member of the royal family of the Northern Wei Dynasty 北魏, kept hundreds of falcons and hounds for his hunting activities. Gao Heng 高恆, the last emperor of the Northern Qi Dynasty 北齊, even rewarded his falcons with official positions. This phenomenon reflects the Chinese civilization\'s acceptance and absorption of the customs of the nomadic peoples'
-,reference:'1. 李百藥，《北齊書·帝紀第八》（北京：中華書局，1997），頁113。<br>&emsp;&emsp;&emsp;2. 李百藥，《北齊書·列傳第二十》（北京：中華書局，1997），頁384。<br>&emsp;&emsp;&emsp;3. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 93.'
+,reference:'1. 李百藥，《北齊書·帝紀第八》（北京：中華書局，1997），頁113。<br>2. 李百藥，《北齊書·列傳第二十》（北京：中華書局，1997），頁384。<br>3. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 93.'
  ,image:''
  ,referenceUrl:''});
 }
@@ -63,7 +63,7 @@ markers.hawk5 = createMarker({ lat:34.3246,lng:108.7072 }, 'hawk','陝西咸陽'
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'劉安狩獵文化在唐朝十分流行，因此鷹、鶻等猛禽受到多位唐朝皇帝的喜愛，例如唐太宗和唐玄宗。章懷太子墓中壁畫《狩獵出行圖》描繪了唐朝皇族成員集體出獵的場景，其中就有騎士懷抱獵鷹的形象。是西漢皇族，被封為淮南王。在他所編著的《淮南子》中曾有圈養虎豹的記載。而《漢書》中也有經過馴服的虎豹可以聽從人類的指令的記載。這些記載說明，豹作為觀賞動物飼養在皇家園林中在漢代是非常流行的。'  
  ,description_en:'Hunting culture was very popular in the Tang Dynasty 唐朝, therefore hawks, falcons, and other raptors were favored by many Tang emperors, such as Emperor Taizong 太宗 and Emperor Xuanzong 玄宗. There is a mural in the Tomb of Prince Zhanghuai 章懷太子墓 that depicts royal family members of the Tang Dynasty on a group hunting trip, and there is an image of a knight embracing a falcon in this painting.'
-,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 93.<br>&emsp;&emsp;&emsp;2. 陝西省博物館、乾縣文物局唐墓發掘組，〈章懷太子墓發掘簡報〉，《文物》，期11（1972年11月），頁15-16。'
+,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 93.<br>2. 陝西省博物館、乾縣文物局唐墓發掘組，〈章懷太子墓發掘簡報〉，《文物》，期11（1972年11月），頁15-16。'
  ,image:'media/OneDrive_1_2024-1-8/417. (Tang Dynasty, The Mural of Hunting Trip in the Tomb of Prince Zhanghuai [detail], housed in Qianling Museum).jpeg'
  ,image_content_cn:'唐，章懷太子墓壁畫狩獵出行圖[局部]，乾陵博物館藏'
 ,image_content_en:'Tang Dynasty, The Mural of Hunting Trip in the Tomb of Prince Zhanghuai [detail], housed in Qianling Museum'
@@ -73,7 +73,7 @@ markers.hawk6 = createMarker({ lat:43.9702,lng:128.6424}, 'hawk','黑龍江寧�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'中國東北地區及朝鮮半島是唐朝宮廷獵鷹的主要來源地。例如，位於中國東北及朝鮮半島北部的渤海國曾多次向唐玄宗進貢獵鷹。'  
  ,description_en:'The Northeast region of China and the Korean Peninsula were the main sources of falconry for the Tang 唐 court. For example, the Bohai Kingdom 渤海國, located in northeastern China and the northern part of the Korean Peninsula, repeatedly contributed falcons to Emperor Xuanzong of the Tang Dynasty 唐玄宗.'
-,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 94.<br>&emsp;&emsp;&emsp;2. 王欽若等，《冊府元龜·卷之九百七十一》（中國國家圖書館藏明崇禎十五年黃國琦刻本）。'
+,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 94.<br>2. 王欽若等，《冊府元龜·卷之九百七十一》（中國國家圖書館藏明崇禎十五年黃國琦刻本）。'
  ,image:''
  ,referenceUrl:''});
 
@@ -118,7 +118,7 @@ markers.hawk6 = createMarker({ lat:43.9702,lng:128.6424}, 'hawk','黑龍江寧�
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'元朝由蒙古人建立，是中國歷史上第一個由遊牧民族建立的大一統王朝。狩獵是蒙古文化中流行的娛樂活動。在當時的中國北方，人們開發出一種獵鷹和獵狗配合的狩獵技術。元朝設立了專門的部門來管理獵鷹的飼養，甚至修訂了有關法律來規範養鷹人的行為。'  
     ,description_en:'The Yuan Dynasty 元朝, founded by the Mongols, was the first unified dynasty in Chinese history founded by nomadic peoples. Hunting was a popular entertainment in Mongolian culture. In northern China at that time, people developed a hunting technique that combined falcons with hounds. The Yuan Dynasty set up a special department to manage the breeding of falcons and even amended the relevant laws to regulate the behavior of the raiser.'
-   ,reference:'1. 陶宗儀，《南村輟耕錄·卷七》（北京：中華書局據武進陶氏影元刻本點校，1959），頁92。<br>&emsp;&emsp;&emsp;2. 宋濂等，《元史·本紀第二十》（北京：中華書局，1997），頁440。<br>&emsp;&emsp;&emsp;3. 宋濂等，《元史·志第四十九》（北京：中華書局，1997），頁2599。'
+   ,reference:'1. 陶宗儀，《南村輟耕錄·卷七》（北京：中華書局據武進陶氏影元刻本點校，1959），頁92。<br>2. 宋濂等，《元史·本紀第二十》（北京：中華書局，1997），頁440。<br>3. 宋濂等，《元史·志第四十九》（北京：中華書局，1997），頁2599。'
     ,image:''
     ,referenceUrl:''});
 					
@@ -137,7 +137,7 @@ markers.hawk12 = createMarker({lat:21.4214,lng:39.8069}, 'hawk','沙特阿拉伯
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元代將從阿拉伯或波斯遷入中國的穆斯林稱為｢回回｣。蒙古統治者給予回回商人許多特權，尤其是元朝的對外貿易場所主要由他們負責。許多回回商人以元朝皇室的名義在中亞、西亞等地區大量收購獅子、豹、鷹等動物，再通過海路運輸至中國。據記載，杭州的驛站甚至在一個月內接待回回商人超過1200人，供給人及各種動物的肉食高達1300斤。'  
  ,description_en:'The Huihui 回回 people were Muslims who migrated to China from Arabia or Persia during the Yuan Dynasty 元朝. The Mongol rulers granted many privileges to the Huihui merchants, especially the management of foreign trading venues. Many Huihui merchants purchased large quantities of lions, leopards, eagles, and other animals in Central and West Asia in the name of the Yuan Dynasty royal family, and then transported these animals to China by maritime routes. It was recorded that the stage station in Hangzhou 杭州 even received more than 1,200 merchants in a month, offering as much as 1,300 jins 斤 of meat to people and animals of all kinds.'
-,reference:'1. 回回商人，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=231255&Type=bkztb&SubID=705。<br>&emsp;&emsp;&emsp;2. 宋濂等，《元史·本紀第二十三》（北京：中華書局，1997），頁511。'  
+,reference:'1. 回回商人，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=231255&Type=bkztb&SubID=705。<br>2. 宋濂等，《元史·本紀第二十三》（北京：中華書局，1997），頁511。'  
  ,image:''
  ,referenceUrl:''});  
 //浙江杭州，北京	-lat:30.2660112,lng:120.1458
@@ -175,7 +175,7 @@ markers.hawk13 = createMarker({lat:42.9555,lng:89.1735}, 'hawk','新疆吐魯番
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'寧古塔，位於現今的黑龍江省海林市。這裡氣候寒冷，是清朝時囚犯的流放地，同時也是海東青（矛隼）的主要來源地。寧古塔出產的海東青，以純白色為最佳。該地每年向清朝皇室進貢獵鷹二十隻左右。'  
      ,description_en:'Ningguta 寧古塔 is located in present-day Hailin 海林, Heilongjiang Province 黑龍江省. With its cold climate, it was a place of exile for prisoners during the Qing Dynasty 清朝 and was also the main source place of gyrfalcons. The best gyrfalcons from Ningguta were pure white in color. About 20 falcons were contributed to the Qing Dynasty every year.'
-    ,reference:'1. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5575。<br>&emsp;&emsp;&emsp;2. 徐珂，《清稗類鈔·第一冊》（北京：中華書局，2010），頁412。'  
+    ,reference:'1. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5575。<br>2. 徐珂，《清稗類鈔·第一冊》（北京：中華書局，2010），頁412。'  
      ,image:''
      ,referenceUrl:''});    
  

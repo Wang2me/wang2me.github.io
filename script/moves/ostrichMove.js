@@ -1,4 +1,4 @@
-//<br>&emsp;&emsp;&emsp;
+//<br>
 markers.ostrich1 = createMarker({ lat:36.2143,lng:36.1475}, 'ostrich','土耳其安塔基亞',{ A:['ostrich'], B:['秦漢'],C:['文化娛樂'],D:['陸上絲綢之路'],E:['西亞'] }
    ,{  title_cn: '描述',title_en: 'Description'
        ,description_cn: '鴕鳥是體型最大的鳥類，善於奔跑，但不會飛翔。西漢時期，中國人首次得知了鴕鳥的有關信息。張騫完成兩次出使西域的任務後，向漢武帝匯報了條支國（位於西亞的塞琉古帝國）有這種大型鳥類的消息。漢朝人一般稱其為｢大鳥｣、｢大雀｣或｢大爵｣。'
@@ -13,7 +13,7 @@ markers.ostrich2 = createMarker({ lat:36.1618,lng:54.3300}, 'ostrich','伊朗達
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'元和十三年（公元101年），安息帝國（今伊朗）向東漢進貢了獅子和鴕鳥。這是中國歷史中第一條關於引進鴕鳥的記載。'  
 	,description_en:'In 101, the Parthian Empire (present-day Iran) contributed lion and ostrich to the Eastern Han Dynasty 東漢. This is the first record of the introduction of the ostrich in Chinese history.'
-	,reference:'1. 班固等，《東觀漢記·列傳十一》（北京：中華書局據聚珍版叢書本排印，1985），頁132-133。<br>&emsp;&emsp;&emsp;2. 范曄，《後漢書·西域傳第七十八》（北京：中華書局，1997），頁2918。'  
+	,reference:'1. 班固等，《東觀漢記·列傳十一》（北京：中華書局據聚珍版叢書本排印，1985），頁132-133。<br>2. 范曄，《後漢書·西域傳第七十八》（北京：中華書局，1997），頁2918。'  
 	,image:''
 	,referenceUrl:''
     });
@@ -22,7 +22,7 @@ markers.ostrich3 = createMarker({ lat:33.3029,lng:44.3332}, 'ostrich','伊拉克
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'薩珊王朝，又稱波斯第二帝國，統治西亞地區長達四個世紀。波斯語中鴕鳥被稱為｢ushtur murgh｣（意為｢駱駝鳥｣），這一詞彙被直接翻譯成了中文，取代了原本的｢大雀｣等詞彙。在北魏的歷史記載中，薩珊王朝的鴕鳥甚至衍生出了可以食用火焰、鋼鐵等傳說。'  
 	,description_en:'The Sassanid Empire, also known as the Second Persian Empire, ruled West Asia for four centuries. In Persians, the ostrich was called "ushtur murgh" (camel bird), which was the name translated into Chinese and replaced the previous name "daniao 大鳥" (big bird). In the historical records of the Northern Wei Dynasty 北魏, the ostrich of the Sassanid Empire even had legends of being able to eat fire and steel.'
-	 ,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 102. <br>&emsp;&emsp;&emsp;2. 魏收，《魏書·列傳第九十》（北京：中華書局，1997），頁2270-2271。'  
+	 ,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 102. <br>2. 魏收，《魏書·列傳第九十》（北京：中華書局，1997），頁2270-2271。'  
 	,image:''
 	,referenceUrl:''});
     
@@ -30,7 +30,7 @@ markers.ostrich4 = createMarker({lat:36.7252,lng:68.8636}, 'ostrich','阿富汗�
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'唐朝最著名的鴕鳥是由吐火羅（今阿富汗南部）在唐高宗時期進貢的。唐朝的許多文獻中有記錄了這隻鴕鳥身材高大、奔跑速度快的特點。在唐高宗的陵墓乾陵中，至今依然保存有一對大型鴕鳥石雕。'  
 	,description_en:'The most famous ostrich of the Tang Dynasty 唐朝 was imported from Tokhara (present-day southern Afghanistan) during the reign of Emperor Gaozong of the Tang Dynasty 唐高宗. The features of this ostrich\'s height and high speed of running were recorded in many Tang Dynasty documents. The Qianling Mausoleum 乾陵, the tomb of Emperor Gaozong, still contains a pair of large ostrich stone statues.'
-	 ,reference:'1. 歐陽修、宋祁，《新唐書·列傳第一百四十六下》（北京：中華書局，1997），頁6252。<br>&emsp;&emsp;&emsp;2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 102.<br>&emsp;&emsp;&emsp;3. 鴕鳥，乾陵博物館網站，www.zhongguoqianling.com/product/85.html。'  
+	 ,reference:'1. 歐陽修、宋祁，《新唐書·列傳第一百四十六下》（北京：中華書局，1997），頁6252。<br>2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 102.<br>3. 鴕鳥，乾陵博物館網站，www.zhongguoqianling.com/product/85.html。'  
 	,image:'media/OneDrive_1_2024-1-8/408. (Tang Dynasty, Stone Ostrich, housed in Qianling Museum) .jpg'
 	,image_content_cn:'唐，鴕鳥石雕，乾陵博物館藏'
     ,image_content_en:'Tang Dynasty, Stone Ostrich, housed in Qianling Museum'
@@ -41,7 +41,7 @@ markers.ostrich5 = createMarker({ lat:27.1348,lng:57.0645}, 'ostrich','伊朗米
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'忽魯謨斯，即如今伊朗米納卜，地處霍爾木茲海峽，是進入波斯灣的必經之路。鄭和的船隊曾多次到達此處。1414年，忽魯謨斯國王跟隨鄭和的船隊返回北京，向永樂皇帝進貢馬匹。此外，獅子、長頸鹿、斑馬、鴕鳥、羚羊也是忽魯謨斯經常攜帶的貢品。'  
 	,description_en:'Hormuz, the present-day Minab in Iran, was located on the essential route into the Persian Gulf. Zheng He 鄭和 visited this place on several occasions. In 1414, the King of Hormuz visited Beijing 北京 with Zheng He and offered horses to Yongle Emperor 永樂皇帝 as tribute. In addition, lions, giraffes, zebras, ostriches, and oryxes were often the tributes from Hormuz.'
-	,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8452。<br>&emsp;&emsp;&emsp;2. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁85-86。'  
+	,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8452。<br>2. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁85-86。'  
 	,image:''
 	,referenceUrl:''});
 

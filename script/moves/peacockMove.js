@@ -1,10 +1,10 @@
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {  markers.peacock1 = createMarker({ lat:36.092554,lng:114.3586 }, 'peacock','河南安陽',{ A:['peacock'],B:['史前至夏商周'],C:['宗教信仰'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'在位於河南安陽的殷墟遺址中，考古學家發現了孔雀的骸骨，這說明當時的中國北方曾有野生孔雀。此外，在五號墓中發現了一件精美的玉鳳。考古學家們推測，鳳凰的形象可能是商代人以孔雀為原型構建的。'  
  ,description_en:'In the Site of Yinxu 殷墟 in Anyang 安陽, Henan Province 河南省, archaeologists found the skeleton of peacocks, which suggests that wild peacocks once existed in northern China in the late Shang Dynasty. In addition, a beautiful jade phoenix was found in Tomb No. 5. Archaeologists have hypothesized that the phoenix may have been constructed by the Shang people 商人 based on the peacock.'
-,reference:'1. 李碩，《翦商：殷周之變與華夏新生》（南寧：廣西師範大學出版社，2022），頁100。<br>&emsp;&emsp;&emsp;2. 周菲，〈安陽殷墟五號墓出土玉鳳〉，《史學月刊》，總期139（1982年9月），封二。'
+,reference:'1. 李碩，《翦商：殷周之變與華夏新生》（南寧：廣西師範大學出版社，2022），頁100。<br>2. 周菲，〈安陽殷墟五號墓出土玉鳳〉，《史學月刊》，總期139（1982年9月），封二。'
  ,image:'media/OneDrive_1_2024-1-8/442. (Shang Dynasty, Jade Phoenix in Fuhao Tomb, housed in National Museum of China) .png'
  ,image_content_cn:'商，殷墟婦好墓玉鳳，中國國家博物館藏'
 ,image_content_en:'Shang Dynasty, Jade Phoenix in Fuhao Tomb, housed in National Museum of China'

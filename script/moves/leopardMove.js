@@ -1,5 +1,5 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
     markers.leopard1 = createMarker({ lat:26.3408,lng:31.8877}, 'leopard','埃及吉爾賈',{ A:['leopard'], B:['史前至夏商周'],C:['宗教信仰'],D:['其他'],E:['非洲'] }
@@ -16,7 +16,7 @@ markers.leopard2 = createMarker({ lat:40.7614,lng:22.5213}, 'leopard','希臘佩
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'戴歐尼修斯是古希臘神話中的酒神。豹是戴歐尼修斯的神獸之一，因此在古希臘藝術中廣泛地出現戴歐尼修斯騎乘豹子的形象。'  
  ,description_en:'Dionysus was the God of Wine in Greek Mythology. Panther (Leopard) was one of the sacred animals of Dionysus. Therefore, the image of Dionysius riding a panther was widely seen in Ancient Greek art.'
-,reference:'1. ""Dionysus (Dionysos)"", THEOI Greek Methology website, www.theoi.com/Olympios/Dionysos.html#Index.<br>&emsp;&emsp;&emsp;2. Maria Lilibaki-Akamati, et al. The Archaeological Museum of Pella (Kifisia: John S. Latsis Public Benefit Foundation, 2011), pp. 148-149.'  
+,reference:'1. ""Dionysus (Dionysos)"", THEOI Greek Methology website, www.theoi.com/Olympios/Dionysos.html#Index.<br>2. Maria Lilibaki-Akamati, et al. The Archaeological Museum of Pella (Kifisia: John S. Latsis Public Benefit Foundation, 2011), pp. 148-149.'  
  ,image:''
  ,referenceUrl:''
 });
@@ -47,7 +47,7 @@ markers.leopard5 = createMarker({ lat:34.3112,lng:108.6976 }, 'leopard','陝西�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'劉安是西漢皇族，被封為淮南王。在他所編著的《淮南子》中曾有圈養虎豹的記載。而《漢書》中也有經過馴服的虎豹可以聽從人類的指令的記載。這些記載說明，豹作為觀賞動物飼養在皇家園林中在漢代是非常流行的。'  
  ,description_en:'Liu An 劉安 was a prince of the Western Han Dynasty 西漢 and was named King of Huainan 淮南王. There was a record of keeping tigers and leopards in captivity in the Huainanzi 淮南子, which was edited by him. There was also a record in the Hanshu 漢書 (Book of Han) that tamed tigers and leopards could obey human commands. These records show that leopards as ornamental animals kept in the royal gardens were very popular in the Han Dynasty 漢朝.'
-,reference:'1. 劉安等，《淮南子·主術訓》（上海：上海古籍出版社據浙江書局本影印，1989），頁86。<br>&emsp;&emsp;&emsp;2. 班固，《漢書·公孫弘卜式兒寬傳第二十八》（北京：中華書局，1997），頁2618。<br>&emsp;&emsp;&emsp;3. 楊海林、武仙竹，〈試論中國古代六畜之外的動物畜養〉，《三峽論壇》，期4（2013年7月），頁44。'
+,reference:'1. 劉安等，《淮南子·主術訓》（上海：上海古籍出版社據浙江書局本影印，1989），頁86。<br>2. 班固，《漢書·公孫弘卜式兒寬傳第二十八》（北京：中華書局，1997），頁2618。<br>3. 楊海林、武仙竹，〈試論中國古代六畜之外的動物畜養〉，《三峽論壇》，期4（2013年7月），頁44。'
  ,imag:''});
 	
 
@@ -116,7 +116,7 @@ markers.leopard11 = createMarker({lat:21.3835,lng:39.7795}, 'leopard','沙特阿
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元代將從阿拉伯或波斯遷入中國的穆斯林稱為｢回回｣。蒙古統治者給予回回商人許多特權，尤其是元朝的對外貿易場所主要由他們負責。許多回回商人以元朝皇室的名義在中亞、西亞等地區大量收購獅子、豹、鷹等動物，再通過海路運輸至中國。據記載，杭州的驛站甚至在一個月內接待回回商人超過1200人，供給人及各種動物的肉食高達1300斤。'  
  ,description_en:'The Huihui 回回 people were Muslims who migrated to China from Arabia or Persia during the Yuan Dynasty 元朝. The Mongol rulers granted many privileges to the Huihui merchants, especially the management of foreign trading venues. Many Huihui merchants purchased large quantities of lions, leopards, eagles, and other animals in Central and West Asia in the name of the Yuan Dynasty royal family, and then transported these animals to China by maritime routes. It was recorded that the stage station in Hangzhou 杭州 even received more than 1,200 merchants in a month, offering as much as 1,300 jins 斤 of meat to people and animals of all kinds.'
-,reference:'1. 回回商人，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=231255&Type=bkztb&SubID=705。<br>&emsp;&emsp;&emsp;2. 宋濂等，《元史·本紀第二十三》（北京：中華書局，1997），頁511。'
+,reference:'1. 回回商人，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=231255&Type=bkztb&SubID=705。<br>2. 宋濂等，《元史·本紀第二十三》（北京：中華書局，1997），頁511。'
  ,image:''
  ,referenceUrl:''});  		
 //浙江杭州，北京	/@-/@30.2687495,120.1513
@@ -136,7 +136,7 @@ markers.leopard13 = createMarker({lat:39.9294,lng:116.3888 }, 'leopard','北京�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'明代宮廷中飼養的豹大多數是觀賞動物，也有少量用於狩獵的獵豹。明朝的皇帝中，最喜愛豹的要數明武宗朱厚照。正德二年（公元1507年），明武宗下令在太液池（今中南海、北海）興建｢豹房｣專門飼養豹子，並於五年後進一步擴建。此後，明武宗長期在豹房居住，甚至他最後是在豹房駕崩的。在中國國家博物館收藏有一枚豹房勇士銅牌。這枚銅牌的正面雕刻著一隻豹子，背面的文字為「養豹官軍勇士懸帶此牌，無牌者依律論罪，借者及借與者罪同」。通過這些信息可以推測，這枚銅牌是在豹房當差的一名士兵的｢工作證｣，他的職責可能包括保護皇帝的安全和幫皇帝飼養豹子。'  
  ,description_en:'"In the Ming Dynasty 明朝, most of the leopards kept in the court were ornamental animals, but there were also a few cheetahs for hunting. Among the Ming emperors, the most favorite leopard is Zhu Houzhao 朱厚照, the Emperor Wuzong of the Ming Dynasty 明武宗. In 1507, Emperor Wuzong built the ""Leopard House"" at the Celestial Lake (present-day Central-South Lake and North Lake) to keep leopards, which was further extended five years later. After that, he frequently stayed there and eventually died in Leopard House.There is a ""Bronze Warrior Plate in Leopard House"" in the collection of the National Museum of China. There\'s a leopard cast on one side of the bronze plate, and on the other side was cast “This plate is to be carried by a government warrior who keeps leopards; one who fails to carry the plate will be held guilty, so will be one who lends or borrows the plate.” It can be assumed that the bronze plate was the ""staff card"" of a soldier who served in the Leopard House, and whose duties may have included protecting the emperor\'s security and helping him to keep the leopards."'
-,reference:'1. 馬順平，〈豹與明代宮廷〉，《歷史研究》，期3（2014年7月），頁184-188。<br>&emsp;&emsp;&emsp;2. 豹房勇士銅牌，中國國家博物館網站，www.chnmuseum.cn/zp/zpml/csp/202008/t20200826_247452.shtml。'
+,reference:'1. 馬順平，〈豹與明代宮廷〉，《歷史研究》，期3（2014年7月），頁184-188。<br>2. 豹房勇士銅牌，中國國家博物館網站，www.chnmuseum.cn/zp/zpml/csp/202008/t20200826_247452.shtml。'
  ,image:'media/OneDrive_1_2024-1-8/290. (Ming Dynasty, Bronze Warrior Plate in Leopard House, housed in National Museum of China).png'
  ,image_content_cn:'明，豹房勇士銅牌，中國國家博物館藏'
 ,image_content_en:'Ming Dynasty, Bronze Warrior Plate in Leopard House, housed in National Museum of China'

@@ -202,7 +202,7 @@ function switchLanguageTo(language) {
           } else {
             let content = '<div class="info-window" id="infoContainer">' +
                 '<div class="info-header">' +   // 添加一个包含图标和 ID 的容器
-                '<h1>' + marker.content.title + '</h1>' +
+                // '<h1>' + marker.content.title + '</h1>' +
                 '<div class="info-details">' +
                 '<img class="info-icon" src="' + marker.icon.url + '" alt="Marker Icon">' +
                  (language === 'cn' ? keyMappings[key] : key) +  // 图标显示在顶部                              // 标记的ID
@@ -211,9 +211,10 @@ function switchLanguageTo(language) {
                 
                 
                 '<p>' + marker.content.description + '</p>' +
-                '<p class="info-reference">' + (language === 'cn' ? '参考：' : 'Reference: ') + marker.content.reference + '</p>' +
                 '<img class="info-image" src="' + marker.content.image + '" alt="" onclick="enlargeImage(this)" oncontextmenu="return false;">' +
-                (marker.content.image_content ? '<p class="info-reference">' + marker.content.image_content + '</p>' : '') +
+                (marker.content.image_content ? '<p class="info-imagecontent">' + marker.content.image_content + '</p>' : '') +
+                '<hr width="100%" />'+
+                '<p class="info-reference">' + (language === 'cn' ? '':'') + marker.content.reference + '</p>' +
                 
                 '</div>';
     

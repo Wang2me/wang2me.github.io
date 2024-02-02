@@ -1,5 +1,5 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
 
@@ -27,7 +27,7 @@ markers.parrot2 = createMarker({ lat:15.8615,lng:108.3456}, 'parrot','越南會�
 {title_cn: '描述',title_en: 'Description'  
 ,description_cn:'林邑是位於越南中部地區的古國。東晉時期，林邑曾多次進貢象和鸚鵡。'  
 ,description_en:'Champa was an ancient state located in the central region of Vietnam. During the period of the Eastern Jin Dynasty 東晉, Champa contributed elephants and parrots several times.'
-,reference:'1. 房玄齡等，《晉書·帝紀第七》（北京：中華書局，1997），頁182。<br>&emsp;&emsp;&emsp;2. 房玄齡等，《晉書·帝紀第十》（北京：中華書局，1997），頁266。'  
+,reference:'1. 房玄齡等，《晉書·帝紀第七》（北京：中華書局，1997），頁182。<br>2. 房玄齡等，《晉書·帝紀第十》（北京：中華書局，1997），頁266。'  
 ,image:''
 ,referenceUrl:''
 });
@@ -37,7 +37,7 @@ markers.parrot3 = createMarker({ lat:11.5537,lng:104.9140}, 'parrot','柬埔寨�
 {title_cn: '描述',title_en: 'Description'  
 ,description_cn:'扶南國是南北朝時期的一個印度化的古代國家，位於中南半島南部，其領土範圍大概包括現在的泰國南部、柬埔寨、越南南部。扶南和南朝的幾代政權交往頻繁，當時的中國文獻中記載扶南國有一種｢五色鸚鵡｣。有歷史學家認為，這種顏色鮮艷的鸚鵡應該是東南亞地區的紅猩猩鸚鵡。'  
 ,description_en:'Funan 扶南 was an ancient Indianized kingdom during the Northern and Southern Dynasties 南北朝, located in the southern part of Mainland Southeast Asia, with its territory roughly encompassing what is now southern Thailand, Cambodia, and southern Vietnam. There were frequent exchanges between the Funan and Southern Dynasties 南朝, and there was a kind of "five colored parrots" recorded in Chinese historical records of that time. Some historians believed the "five colored parrots" were the chattering lories in Southeast Asia.'
-,reference:'1. 姚思廉，《梁書·列傳第四十八》（北京：中華書局，1997），頁787。<br>&emsp;&emsp;&emsp;2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 93.'
+,reference:'1. 姚思廉，《梁書·列傳第四十八》（北京：中華書局，1997），頁787。<br>2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 93.'
 ,image:''
 ,referenceUrl:''});				
 						
@@ -56,7 +56,7 @@ markers.parrot3 = createMarker({ lat:11.5537,lng:104.9140}, 'parrot','柬埔寨�
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'武則天是中國歷史上唯一的女皇帝。她在正式稱帝前，受到唐高宗的寵幸，而在後宮鬥爭中驅逐並誅殺了王皇后和蕭淑妃。據史書記載，蕭淑妃被殺前曾詛咒武則天來世變成老鼠，而自己來世變成貓以便向武則天復仇。武則天因此而禁止在後宮養貓。然而，可能是因為太喜愛貓，武則天稱帝後解除了不准養貓的限制。據說她曾經在朝堂上展示自己飼養的貓和鸚鵡，在百官面前，那隻貓突然性情大變，將鸚鵡咬死了。這件事也被後世文人附會為武則天統治終結的預兆。由此可見，貓是唐朝皇室十分喜愛的動物，飼養寵物貓在唐朝宮廷十分普遍。'  
   ,description_en:'Wu Zetian 武則天 was the only female emperor in Chinese history. Before she became emperor, she was favored by Emperor Gaozong of the Tang Dynasty 唐高宗 and expelled and killed Empress Wang 王皇后 and Consort Xiao 蕭淑妃 in a harem struggle. According to historical records, before she was killed, Consort Xiao cursed Wu Zetian to become a mouse in the next life and herself to become a cat, so that she could take revenge on Wu Zetian. As a result, Wu Zetian forbade the keeping of cats in the harem.However, perhaps because she loved cats so much, Wu Zetian lifted the ban on keeping cats after she became emperor. She once displayed her cat and parrot in the court, and the cat suddenly went berserk and bit the parrot to death in front of many officials. This incident was also interpreted by later scholars as a harbinger of the end of Wu Zetian\'s reign.These accounts indicate that cats were very popular with the royals of the Tang Dynasty 唐朝 and that keeping pet cats was very common in the Tang court.'
- ,reference:'1. 劉昫等，《舊唐書·列傳第一 后妃上》（北京：中華書局，1997），頁2170。<br>&emsp;&emsp;&emsp;2. 張鷟，《朝野僉載·卷五》（北京：中華書局據寶顏堂秘笈本點校，1979），頁117。'
+ ,reference:'1. 劉昫等，《舊唐書·列傳第一 后妃上》（北京：中華書局，1997），頁2170。<br>2. 張鷟，《朝野僉載·卷五》（北京：中華書局據寶顏堂秘笈本點校，1979），頁117。'
   ,image:''
   ,referenceUrl:''}); 
 

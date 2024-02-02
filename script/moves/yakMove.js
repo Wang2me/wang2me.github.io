@@ -1,5 +1,5 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
     markers.yak1 = createMarker({ lat:31.1387,lng:97.1690}, 'yak','西藏昌都',{ A:['yak'], B:['史前至夏商周'],C:['飲食'],D:['其他'],E:['東亞'] }
@@ -48,7 +48,7 @@
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'女國是一個公元6世紀存在於羌塘高原上的母系遊牧部落。該部落飼養氂牛，並時常跨越喜馬拉雅山脈進入天竺（古印度）進行貿易。'  
     ,description_en:'Nüguo 女國 (Female Country) was an ancient matrilineal nomadic tribe that existed on the Qiangtang Plateau 羌塘高原 in the 6th century. The tribe raises yaks and regularly crosses the Himalayas into Ancient India for trade.'
-	,reference:'1. 女國，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=140498&SubID=59542。<br>&emsp;&emsp;&emsp;2. 魏徵等，《隋書·列傳第四十八》（北京：中華書局，1997），頁1850-1851。'
+	,reference:'1. 女國，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=140498&SubID=59542。<br>2. 魏徵等，《隋書·列傳第四十八》（北京：中華書局，1997），頁1850-1851。'
     ,image:''
     ,referenceUrl:''});		
  //印度德里	-lat:28.6863493,lng:77.1919
@@ -79,7 +79,7 @@
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'吐蕃是唐朝時位於青藏高原的古代政權。唐朝初期，吐蕃通過和親的方式與唐朝保持友好關係。長慶四年（公元824年），吐蕃向唐朝進貢過氂牛。此外，有的歷史學家認為吐蕃還繁育過氂牛和普通牛雜交的混血牛，並向唐朝進貢。'  
      ,description_en:'Tibetan Empire was an ancient regime located on the Qing-Zang Plateau 青藏高原 during the Tang Dynasty 唐朝. At the beginning of the Tang Dynasty, Tibetan Empire maintained friendly relations with the Tang Dynasty through marriage alliance. In 824, the Tibetan Empire paid yaks as tribute to the Tang Dynasty. In addition, some historians believe that the Tibetan Empire also bred hybrid cattle, which crossed the yaks and the common cattle, and contributed them to the Tang Dynasty.'
-	,reference:'1. 劉昫等，《舊唐書·列傳第一百四十六下》（北京：中華書局，1997），頁5266。<br>&emsp;&emsp;&emsp;2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 74-75.'
+	,reference:'1. 劉昫等，《舊唐書·列傳第一百四十六下》（北京：中華書局，1997），頁5266。<br>2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 74-75.'
      ,image:''
      ,referenceUrl:''});
   //陝西西安	

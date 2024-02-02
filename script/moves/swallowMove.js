@@ -1,4 +1,4 @@
-//<br>&emsp;&emsp;&emsp;
+//<br>
 markers.swallow1 = createMarker({ lat:5.9762,lng:116.0468}, 'swallow','馬來西亞哥打基纳巴鲁',{ A:['swallow'], B:['唐'],C:['飲食'],D:['其他'],E:['東南亞'] }
    ,{  title_cn: '描述',title_en: 'Description'
        ,description_cn: '燕窩，是混合了金絲燕唾液的鳥巢，被人們收集以作食用或藥用。食用燕窩的歷史已經有數百年的時間。在馬來西亞沙巴的一處考古遺跡中，考古學家發現了部分烹飪燕窩的工具。他們推測，唐代時的馬來西亞已經開始採集和使用燕窩。'
@@ -50,7 +50,7 @@ markers.swallow6 = createMarker({ lat:5.8389,lng:121.2555}, 'swallow','菲律賓
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'清代的燕窩貿易由福建和廣東地區的商人主導，在乾隆時期發展至頂峰。東南亞各地的燕窩先由廣東商人運輸至香港，再由福建商人轉運至廈門。其中優質的燕窩以朝貢的形式供給清朝皇室，其餘則流入市場。菲律賓的蘇祿群島是燕窩的主要產地之一。每年有數十艘商船往來於中國和蘇祿群島之間運輸燕窩。'  
 	,description_en:'The trade of edible bird\'s nests in the Qing Dynasty 清朝 was dominated by merchants from Fujian 福建 and Guangdong 廣東, which reached its peak during the Qianlong 乾隆 period. Swallow nests from Southeast Asia were first transported to Hong Kong by Guangdong merchants and then to Xiamen 廈門 by Fujian merchants. The best quality bird\'s nests were supplied to the Qing royal family as tribute, while the rest flowed into the market. The Sulu Archipelago in the Philippines is one of the major sources of edible bird\'s nests. There were dozens of merchant ships transporting the nests between China and the Sulu Archipelago every year.	'
-	 ,reference:'1. 馮立軍，〈略論明清時期中國與東南亞的燕窩貿易〉，《中國經濟史研究》，期2（2015年3月），頁109-111。<br>&emsp;&emsp;&emsp;2.  余昕，〈燕窩貿易的三重世界：南洋華人的價值理論、物質性與生產〉，《社會》，卷41（2021年4月），頁118-123。'  
+	 ,reference:'1. 馮立軍，〈略論明清時期中國與東南亞的燕窩貿易〉，《中國經濟史研究》，期2（2015年3月），頁109-111。<br>2.  余昕，〈燕窩貿易的三重世界：南洋華人的價值理論、物質性與生產〉，《社會》，卷41（2021年4月），頁118-123。'  
 	,image:''
 	,referenceUrl:''});
  	//中國香港，福建廈門，北京	-lat:22.3204839,lng:114.1046-lat:24.4718852,lng:118.0841
@@ -59,7 +59,7 @@ markers.swallow7 = createMarker({ lat:-6.2253,lng:106.7283}, 'swallow','馬來�
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'清代的燕窩貿易由福建和廣東地區的商人主導，在乾隆時期發展至頂峰。東南亞各地的燕窩先由廣東商人運輸至香港，再由福建商人轉運至廈門。其中優質的燕窩以朝貢的形式供給清朝皇室，其餘則流入市場。爪哇島是燕窩的主要產地之一。光緒時期，每年有數千公斤的燕窩從爪哇島運輸至中國。'  
 	,description_en:'The trade of edible bird\'s nests in the Qing Dynasty 清朝 was dominated by merchants from Fujian 福建 and Guangdong 廣東, which reached its peak during the Qianlong 乾隆 period. Swallow nests from Southeast Asia were first transported to Hong Kong by Guangdong merchants and then to Xiamen 廈門 by Fujian merchants. The best quality bird\'s nests were supplied to the Qing royal family as tribute, while the rest flowed into the market. Java is one of the major sources of edible bird\'s nests. During the Guangxu period 光緒, thousands of kilograms of swallow nests were transported from Java to China every year.'
-    ,reference:'1. 馮立軍，〈略論明清時期中國與東南亞的燕窩貿易〉，《中國經濟史研究》，期2（2015年3月），頁111-112。<br>&emsp;&emsp;&emsp;2.  余昕，〈燕窩貿易的三重世界：南洋華人的價值理論、物質性與生產〉，《社會》，卷41（2021年4月），頁118-123。'
+    ,reference:'1. 馮立軍，〈略論明清時期中國與東南亞的燕窩貿易〉，《中國經濟史研究》，期2（2015年3月），頁111-112。<br>2.  余昕，〈燕窩貿易的三重世界：南洋華人的價值理論、物質性與生產〉，《社會》，卷41（2021年4月），頁118-123。'
     ,image:''
 	,referenceUrl:''});
     

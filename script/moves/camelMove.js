@@ -23,7 +23,7 @@ markers.camel3 = createMarker({ lat:	17.0151,lng:54.0945 }, 'camel','阿曼塞�
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'｢乳香之路｣，又稱｢乳香貿易遺址｣，是位於阿曼的古代香料貿易遺址群。2000年，聯合國教科文組織將其列入世界遺產名錄。該遺址顯示了古代阿拉伯半島地區香料貿易路線的繁榮。單峰駝則正是這條古老貿易線路上的重要的交通工具。古埃及是阿拉伯乳香的主要消費者之一。因此，單峰駝以駄畜的形式從阿拉伯半島傳入了非洲，並通過埃及進一步傳播至北非的突尼斯等地。'  
 	,description_en:'The Land of Frankincense is a site in Oman. It was declared a UNESCO World Heritage Site in 2000, showing the prosperity of the ancient incense trade route. The dromedary camels were important transport on this ancient trade route.Egypt was one of the main consumers of Arabian Frankincense. The dromedary camels were introduced in Egypt as the burden beast, and further spread through Egypt to other places such as Tunisia in North Africa. '
-	 ,reference:'1. “Land of Frankincense”, World Heritage Convention List, Website: whc.unesco.org/en/list/1010/.<br>&emsp;&emsp;&emsp;2. Renato Sala, “Natural and Cultural History of The Camel”, in Xinru LIU ed.  The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.125.'  
+	 ,reference:'1. “Land of Frankincense”, World Heritage Convention List, Website: whc.unesco.org/en/list/1010/.<br>2. Renato Sala, “Natural and Cultural History of The Camel”, in Xinru LIU ed.  The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.125.'  
 	,image:''
 	,referenceUrl:''});
 
@@ -31,7 +31,7 @@ markers.camel4 = createMarker({ lat:	14.5393,lng:49.1142 }, 'camel','也門穆�
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'約公元前2000年，駱駝商隊通過阿拉伯半島西部的商貿路線將乳香運輸至敘利亞。當地的遊牧民族，例如閃族人，由此開始飼養單峰駝並參與到乳香貿易中來。約公元前12世紀，出於騎乘和馱運的需要，南阿拉伯鞍被發明出來。這種駝鞍將騎手固定在駝峰後，而貨物則被掛在駝鞍兩側。'  
 	,description_en:'Around 2000 BCE, camel caravans transported frankincense to Syria via trade routes in the western Arabian Peninsula. Therefor, the local nomadic peoples began raising dromedary camels to participate in the frankincense trade. Around the 12th century BCE, the South Arabian saddle was invented by Arabian nomadic people for riding and packing purposes. This style of saddle sets the rider’s seat behind the hump, while the loads are carried in bags on both sides of the seat.'
-	 ,reference:'1. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp.64, 66-67.<br>&emsp;&emsp;&emsp;2. Renato Sala, "Natural and Cultural History of The Camel", in Xinru LIU ed. The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.126-127,133.'  
+	 ,reference:'1. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp.64, 66-67.<br>2. Renato Sala, "Natural and Cultural History of The Camel", in Xinru LIU ed. The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.126-127,133.'  
 	,image:''
 	,referenceUrl:''});
 
@@ -39,7 +39,7 @@ markers.camel5 = createMarker({ lat:	35.7423,lng:36.3167 }, 'camel','敘利亞Qa
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'亞述帝國是興起於美索不達米亞（大致位於如今的敘利亞和伊拉克）的古代國家。約公元前900年，亞述帝國發展至鼎盛時期，多次向西進行軍事擴張。公元前853年，亞述王撒縵以色三世與哈大底謝領導的十一王聯軍交戰於夸夸（今敘利亞卡爾庫爾）。此役，阿拉伯王金迪布派遣了1000名駱駝騎兵參戰以對抗亞述人。這可能是人類歷史上最早使用單峰駝戰鬥的文字記載。'  
 	,description_en:'The Assyrian Empire was an ancient kingdom that originated in Mesopotamia (roughly present-day Syria and Iraq). About 900 BCE, the Assyrian Empire flourished, conducting several military expansions to the west. In 853 BCE, Shalmaneser III and the coalition of eleven kings led by Hadadezer fought in Qarqar (now Qarqur, Syria). In this campaign, the Arab king Gindibu sent 1,000 camel riders to fight against the Assyrians. This may be the earliest literary record of dromedaries participating in the war in human history.'
-	,reference:'1. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp.64, 66-67.<br>&emsp;&emsp;&emsp;2. Renato Sala, "Natural and Cultural History of The Camel", in Xinru LIU ed. The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.126-127,133.'  
+	,reference:'1. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp.64, 66-67.<br>2. Renato Sala, "Natural and Cultural History of The Camel", in Xinru LIU ed. The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.126-127,133.'  
 	,image:''
 	,referenceUrl:''});
 
@@ -47,7 +47,7 @@ markers.camel6 = createMarker({ lat:	36.2032,lng:36.1468 }, 'camel','土耳其�
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'約公元前5世紀，北阿拉伯駝鞍出現。這種駝鞍可以直接放置在駝峰上，一方面可以攜帶更重的貨物，另一方面可以提高騎手的穩定性和機動性。駱駝騎兵因此不僅可以使用弓箭，還可以使用長劍或長矛。在公元前190年的馬格尼西亞戰役中，羅馬人首次與使用長劍的安條克三世的阿拉伯駱駝騎兵作戰。歷史學家認為羅馬人學習了這種使用單峰駝作戰的方式並將其傳播到了北非。'  
 	,description_en:'The North Arabian saddle appeared around the 5th century BCE. This kind of camel saddle can be placed directly on the hump, which can carry more loads, and improve the stability and maneuverability of the rider on the other hand. Camel riders could therefore use not only bows but also swords and spears. At the Battle of Magnesia in 190 BCE, the Romans fought for the first time against the Arabian camel cavalries of Antiochus III, who wielded long swords. Historians believe the Romans learned and spread this military use of dromedary to North Africa.'
-	 ,reference:'1. Renato Sala, "Natural and Cultural History of The Camel", in Xinru LIU ed. The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.137, 139.<br>&emsp;&emsp;&emsp;2. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp. 95.'  
+	 ,reference:'1. Renato Sala, "Natural and Cultural History of The Camel", in Xinru LIU ed. The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.137, 139.<br>2. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp. 95.'  
 	,image:''
 	,referenceUrl:''});
 
@@ -55,7 +55,7 @@ markers.camel7 = createMarker({ lat:	35.9547,lng:39.0358 }, 'camel','敘利亞�
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'單峰駝和雙峰駝的雜交後代擁有更大的體型，因此可以馱載更多的貨物。歷史學家猜測這種雜交繁殖起源於公元前1世紀的底格里斯河-幼發拉底河流域。此時正是陸上絲綢之路的開闢時期，帕提亞人建立的安息帝國地跨中亞和西亞，成為連接東漢王朝和羅馬帝國的交通樞紐。歷史學家推測安息帝國在絲綢之路西段的運輸過程中大量使用雜交駱駝馱載貨物。'  
 	,description_en:'The hybrids of dromedary and bactrian camels were larger and thus able to carry more load. Historians speculate that this interbreeding originated in the Tigris-Euphrates valley in the 1st century BCE. This was the period of the opening of the Continental Silk Road. The Parthian Empire, which straddled Central and West Asia, became the transport hub linking the Eastern Han Dynasty 東漢 with the Roman Empire. Historians have predicted that the Parthian Empire used a large number of hybrid camels to carry goods during the Western Silk Road.'
-	 ,reference:'1. Renato Sala, "Natural and Cultural History of The Camel", in Xinru LIU ed. The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.136.<br>&emsp;&emsp;&emsp;2. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp. 164.'
+	 ,reference:'1. Renato Sala, "Natural and Cultural History of The Camel", in Xinru LIU ed. The World of The Ancient Silk Road, (Abingdon and New York: Routledge, 2023), pp.136.<br>2. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp. 164.'
     ,image:''
 	,referenceUrl:''});
 
@@ -63,7 +63,7 @@ markers.camel8 = createMarker({ lat:	39.6035,lng:109.7736},'camel','內蒙古鄂
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'駱駝，古稱橐駝或橐駞。在中國古人的觀念中，駱駝是來自於北方的牲畜。早在先秦的典籍《山海經》中，便有駱駝出沒於北方山脈中的記載。現代考古發現也佐證了這一認識。在內蒙古鄂爾多斯的朱開溝遺址中，考古學家發現了一枚公元前17世紀的雙峰駝臼齒。這是迄今為止在中國發掘的最早的駱駝遺骸。由於其骨骼不完整，無法判斷其馴化程度，考古學家將其定義為野生雙峰駝。儘管尚不能還原雙峰駝在中國的馴化過程，中國的學者依然認為雙峰駝是由古代中國北方的遊牧民族馴化的，時間推測為夏朝晚期到商代早期。'  
 	,description_en:'From the opinion of ancient Chinese people, Camels were livestock from the north. There are records of camels appearing in north mountains, as early as the pre-Qin 先秦 literature Shanhai Jing 山海經 (Classic of Mountains and Seas). Modern archaeological discoveries also support this recognition. In the Zhukaigou 朱開溝 Site in Eerduosi 鄂爾多斯, archaeologists discovered a Bactrian camel molar from the 17th century BCE. This is the earliest camel remains unearthed in China so far. Archaeologists define it as a wild Bactrian camel because its skeleton is incomplete and it is impossible to judge its degree of domestication. Although the domestication process of Bactrian camels in China cannot be restored, Chinese scholars still believe that Bactrian camels were domesticated by nomadic peoples in northern China in ancient times, and the time is speculated from the late Xia Dynasty 夏朝 to the early Shang Dynasty 商朝. According to the pre-Qin classic Yi Zhou Shu 逸周書 (Lost Book of Zhou), Shang Tang 商湯 ordered Yi Yin 伊尹 to be responsible for managing the tributes from the surrounding barbarians. There were camels, wild horses, and other livestock in the tributes from north Daxia 大夏, Xiongnu 匈奴, Yuezhi 月氏. Probably camels were first introduced in ancient China in the form of tributes.'
-	 ,reference:'1. 《山海經·北山經》（上海：上海古籍出版社據浙江書局本影印，1989），頁35，46。<br>&emsp;&emsp;&emsp;2. 黃蘊平，〈內蒙古朱開溝遺址獸骨的鑒定與研究〉，《考古學報》，期4（1996年），頁515-536。<br>&emsp;&emsp;&emsp;3. 郭郛、李約瑟、成慶泰，《中國古代動物學史》（北京：科學出版社，1999），頁385-386。'
+	 ,reference:'1. 《山海經·北山經》（上海：上海古籍出版社據浙江書局本影印，1989），頁35，46。<br>2. 黃蘊平，〈內蒙古朱開溝遺址獸骨的鑒定與研究〉，《考古學報》，期4（1996年），頁515-536。<br>3. 郭郛、李約瑟、成慶泰，《中國古代動物學史》（北京：科學出版社，1999），頁385-386。'
      ,image:''
 	,referenceUrl:''});
 
@@ -102,7 +102,7 @@ markers.camel13 = createMarker({ lat:    34.3453,lng:108.6877 }, 'camel','陝西
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'上林苑是漢武帝時期修建的皇家園林，其中飼養著許多奇珍異獸以供皇帝觀賞和娛樂。根據西漢文學家司馬相如所寫的文章，上林苑中有駱駝、野馬、犀牛、象等動物。在陝西咸陽漢景帝平陵叢葬坑中，考古學家發現了作為陪葬品的33匹駱駝的骸骨。這些骸骨保存地非常完成，可以推測是漢景帝生前擁有的觀賞動物。'  
 	,description_en:'The Shanglin Garden 上林苑 was a royal garden built during the reign of Emperor Wu of the Han Dynasty 漢武帝. A lot of exotic animals were kept in the Shanglin Garden for the Emperor\'s viewing and entertainment. According to an article written by Sima Xiangru 司馬相如, a literateur of the Western Han Dynasty 西漢, there were camels, wild horses, rhinos, elephants raised in the Shanglin Garden.Archaeologists discovered the bones of 33 camels in the burial pit of the Pingling Mausoleum 平陵 of Emperor Jing of the Han Dynasty 漢景帝 in Xianyang 咸陽, Shaanxi 陝西. The preservation of these bones is very complete, and it can be speculated that they were ornamental animals owned by Emperor Jing of the Han Dynasty during his lifetime. '
-	 ,reference:'1. 司馬遷，《史記·司馬相如列傳》（北京：中華書局，1997），頁3025。<br>&emsp;&emsp;&emsp;2. 袁靖，《中國動物考古學》（北京：文物出版社，2015），頁110。'  
+	 ,reference:'1. 司馬遷，《史記·司馬相如列傳》（北京：中華書局，1997），頁3025。<br>2. 袁靖，《中國動物考古學》（北京：文物出版社，2015），頁110。'  
 	,image:''
 	,referenceUrl:''});//陕西西安
 
@@ -134,7 +134,7 @@ markers.camel17 = createMarker({ lat:	42.1682,lng:77.4729 }, 'camel','吉爾吉�
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'匈奴對漢朝和烏孫的聯盟十分不滿，因此聯合車師（今新疆吐魯番）攻擊烏孫。烏孫向西漢朝廷祈求軍事援助。本始三年（公元前71年），西漢派遣常惠帶領烏孫的軍隊與匈奴作戰並取勝，繳獲馬、牛、羊、駱駝等牲畜七十餘萬頭。此役過後，匈奴的勢力逐漸退出西域，烏孫成為了西域地區最強大的國家，漢朝在西域的影響力進一步擴大。'  
 	,description_en:'The Xiongnu 匈奴 were very dissatisfied with the alliance between the Han Dynasty 漢朝 and the Wusun 烏孫, so they united with the Cheshi 車師 (present-day Tulufan 吐魯番, Xinjiang 新疆) to attack the Wusun. Wusun prayed for military assistance from the Western Han 西漢 court. In 71 BCE, the Western Han Dynasty sent Chang Hui 常惠 to lead the army of Wusun to fight against the Xiongnu and win the battle, capturing more than 700,000 livestock such as horses, cattle, sheep, camels, etc.  After this battle, the Wusun became the most powerful state in the Western Regions instead of the Xiongnu, and the influence of the Han Dynasty in the Western Regions was further expanded.'
-	 ,reference:'1. 班固，《漢書·傅常鄭甘陳段傳第四十》（北京：中華書局，1997），頁3004。<br>&emsp;&emsp;&emsp;2. 班固，《漢書·西域傳第六十六下》（北京：中華書局，1997），頁3905。'
+	 ,reference:'1. 班固，《漢書·傅常鄭甘陳段傳第四十》（北京：中華書局，1997），頁3004。<br>2. 班固，《漢書·西域傳第六十六下》（北京：中華書局，1997），頁3905。'
     ,image:''
 	,referenceUrl:''});//陕西西安
 
@@ -142,7 +142,7 @@ markers.camel18 = createMarker({ lat:	40.2752,lng:111.1941 }, 'camel','內蒙古
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'東漢初期，匈奴部落陷入內戰，並最終分裂為南匈奴和北匈奴。南匈奴單于率領部落向東漢投降，漢光武帝允許其部落居住在雲中郡（今內蒙古托克托縣）。建武二十六年（公元50年），南匈奴單于遣使貢駱駝兩頭、毛色有文采的馬十匹，東漢王朝回賜橙、橘、龍眼、荔枝。'  
 	,description_en:'In the early Eastern Han Dynasty 東漢, the Xiongnu 匈奴 tribes fell into civil war and eventually divided into the Southern Xiongnu 南匈奴 and the Northern Xiongnu 北匈奴. The Chanyu 單于 of Southern Xiongnu surrendered to the Eastern Han Dynasty, and Emperor Guangwu of the Han Dynasty 漢光武帝 allowed his tribe to live in Yunzhong County 雲中郡 (present-day Tuoketuo County 托克托縣, Nei Menggu 內蒙古). In 50, Chanyu of the Southern Xiongnu sent two camels and ten horses with patterned fur to the Han Dynasty as tribute. As a reward, the Eastern Han Dynasty gave oranges, longan, and lychees to the Southern Xiongnu.'
-	 ,reference:'1. 班固，《漢書·匈奴傳第六十四下》（北京：中華書局，1997），頁2943。<br>&emsp;&emsp;&emsp;2. 班固等，《東觀漢記·列傳十七》（北京：中華書局據聚珍版叢書本排印，1985），頁205-206。'  
+	 ,reference:'1. 班固，《漢書·匈奴傳第六十四下》（北京：中華書局，1997），頁2943。<br>2. 班固等，《東觀漢記·列傳十七》（北京：中華書局據聚珍版叢書本排印，1985），頁205-206。'  
 	,image:''
 	,referenceUrl:''});//陕西西安
 
@@ -150,7 +150,7 @@ markers.camel19 = createMarker({ lat:	40.2654,lng:111.2014 }, 'camel','內蒙古
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'南匈奴歸附東漢後，依然保留了許多遊牧民族的生活習慣。例如，他們在祭祀活動期間會進行賽馬和鬥駱駝等娛樂活動。'  
 	,description_en:'After the Southern Xiongnu 南匈奴 joined the Eastern Han Dynasty 東漢, they still retained some customs of the nomadic people. They would engage in recreational activities such as horse racing and camel fighting during their sacrificial ceremonies.'
-	 ,reference:'1. 班固，《漢書·匈奴傳第六十四下》（北京：中華書局，1997），頁2944。<br>&emsp;&emsp;&emsp;2. 班固等，《東觀漢記·列傳十七》（北京：中華書局據聚珍版叢書本排印，1985），頁205-206。"'  
+	 ,reference:'1. 班固，《漢書·匈奴傳第六十四下》（北京：中華書局，1997），頁2944。<br>2. 班固等，《東觀漢記·列傳十七》（北京：中華書局據聚珍版叢書本排印，1985），頁205-206。"'  
 	,image:''
 	,referenceUrl:''});
 
@@ -158,7 +158,7 @@ markers.camel20 = createMarker(RandomCoords(luoyang), 'camel','河南洛陽',{ A
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'魏晉南北朝時期，曹魏、西晉、北魏等政權都曾在洛陽建都。酈道元《水經注》中記載：魏明帝曹叡於皇宮南門外設立兩銅駝，該街道也由此得名｢銅駝街｣。宋代典籍《太平御覽》則引述陸機《洛陽記》中說法：銅駝高約九尺，為東漢時所鑄。雖然銅駝出現的時間有所爭議，但不可否認的是，｢銅駝｣這一地標性建築在漢以後是公認的皇權象徵。'  
 	,description_en:'During the period of the Three Kingdoms 三國, Eastern and Western Jin Dynasties 兩晉, and Northern and Southern Dynasties 南北朝, many government select Luoyang 洛陽 as their capitals, such as Cao Wei 曹魏, Western Jin 西晉, and Northern Wei 北魏. During the reign of Emperor Ming of Wei 魏明帝, two bronze camels were set up outside the south gate of Luoyang Imperial Palace, and the street was also named “Tongtuo 銅駝 (bronze camel) Street”. The bronze camel became a symbol of imperial power after the Han Dynasty.'
-	 ,reference:'1. 酈道元，《水經注·卷第十六》（中國國家圖書館藏明抄本）。<br>&emsp;&emsp;&emsp;2. 李昉等，《太平御覽·州郡部四》（中國國家圖書館藏清嘉慶九年從善堂刻本）。'
+	 ,reference:'1. 酈道元，《水經注·卷第十六》（中國國家圖書館藏明抄本）。<br>2. 李昉等，《太平御覽·州郡部四》（中國國家圖書館藏清嘉慶九年從善堂刻本）。'
     ,image:''
 	,referenceUrl:''});
 
@@ -174,7 +174,7 @@ markers.camel22 = createMarker({ lat:	40.1346,lng:94.6559 }, 'camel','甘肅敦�
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'魏晉南北朝時期，人們已經發現駱駝在西北地區沙漠環境中有不可替代的價值，並在前往西域的路途中大量騎乘駱駝。敦煌是前往西域的重要關口。在西晉的文獻中，敦煌以西前往外國途中有廣袤的沙漠，而駱駝可以探知沙漠中的地下水。駱駝一旦發現水源便會停止不前，並用四足踏地的方式提醒人們。在北魏的文獻中，且末（今新疆且末縣）被沙漠所包圍，夏季時常有沙塵暴。商旅攜帶的駱駝預知到沙塵暴來襲時，便會圍在一起，將口鼻埋在沙中。這時人也會和駱駝一起，模仿駱駝的樣子用毛氈掩蓋口鼻，等待風沙停止，否則會有生命危險。'  
 	,description_en:'After the Han Dynasty 漢朝, people had already realised the irreplaceable value of camels in the desert environment of the northwestern region, and rised them extensively on the way to the Western Regions.Dunhuang 敦煌 was an important port for travelling to the Western Regions. In Western Jin 西晉 literature, there were vast deserts between Dunhuang and foreign countries, and camels could detect underground water in the desert. Once the camels found a water source, they would stop and alert people by stamping on the ground with all four feet.In Northern Wei 北魏 texts, the Qiemo 且末 (present-day Qiemo County 且末縣, Xinjiang 新疆) was surrounded by desert, and sandstorms were common in the summer. When the camels carried by the merchants predicted the sandstorms, they would gather together and bury their mouths and noses in the sand. At this time, people will also be with the camels, imitating the camels with blankets to cover their noses and mouths, waiting for the sandstorm to stop, otherwise, it would be life-threatening.'
-	 ,reference:'1. 張華，《博物志·卷之八》（中國國家圖書館藏明弘治十八年賀泰刻本）。<br>&emsp;&emsp;&emsp;2. 魏收，《魏書·列傳第九十》（北京：中華書局，1997），頁2262。'  
+	 ,reference:'1. 張華，《博物志·卷之八》（中國國家圖書館藏明弘治十八年賀泰刻本）。<br>2. 魏收，《魏書·列傳第九十》（北京：中華書局，1997），頁2262。'  
 	,image:''
 	,referenceUrl:''});//河南開封
 
@@ -198,7 +198,7 @@ markers.camel25 = createMarker({ lat:	41.7214,lng:82.9664 }, 'camel','新疆庫�
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'根據北魏的歷史記載，龜茲（今新疆庫車）曾經遣使進貢七十頭｢名駝｣。｢名駝｣又稱｢明駝｣、｢鳴駝｣，在南北朝時期廣泛出現在文字記載中。北魏樂府詩《木蘭辭》中便有｢願借明駝千里足｣一語。唐代《酉陽雜俎》認為，｢明駝｣是指駱駝伏地時腹不觸地，有光從足間漏出，｢名駝｣和｢鳴駝｣應為訛稱。'  
 	,description_en:'Kucha (presen-day Kuche 庫車, Xinjiang 新疆) once sent 70 “mingtuo 明駝” (bright camels) as tributes to Northern Wei 北魏. The “bright camel’ may describe the situation that the light passing between the legs when camel kneeling. '
-	 ,reference:'1. 魏收，《魏書·列傳第九十》（北京：中華書局，1997），頁2266-2267。<br>&emsp;&emsp;&emsp;2. 魏收，《魏書·高祖紀第七上》（北京：中華書局，1997），頁146。<br>&emsp;&emsp;&emsp;3. 段成式，《酉陽雜俎·廣動植之一》（北京：中華書局據明萬曆趙琦美校勘本點校，1981），頁160。'
+	 ,reference:'1. 魏收，《魏書·列傳第九十》（北京：中華書局，1997），頁2266-2267。<br>2. 魏收，《魏書·高祖紀第七上》（北京：中華書局，1997），頁146。<br>3. 段成式，《酉陽雜俎·廣動植之一》（北京：中華書局據明萬曆趙琦美校勘本點校，1981），頁160。'
     ,image:''
 	,referenceUrl:''});
 
@@ -262,7 +262,7 @@ markers.camel33 = createMarker({ lat:    39.6364, lng:66.9128	 }, 'camel','烏�
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'唐朝承襲隋朝官制，依然由鴻臚寺負責管理朝貢事宜。貢品中的馬和駱駝由鴻臚寺和太僕寺共同評定價值，其中最優良的被選出在朝堂上陳列。此外鴻臚寺的下屬部門還需要管理長安城（今陝西西安）的外族牲畜貿易。唐朝進口的牲畜主要有馬、駱駝、牛、羊等。唐高宗時期牲畜互市設於安善坊和大業坊，後來因為地處長安城南不方便交易，而遷移至東市。'  
     ,description_en:'The Tang Dynasty 唐朝 inherited the official system of the Sui Dynasty 隋朝, and the tribute affairs still were managed by the Honglusi 鴻臚寺. The horses and camels in the tributes would be assessed by Honglusi and Taipusi 太僕寺 together, and selected the best for review on the court.It was also responsible for managing the trade of foreign livestock in the Chang\'an City 長安城 (present-day Xi\'an 西安, Shaanxi 陝西). The main livestock imported by the Tang Dynasty were horses, camels, cattle, and sheep. During the reign of Emperor Gaozong of the Tang Dynasty 唐高宗, the places for exotic livestock trade were located in Anshan Fang 安善坊 and Daye Fang 大業坊. These two places were located in the south of Chang\'an City, and later the livestock trade was moved to the East Market of Chang\'an City due to the problem of transportation.'
-	 ,reference:'1. 歐陽修、宋祁，《新唐書·志第三十八》（北京：中華書局，1997），頁1257-1258。<br>&emsp;&emsp;&emsp;2. 劉昫等，《舊唐書·志第二十三》（北京：中華書局，1997），頁1895。<br>&emsp;&emsp;&emsp;3. 宋敏求，《長安志·卷七》，《四庫全書·第五八七冊》（上海：上海古籍出版社據文淵閣本四庫全書影印，1987），頁126。'  
+	 ,reference:'1. 歐陽修、宋祁，《新唐書·志第三十八》（北京：中華書局，1997），頁1257-1258。<br>2. 劉昫等，《舊唐書·志第二十三》（北京：中華書局，1997），頁1895。<br>3. 宋敏求，《長安志·卷七》，《四庫全書·第五八七冊》（上海：上海古籍出版社據文淵閣本四庫全書影印，1987），頁126。'  
     ,image:''
 	,referenceUrl:''});
 
@@ -270,7 +270,7 @@ markers.camel34 = createMarker({ lat:	35.0027,lng:104.6349 }, 'camel','甘肅隴
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'唐代在隴右地區設立了大量牧監來管理官方牲畜的牧養（今甘肅地區）。天寶十三載（公元754年），隴右牧所管理的牛、馬、羊、駱駝等牲畜共計605603頭。其中馬有325792匹，駱駝有563頭。美國著名漢學家薛愛華認為，大量遊牧民族在唐朝時遷入中國，包括突厥人、吐谷渾人、粟特人等。這些移民很可能被官方牧場大量僱傭進行放牧工作。'  
     ,description_en:'"The Tang Dynasty 唐朝 established official pastures on the Longyou 隴右 areas (present-day Gansu Province 甘肅省). In 754, the total number of cattle, horses, sheep, camels and other livestock under the management of Longyou Pastures exceeded 600,000, including 325,792 horses and 563 camels.Edward Hetzel Schafer, a famous American sinologist, argues that a large number of nomadic peoples immigrated to China during the Tang Dynasty, including the Turkic peoples, the Tuyuhuns, and the Sogdians. It is probable that these immigrants were employed by the official pastures in large numbers for herding work."'
-	 ,reference:'1. 歐陽修、宋祁，《新唐書·志第四十》（北京：中華書局，1997），頁1338。<br>&emsp;&emsp;&emsp;2. 王溥，《唐會要·卷七十二》（中國國家圖書館藏清乾隆武英殿印本）。<br>&emsp;&emsp;&emsp;3. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 71.'  
+	 ,reference:'1. 歐陽修、宋祁，《新唐書·志第四十》（北京：中華書局，1997），頁1338。<br>2. 王溥，《唐會要·卷七十二》（中國國家圖書館藏清乾隆武英殿印本）。<br>3. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 71.'  
     ,image:''
 	,referenceUrl:''});
 
@@ -286,7 +286,7 @@ markers.camel36 = createMarker({ lat:	41.7125,lng:82.9538 }, 'camel','新疆庫�
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'龜茲位於如今的新疆庫車，是古代西域國家之一。龜茲國在新年時有長達七日的慶祝活動，在此期間會鬥牛、馬、駱駝作樂，並通過勝負來占卜下一年的畜牧情況。'  
      ,description_en:'Kucha, located in present-day Kuche 庫車, Xinjiang 新疆, was one of the ancient kingdoms in Western Regions. Kucha has a seven-day celebration in the New Year. During this period, there were bulls, horses, and camels fightings, and the results will be used to predict the animal husbandry situation in the next year.'
-	 ,reference:'1. 段成式，《酉陽雜俎·境異》（北京：中華書局據明萬曆趙琦美校勘本點校，1981），頁46。<br>&emsp;&emsp;&emsp;2. 歐陽修、宋祁，《新唐書·列傳第一百四十六上》（北京：中華書局，1997），頁6230。'  
+	 ,reference:'1. 段成式，《酉陽雜俎·境異》（北京：中華書局據明萬曆趙琦美校勘本點校，1981），頁46。<br>2. 歐陽修、宋祁，《新唐書·列傳第一百四十六上》（北京：中華書局，1997），頁6230。'  
      ,image:''
      ,referenceUrl:''});
 
@@ -318,7 +318,7 @@ markers.camel40 = createMarker({lat:39.7265,lng:98.4879 }, 'camel','甘肅酒泉
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'唐朝的文獻中記錄了一位叫曲良翰的將軍，他非常擅長製作烤駝峰。可見駱駝曾經是唐代邊塞軍隊中常見的肉食來源。'  
      ,description_en:'Tang Dynasty 唐朝 literature records a general named Qu Lianghan 曲良翰 who was very good at making roasted camel\'s hump. It is evident that camels were once a common source of meat for Tang Dynasty troops on the borders.'
-	 ,reference:'1. 段成式，《酉陽雜俎·酒食》（北京：中華書局據明萬曆趙琦美校勘本點校，1981），頁71。<br>&emsp;&emsp;&emsp;2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 72-73.'  
+	 ,reference:'1. 段成式，《酉陽雜俎·酒食》（北京：中華書局據明萬曆趙琦美校勘本點校，1981），頁71。<br>2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 72-73.'  
      ,image:''
      ,referenceUrl:''});
 
@@ -326,7 +326,7 @@ markers.camel41 = createMarker({  lat:34.2829,lng:108.9545}, 'camel','陝西西�
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'唐玄宗天寶年間，安祿山和史思明在范陽（今河北涿州）起兵反叛，史稱｢安史之亂｣。這場叛亂持續了八年時間，是唐朝由盛轉衰的轉捩點，也是陸上絲綢之路東段的轉捩點。叛軍攻陷長安（今陝西西安）和洛陽兩座都城後，用大量的駱駝將皇宮中的珍寶運輸至范陽。'  
      ,description_en:'During the reign of Emperor Xuanzong of Tang Dynasty 唐玄宗, An Lushan 安祿山 and Shi Siming 史思明 revolted in Fanyang 范陽 (present day Zhuozhou 涿州, Hebei 河北). This event is known as the "An Lushan Rebellion". The rebellion, which lasted for eight years, was a turning point for the Tang Dynasty and the Eastern Continental Silk Road. After capturing the two capitals of Chang\'an 長安 (present-day Xi\'an 西安, Shaanxi 陝西) and Luoyang 洛陽, the rebels transported the treasures of the imperial palace to Fanyang by camels.'
-	 ,reference:'1. 劉昫等，《舊唐書·列傳第一百五十上》（北京：中華書局，1997），頁5378。<br>&emsp;&emsp;&emsp;2. 歐陽修、宋祁，《新唐書·列傳第一百五十上》（北京：中華書局，1997），頁6428。'  
+	 ,reference:'1. 劉昫等，《舊唐書·列傳第一百五十上》（北京：中華書局，1997），頁5378。<br>2. 歐陽修、宋祁，《新唐書·列傳第一百五十上》（北京：中華書局，1997），頁6428。'  
      ,image:''
      ,referenceUrl:''});
 
@@ -335,7 +335,7 @@ markers.camel42 = createMarker({ lat:38.8528,lng:115.4610}, 'camel','河北保�
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'唐朝滅亡後，中國歷史再次進入一段短暫的分裂時期，史稱｢五代十國｣。此時北方草原的契丹人崛起，建立了遼朝。公元945年，遼太宗耶律德光率軍南下進攻後晉，雙方交戰於陽城（河北保定）。在緊要關頭，大風驟起，風向對遼軍不利。後晉將領符彥卿等人趁機率領騎兵向遼軍的包圍圈發起衝鋒。遼軍因此大敗，遼太宗騎乘一頭白駱駝逃走。'  
      ,description_en:''
-	 ,reference:'1. 薛居正等，《舊五代史·晉書九 少帝紀第九》（北京：中華書局，1997），頁1103-1104。<br>&emsp;&emsp;&emsp;2. 歐陽修，《新五代史·四夷附錄第一》（北京：中華書局，1997），頁895。<br>&emsp;&emsp;&emsp;3. 脫脫等，《宋史·列傳第十》（北京：中華書局，1997），頁8838。<br>&emsp;&emsp;&emsp;4. 脫脫等，《遼史·本紀第四》（北京：中華書局，1997），頁56。'  
+	 ,reference:'1. 薛居正等，《舊五代史·晉書九 少帝紀第九》（北京：中華書局，1997），頁1103-1104。<br>2. 歐陽修，《新五代史·四夷附錄第一》（北京：中華書局，1997），頁895。<br>3. 脫脫等，《宋史·列傳第十》（北京：中華書局，1997），頁8838。<br>4. 脫脫等，《遼史·本紀第四》（北京：中華書局，1997），頁56。'  
      ,image:''
      ,referenceUrl:''});    
 
@@ -415,7 +415,7 @@ markers.camel52 = createMarker(RandomCoords(beijing), 'camel','北京',{ A:['cam
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'元朝皇帝的儀仗隊中，有六頭裝有蓮座的大象，這些大象由六名南越軍人牽引。其後是九頭有彩旗裝飾的駱駝。皇帝出行時，九個駱駝騎手會擊鼓以壯聲勢，這種駱駝被稱為｢駝鼓｣。元代宮廷畫家劉貫道所繪製的《元世祖出獵圖》創作於至元十七年（公元1280年），其內容為元世祖忽必烈和自己的皇后及一眾隨從打獵的場景。在繪畫的上半部分，可以看到一支為皇帝攜帶物資的駱駝隊伍。'  
      ,description_en:'"The emperor’s guard of honour in the Yuan Dynasty 元朝 included six elephants setting lotus form seats and nine camels decorated with colour flags. When the emperor was traveling, the camel riders would beat the drums to make their presence felt. Therefore, these camels were also called “tuogu 駝鼓”(camel drums).The ""Scroll Painting of Yuan Dynasty Ancestor Go Hunting"" was painted in 1280 by the court painter Liu Guandao 劉貫道. This painting shows the Kublai Khan on his hunting trip with his empress and a group of servants. In the upper part of the painting, we can see a troop of camels carrying supplies for the emperor."'
-	 ,reference:'1. 宋濂等，《元史·志第二十九》（北京：中華書局，1997），頁1974，1975-1976。<br>&emsp;&emsp;&emsp;2. 畫元世祖出獵圖，國立故宮博物院網站，網址：theme.npm.edu.tw/khan/Article.aspx?sNo=03009149。'  
+	 ,reference:'1. 宋濂等，《元史·志第二十九》（北京：中華書局，1997），頁1974，1975-1976。<br>2. 畫元世祖出獵圖，國立故宮博物院網站，網址：theme.npm.edu.tw/khan/Article.aspx?sNo=03009149。'  
      ,image:'/media/OneDrive_1_2024-1-8/52. (Yuan Dynasty, Scroll Painting of Yuan Dynasty Ancestor Go Hunting [detail], housed in National Palace Museum).jpg'
      ,image_content_cn:'元，元世祖出獵圖[局部]，國立故宮博物院藏'
      ,image_content_en:'Yuan Dynasty, Scroll Painting of Yuan Dynasty Ancestor Go Hunting [detail], housed in National Palace Museum'
@@ -425,7 +425,7 @@ markers.camel53 = createMarker({lat:39.6527,lng:66.9909 }, 'camel','烏茲別克
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'撒拉族是中國信仰伊斯蘭教的少數民族之一，如今主要定居在青海省循化縣。歷史學家認為該族可能是元代時遷入中國的。根據撒拉族的傳說，在撒馬爾罕有兩兄弟，他們帶著十八名族人，牽著一頭白駱駝，馱著古蘭經向東遷徙。在到達中國青海的時候駱駝遺失了，等他們尋找到駱駝的時候，發現駱駝在一口清泉旁化成了石頭。他們決定在此處定居，並將此地命名為｢駱駝泉｣。'  
      ,description_en:'The Salar people are one of the minority ethnic groups that believe in Islam and mainly live in Xunhua County 循化縣 of Qinghai Province 青海省. Historians speculate that the Salar people may have migrated to China during the Yuan Dynasty 元朝. According to their Islamic legend, two brothers led 18 tribesmen, carrying a white camel and a Quran, who migrated eastward from Samarkand. When they arrived in Qinghai, the white camel was lost. The camel had turned into stone beside a spring when they finally found it. They decided to settle here and named the place "Camel Spring".'
-	 ,reference:'1. 撒拉族，中國政府網，網址：www.gov.cn/test/2006-04/14/content_254390.htm。<br>&emsp;&emsp;&emsp;2. Zvi Ben-dor Benite, “Follow the white camel: Islam in China to 1800”, in David O.MORGAN and Anthony REID ed. The New Cambridge History of Islam Vol.3, (Cambridge: Cambridge University Press, 2011), pp. 409-412.'  
+	 ,reference:'1. 撒拉族，中國政府網，網址：www.gov.cn/test/2006-04/14/content_254390.htm。<br>2. Zvi Ben-dor Benite, “Follow the white camel: Islam in China to 1800”, in David O.MORGAN and Anthony REID ed. The New Cambridge History of Islam Vol.3, (Cambridge: Cambridge University Press, 2011), pp. 409-412.'  
      ,image:''
      ,referenceUrl:''});     
 
@@ -433,7 +433,7 @@ markers.camel54 = createMarker(RandomCoords(beijing), 'camel','北京',{ A:['cam
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'明代建立了詳細的朝貢和回賜制度。進獻的駱駝需要先由會同館和典牧所評判品質，選取優良的駱駝在朝堂上陳列。經皇帝檢閱後再發往內府各部門交收。到萬曆年間，駱駝不再於朝堂上檢閱，而是核查後直接發往不同部門。而回賜一般為絲織品，通常情況下每頭駱駝回賜彩段三表裏或四表裏。'  
      ,description_en:'The Ming Dynasty 明朝 established a detailed tribute system. The camels in tributes would be assessed by Huitongguan 會同館 and Dianmusuo 典牧所. The best camels were selected to be displayed to the emperor in the court.  During the Wanli 萬曆 period, the review on court was cancelled, and the camels were directly received by different departments. Usually, the “huici 回賜” for camels were coloured silk and satin.'
-	 ,reference:'1. 申時行等，《明會典·卷之一百八》（北京：中華書局據萬有文庫本排印，1989），頁585。<br>&emsp;&emsp;&emsp;2. 申時行等，《明會典·卷之一百十一》（北京：中華書局據萬有文庫本排印，1989），頁593，595。'  
+	 ,reference:'1. 申時行等，《明會典·卷之一百八》（北京：中華書局據萬有文庫本排印，1989），頁585。<br>2. 申時行等，《明會典·卷之一百十一》（北京：中華書局據萬有文庫本排印，1989），頁593，595。'  
      ,image:''
      ,image_content:''
 ,referenceUrl:''});  
@@ -490,7 +490,7 @@ markers.camel61 = createMarker({lat: 2.062115,lng:45.2452}, 'camel','索馬里�
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'木骨都束，即如今索馬里的摩加迪沙。鄭和下西洋時曾多次航行至此，記錄了該國以魚乾飼餵駱駝的習俗。這種習俗一直持續到今天，歷史學家認為這可能是馴化駱駝的最早方式。'  
      ,description_en:'Zheng He 鄭和 once recorded that the people in Mogadishu feed camels with dried fish. This custom even continues today, and historians speculate that this may be the oldest way humans domesticated dromedary camel.'
-	 ,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8449。<br>&emsp;&emsp;&emsp;2. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp.49，5.6.'  
+	 ,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8449。<br>2. Richard P. Bulliet, The Camel and The Wheel (New York: Columbia University Press, 1990), pp.49，5.6.'  
      ,image:''
      ,referenceUrl:''});
 
@@ -538,7 +538,7 @@ markers.camel67 = createMarker({lat:37.3617,lng:97.3617}, 'camel','青海海西'
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'位於青海的柴達木盆地氣候乾旱，多沙漠，當地牧民出行必須依靠駱駝。而當地湖泊多為鹹水，適宜餵養駱駝，由此青海駱駝成為清代最知名的品種。'  
      ,description_en:'The Chaidamu Basin 柴達木盆地 in Qinghai 青海 has an arid climate and many deserts. Local herdsmen must rely on camels to travel. The local lakes are mostly salty water, which is suitable for feeding camels. As a result, Qinghai camels became the most famous species during the Qing Dynasty 清朝.'
-     ,reference:'1. 徐珂，《清稗類鈔·第一冊》（北京：中華書局，2010），頁97-98。<br>&emsp;&emsp;&emsp;2. 徐珂，《清稗類鈔·第五冊》（北京：中華書局，2010），頁2276-2277。<br>&emsp;&emsp;&emsp;3. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5557-5559。'  
+     ,reference:'1. 徐珂，《清稗類鈔·第一冊》（北京：中華書局，2010），頁97-98。<br>2. 徐珂，《清稗類鈔·第五冊》（北京：中華書局，2010），頁2276-2277。<br>3. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5557-5559。'  
      ,image:''
      ,referenceUrl:''});   
 

@@ -1,5 +1,5 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
     markers.cat1 = createMarker({ lat:35.9566,lng:38.9921}, 'cat','敘利亞拉卡省',{ A:['cat'], B:['史前至夏商周'],C:['農業生產'],D:['其他'],E:['西亞'] }
@@ -42,7 +42,7 @@ markers.cat5 = createMarker({lat:25.6859,lng:32.6385 }, 'cat','埃及盧克索',
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'貓因為可以捕鼠而受到古埃及人的喜愛和崇敬。古埃及在很長一段時間內禁止出口貓，隨意傷害貓也會受到懲罰。古埃及貴族對貓更是寵愛有加，並大量飼養寵物貓。在古埃及貴族墓葬中，貓是十分常見的壁畫題材。例如，在古埃及皇室成員伊普伊的墓葬壁畫中有兩隻貓，其中一隻小貓在伊普伊的大腿上玩耍，而另一隻貓端坐在伊普伊妻子的座椅下方。'  
  ,description_en:'Cats were loved and honored by the ancient Egyptians for catching rats. It was forbidden to export cats for a long time in Ancient Egypt, and any harm to cats would be punished. Ancient Egyptian nobles kept a lot of pet cats. In their tombs, cats were frequently the motif of murals. For example, in the tomb frescoes of Ipuy, a member of the Egyptian royal family, there are two cats, one of which is a kitten playing on Ipuy\'s lap, while the other is sitting under the seat of Ipuy\'s wife.'
- ,reference:'1. Sarah Brown, The Cat: A Natural and Cultural History (New Jersey: Princeton University Press, 2020), pp. 27-28.<br>&emsp;&emsp;&emsp;2. Ipuy and Wife Receive Offerings from Their Children (substantially restored), The Metropolitan Museum of Art Website, www.metmuseum.org/art/collection/search/548567.'
+ ,reference:'1. Sarah Brown, The Cat: A Natural and Cultural History (New Jersey: Princeton University Press, 2020), pp. 27-28.<br>2. Ipuy and Wife Receive Offerings from Their Children (substantially restored), The Metropolitan Museum of Art Website, www.metmuseum.org/art/collection/search/548567.'
  ,image:'media/OneDrive_1_2024-1-8/144. (1279BCE-12123BCE, Ipuy and Wife Receive Offerings from Their Children, housed in Metropolitan Meseum of Art) .jpg'
  ,image_content_cn:'公元前1279年-公元前1213年，伊普伊墓葬壁畫，大都會藝術博物館藏'
  ,image_content_en:'1279BCE-12123BCE, Ipuy and Wife Receive Offerings from Their Children, housed in Metropolitan Meseum of Art'
@@ -52,7 +52,7 @@ markers.cat6 = createMarker({lat:34.5371,lng:109.8582 }, 'cat','陝西渭南華�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'2013年，中國的古生物研究團隊在陝西省泉護村遺址中發掘了兩隻貓的遺骸，研究人員通過同位素數據發現這兩隻貓的飲食結構中有大量以小米為主的澱粉質，由此推斷這兩隻貓生前被人餵養。這兩隻貓的骸骨距今約5300年，這是人類目前所發現的最早的人貓共生考古證據。但研究團隊同時也表示，不能確定這種餵養是特例還是當時的普遍現象。後來，法國的研究團隊對這兩隻貓的骨骼進行了骨骼形態學分析，認為這兩個骸骨屬於豹貓。研究人員相信新石器時代的中國先民們曾經獨立馴化過豹貓，但被後來傳入的家貓所取代了。'  
  ,description_en:'In 2013, a Chinese paleontological research team excavated the skeletons of two cats from the Quanhu Village Site 泉護村遺址 in Shaanxi 陝西. Through the investigation of isotopic data, the researchers found that the diet of these two cats included a large amount of millet-based amyloid, which led to the inference that these cats were fed by humans for a long time. The skeletons of these two cats are about 5,300 years old and are also the earliest archaeological evidence of human-cat symbiosis ever found. However, the research team also said that it was uncertain whether this feeding was an exception or a common phenomenon at the time. Later, a French research team conducted a skeletal morphological analysis of the skeletons of these two cats and concluded that they were leopard cats. The researchers believe that the leopard cats were once independently domesticated by the Neolithic Chinese, but that they were replaced by the domestic cats that were introduced later.'
-,reference:'1. Hu Y, et al. ""Earliest evidence for commensal processes of cat domestication"". Proc Natl Acad Sci USA. 2014;101: 106–120.  doi: 10.1073/pnas.1310439100.<br>&emsp;&emsp;&emsp;2. Vigne JD, et al. ""Earliest "Domestic" Cats in China Identified as Leopard Cat (Prionailurus bengalensis)"". PLoS One. 2016 Jan 22;10(1):e0147295. doi: 10.1371/journal.pone.0147295.'
+,reference:'1. Hu Y, et al. ""Earliest evidence for commensal processes of cat domestication"". Proc Natl Acad Sci USA. 2014;101: 106–120.  doi: 10.1073/pnas.1310439100.<br>2. Vigne JD, et al. ""Earliest "Domestic" Cats in China Identified as Leopard Cat (Prionailurus bengalensis)"". PLoS One. 2016 Jan 22;10(1):e0147295. doi: 10.1371/journal.pone.0147295.'
  ,image:''
  ,referenceUrl:''});
 				
@@ -68,7 +68,7 @@ markers.cat6 = createMarker({lat:34.5371,lng:109.8582 }, 'cat','陝西渭南華�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'先秦時期，｢貓｣又被稱為｢狸｣。也有人認為，｢貓｣是指家貓，而｢狸｣是指｢野貓｣。戰國時期，人們嘗試馴養當地的野貓。在當時的諸多文獻中，如《韓非子》和《呂氏春秋》，都有飼養｢狸｣捕鼠的記載。'  
  ,description_en:'In the pre-Qin period 先秦時期, the "Mao 貓" (cat in Chinese) was more commonly known as "Li 狸" in China. Some scholars believe that "Li" refers specifically to wildcats. During the Warring States period 戰國時期, people attempted to domesticate the local wildcats for deratization.'
-,reference:'1. 郭郛、李約瑟、成慶泰，《中國古代動物學史》（北京：科學出版社，1999），頁413。<br>&emsp;&emsp;&emsp;22. 韓非，《韓非子·揚權》（上海：上海古籍出版社據浙江書局本影印，1989），頁616。<br>&emsp;&emsp;&emsp;3. 呂不韋，《呂氏春秋·功名》，（上海：上海書店據世界書局諸子集成本影印，1986），頁21。'
+,reference:'1. 郭郛、李約瑟、成慶泰，《中國古代動物學史》（北京：科學出版社，1999），頁413。<br>22. 韓非，《韓非子·揚權》（上海：上海古籍出版社據浙江書局本影印，1989），頁616。<br>3. 呂不韋，《呂氏春秋·功名》，（上海：上海書店據世界書局諸子集成本影印，1986），頁21。'
  ,image:''
  ,referenceUrl:''});
 
@@ -105,7 +105,7 @@ markers.cat12 = createMarker({  lat:39.8045,lng:116.2878 }, 'cat','北京豐台�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'劉向所著的《說苑》 中曾有西漢宮廷中養狸捕鼠的記載。1974年，北京大葆台漢墓被發掘，後被認定為西漢皇族劉建（公元前73年-公元前45年）及其夫人的陵墓。考古學家在墓中發現了一個裝有貓骨的陶罐。該發現證實了西漢宮廷中養貓的風氣。'  
  ,description_en:'The Shuo Yuan 說苑 (Garden of Stories), a collection of stories and anecdotes written by Liu Xiang 劉向 in the Western Han Dynasty 西漢, records that the Han court raised cats for hunting mice. In 1974, the Dabaotai Han tomb 大葆台漢墓 in Beijing 北京 was excavated and later identified as the tomb of Liu Jian 劉建 (73 BCE-45 BCE), an imperial member of the Western Han Dynasty. Archaeologists found a clay jar containing the cat bones in the tomb. The discovery confirmed the custom of keeping cats in the Western Han court.'
-,reference:'1. 劉向，《說苑·雜言》（北京：中華書局，1985），頁166。<br>&emsp;&emsp;&emsp;2. 王子今，〈北京大葆台漢墓出土貓骨及相關問題〉，《考古》，2016年第2期，頁91-93。'
+,reference:'1. 劉向，《說苑·雜言》（北京：中華書局，1985），頁166。<br>2. 王子今，〈北京大葆台漢墓出土貓骨及相關問題〉，《考古》，2016年第2期，頁91-93。'
  ,image:''
  ,referenceUrl:''});
 
@@ -114,7 +114,7 @@ markers.cat13 = createMarker({  lat:28.2233,lng:112.9361 }, 'cat','湖南長沙'
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'馬王堆漢墓是中國考古史上一次重要的發現，出土了眾多具有研究價值的文物。在馬王堆一號墓中，考古學家發現了一個繪有狸貓和烏龜紋樣的彩色漆盤。漆盤上寫有｢君幸食｣三字，意為對用餐者的祝願。該漆盤的紋樣也是中國目前發現的最早的貓繪畫圖案。'  
  ,description_en:'The Site of Mawangdui Han Tomb 馬王堆漢墓 is an important discovery in Chinese archaeological history, unearthing numerous burial objects of research value. In Mawangdui Tomb 1, researchers found a painted lacquer dish with cats and turtle patterns, which also be written "Jun Xing Shi 君幸食" which means the blessing of "enjoy your meal". The pattern on this lacquer dish is also the earliest known painting of cats in China.'
-,reference:'1. 《如果國寶會說話》節目組，《如果國寶會說話 第二季》（香港：中華教育，2022），頁210, 212。<br>&emsp;&emsp;&emsp;2. ｢君幸食｣狸貓紋漆食盤，湖南博物館藏品賞析，網址：www.hnmuseum.com/zh-hant/cangpin/node/8156。'
+,reference:'1. 《如果國寶會說話》節目組，《如果國寶會說話 第二季》（香港：中華教育，2022），頁210, 212。<br>2. ｢君幸食｣狸貓紋漆食盤，湖南博物館藏品賞析，網址：www.hnmuseum.com/zh-hant/cangpin/node/8156。'
  ,image:''
  ,referenceUrl:''});				
 
@@ -122,7 +122,7 @@ markers.cat14 = createMarker({  lat:37.9161,lng:102.6339 }, 'cat','甘肅武威'
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'磨嘴子遺址是位於甘肅武威的一系列漢代公墓遺跡，其中出土了一件木雕臥貓。該木貓長19釐米，高6釐米，造型簡單並繪有墨色條紋。由於甘肅武威地處河西走廊，是連接中原和西域的必經之路，有歷史學家認為，該木貓的出土可能證明了家貓通過絲綢之路向中國傳播並替代了中國本土野貓的過程。'  
  ,description_en:'The Site of Mozuizi 磨嘴子遺址, located in Wuwei 武威, Gansu 甘肅, was a public tomb group in the Han Dynasty 漢朝. Archeologists found a wooden cat with a simple shape and black strip. The wooden cat is 19 cm in length and 6 cm in height.  Since Wuwei was located in the Hexi Corridor 河西走廊, which was the necessary route between the Central Plains and the Western Regions, some historians believe that this wooden cat may prove that domestic cats were introduced to China through the Continental Silk Road and replaced the native Chinese wildcats.'
-,reference:'1. 《如果國寶會說話》節目組，《如果國寶會說話 第二季》（香港：中華教育，2022），頁217。<br>&emsp;&emsp;&emsp;2. 王子今，〈東方朔「跛貓」「捕鼠」說的意義〉，《南都學壇》，卷36期1（2016年1月），頁4-5。'
+,reference:'1. 《如果國寶會說話》節目組，《如果國寶會說話 第二季》（香港：中華教育，2022），頁217。<br>2. 王子今，〈東方朔「跛貓」「捕鼠」說的意義〉，《南都學壇》，卷36期1（2016年1月），頁4-5。'
  ,image:''
  ,referenceUrl:''});
 
@@ -147,7 +147,7 @@ markers.cat16= createMarker({lat:34.6227,lng:112.4476 }, 'cat','河南洛陽',{ 
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'武則天是中國歷史上唯一的女皇帝。她在正式稱帝前，受到唐高宗的寵幸，而在後宮鬥爭中驅逐並誅殺了王皇后和蕭淑妃。據史書記載，蕭淑妃被殺前曾詛咒武則天來世變成老鼠，而自己來世變成貓以便向武則天復仇。武則天因此而禁止在後宮養貓。然而，可能是因為太喜愛貓，武則天稱帝後解除了不准養貓的限制。據說她曾經在朝堂上展示自己飼養的貓和鸚鵡，在百官面前，那隻貓突然性情大變，將鸚鵡咬死了。這件事也被後世文人附會為武則天統治終結的預兆。由此可見，貓是唐朝皇室十分喜愛的動物，飼養寵物貓在唐朝宮廷十分普遍。'  
   ,description_en:'Wu Zetian 武則天 was the only female emperor in Chinese history. Before she became emperor, she was favored by Emperor Gaozong of the Tang Dynasty 唐高宗 and expelled and killed Empress Wang 王皇后 and Consort Xiao 蕭淑妃 in a harem struggle. According to historical records, before she was killed, Consort Xiao cursed Wu Zetian to become a mouse in the next life and herself to become a cat, so that she could take revenge on Wu Zetian. As a result, Wu Zetian forbade the keeping of cats in the harem.However, perhaps because she loved cats so much, Wu Zetian lifted the ban on keeping cats after she became emperor. She once displayed her cat and parrot in the court, and the cat suddenly went berserk and bit the parrot to death in front of many officials. This incident was also interpreted by later scholars as a harbinger of the end of Wu Zetian\'s reign.These accounts indicate that cats were very popular with the royals of the Tang Dynasty 唐朝 and that keeping pet cats was very common in the Tang court.'
-,reference:'1. 劉昫等，《舊唐書·列傳第一 后妃上》（北京：中華書局，1997），頁2170。<br>&emsp;&emsp;&emsp;2. 張鷟，《朝野僉載·卷五》（北京：中華書局據寶顏堂秘笈本點校，1979），頁107。'  
+,reference:'1. 劉昫等，《舊唐書·列傳第一 后妃上》（北京：中華書局，1997），頁2170。<br>2. 張鷟，《朝野僉載·卷五》（北京：中華書局據寶顏堂秘笈本點校，1979），頁107。'  
   ,image:''
   ,referenceUrl:''});
   
@@ -174,7 +174,7 @@ markers.cat18 = createMarker({ lat:34.9992,lng:104.6321}, 'cat','甘肅隴西',{
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'宋代商品經濟發展，寵物市場也因此非常繁榮。在北宋的都城汴京（今河南開封），每月都有專門買賣動物的市集，包括貓、狗以及其他寵物。宋人極愛貓，購買或者領養貓需要準備｢聘禮｣。北宋詩人黃庭堅曾作《乞貓》一詩記述他向朋友討要新生小貓的過程，黃庭堅為朋友準備的｢聘禮｣是幾條魚。 貓也是北宋宮廷繪畫中的常見題材。《宣和畫譜》中記錄了善於畫貓的多位畫家，包括李靄之、王凝、何尊師等人。宋徽宗本人也是一位畫貓的高手，現存於台北故宮博物院的《耄耋圖卷》就是他的真蹟。｢貓和蝴蝶｣是中國古代繪畫中的常見題材，由於｢貓｣、｢蝶｣與｢耄耋｣諧音，這一類繪畫代表了古人祈求長壽的願望。'  
  ,description_en:'"With the development of the commodity economy in the Song Dynasty 宋朝, the pet market was also very prosperous. Every month in Bianjing 汴京 (present-day Kaifeng 開封, Henan 河南), the capital of the Northern Song Dynasty 北宋, there were markets devoted to the sale of animals, including cats, dogs, and other pets. Song people were extremely fond of cats and were required to prepare ""gifts"" to purchase or adopt cats. The famous poet Huang Tingjian 黃庭堅 once wrote a poem to record his adoption of a newborn kitty from a friend, and his ""gifts"" for his friend were some fish.The Xuanhe Huapu 宣和畫譜 (Xuanhe Catalogue of Paintings), a palace catalog of paintings in the Northern Song Dynasty, records a number of painters who were good at drawing cats, including Li Aizhi 李靄之, Wang Ning 王凝, and He Zunshi 何尊師. Emperor Huizong of the Song Dynasty 宋徽宗 himself was an expert cat painter, and his painting ""Album of Cats and Butterflies"" is now in the National Palace Museum in Taipei. ""Cats and butterflies"" was a common theme in ancient Chinese paintings, representing the wish of Chinese people for longevity."'
-,reference:'1. 孟元老，《東京夢華錄·卷三》（上海：商務印書館據學津討源本影印，1936），頁59。<br>&emsp;&emsp;&emsp;2. 黃庭堅，《山谷集·外集 卷六》，《四庫全書·第一一一三冊》（上海：上海古籍出版社據文淵閣本四庫全書影印，1987），頁396。<br>&emsp;&emsp;&emsp;3. 《宣和畫譜·卷十三》，《四庫全書·第八一三冊》（上海：上海古籍出版社據文淵閣本四庫全書影印，1987），頁145。<br>&emsp;&emsp;&emsp;4. 宋徽宗真蹟耄耋圖，國立故宮博物院網站，網址：theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo=04015780。'  
+,reference:'1. 孟元老，《東京夢華錄·卷三》（上海：商務印書館據學津討源本影印，1936），頁59。<br>2. 黃庭堅，《山谷集·外集 卷六》，《四庫全書·第一一一三冊》（上海：上海古籍出版社據文淵閣本四庫全書影印，1987），頁396。<br>3. 《宣和畫譜·卷十三》，《四庫全書·第八一三冊》（上海：上海古籍出版社據文淵閣本四庫全書影印，1987），頁145。<br>4. 宋徽宗真蹟耄耋圖，國立故宮博物院網站，網址：theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo=04015780。'  
  ,image:''
  ,referenceUrl:''});
 		  
@@ -190,7 +190,7 @@ markers.cat21 = createMarker({ lat:36.2910,lng:59.5874}, 'cat','伊朗馬什哈�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'在南宋的都城臨安（今浙江杭州），寵物產業更加繁榮，寵物商品也更加豐富。除了各式各樣的貓糧、狗糧、貓窩、狗窩外，部分商戶還提供為貓狗理髮的服務。臨安的高官和富商尤其喜愛一種名為｢獅貓｣的外來品種。｢獅貓｣的毛髮長且濃密，有白、黃兩種顏色，不能捕鼠。推測可能是通過海上貿易傳入中國的波斯貓早期品種。'  
  ,description_en:'"In Lin\'an 臨安 (present-day Hangzhou 杭州, Zhejiang 浙江), the capital of the Southern Song Dynasty 南宋, the pet industry was more prosperous and the goods for pets were more varied. In addition to the multiple food and houses for pets, some merchants also offered haircutting services for dogs and cats. The officials and merchants in Lin\'an were particularly fond of an exotic species called the ""lion cat"". ""Lion cats"" have long and dense fur, white or yellow in color, and cannot hunt mice. It is presumed to be an early species of Persian cat that was introduced to China through the maritime trade."'
-,reference:'1. 吳自牧，《夢梁録·卷十三》（上海：商務印書館，1939），頁107。<br>&emsp;&emsp;&emsp;2. 吳自牧，《夢梁録·卷十八》（上海：商務印書館，1939），頁169。<br>&emsp;&emsp;&emsp;3. 周密，《武林舊事·卷六》（杭州：浙江人民出版社據知不足齋叢書本點校，1984），頁102,104。'  
+,reference:'1. 吳自牧，《夢梁録·卷十三》（上海：商務印書館，1939），頁107。<br>2. 吳自牧，《夢梁録·卷十八》（上海：商務印書館，1939），頁169。<br>3. 周密，《武林舊事·卷六》（杭州：浙江人民出版社據知不足齋叢書本點校，1984），頁102,104。'  
  ,image:'media/OneDrive_1_2024-1-8/160. (Nothern Song Dynasty, Album of Cats and Butterflies, housed in National Palace Museum).png'
  ,image_content_cn:'北宋，宋徽宗真跡耄耋圖，國立故宮博物院藏'
  ,image_content_en:'Nothern Song Dynasty, Album of Cats and Butterflies, housed in National Palace Museum'
@@ -201,7 +201,7 @@ markers.cat22= createMarker({lat:30.2625,lng:120.1294 }, 'cat','浙江杭州',{ 
  {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南宋時期，臨安（今浙江杭州）發展出了獨特的寵物習俗。農曆六月初六，人們帶著自己的貓狗去河邊洗澡。農曆十二月廿五日，人們祭祀灶神，並製作赤豆粥給貓狗分食。' 
  ,description_en:'During the Southern Song Dynasty 南宋, the unique pet custom has been developed in Lin\'an 臨安 (present-day Hangzhou 杭州, Zhejiang 浙江). On the 6th day of the 6th lunar month, people took their cats and dogs to the river to bathe. On the twenty-fifth day of the twelfth lunar month, people make worshiped the Kitchen God and share red bean porridge with cats and dogs.'
-,reference:'1. 田汝成，《西湖遊覽志馀·卷二十》（杭州：浙江人民出版社據嘉惠堂本校訂，1980），頁319。<br>&emsp;&emsp;&emsp;2. 吳自牧，《夢梁録·卷六》（上海：商務印書館，1939），頁48。'  
+,reference:'1. 田汝成，《西湖遊覽志馀·卷二十》（杭州：浙江人民出版社據嘉惠堂本校訂，1980），頁319。<br>2. 吳自牧，《夢梁録·卷六》（上海：商務印書館，1939），頁48。'  
  ,image:''
  ,referenceUrl:''});		
  
@@ -209,7 +209,7 @@ markers.cat23 = createMarker({	lat:29.9898,lng:120.5590  }, 'cat','浙江紹興'
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南宋著名詩人陸遊特別愛貓，他在四川為官期間寫了大量關於貓的詩作。陸遊聘貓時用鹽作為聘禮，這個習俗一直持續到明清時期。有人認為在吳地方言中｢鹽｣與｢緣｣同音，以鹽聘貓象徵著主人和貓之間的緣分。'  
  ,description_en:'Lu You 陸遊, a famous poet of the Southern Song Dynasty 南宋, was particularly fond of cats and wrote a large number of poems about them while he was an official in Sichuan 四川. Lu You used salt as the "gifts" for cats purchased and the custom of using salt continued until the Ming and Qing Dynasties 明清時期. It is believed that the "salt" may represent the fated relationship between the owner and the cat.'
-,reference:'1. 陸遊，《劍南詩稿·卷四十二》（上海：中華書局據毛氏汲古閣本校刊），頁448。<br>&emsp;&emsp;&emsp;2. 黃漢，《貓苑·卷下》（清咸豐二年甕雲草堂刻本）。'  
+,reference:'1. 陸遊，《劍南詩稿·卷四十二》（上海：中華書局據毛氏汲古閣本校刊），頁448。<br>2. 黃漢，《貓苑·卷下》（清咸豐二年甕雲草堂刻本）。'  
  ,image:''
  ,referenceUrl:''});
  //四川成都-lat:30.6462803,lng:104.0547
@@ -238,7 +238,7 @@ markers.cat26 = createMarker({ lat:21.4175,lng:39.778}, 'cat','沙特阿拉伯�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元代將從阿拉伯或波斯遷入中國的穆斯林稱為｢回回｣。蒙古統治者給予回回商人許多特權，尤其是元朝的對外貿易場所主要由他們負責。元代的回回婦人經常將鳳仙花搗碎為貓狗染色，這一習俗被杭州文人們記錄下來。'  
  ,description_en:'The Huihui 回回 people were Muslims who migrated to China from Arabia or Persia during the Yuan Dynasty 元朝. The Mongol rulers granted many privileges to the Huihui merchants, especially the management of foreign trading venues. The Huihui women in the Yuan Dynasty frequently mashed up garden balsams to colour their cats and dogs, which was recorded by the scholars of Hangzhou.'
-,reference:'1. 回回商人，中國大百科全書網站，網址：www.zgbk.com/ecph/words?SiteID=1&ID=231255&Type=bkztb&SubID=705。<br>&emsp;&emsp;&emsp;2. 周密，《癸辛雜識·續集上》（北京：中華書局據學津討原本點校，1988），頁135。'  
+,reference:'1. 回回商人，中國大百科全書網站，網址：www.zgbk.com/ecph/words?SiteID=1&ID=231255&Type=bkztb&SubID=705。<br>2. 周密，《癸辛雜識·續集上》（北京：中華書局據學津討原本點校，1988），頁135。'  
  ,image:''
  ,referenceUrl:''});
 //浙江杭州	-lat:30.2625874,lng:120.1294
@@ -289,7 +289,7 @@ markers.cat31 = createMarker({ lat:36.2910,lng:59.5374}, 'cat','伊朗馬什哈�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'明代皇宮中設有貓房，專門負責養貓，每年餵貓肉可達七百二十斤。受到皇帝喜愛的貓還會被賜予官職，這些被尊稱為｢老爺｣或｢丫頭｣的貓也就是我們現在所看到的｢故宮貓｣的祖先。明代皇帝很多都是出名的愛貓人士。宣德帝曾親筆繪製了多幅貓畫，其中幾件現存於台北故宮博物院，例如創作於1426年的《花下貍奴圖》。嘉靖皇帝最喜愛一隻名為｢雙眉｣的獅貓，據說雙眉非常善解人意，經常陪伴在嘉靖身邊且從不吵鬧。它死後嘉靖皇帝十分悲痛，命令百官為它寫作悼文。袁煒的悼文中有｢化獅作龍｣的說法，令嘉靖非常滿意，雙眉的墓因此被稱為｢虬龍冢｣。受此風氣影響，明朝的宦官也十分流行養貓，尤其是體型高大的波斯貓。'  
  ,description_en:'"During the Ming Dynasty 明朝, there was a cat house in the imperial palace, which was responsible for raising cats and feeding them up to 720 jins 斤 of meat each year. The cats favored by the emperor were also given official positions, and these cats were the ancestors of the ""Forbidden City cats"" we can see today.A lot of Ming emperors were famous cat lovers. Xuande Emperor 宣德皇帝 painted many cat paintings, several of which are now in the National Palace Museum in Taipei, such as the painting ""Cats Below Flowers"", created in 1426. The favorite cat of the Jiajing Emperor 嘉靖皇帝 was a lion cat, which often accompanied him quietly. Jiajing Emperor was very sorrowful when the cat died and asked his officials to write eulogies for the cat. Yuan Wei 袁煒 was appreciated by Jiajing because his eulogy included the phrase ""the lion cat became a dragon after its death"". Therefore, the tomb of the lion cat was named the ""Dragon Tomb"".Influenced by this trend, it was also popular for Ming eunuchs to keep cats, especially the large Persian cats."'
-,reference:'1. 沈德符，《萬曆野獲編·補遺一》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁812。<br>&emsp;&emsp;&emsp;2. 沈榜，《宛署雜記·第十三卷》（北京：北京出版社據明萬曆二十一年刻本點校，1961），頁104。<br>&emsp;&emsp;&emsp;3. 沈榜，《宛署雜記·第二十卷》（北京：北京出版社據明萬曆二十一年刻本點校，1961），頁259。<br>&emsp;&emsp;&emsp;4. 明宣宗畫花下貍奴圖，國立故宮博物院網站，網址：digitalarchive.npm.gov.tw/Painting/Content?pid=3220&Dept=P。'  
+,reference:'1. 沈德符，《萬曆野獲編·補遺一》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁812。<br>2. 沈榜，《宛署雜記·第十三卷》（北京：北京出版社據明萬曆二十一年刻本點校，1961），頁104。<br>3. 沈榜，《宛署雜記·第二十卷》（北京：北京出版社據明萬曆二十一年刻本點校，1961），頁259。<br>4. 明宣宗畫花下貍奴圖，國立故宮博物院網站，網址：digitalarchive.npm.gov.tw/Painting/Content?pid=3220&Dept=P。'  
  ,image:'media/OneDrive_1_2024-1-8/170. (Ming Dynasty, Cats Below Flowers, housed in National Palace Museum).jpg'
  ,image_content_cn:'明，明宣宗畫花下狸奴圖，國立故宮博物院藏'
  ,image_content_en:'Ming Dynasty, Cats Below Flowers, housed in National Palace Museum'
@@ -310,7 +310,7 @@ markers.cat33 = createMarker(RandomCoords(beijing), 'cat','北京',{ A:['cat'],B
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'清代延續了明代在宮廷中養貓的傳統，其中飼養的主要品種是獅貓。咸豐元年（公元1851年），一個名為白三喜的太監和侄子合謀偷取皇宮中的獅貓，事發後被判處重刑，並公佈在當時的邸報上。'  
  ,description_en:'The Qing Dynasty 清朝 continued the tradition of keeping cats in the palace during the Ming Dynasty 明朝, and the main species raised was the lion cat. In 1851, a eunuch named Bai Sanxi 白三喜 and his nephew conspired to steal lion cats from the imperial palace and were sentenced to heavy imprisonment. This event was published in the gazette at the time.'
-,reference:'1. 黃漢，《貓苑·卷上》（中國國家圖書館藏清咸豐二年甕雲草堂刻本）。<br>&emsp;&emsp;&emsp;2. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5545。'  
+,reference:'1. 黃漢，《貓苑·卷上》（中國國家圖書館藏清咸豐二年甕雲草堂刻本）。<br>2. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5545。'  
  ,image:''
  ,referenceUrl:''});			
      
@@ -318,7 +318,7 @@ markers.cat34 = createMarker({ lat:36.8349,lng:115.7126}, 'cat','山東臨清',{
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'獅貓（波斯貓）自宋代傳入中國後，經過多年的繁育，至明清時期已經成為華北地區的特產。而山東臨清地區的回民又將獅貓和當地狸貓配種，繁育出知名的臨清獅貓。'  
  ,description_en:'After being introduced into China in the Song Dynasty 宋朝, the lion cat (Persian cat) has become a specialty in North China in the Ming 明 and Qing 清 Dynasties after many years of breeding. The Hui people 回民 in the Linqing 臨清 area of Shandong 山東 also mixed the lion cat with the local leopard cat to breed a bew species, the well-known Linqing lion cat 臨清獅貓.'
-,reference:'1. 孫蓀意，《銜蟬小錄·卷一》（中國國家圖書館藏清嘉慶二十四年刻本）。<br>&emsp;&emsp;&emsp;2. 徐子尚，《臨清縣志·第四冊》（中國國家圖書館藏民國二十三年鉛印本）。'  
+,reference:'1. 孫蓀意，《銜蟬小錄·卷一》（中國國家圖書館藏清嘉慶二十四年刻本）。<br>2. 徐子尚，《臨清縣志·第四冊》（中國國家圖書館藏民國二十三年鉛印本）。'  
  ,image:''
  ,referenceUrl:''});			
  
@@ -326,7 +326,7 @@ markers.cat35 = createMarker({ lat:30.3892,lng:104.5377}, 'cat','四川簡州',{
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'清代時，四川簡州出產一種四耳貓。這種貓有重疊的耳廓，看上去像是四隻耳朵。實際上，這是由於異常發育導致的副耳。這種貓因為極強的捕鼠能力而受到清朝官員的喜愛。'  
  ,description_en:'During the Qing Dynasty 清朝, there were the four-eared cats in Jianzhou 簡州, Sichuan 四川. These cats had overlapping auricles that looked like four ears. In fact, this was an accessory auricle caused by abnormal development. These cats were loved by officials in Qing Dynasty for their ability to catch mice.'
-,reference:'1. 濮瑗，《簡州志·卷十四》（中國國家圖書館藏清咸豐三年刻本）。<br>&emsp;&emsp;&emsp;2. 黃漢，《貓苑·卷上》（中國國家圖書館藏清咸豐二年甕雲草堂刻本）。'  
+,reference:'1. 濮瑗，《簡州志·卷十四》（中國國家圖書館藏清咸豐三年刻本）。<br>2. 黃漢，《貓苑·卷上》（中國國家圖書館藏清咸豐二年甕雲草堂刻本）。'  
  ,image:''
  ,referenceUrl:''});				
  
@@ -334,7 +334,7 @@ markers.cat36 = createMarker({ lat:26.2203,lng:127.7148}, 'cat','日本琉球',{
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'日本短尾貓是一種日本特有的品種。因其尾巴極短，且不能捕鼠，而成為日本人喜愛的寵物。清代時，日本短尾貓從琉球傳入中國廣東等地。'  
  ,description_en:'The Japanese Bobtail is a special breed of domestic cat with an unusually short tail. Because its tail is extremely short and cannot catch mice, it has become a favorite pet of the Japanese. During the Qing Dynasty 清朝, the Japanese Bobtail was introduced to Guangdong 廣東 from the Ryukyu. '
-,reference:'1. 孫蓀意，《銜蟬小錄·卷一》（中國國家圖書館藏清嘉慶二十四年刻本）。<br>&emsp;&emsp;&emsp;2. 周煌，《琉球國志略·卷十四》（北京：中華書局據聚珍版叢書本排印，1985），頁172。'  
+,reference:'1. 孫蓀意，《銜蟬小錄·卷一》（中國國家圖書館藏清嘉慶二十四年刻本）。<br>2. 周煌，《琉球國志略·卷十四》（北京：中華書局據聚珍版叢書本排印，1985），頁172。'  
  ,image:''
  ,referenceUrl:''});
 //廣東廣州	-lat:23.1260928,lng:103.2597

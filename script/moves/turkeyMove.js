@@ -1,12 +1,12 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
     markers.turkey1 = createMarker({lat:17.0745,lng:-96.7356}, 'turkey','墨西哥瓦哈卡',{ A:['turkey'], B:['史前至夏商周'],C:['宗教信仰'],D:['其他'],E:['北美洲'] }
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '火雞是北美洲的原生物種。在普遍的認識中，位於美國西南部和墨西哥的印第安人可能飼養火雞用於部落的祭祀儀式。有的歷史學家認為，火雞的馴化可以追溯至5000年前墨西哥的瓦哈卡。'
     ,description_en:'Turkeys are a native species of North America. It is widely recognized that Indians in the southwestern United States and Mexico may have kept turkeys for tribal ceremonies. Some historians believe that the domestication of turkeys can be dated to Oaxaca, Mexico, 5,000 years ago.'
-    ,reference:'1. 馬克·艾弗里著，徐凱傑、張建軍譯，《鳥類發現之旅》（北京：中國攝影出版社，2017），頁146。<br>&emsp;&emsp;&emsp;2. 郭郛、李約瑟、成慶泰，《中國古代動物學史》（北京：科學出版社，1999），頁457。'
+    ,reference:'1. 馬克·艾弗里著，徐凱傑、張建軍譯，《鳥類發現之旅》（北京：中國攝影出版社，2017），頁146。<br>2. 郭郛、李約瑟、成慶泰，《中國古代動物學史》（北京：科學出版社，1999），頁457。'
     ,imag:''
     ,referenceUrl:''
  });

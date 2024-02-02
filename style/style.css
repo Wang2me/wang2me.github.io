@@ -35,9 +35,9 @@ body {
 .image-button1 {
     display: flex;
     position: absolute;
-    top: 40px;
+    top: 10%;
     right: 10px;
-    cursor: pointer;
+    /* cursor: pointer; */
     z-index: 1;
     width: 25px;;
     }
@@ -262,7 +262,7 @@ body {
     /* background-size: cover; */
     background-position: center;
     opacity: 1;
-    height: 10%;
+    height: 13%;
     background-color: #EBD9B4;
     border-top: 2px solid #1a73e8; /* 添加上边框 */
     
@@ -348,7 +348,7 @@ body {
 .timeline-text {
     /* position: absolute; */
     text-align: center; /* 居中文本 */
-    font-size: 18px;
+    font-size: 16px;
     /* font-weight: bold; 设置文字加粗 */
     color:rgb(0, 0, 0);
 }
@@ -391,7 +391,7 @@ body {
     display: flex;
         background-color: #dff39d;
         border: none;
-        padding: 0px 10px;
+        padding: 0px 20px;
         margin: 2px;
         font-size: 8pt;
         /* cursor: pointer; */
@@ -412,7 +412,7 @@ body {
     }
     
     .info-icon {
-        width: 20px; /* Set the width of the icon */
+        width: 30px; /* Set the width of the icon */
         margin-right: 10px; /* Add spacing between icon and text */
         vertical-align: middle;
     }
@@ -424,12 +424,17 @@ body {
         text-indent: 2em;
     }
 
- 
+    .info-details{
+        font-size: 16px;
+    }
     .info-reference{
         font-size: 11px;
+        padding-left: 20px;
+        text-indent: 0;
     }
+
     .info-image-content{
-        font-size: 11px;
+        font-size: 12px;
     }
     img[src="media/animal_icon/0_icon.png"] {
         width: 25px; /* 图标宽度 */
@@ -504,7 +509,7 @@ body {
         display: grid;
         width: 4%;
         right: 1%;
-        top: 50%;
+        top: 40%;
         z-index: 11;
         background-color: #638889;
         border-radius: 10px; /* 添加圆角 */
@@ -579,7 +584,7 @@ body {
 #openWindow{
     position: absolute;
     top: 60%;
-    left:3%;
+    right:3%;
 }
 /* CSS Styles */
 .image-container {
@@ -689,7 +694,7 @@ body {
 .line-button{
     position: absolute;
     right: 0%;
-    bottom: 10%;
+    bottom: 13%;
     width:auto;
     flex-direction: column;
     align-items: left;
@@ -770,7 +775,7 @@ padding-bottom: 30px;
     z-index: 11;
   }
   .material-icons{
-    right:3%;
-    top:40%;
+    right:5%;
+    top:75%;
     position: absolute;
   }

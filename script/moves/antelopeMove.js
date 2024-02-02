@@ -1,5 +1,5 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
 	
@@ -30,7 +30,7 @@ markers.antelope1 = createMarker({ lat:45.6423,lng:25.5790}, 'antelope','羅馬�
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '拜占庭帝國，又稱東羅馬帝國，在中國古籍中被稱為｢大秦｣或｢拂菻｣。開元七年（公元719年），拂菻國在吐火羅人的幫助下向唐朝進貢了兩隻羚羊。唐朝的歷史記載並未說明這兩隻羚羊的品種。有的歷史學家認為，這兩隻羚羊可能是來自喀爾巴阡山的歐洲山羚。'
     ,description_en:'The Byzantine Empire, also known as the Eastern Roman Empire, was named "Da Qin 大秦" or "Fulin 拂菻" in ancient Chinese texts. In 719, the Byzantine Empire sent two antelopes as tribute to the Tang Dynasty 唐朝 with the help of the Tocharians. The historical records of the Tang Dynasty have not indicated the species of these two antelopes. Some historians believe that they may be Chamois from the Carpathians.'
-	,reference:'1. 劉昫等，《舊唐書·列傳第一百四十八》（北京：中華書局，1997），頁5314-5315。<br>&emsp;&emsp;&emsp;2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 89-90.'
+	,reference:'1. 劉昫等，《舊唐書·列傳第一百四十八》（北京：中華書局，1997），頁5314-5315。<br>2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 89-90.'
     ,imag:''
     ,referenceUrl:''
  });		
@@ -73,7 +73,7 @@ markers.antelope4 = createMarker({lat:27.1334,lng:57.0739}, 'antelope','伊朗�
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'忽魯謨斯，即如今伊朗米納卜，地處霍爾木茲海峽，是進入波斯灣的必經之路。鄭和的船隊曾多次到達此處。1414年，忽魯謨斯國王跟隨鄭和的船隊返回北京，向永樂皇帝進貢馬匹。此外，獅子、長頸鹿、斑馬、鴕鳥、羚羊也是忽魯謨斯經常攜帶的貢品。'  
      ,description_en:'Hormuz, the present-day Minab in Iran, was located on the essential route into the Persian Gulf. Zheng He 鄭和 visited this place on several occasions. In 1414, the King of Hormuz visited Beijing 北京 with Zheng He and offered horses to Yongle Emperor 永樂皇帝 as tribute. In addition, lions, giraffes, zebras, ostriches, and oryxes were often the tributes from Hormuz.'
-	,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8452。<br>&emsp;&emsp;&emsp;2. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁85-86。'
+	,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8452。<br>2. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁85-86。'
      ,image:''
      ,referenceUrl:''});
 
@@ -121,6 +121,7 @@ for (var i = 0; i < antelopes.length; i++) {
 
 var newCoords_antelope1_1= {lat:41.0298,lng:28.9625};
 var newCoords_antelope1_2= {lat:34.5400,lng:69.0510};
+
 var newCoords_antelope1_3= RandomCoords(xian);
 
 var newCoords_antelope2_1= {lat:16.4532,lng:107.5694};
@@ -200,7 +201,7 @@ slider.addEventListener('input', function() {
        
        
         
-        var points_1 = [initialCoords_antelope1,  newCoords_antelope1_1, newCoords_antelope1_2,newCoords_antelope1_3,newCoords_antelope1_3];
+        var points_1 = [initialCoords_antelope1,  newCoords_antelope1_1, newCoords_antelope1_2,dunhuang,wuwei,newCoords_antelope1_3,newCoords_antelope1_3];
         var points_2 = [initialCoords_antelope2,  newCoords_antelope2_1, newCoords_antelope2_2,newCoords_antelope2_2];
         
         

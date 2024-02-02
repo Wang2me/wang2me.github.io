@@ -1,5 +1,5 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
 
@@ -39,7 +39,7 @@ markers.turtle3 = createMarker({lat:41.8945347,lng:12.4928}, 'turtle','意大利
 {title_cn: '描述',title_en: 'Description'  
 ,description_cn:'羅馬帝國在漢代時被稱為大秦。延熹九年（公元166年），一夥大秦使者在日南郡登陸（今越南東河），向東漢進貢。他們攜帶的貢品中有許多奢侈品，比如玳瑁。這是羅馬帝國和古代中國之間的第一次交往。但在西方的歷史記載中並沒有這次出訪中國的記載，因此有的歷史學家認為這些人的真實身份是來自羅馬帝國的商人而非官方使者。儘管這群羅馬使者的身份成疑，他們都對古代東西方之間的交流做出了貢獻。'  
 ,description_en:'In 166, a group of envoys from Roman Empire made a tribute to the Eastern Han Dynasty 東漢 by landing at the Rinan Commandery 日南郡 (present-day Dong Ha, Vietnam). The tribute they carried included many luxury items, like tortoiseshells. This was the first interaction between the Roman Empire and ancient China. However, there is no record of this visit in Western history. Therefore, some historians believe that these people were actually merchants from the Roman Empire rather than official envoys. Although the identities of these Roman envoys are in doubt, they all contributed to the exchange between the East and the West in ancient history.'
-,reference:'1. 范曄，《後漢書·西域傳第七十八》（北京：中華書局，1997），頁2920。<br>&emsp;&emsp;&emsp;2. 大秦王安敦通使於漢，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=504832&Type=bkztb&SubID=704。'
+,reference:'1. 范曄，《後漢書·西域傳第七十八》（北京：中華書局，1997），頁2920。<br>2. 大秦王安敦通使於漢，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=504832&Type=bkztb&SubID=704。'
 ,image:''
 ,referenceUrl:''});				
 //越南東河，河南洛陽	-lat:16.8043076,lng:107.0779

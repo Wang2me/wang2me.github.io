@@ -1,6 +1,6 @@
 // 图标信息
 var iconInfo = {
-    camel: { url: '/media/animal_icon/camel.PNG', scaledSize: new google.maps.Size(30, 30)},
+    camel: { url: '/media/animal_icon/camel.PNG', scaledSize: new google.maps.Size(25, 25)},
     cat: { url: '/media/animal_icon/cat.png',scaledSize: new google.maps.Size(25,25) },
     dog: { url: '/media/animal_icon/dog2.png', scaledSize: new google.maps.Size(25, 25) },
     rhino: { url: '/media/animal_icon/rhino.png',scaledSize: new google.maps.Size(25, 25) },

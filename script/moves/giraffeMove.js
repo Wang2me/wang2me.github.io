@@ -1,9 +1,9 @@
-//<br>&emsp;&emsp;&emsp;
+//<br>
 markers.giraffe1 = createMarker({ lat:32.0650,lng:118.7939}, 'giraffe','江蘇南京',{ A:['giraffe'], B:['明'],C:['身份象徵'],D:['海上絲綢之路'],E:['東亞'] }
    ,{  title_cn: '描述',title_en: 'Description'
        ,description_cn: '麒麟原本是中國古代傳說中的一種動物。鄭和下西洋引入了長頸鹿後，明朝人認為長頸鹿就是麒麟。有歷史學家統計過，明朝時一共有八次引入長頸鹿的記錄。在明朝，長頸鹿有著非常重要的政治意義。只有高級貴族或錦衣衛高級官員才被獲准使用長頸鹿圖案的官服補子。'
        ,description_en: 'The qilin 麒麟 was a legendary animal from ancient Chinese mythology. In the Ming Dynasty 明朝, the giraffe was believed to be the qilin, after it was introduced during Zheng He\'s 鄭和 voyages. According to the statistics of some historians, there were a total of eight giraffe introductions during the Ming Dynasty. The giraffe had an important significance in the political occasions of the Ming Dynasty. The giraffe-patterned official mandarin squares were allowed only for high-ranking nobles or high-ranking officials of the Jinyiwei 錦衣衛 (Embroidered Uniform Guard).'
-	   ,reference:'1. 王光堯，〈永樂皇帝的麒麟——海外考古調查札記（四）〉，《故宮博物院院刊》，總期231（2021年7月），頁105。<br>&emsp;&emsp;&emsp;2. 沈德符，《萬曆野獲編·補遺三》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁870。<br>&emsp;&emsp;&emsp;3. 袁俊卿、阮國林，〈明徐達五世孫徐俌夫婦墓〉，《文物》，期2（1982年2月），頁30。'
+	   ,reference:'1. 王光堯，〈永樂皇帝的麒麟——海外考古調查札記（四）〉，《故宮博物院院刊》，總期231（2021年7月），頁105。<br>2. 沈德符，《萬曆野獲編·補遺三》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁870。<br>3. 袁俊卿、阮國林，〈明徐達五世孫徐俌夫婦墓〉，《文物》，期2（1982年2月），頁30。'
        ,imag:''
        ,referenceUrl:''
     });			
@@ -12,7 +12,7 @@ markers.giraffe2 = createMarker({ lat:22.5652,lng:88.3522}, 'giraffe','印度加
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'榜葛剌位於如今的孟加拉國以及印度東部地區。榜葛剌曾經兩次向明朝進貢長頸鹿。在台北故宮博物院收藏有一幅名為《名人畫麒麟沈度頌》的繪畫，其內容是永樂十二年（公元1414年）榜葛剌使者進貢的長頸鹿。研究人員認為，這幅畫應該是由明朝宮廷畫師繪製並賞賜給大臣的，有政治宣傳的意義。'  
 	,description_en:'Bengal was located in the present-day Bangladesh and the eastern part of India. The giraffes were contributed by Bengal to the Ming Dynasty 明朝 on two occasions. The "Kylin with an Ode with Shen Du", a painting housed in the National Palace Museum in Taipei, represents the giraffe as tribute from Bengal in 1414. Researchers believe that this painting was created by the court painters, and awarded to the minister for political publicity.'
-	,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8446。<br>&emsp;&emsp;&emsp;2. 四方來朝：職貢圖特展，國立故宮博物院，theme.npm.edu.tw/exh109/FourQuarters/ch/page-2.html#main。'  
+	,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8446。<br>2. 四方來朝：職貢圖特展，國立故宮博物院，theme.npm.edu.tw/exh109/FourQuarters/ch/page-2.html#main。'  
 	,image:'media/OneDrive_1_2024-1-8/391. (Ming Dynasty, Kylin with an Ode with Shen Du, housed in National Palace Museum).jpg'
 	,image_content_cn:'明，明人畫麒麟沈度頌，國立故宮博物院藏'
 	,image_content_en:'Ming Dynasty, Kylin with an Ode with Shen Du, housed in National Palace Museum'
@@ -23,7 +23,7 @@ markers.giraffe3 = createMarker({ lat:27.1356,lng:57.0539}, 'giraffe','伊朗米
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'忽魯謨斯，即如今伊朗米納卜，地處霍爾木茲海峽，是進入波斯灣的必經之路。鄭和的船隊曾多次到達此處。1414年，忽魯謨斯國王跟隨鄭和的船隊返回北京，向永樂皇帝進貢馬匹。此外，獅子、長頸鹿、斑馬、鴕鳥、羚羊也是忽魯謨斯經常攜帶的貢品。'  
 	,description_en:'Hormuz, the present-day Minab in Iran, was located on the essential route into the Persian Gulf. Zheng He 鄭和 visited this place on several occasions. In 1414, the King of Hormuz visited Beijing 北京 with Zheng He and offered horses to Yongle Emperor 永樂皇帝 as tribute. In addition, lions, giraffes, zebras, ostriches, and oryxes were often the tributes from Hormuz.'
-	 ,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8452。<br>&emsp;&emsp;&emsp;2. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁85-86。'  
+	 ,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8452。<br>2. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁85-86。'  
 	,image:''
 	,referenceUrl:''});
     

@@ -1,4 +1,4 @@
-//<br>&emsp;&emsp;&emsp;
+//<br>
 
 //史前
 { 
@@ -15,7 +15,7 @@ markers.elephant2 = createMarker({ lat:23.4756,lng:77.7396}, 'elephant','印度�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'佛陀釋迦牟尼的誕生就與象有關。在佛教傳說中，釋迦牟尼的母親摩耶夫人懷孕前夢到一頭六牙白象進入自己的腹中。因此，象在佛教中有著重要的意義和地位，被認為是大威力和大智慧的化身。在桑吉的佛教古建築群中，至今保留有孔雀王朝時期的佛教石刻。這些可追溯至公元前三世紀的雕塑證明了古印度佛教徒對象的崇拜。'  
  ,description_en:'The birth of the Buddha was associated with the elephant. In Buddhist legend, the Maya, the mother of the Buddha, dreamed of a six-tusked white elephant entering her womb before she was conceived. Therefore, the elephant has an important significance and role in Buddhism in that it is considered to be the embodiment of power and wisdom.In the Buddhist Monuments at Sanchi, Buddhist stone carvings from the Maurya Empire have been maintained today. These carvings, dating back to the 3rd century BCE, are evidence of the worship of elephants by the Buddhists of ancient India.'
- ,reference:'1. 丁福保，《佛學大辭典·上冊》（台南：裕和出版社，2005），頁909。<br>&emsp;&emsp;&emsp;2. Madhya Pradesh, ""Buddhist Monuments at Sanchi"", World Heritage Journeys Buddha Website, visitworldheritage.com/en/buddha/buddhist-monuments-at-sanchi/a6e7eec5-fcc4-4a7a-823a-28c89416008f.'  
+ ,reference:'1. 丁福保，《佛學大辭典·上冊》（台南：裕和出版社，2005），頁909。<br>2. Madhya Pradesh, ""Buddhist Monuments at Sanchi"", World Heritage Journeys Buddha Website, visitworldheritage.com/en/buddha/buddhist-monuments-at-sanchi/a6e7eec5-fcc4-4a7a-823a-28c89416008f.'  
  ,image:''
  ,referenceUrl:''
  });
@@ -42,7 +42,7 @@ markers.elephant5 = createMarker({ lat:36.0944,lng:114.3863 }, 'elephant','河�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'殷商文明的核心區域大致位於如今中國的河南省，在古籍中稱為｢豫州｣。｢豫｣字在《說文解字》中的解釋為｢象之大者｣，可見當時中國北方氣候溫暖潮濕，野生大象曾經廣泛分佈於黃河流域的森林中。在位於河南安陽的殷墟遺址中，考古學家發現了幼象的骸骨，說明商朝人曾用象作為陪葬品。'  
  ,description_en:'The core area of the Shang Civilization 商文明 was roughly located in the present-day Henan Province 河南省 of China, known in ancient texts as Yuzhou 豫州, meaning the place where elephants were produced. The climate in northern China at that time was warm and humid, and wild elephants were once widely distributed in the forests of the Yellow River Valley. At the site of Yinxu 殷墟 in Anyang 安陽, Henan 河南, archaeologists found the skeletons of a baby elephant, suggesting that elephants were used as burial objects during the Shang Dynasty 商朝.'
- ,reference:'1. 許慎，《說文解字·象部》（中國國家圖書館藏毛氏汲古閣刻本）。<br>&emsp;&emsp;&emsp;2. 袁靖，《中國動物考古學》（北京：文物出版社，2015），頁232。'  
+ ,reference:'1. 許慎，《說文解字·象部》（中國國家圖書館藏毛氏汲古閣刻本）。<br>2. 袁靖，《中國動物考古學》（北京：文物出版社，2015），頁232。'  
  ,image:''
  ,referenceUrl:''});
 
@@ -89,7 +89,7 @@ markers.elephant10 = createMarker({ lat:23.1180,lng:113.2366}, 'elephant','廣�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南越國是秦末漢初時期的一個割據政權，由趙佗建立，其疆域範圍大概包括現在的廣東、廣西、海南、香港、澳門、以及越南的中北部地區。其治所位於番禺（今廣東廣州）。漢武帝時期，南越國曾進貢象和鸚鵡。後來，南越國被攻滅，從此南越國併入漢朝的版圖。番禺由此成為漢朝海上貿易的都會，主要進口象牙、犀角等物。'  
  ,description_en:'The Nanyue State 南越國 was a ruling regime founded by Zhao Tuo 趙佗 in the late Qin 秦 and early Han Dynasties 漢朝. Its territory roughly covered the present-day areas of Guangdong 廣東, Guangxi 廣西, Hainan 河南, Hong Kong, Macao, and the north-central part of Vietnam. Its capital was located in Panyu 番禺 (present-day Guangzhou 廣州, Guangdong 廣州). During the period of Emperor Wu of the Han Dynasty 漢武帝, the Nanyue State once paid elephants and parrots as tributes to Western Han. Later, the Nanyue was conquered and incorporated into the Han Dynasty. Panyu became the metropolis of the Han Dynasty\'s maritime trade, mainly importing ivory and rhino horn.	'
-,reference:'1. 班固，《漢書·武帝紀第六》（北京：中華書局，1997），頁176。<br>&emsp;&emsp;&emsp;2. 班固，《漢書·地理志第八下》（北京：中華書局，1997），頁1670。'  
+,reference:'1. 班固，《漢書·武帝紀第六》（北京：中華書局，1997），頁176。<br>2. 班固，《漢書·地理志第八下》（北京：中華書局，1997），頁1670。'  
  ,image:''
  ,referenceUrl:''});
 //陝西西安	
@@ -98,7 +98,7 @@ markers.elephant11 = createMarker({ lat:25.8854,lng:99.3704 }, 'elephant','雲�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南越併入漢朝之後，漢朝在此地設立了七個郡，其中永昌郡位於如今的雲南西部及緬甸部分地區。東漢時期，永昌郡的少數民族曾多次進貢象或者象牙。'  
  ,description_en:'After the incorporation of Nanyue State南越國 into the Han Dynasty 漢朝, the Han Dynasty established seven commanderies in the region, one of which, Yongchang Commandery 永昌郡, was located in present-day western Yunnan province 雲南省 and parts of Burma. During the Eastern Han Dynasty 東漢, the ethnic minorities of Yongchang Commandery contributed elephants or ivory many times.'
-  ,reference:'1. 班固等，《東觀漢記·帝紀三》（北京：中華書局據聚珍版叢書本排印，1985），頁25。<br>&emsp;&emsp;&emsp;2. 范曄，《後漢書·南蠻西南夷列傳第七十六》（北京：中華書局，1997），頁2851。'  
+  ,reference:'1. 班固等，《東觀漢記·帝紀三》（北京：中華書局據聚珍版叢書本排印，1985），頁25。<br>2. 范曄，《後漢書·南蠻西南夷列傳第七十六》（北京：中華書局，1997），頁2851。'  
  ,image:''
  ,referenceUrl:''});
 //河南洛陽	
@@ -107,7 +107,7 @@ markers.elephant12 = createMarker({ lat:41.9018,lng:12.4886 }, 'elephant','意�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'延熹九年（公元166年），一群來自大秦的使者通過海路到達日南郡（今越南東河）。這些使者自稱受到大秦王安敦的派遣，向東漢奉上了象牙等貢品。大秦即為羅馬帝國，安敦則是當時的羅馬皇帝馬爾庫斯·奧列里烏斯·安敦寧。這是中國古代歷史上和古羅馬最早的直接交往。然而，在西方的史料裡沒有馬爾庫斯·奧列里烏斯·安敦寧向中國派遣使者的記載，因此有學者推測這群人可能是羅馬帝國的商人，冒充使者進入漢朝。儘管這群羅馬使者的身份成疑，他們都對古代東西方之間的交流做出了貢獻。'  
  ,description_en:'In 166, a group of envoys from the Roman Empire arrived in the Rinan Commandery 日南郡 (present-day Dong Ha, Vietnam) by ocean voyage. They claimed to have been sent by Marcus Aurelius, the Roman emperor, to present ivory and other tributes to the Eastern Han Dynasty 東漢. This was the earliest direct interaction between ancient China and ancient Rome in history. However, there is no record in Western history of Marcus Aurelius sending envoys to China. Some historians suspect that these people may have been merchants from the Roman Empire, posing as envoys to the Han Dynasty. Although the identities of these Roman envoys are in doubt, they all contributed to the exchange between the East and the West in ancient history.	'
-  ,reference:'1. 范曄，《後漢書·西域傳第七十八》（北京：中華書局，1997），頁2920。<br>&emsp;&emsp;&emsp;2. 大秦王安敦通使於漢，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=504832&Type=bkztb&SubID=704。'  
+  ,reference:'1. 范曄，《後漢書·西域傳第七十八》（北京：中華書局，1997），頁2920。<br>2. 大秦王安敦通使於漢，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=504832&Type=bkztb&SubID=704。'  
  ,image:''
  ,referenceUrl:''});
 
@@ -146,7 +146,7 @@ markers.elephant16 = createMarker({ lat:15.8813,lng:108.3890 }, 'elephant','越�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'林邑是位於越南中部地區的古國。東晉時期，林邑曾多次進貢象和鸚鵡。'
  ,description_en:'Champa was an ancient state located in the central region of Vietnam. During the period of the Eastern Jin Dynasty 東晉, Champa contributed elephants and parrots several times.'
-  ,reference:'1. 房玄齡等，《晉書·帝紀第七》（北京：中華書局，1997），頁182。<br>&emsp;&emsp;&emsp;2. 房玄齡等，《晉書·帝紀第十》（北京：中華書局，1997），頁266。'  
+  ,reference:'1. 房玄齡等，《晉書·帝紀第七》（北京：中華書局，1997），頁182。<br>2. 房玄齡等，《晉書·帝紀第十》（北京：中華書局，1997），頁266。'  
  ,image:''
  ,referenceUrl:''});
 //江蘇南京	-lat:32.0356525,lng:118.7452
@@ -173,7 +173,7 @@ markers.elephant19 = createMarker({ lat:11.5444,lng:104.9300}, 'elephant','柬�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'扶南國是南北朝時期的一個印度化的古代國家，位於中南半島南部，其領土範圍大概包括現在的泰國南部、柬埔寨、越南南部。扶南和南朝的幾代政權交往頻繁，當時的中國文獻中多次記載扶南人乘坐大象出行的習俗。'  
  ,description_en:'Funan 扶南 was an ancient Indianized kingdom during the Northern and Southern Dynasties 南北朝, located in the southern part of Mainland Southeast Asia, with its territory roughly encompassing what is now southern Thailand, Cambodia, and southern Vietnam. There were frequent exchanges between the Funan and Southern Dynasties, and the custom of traveling on elephants was recorded many times in Chinese literature of the time.'
-  ,reference:'1. 蕭子顯，《南齊書·列傳第三十九》（北京：中華書局，1997），頁1017。<br>&emsp;&emsp;&emsp;2. 姚思廉，《梁書·列傳第四十八》（北京：中華書局，1997），頁790。'  
+  ,reference:'1. 蕭子顯，《南齊書·列傳第三十九》（北京：中華書局，1997），頁1017。<br>2. 姚思廉，《梁書·列傳第四十八》（北京：中華書局，1997），頁790。'  
  ,image:''
  ,referenceUrl:''});
 				
@@ -181,7 +181,7 @@ markers.elephant20 = createMarker({ lat:32.0385,lng:118.7393}, 'elephant','江�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'梁武帝篤信佛教，當時的著名畫家張僧繇就是一位擅長佛教題材繪畫的高手。據記載，北宋宮廷曾經收藏一幅張僧繇繪製的《掃象圖》。象因為被視為佛祖的化身而受到佛教徒的崇拜。而在中文裡，｢象｣和｢相｣同音，｢洗象｣因此和佛教觀念中的｢洗相｣相契合。張僧繇可能是中國佛教繪畫中｢洗象｣題材的開創者。'  
  ,description_en:'Emperor Wu of the Liang Dynasty 梁武帝 was a great believer in Buddhism, and the famous painter Zhang Sengyou 張僧繇 was well known for his excellent paintings of Buddhist subjects at that time. It is recorded that the court of the Northern Song Dynasty 北宋 once collected a painting entitled "Washing Elephant" by Zhang Sengyou. The elephant was worshipped by Buddhists because it was regarded as an incarnation of the Buddha. In Chinese, " Elephant " and " Lakshana" have the same sound, so "washing elephant" is compatible with the Buddhist concept. Zhang was probably the creator of the "washing elephant" motif in Chinese Buddhist painting.	'
-  ,reference:'1. 《宣和畫譜·卷一》，《四庫全書·第八一三冊》（上海：上海古籍出版社據文淵閣本四庫全書影印，1987），頁71。<br>&emsp;&emsp;&emsp;2. 王中旭，〈傳錢選《洗象圖》真偽考辨——兼及晚明之前對《洗象圖》的認識〉，《故宮博物院院刊》，期3（2017年5月），頁108。'
+  ,reference:'1. 《宣和畫譜·卷一》，《四庫全書·第八一三冊》（上海：上海古籍出版社據文淵閣本四庫全書影印，1987），頁71。<br>2. 王中旭，〈傳錢選《洗象圖》真偽考辨——兼及晚明之前對《洗象圖》的認識〉，《故宮博物院院刊》，期3（2017年5月），頁108。'
  ,image:''
  ,referenceUrl:''});
 	
@@ -243,7 +243,7 @@ markers.elephant27 = createMarker({ lat:34.2804,lng:108.9463 }, 'elephant','陝�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'動物表演是唐代宮廷舞樂中的一部分。在唐玄宗祝壽的宴會上，有經過訓練的象和犀牛跟隨音樂進行舞蹈。安史之亂爆發後，長安城（今陝西西安）被叛軍攻陷。安祿山將繳獲的舞象、舞犀帶到了洛陽。'  
  ,description_en:'Animal performances were part of the Tang Dynasty 唐朝 court entertainment. At the banquet to celebrate the birthday of Emperor Xuanzong of the Tang Dynasty 唐玄宗, trained elephants and rhinoceroses performed dances with music. After the outbreak of the An Lushan Rebellion 安史之亂, Chang\'an City 長安城 (present-day Xi\'an 西安, Shaanxi 陝西) was captured by the rebels. An Lushan 安祿山 brought the elephants and rhinos he had seized for musical performances to Luoyang 洛陽.'
-  ,reference:'1. 歐陽修、宋祁，《新唐書·志第十二》（北京：中華書局，1997），頁477。<br>&emsp;&emsp;&emsp;2. 司馬光等，《資治通鑒·卷第二百一十八 唐紀三十四》（北京：中華書局，1956），頁6993-6994。'  
+  ,reference:'1. 歐陽修、宋祁，《新唐書·志第十二》（北京：中華書局，1997），頁477。<br>2. 司馬光等，《資治通鑒·卷第二百一十八 唐紀三十四》（北京：中華書局，1956），頁6993-6994。'  
  ,image:''
  ,referenceUrl:''});//廣東廣州，北京
 //河南洛陽	
@@ -268,7 +268,7 @@ markers.elephant30 = createMarker({ lat:15.8632,lng:108.3051}, 'elephant','越�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'林邑（今越南中部）在唐太宗在位期間就曾進貢大象。其後，林邑多次向唐朝進貢動物，包括犀牛和鸚鵡。'  
  ,description_en:'Champa paid elephants as tribute during the period of Taizong Emperor of the Tang Dynasty.  Afterward, Champa repeatedly contributed animals, including rhinos and parrots, to the Tang Dynasty.'
-,reference:'1. 歐陽修、宋祁，《新唐書·列傳第一百四十七下》（北京：中華書局，1997），頁6298。<br>&emsp;&emsp;&emsp;2. 劉昫等，《舊唐書·本紀第四》（北京：中華書局，1997），頁72。'  
+,reference:'1. 歐陽修、宋祁，《新唐書·列傳第一百四十七下》（北京：中華書局，1997），頁6298。<br>2. 劉昫等，《舊唐書·本紀第四》（北京：中華書局，1997），頁72。'  
  ,image:''
  ,referenceUrl:''});//北京
 //陝西西安	
@@ -277,7 +277,7 @@ markers.elephant31 = createMarker({ lat:17.9696,lng:102.6281  }, 'elephant','老
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'開皇八年（公元588年），北方的突厥陸真臘，又名文單，是唐朝時期從真臘分裂出來的國家，大致位於如今的老撾。陸真臘多次向唐朝進貢大象，這些大象都經過訓練，在唐朝宮廷中主要用於動物表演。唐德宗時期，唐朝皇室飼養的來自陸真臘的大象共計三十二頭。唐德宗下令將這些大象全部放生。'  
  ,description_en:'Land Chenla, also known as Wendan 文單, was an ancient state divided from the Chenla, located in modern Laos. The elephants from Land Chenla were sent to the Tang Dynasty 唐朝 as tributes many times. These elephants were trained and were mainly used for animal performances in the Tang court. During the reign of Emperor Dezong of the Tang Dynasty 唐德宗, the Tang royal garden kept 32 elephants from Land Chenla. Emperor Tang Dezong ordered all these elephants to be released.'
-  ,reference:'1. 文單國，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=333683&Type=bkztb&SubID=711。<br>&emsp;&emsp;&emsp;2. 劉昫等，《舊唐書·本紀第十一》（北京：中華書局，1997），頁298。<br>&emsp;&emsp;&emsp;3. 劉昫等，《舊唐書·本紀第十二》（北京：中華書局，1997），頁320。'
+  ,reference:'1. 文單國，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=333683&Type=bkztb&SubID=711。<br>2. 劉昫等，《舊唐書·本紀第十一》（北京：中華書局，1997），頁298。<br>3. 劉昫等，《舊唐書·本紀第十二》（北京：中華書局，1997），頁320。'
  ,image:''
  ,referenceUrl:''});
  //陕西
@@ -299,7 +299,7 @@ markers.elephant32 = createMarker({lat:7.3727,lng:80.2894}, 'elephant','斯里�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'宋朝及其重視商業發展，尤其是與外國的海上貿易。開寶四年（公元971年），北宋在廣州設立市舶司對海上貿易進行管理，後來在杭州、明州（今浙江寧波）等地也相繼設立市舶司，其功能類似於現代的海關。許多阿拉伯、南亞、東南亞國家的商人匯集在廣州經商，廣州由此成為宋代的經濟中心之一。宋代主要出口的商品是絲綢和瓷器，而主要進口的商品有香料、珠寶、象牙、犀角等。宋仁宗在位期間，北宋官方每年經廣州購買的象牙、犀角超過了53萬件。而到了宋英宗時，這個數字增長至63萬。這些物品先從廣州陸路運輸至虔州（今江西贛州），再轉由水路運輸至北宋的首都汴京（今河南開封）。'  
  ,description_en:'In 971, the Northern Song Dynasty 北宋 established the Shibosi 市舶司 in Guangzhou 廣州 to manage maritime trade. Later, the Shibosi was established in Hangzhou 杭州 and Mingzhou 明州 (present-day Ningbo 寧波, Zhejiang 浙江), which functions like a modern-day customs office. Businessmen from the Arabian, South Asian, and Southeast Asian countries converged on Guangzhou, resulting in the city being one of the economic centers of the Song Dynasty 宋朝.The main exports of the Song Dynasty were silk and porcelain, while the main imports were spices, jewelry, ivory, and rhino horn. During Emperor Renzong\'s 宋仁宗 reign, the Northern Song government purchased more than 530,000 pieces of ivory and rhino horn through Guangzhou every year. By the period of Emperor Yingzong 宋英宗, this number had increased to 630,000. These goods were first transported by land from Guangzhou to Qianzhou 虔州 (present-day Ganzhou 贛州, Jiangxi 江西) and then by ship to Bianjing 汴京 (present-day Kaifeng 開封, Henan 河南), the capital of the Northern Song Dynasty.'
- ,reference:'1. 脫脫等，《宋史·志第一百三十九》（北京：中華書局，1997），頁4558-4559。<br>&emsp;&emsp;&emsp;2. 脫脫等，《宋史·志第一百二十八》（北京：中華書局，1997），頁4251。'  
+ ,reference:'1. 脫脫等，《宋史·志第一百三十九》（北京：中華書局，1997），頁4558-4559。<br>2. 脫脫等，《宋史·志第一百二十八》（北京：中華書局，1997），頁4251。'  
  ,image:''
  ,referenceUrl:''});
 //江西贛州，河南開封	-lat:25.8246208,lng:114.9143
@@ -347,7 +347,7 @@ markers.elephant38 = createMarker(RandomCoords(beijing), 'elephant','北京',{ A
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'元朝皇帝極為喜愛大象。元朝時有一種象轎，由兩頭大象馱載。至元十七年（公元1280年），元世祖忽必烈下令製作象轎，從此以後象轎成為元朝皇帝出行時乘坐的交通工具。除此以外，在元朝皇帝的儀仗隊中，還有六頭裝有蓮座的大象。'  
   ,description_en:'The Emperors of the Yuan Dynasty 元朝 were very fond of elephants. During the Yuan Dynasty, there was a kind of elephant litter which was carried by two elephants. In 1280, Kublai, the founder of the Yuan Dynasty, ordered the production of elephant litter, which became the official transport of the Yuan emperors when they traveled. Except, there were six elephants setting lotus form seats in the Yuan emperor’s guard of honour.	'
-  ,reference:'1. 張廷玉等，《明史·志第四十一》（北京：中華書局，1997），頁1604。<br>&emsp;&emsp;&emsp;2. 宋濂等，《元史·本紀第十一》（北京：中華書局，1997），頁227。<br>&emsp;&emsp;&emsp;3. 宋濂等，《元史·志第二十八》（北京：中華書局，1997），頁1953。<br>&emsp;&emsp;&emsp;4. 宋濂等，《元史·志第二十九》（北京：中華書局，1997），頁1975-1976。'  
+  ,reference:'1. 張廷玉等，《明史·志第四十一》（北京：中華書局，1997），頁1604。<br>2. 宋濂等，《元史·本紀第十一》（北京：中華書局，1997），頁227。<br>3. 宋濂等，《元史·志第二十八》（北京：中華書局，1997），頁1953。<br>4. 宋濂等，《元史·志第二十九》（北京：中華書局，1997），頁1975-1976。'  
   ,image:''
   ,referenceUrl:''});
   
@@ -382,7 +382,7 @@ markers.elephant42 = createMarker({lat:16.4737,lng:107.5859}, 'elephant','越南
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'安南是位於越南北部的古代國家。元世祖時期，安南多次進貢大象。'  
   ,description_en:'Annam was an ancient kingdom located in the northern part of Vietnam. During the reign of Emperor Shizu of the Yuan Dynasty 元世祖, Annam repeatedly sent elephants as tribute.	'
-  ,reference:'1. 宋濂等，《元史·本紀第十一》（北京：中華書局，1997），頁229。<br>&emsp;&emsp;&emsp;2. 宋濂等，《元史·本紀第十二》（北京：中華書局，1997），頁246。'  
+  ,reference:'1. 宋濂等，《元史·本紀第十一》（北京：中華書局，1997），頁229。<br>2. 宋濂等，《元史·本紀第十二》（北京：中華書局，1997），頁246。'  
   ,image:''
   ,referenceUrl:''});    
 //北京	
@@ -402,7 +402,7 @@ markers.elephant44 = createMarker(RandomCoords(beijing),'elephant','北京',{ A:
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'明代建立了詳細的朝貢和回賜制度。各國所進貢的象需要先經過會同館評判價值，然後由錦衣衛飼養和訓練。明代時，江南地區給寵物洗澡的習俗流傳至北京。每年農曆六月六日，負責養象的錦衣衛們會帶著所有大象在北京城外的河中洗澡。對於當時的北京居民來說，大象還是一種十分罕見的動物，他們為了偷窺大象洗澡甚至會提前躲藏在樹上。但這種行為是非常危險的，大象可能會因為陌生人的偷窺而受驚，並將陌生人踩踏致死。'  
   ,description_en:'The Ming Dynasty 明朝 established a detailed tribute system. The elephants as tribute were first evaluated by the Huitongguan 會同館, and then bred and trained by the "Jinyiwei 錦衣衛" (Embroidered Uniform Guard). During the Ming Dynasty, the custom of bathing pets in the south of the Yangtze River spread to Beijing 北京. Every year on the sixth day of the sixth month of the Lunar Calendar, the soldiers of Jinyiwei in charge of raising elephants would take all the elephants to bathe in the river outside the city of Beijing. Elephants were still a very rare animal for Beijing residents at the time, and they would even hide in the trees in advance to peek at the elephants taking a bath. However, this behavior was very dangerous, as the elephant could be frightened by the peeping of the strangers and trampled to death by them.	'
-  ,reference:'1. 申時行等，《明會典·卷之一百八》（北京：中華書局據萬有文庫本排印，1989），頁585。<br>&emsp;&emsp;&emsp;2. 沈德符，《萬曆野獲編·卷二十四》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁619-620。'  
+  ,reference:'1. 申時行等，《明會典·卷之一百八》（北京：中華書局據萬有文庫本排印，1989），頁585。<br>2. 沈德符，《萬曆野獲編·卷二十四》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁619-620。'  
   ,image:''
   ,referenceUrl:''});		
   
@@ -410,7 +410,7 @@ markers.elephant45 = createMarker(RandomCoords(beijing), 'elephant','北京',{ A
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'大象在明朝政治活動中扮演著重要的角色，它們需要參加皇帝的儀仗隊，並在大型慶典上用於展覽或表演。除此以外，明朝皇室還有一種名為象車的大型車駕。《出警圖》，現存於台北故宮博物院的明代畫作，其中就能看到在萬曆皇帝的出行隊伍中有這種由四頭大象拉動的巨大車駕。'  
   ,description_en:'Elephants played an important role in the political activities of the Ming Dynasty 明朝, as they were required to participate in the Emperor\'s guard of honor and were used for exhibitions or performances at large ceremonies. In addition, the Ming Dynasty royal family also had a large vehicle called the elephant carriage. "Departure Herald", a Ming Dynasty painting now in the National Palace Museum in Taipei, in which we can see this huge carriage pulled by four elephants in the Wanli Emperor\'s 萬曆皇帝 traveling procession.	'
-  ,reference:'1. 沈德符，《萬曆野獲編·卷二十四》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁619-620。<br>&emsp;&emsp;&emsp;2. 古畫動漫-明人出警入蹕圖，國立故宮博物院網站，theme.npm.edu.tw/exh105/npm_anime/DepartureReturn/ch/index.html。'  
+  ,reference:'1. 沈德符，《萬曆野獲編·卷二十四》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁619-620。<br>2. 古畫動漫-明人出警入蹕圖，國立故宮博物院網站，theme.npm.edu.tw/exh105/npm_anime/DepartureReturn/ch/index.html。'  
   ,image:'media/OneDrive_1_2024-1-8/349. (Ming Dynasty, Departure Herald, housed in National Palace Museum).jpg'
   ,image_content_cn:'明朝，出警圖，國立故宮博物院藏'
   ,image_content_en:'Ming Dynasty, Departure Herald, housed in National Palace Museum'
@@ -438,7 +438,7 @@ markers.elephant48 = createMarker({lat:13.7183,lng:100.5010}, 'elephant','泰國
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'泰國在明朝時被稱為暹羅。鄭和下西洋時曾多次到達暹羅並進行貿易，隨行人員記錄了暹羅有白象和獅子等奇珍異獸。暹羅在永樂時期和成化時期，分別有進貢大象的記錄。'  
   ,description_en:'Zheng He 鄭和 visited Thailand and traded there several times during his voyages, and his entourage recorded that there were white elephants, lions, and other exotic animals in Thailand. There were records of elephants being contributed from Thailand during the Yongle 永樂 period and the Chenghua 成化 period.'
-  ,reference:'1. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁31-32。<br>&emsp;&emsp;&emsp;2. 黃永，〈明代京師朝象來源考〉，《故宮學刊》，總輯4（2008年），頁167。'  
+  ,reference:'1. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁31-32。<br>2. 黃永，〈明代京師朝象來源考〉，《故宮學刊》，總輯4（2008年），頁167。'  
   ,image:''
   ,referenceUrl:''});
 //北京	
@@ -447,7 +447,7 @@ markers.elephant49 = createMarker({lat:2.2036,lng:102.2344}, 'elephant','馬來�
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'馬六甲蘇丹國，在《明史》中被稱為滿剌加。鄭和下西洋時，其國王跟隨鄭和一同返回，成為了明王朝的藩屬國。該國地處馬六甲海峽，是連接印度洋和太平洋的必經之路，也是古代東西方海上貿易的中轉站。因此，該國在明代很大程度地參與了象牙、犀角、珠寶等奢侈品的海上貿易。此外，該國在成化時期也有兩次向明朝進貢大象的記錄。隨著地理大發現的開始，葡萄牙的船隊到達了馬六甲蘇丹國。明朝中後期，葡萄牙人在馬六甲建立了殖民地，該國因此滅亡。葡萄牙人掌握了這條重要的海路，繼續進行象牙和犀角的貿易。'  
   ,description_en:'Zheng He 鄭和 once reached Malacca Sultanate on his ocean voyages. The Malacca Sultanate became a tributary of the Ming Dynasty 明朝 and maintain a close relationship for a long time. Located in the Strait of Malacca, the state was an essential route connecting the Indian and Pacific Oceans and was also a transit point for the ancient maritime trade between the East and the West. Therefore, the state participated to a large extent in the maritime trade of luxury goods such as ivory, rhino horns, and jewelry during the Ming Dynasty. There were also two records of elephants being contributed from the Malacca during the Chenghua 成化 period.At the beginning of the Age of Discovery, Portuguese fleets arrived in Malacca Sultanate. During the mid to late Ming Dynasty, the Portuguese established colonies in Malacca, which consequently destroyed the state. The Portuguese continued to trade in ivory and rhino horns as they controlled this important ocean route.'
-  ,reference:'1. 張廷玉等，《明史·列傳第二百十三》（北京：中華書局，1997），頁8417,lng:8419，8434。<br>&emsp;&emsp;&emsp;2. 黃永，〈明代京師朝象來源考〉，《故宮學刊》，總輯4（2008年），頁167。'  
+  ,reference:'1. 張廷玉等，《明史·列傳第二百十三》（北京：中華書局，1997），頁8417,lng:8419，8434。<br>2. 黃永，〈明代京師朝象來源考〉，《故宮學刊》，總輯4（2008年），頁167。'  
   ,image:''
   ,referenceUrl:''});
 //廣東廣州，江蘇南京，北京	-lat:23.1184786,lng:113.2126-lat:32.057561,lng:118.7423

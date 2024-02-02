@@ -1,12 +1,12 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
     markers.dog1 = createMarker({ lat:31.3174,lng:45.2808}, 'dog','伊拉克塞馬沃',{ A:['dog'], B:['史前至夏商周'],C:['農業生產'],D:['其他'],E:['西亞'] }
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '狗項圈大概出現在狗馴化之後不久。考古學家在公元前3300年的烏魯克遺址中發現了一個金質的掛墜，其形象是一隻戴有項圈的小狗。這一發現被視為蘇美爾人發明並使用狗項圈的證據。'
     ,description_en:'Dog collars probably appeared shortly after dogs were domesticated. A golden pendant of a dog with a collar was found at a site of Uruk dated to 3300 BCE. This discovery was regarded as evidence that the Sumerians invented and used dog collars.'
-,reference:'1. Joshua J. Mark, Dogs in the  Ancient World, World History Encyclopedia Website (January 2019), www.worldhistory.org/article/184/dogs-in-the-ancient-world/.<br>&emsp;&emsp;&emsp;2. Dog pendant, The Metropolitan Museum of Art Website, www.metmuseum.org/art/collection/search/327508.'
+,reference:'1. Joshua J. Mark, Dogs in the  Ancient World, World History Encyclopedia Website (January 2019), www.worldhistory.org/article/184/dogs-in-the-ancient-world/.<br>2. Dog pendant, The Metropolitan Museum of Art Website, www.metmuseum.org/art/collection/search/327508.'
     ,imag:'media/OneDrive_1_2024-1-8/178. (3300BCE-2900BCE, Dog Pendant, housed in Metropolitan Museum of Art) .jpg'
     ,image_content_cn:'公元前3300年-公元前2900年，狗吊墜，大都會藝術博物館藏'
 ,image_content_en:'3300BCE-2900BCE, Dog Pendant, housed in Metropolitan Museum of Art'
@@ -60,7 +60,7 @@ markers.dog5 = createMarker({lat:36.1057,lng:114.3529}, 'dog','河南安陽',{ A
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'新石器時期，中國北方的遊牧民族馴養狗的情況已經十分普遍，這種馴養最初的目的可能是為了食用。有歷史學家認為，犬戎這一民族就是因為養狗而得名。到了戰國時期，荀子則記錄了中原人從北方遊牧民族引入狗進行飼養的情況。'  
   ,description_en:'The domestication of dogs by nomadic peoples in northern China was common during the Neolithic period, probably originally for food purposes. Some historians believe that the Quanrong 犬戎 people was named for their dog breeding. During the Warring States period 戰國時期, Xunzi 荀子 recorded that the people of the Central Plains introduced dogs for breeding from the north.'
-,reference:'1. 郭郛、李約瑟、成慶泰，《中國古代動物學史》（北京：科學出版社，1999），頁368。<br>&emsp;&emsp;&emsp;2. 荀況，《荀子·王制》（上海：上海古籍出版社據浙江書局本影印），頁47。'
+,reference:'1. 郭郛、李約瑟、成慶泰，《中國古代動物學史》（北京：科學出版社，1999），頁368。<br>2. 荀況，《荀子·王制》（上海：上海古籍出版社據浙江書局本影印），頁47。'
   ,image:''
   ,referenceUrl:''});
 //	，河北邯鄲	/@-/@36.622914,114.5243
@@ -81,7 +81,7 @@ markers.dog9 = createMarker({ lat:40.7465,lng:14.4963 }, 'dog','意大利龐培'
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'古羅馬人飼養大型犬以作軍犬或護衛，尤其是黑色的大型犬，因為他們認為黑狗可以令入侵者感到害怕。黑狗形象在古羅馬文明中很常見，例如龐培古城的馬賽克陶瓷黑狗裝飾畫。'  
  ,description_en:'The ancient Romans kept large dogs as military dogs or guards, especially large black dogs because they believed that black dogs could frighten intruders. Decorative paintings of black dogs are also common in Roman sites, for example, the Pompeii guard dog mosaic.'
-,reference:'1. Adam Moklosi, Dog: A Natural History (Princeton: Princeton University Press, 2018), pp. 134.<br>&emsp;&emsp;&emsp;2. House of the Tragic Poet, Pompeii Sites Website, pompeiisites.org/en/archaeological-site/house-of-the-tragic-poet/.'  
+,reference:'1. Adam Moklosi, Dog: A Natural History (Princeton: Princeton University Press, 2018), pp. 134.<br>2. House of the Tragic Poet, Pompeii Sites Website, pompeiisites.org/en/archaeological-site/house-of-the-tragic-poet/.'  
  ,imag:''});
 				
 markers.dog10 = createMarker({ lat:34.3336,lng:108.7082 }, 'dog','陝西咸陽',{ A:['dog'],B:['秦漢'],C:['文化娛樂'],D:['陸上絲綢之路'],E:['東亞'] },
@@ -132,7 +132,7 @@ markers.dog15 = createMarker({ lat:39.6421,lng:66.9752 }, 'dog','烏茲別克斯
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'西晉時，許多西域的狗以朝貢品的形式傳入中國。晉初文學家傅玄曾寫下一篇名為《走狗賦》的文章，其內容是歌頌貢犬的優良的形體。當時的貢使必須途徑涼州（今甘肅武威）才能進入中原地區。由於地理位置優越，涼州商貿繁榮，西域商人常在此地與漢人交易，以西域的馬和狗向漢人換取絲綢。'  
  ,description_en:'During the Western Jin Dynasty 西晉, many dogs from Western Regions were introduced to China as tributes. Fu Xuan 傅玄, a literary scholar of the early Jin Dynasty, wrote an ode to praise the excellent  body of tribute dogs, which is "Zougou Fu 走狗賦" (Ode of Running Dogs). At that time, the envoys had to travel through Liangzhou 涼州 (present-day Wuwei 武威, Gansu 甘肅) to arrive in the Central Plains. Due to its advantageous location, foreign trade flourished in Liangzhou. The merchants from Western Regions often traded with the Han people here, exchanging horses and dogs for silk in China.'
-,reference:'1. 歐陽詢等，《藝文類聚·卷九十四 獸部中》（中國國家圖書館藏明嘉靖九年鄭氏宗文堂刻本）。<br>&emsp;&emsp;&emsp;2. 房玄齡等，《晉書·志第十六》（北京：中華書局，1997），頁784-785。'
+,reference:'1. 歐陽詢等，《藝文類聚·卷九十四 獸部中》（中國國家圖書館藏明嘉靖九年鄭氏宗文堂刻本）。<br>2. 房玄齡等，《晉書·志第十六》（北京：中華書局，1997），頁784-785。'
  ,image:''
  ,referenceUrl:''});
 //甘肅武威，河南洛陽	-lat:37.9316111,lng:102.6251
@@ -158,7 +158,7 @@ markers.dog18 = createMarker({ lat:35.7208,lng:51.32420 }, 'dog','伊朗德黑�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'「波斯犬」的記載始見於南北朝時期，是一種體型高大、攻擊性很強的獵狗。歷史學家推測，波斯犬可能就是中東地區的薩路基獵犬，由粟特人通過陸上絲綢之路引入中國。波斯犬受到北齊皇室的寵愛。北齊南陽王高綽就是歷史上有名的波斯犬愛好者。他十幾歲時在晉陽（今山西太原）就飼養許多波斯犬，其最大的愛好就是觀看自己的波斯犬撕咬活人。最終他因為自己的殘忍行徑而被北齊皇帝處死。'  
  ,description_en:'The "Persian dog" was first recorded in the Northern and Southern Dynasties 南北朝, and was a large, aggressive hunting dog. Historians speculate that the Persian dog may be the Saluki dog from the Middle East, which was introduced to China by the Sogdians through the Continental Silk Road. Persian dogs were adored by the nobility of Northern Qi 北齊. Gao Chuo 高綽, a member of the royal family of Northern Qi, was a famous Persian dog lover in history. He kept many Persian dogs in Jin Yang 晉陽 (present-day Taiyuan 太原, Shanxi 山西) when he was a teenager, and his greatest hobby was watching his Persian dogs bite living people. He was eventually executed by the Emperor of Northern Qi for his cruelty.'
-,reference:'1. 王永平，〈「波斯狗」東傳：從伊朗到中國——兼論粟特人在絲綢之路物種傳播中的貢獻〉，《唐史論叢》，輯23（2016年9月），頁59-60。<br>&emsp;&emsp;&emsp;2. 李百藥，《北齊書·列傳第四》（北京：中華書局，1997），頁159-160。'  
+,reference:'1. 王永平，〈「波斯狗」東傳：從伊朗到中國——兼論粟特人在絲綢之路物種傳播中的貢獻〉，《唐史論叢》，輯23（2016年9月），頁59-60。<br>2. 李百藥，《北齊書·列傳第四》（北京：中華書局，1997），頁159-160。'  
  ,image:''
  ,referenceUrl:''});
  //新疆焉耆，河南洛陽	-lat:42.0643,lng:86.4965-lat: 34.6143,lng:112.4526
@@ -197,7 +197,7 @@ markers.dog22 = createMarker({ lat:39.6617,lng:66.9567  }, 'dog','烏茲別克�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'隋煬帝曾派遣韋節和杜行滿出使西域，韋節歸來後寫作了《西藩記》一書，其中記錄了一條康國（今烏茲別克斯坦撒馬爾罕）的喪葬習俗。康國有一個專門負責處理屍體的院落，被稱為｢康國別院｣。死者的家人將屍體送來，經過院中飼養的狗啃噬後，剩餘的骸骨再由家人帶回掩埋。對於這一條記載，有的歷史學家認為這和祆教中的「犬視」儀式並不同，而更接近佛教中的「天葬」，應該是韋節的誤記。但也有的學者認為這就是來自波斯的喪葬傳統。'  
  ,description_en:'"Emperor Yang of the Sui Dynasty 隋煬帝 sent Wei Jie 韋節 and Du Xingman 杜行滿 as envoys to the Western Regions. After Wei Jie returned, he wrote a book called Xi Fan Ji 西藩記 (Records of Western Foreigns), in which he recorded a funeral custom in the Kang Kingdom 康國  (present-day Samarkand, Uzbekistan). The State of Kang has a special yard for the disposal of dead bodies. The family of the deceased would bring in the body, and after the dogs in the yard had chewed it up, the remaining bones would be brought back to the family for burial.Some historians believe that this description is different from the Zoroastrian ritual of ""sagdid"" but closer to the Buddhist ritual of ""sky burial"", which was probably a misunderstanding of Wei Jie. However, some other scholars believe that this was the funeral tradition in Persia."'
-,reference:'1. 杜祐，《通典·卷第一百九十三 邊防九》（中國國家圖書館藏明刻本）。<br>&emsp;&emsp;&emsp;2. 張小貴，〈康國別院「令狗食人肉」辨〉，《西域研究》，期3（2007年7月），頁82-85。<br>&emsp;&emsp;&emsp;3. 王永平，〈「波斯狗」東傳：從伊朗到中國——兼論粟特人在絲綢之路物種傳播中的貢獻〉，《唐史論叢》，輯23（2016年9月），頁40-43。'
+,reference:'1. 杜祐，《通典·卷第一百九十三 邊防九》（中國國家圖書館藏明刻本）。<br>2. 張小貴，〈康國別院「令狗食人肉」辨〉，《西域研究》，期3（2007年7月），頁82-85。<br>3. 王永平，〈「波斯狗」東傳：從伊朗到中國——兼論粟特人在絲綢之路物種傳播中的貢獻〉，《唐史論叢》，輯23（2016年9月），頁40-43。'
  ,image:''
  ,referenceUrl:''});
 
@@ -218,7 +218,7 @@ markers.dog24 = createMarker({ lat:39.6617,lng:66.9567 }, 'dog','烏茲別克斯
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'康國（今烏茲別克斯坦撒馬爾罕）也經常向唐朝進貢小型長毛犬，被稱為「猧子」，推測可能是「拂菻狗」的一種。猧子在唐朝宮廷中被當作寵物飼養，比如楊貴妃特別鐘愛康國猧子。據說唐玄宗曾經和弟弟對弈，在唐玄宗即將輸掉時，楊貴妃將猧子置於棋盤之上，猧子攪亂了棋局，緩解了皇帝輸棋的尷尬。'  
  ,description_en:'The Kang Kingdom 康國  (present-day Samarkand, Uzbekistan) also frequently paid tribute to the Tang Dynasty 唐朝 for small, long-haired dogs, which might have been a type of "Rome dog". The "Kang dogs" were kept as pets in the Tang court, for example, Imperial Consort Yang 楊貴妃 was particularly in love with "Kang dogs". It is said that Emperor Xuanzong of the Tang Dynasty 唐玄宗 once played Go with his younger brother, and when Emperor Xuanzong was going to lose, Yang put a "Kang dog" on the Go board. The dog messed up the game and relieved the embarrassment of the Emperor\'s defeat.'
-,reference:'1. 王溥，《唐會要·卷九十九》（中國國家圖書館藏清乾隆武英殿印本）。<br>&emsp;&emsp;&emsp;2.王欽若等，《冊府元龜·卷之九百七十一》（中國國家圖書館藏明崇禎十五年黃國琦刻本）。<br>&emsp;&emsp;&emsp;3. 段成式，《酉陽雜俎·忠志》（北京：中華書局據明萬曆趙琦美校勘本點校，1981），頁3。'
+,reference:'1. 王溥，《唐會要·卷九十九》（中國國家圖書館藏清乾隆武英殿印本）。<br>2.王欽若等，《冊府元龜·卷之九百七十一》（中國國家圖書館藏明崇禎十五年黃國琦刻本）。<br>3. 段成式，《酉陽雜俎·忠志》（北京：中華書局據明萬曆趙琦美校勘本點校，1981），頁3。'
  ,image:''
  ,referenceUrl:''});
 
@@ -286,7 +286,7 @@ markers.dog32 = createMarker({ lat:34.8038,lng:114.3476}, 'dog','河南開封',{
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'宋代商品經濟發展，寵物市場也因此非常繁榮。在北宋的都城汴京（今河南開封），每月都有專門買賣動物的市集，包括貓、狗以及其他寵物。宋朝皇室所飼養的狗則主要是獵犬，史書中記載宋太祖曾多次攜帶他的獵犬狩獵野兔。'  
  ,description_en:'With the development of the commodity economy in the Song Dynasty 宋朝, the pet market was also very prosperous. Every month in Bianjing 汴京 (present-day Kaifeng 開封, Henan 河南), the capital of the Northern Song Dynasty 北宋, there were markets devoted to the sale of animals, including cats, dogs, and other pets. While the dogs raised by the royal family in the Song Dynasty were mainly hunting dogs. Historical records show that Emperor Taizu of the Song Dynasty 宋太祖 used to hunt wild rabbits with his dogs many times.'
-,reference:'1. 孟元老，《東京夢華錄·卷三》（上海：商務印書館據學津討源本影印，1936），頁59。<br>&emsp;&emsp;&emsp;2. 脫脫等，《宋史··志第七十四》（北京：中華書局，1997），頁2840。'  
+,reference:'1. 孟元老，《東京夢華錄·卷三》（上海：商務印書館據學津討源本影印，1936），頁59。<br>2. 脫脫等，《宋史·志第七十四》（北京：中華書局，1997），頁2840。'  
  ,image:''
  ,referenceUrl:''});		
 
@@ -302,7 +302,7 @@ markers.dog34 = createMarker({ lat:30.2914,lng:120.1240}, 'dog','浙江杭州',{
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南宋時期，臨安（今浙江杭州）發展出了獨特的寵物習俗。農曆六月初六，人們帶著自己的貓狗去河邊洗澡。農曆十二月廿五日，人們祭祀灶神，並製作赤豆粥給貓狗分食。'  
  ,description_en:'During the Southern Song Dynasty 南宋, the unique pet custom has been developed in Lin\'an 臨安 (present-day Hangzhou 杭州, Zhejiang 浙江). On the 6th day of the 6th lunar month, people took their cats and dogs to the river to bathe. On the twenty-fifth day of the twelfth lunar month, people make worshiped the Kitchen God and share red bean porridge with cats and dogs.'
-,reference:'1. 田汝成，《西湖遊覽志馀·卷二十》（杭州：浙江人民出版社據嘉惠堂本校訂，1980），頁319。<br>&emsp;&emsp;&emsp;2. 吳自牧，《夢梁録·卷六》（上海：商務印書館，1939），頁48。'
+,reference:'1. 田汝成，《西湖遊覽志馀·卷二十》（杭州：浙江人民出版社據嘉惠堂本校訂，1980），頁319。<br>2. 吳自牧，《夢梁録·卷六》（上海：商務印書館，1939），頁48。'
  ,image:''
  ,referenceUrl:''});	
 
@@ -326,7 +326,7 @@ markers.dog37 = createMarker(RandomCoords(beijing), 'dog','北京',{ A:['dog'],B
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'兩宋時期，中原王朝受到北方遊牧民族政權的威脅，比如契丹人建立的遼和女真人建立的金。遼和金的軍隊中均飼養有大量軍犬，這些軍犬在夜晚負責軍營的警戒，令宋軍很難有機會偷襲遼軍和金軍。'  
  ,description_en:'The Song Dynasty 宋朝 was threatened by nomadic regimes in the north, such as the Liao Dynasty 遼朝 established by the Khitan and the Jin Dynasty 金朝 established by the Jurchen. Both the Liao and Jin armies had a large number of military dogs, which were responsible for guarding the barracks at night so that the Song army had no chance to sneak up on the Liao and Jin armies.'
-,reference:'1. 歐陽修，《新五代史·死事傳第二十一》（北京：中華書局，1997），頁361。<br>&emsp;&emsp;&emsp;2. 脫脫等，《宋史·列傳第一百六十二》（北京：中華書局，1997），頁12212。'  
+,reference:'1. 歐陽修，《新五代史·死事傳第二十一》（北京：中華書局，1997），頁361。<br>2. 脫脫等，《宋史·列傳第一百六十二》（北京：中華書局，1997），頁12212。'  
  ,image:''
  ,referenceUrl:''});		
  
@@ -371,7 +371,7 @@ markers.dog42 = createMarker({lat:52.3335,lng:124.6722}, 'dog','黑龍江大興�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'大興安嶺地區元代時歸遼陽行省管轄。由於該地氣候寒冷，全年大部分時間由積雪覆蓋，當地的交通十分依賴雪橇犬，因此元代發展出了一種特殊的驛站：狗站。狗站提供一種由四隻狗拉動的雪橇，可以安全高效地在雪原上運輸公文、信件和生活物資。據史書記載，遼陽行省下設有狗站十五處，養狗共計三千隻。'  
  ,description_en:'The Daxinganling 大興安嶺 region was under the jurisdiction of Liaoyang Province 遼陽行省 during the Yuan Dynasty 元朝. The climate was freezing and the roads were covered with snow for most of the year, so the local traffic relied heavily on sled dogs. The Yuan Dynasty developed a special kind of post: the dog station. The dog station provided a sled pulled by four dogs to safely and efficiently transport official documents, letters, and household goods across the snowy plains. According to historical records, there were 15 dog stations in the Liaoyang province, where 3,000 dogs were kept.'
-,reference:'1. 周密，《癸辛雜識·續集上》（北京：中華書局據學津討原本點校，1988），頁133。<br>&emsp;&emsp;&emsp;2. 宋濂等，《元史·志第四十九》（北京：中華書局，1997），頁2592。'  
+,reference:'1. 周密，《癸辛雜識·續集上》（北京：中華書局據學津討原本點校，1988），頁133。<br>2. 宋濂等，《元史·志第四十九》（北京：中華書局，1997），頁2592。'  
  ,image:''
  ,referenceUrl:''});   
 //遼寧遼陽	-lat:41.2678468,lng:123.2263
@@ -380,7 +380,7 @@ markers.dog43 = createMarker({lat:21.4164,lng:39.8179}, 'dog','沙特阿拉伯�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'元代將從阿拉伯或波斯遷入中國的穆斯林稱為｢回回｣。蒙古統治者給予回回商人許多特權，尤其是元朝的對外貿易場所主要由他們負責。元代的回回婦人經常將鳳仙花搗碎為貓狗染色，這一習俗被杭州文人們記錄下來。'  
  ,description_en:'The Huihui 回回 people were Muslims who migrated to China from Arabia or Persia during the Yuan Dynasty 元朝. The Mongol rulers granted many privileges to the Huihui merchants, especially the management of foreign trading venues. The Huihui women in the Yuan Dynasty frequently mashed up garden balsams to colour their cats and dogs, which was recorded by the scholars of Hangzhou.'
-,reference:'1. 回回商人，中國大百科全書網站，網址：www.zgbk.com/ecph/words?SiteID=1&ID=231255&Type=bkztb&SubID=705。<br>&emsp;&emsp;&emsp;2. 周密，《癸辛雜識·續集上》（北京：中華書局據學津討原本點校，1988），頁135。'  
+,reference:'1. 回回商人，中國大百科全書網站，網址：www.zgbk.com/ecph/words?SiteID=1&ID=231255&Type=bkztb&SubID=705。<br>2. 周密，《癸辛雜識·續集上》（北京：中華書局據學津討原本點校，1988），頁135。'  
  ,image:''
  ,referenceUrl:''});
 //浙江杭州	-lat:30.2734372,lng:120.1270
@@ -393,7 +393,7 @@ markers.dog44 = createMarker(RandomCoords(beijing), 'dog','北京',{ A:['dog'],B
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'唐代時從歐洲傳入中國的｢拂菻狗｣，經過數百年的培育，在明代已經成為北京地區的特產。據說哈巴狗就是從｢拂菻狗｣繁育而來的。明代宦官極愛飼養這種小狗，甚至放置在衣袖中隨身攜帶。'  
  ,description_en:'The "Rome dog" was introduced to China from Europe during the Tang Dynasty 唐朝, and after centuries of cultivation, it became the specialty of the Beijing 北京 area during the Ming Dynasty. It\'s said that the pugs were bred from the "Rome dog". Eunuchs in the Ming Dynasty 明朝 were extremely fond of keeping these puppies and even carried them in their sleeves.'
-,reference:'1. 于敏中等，《日下舊聞考·卷三十五》（北京：北京古籍出版社據後印本點校，1985），頁2401。<br>&emsp;&emsp;&emsp;2. 沈德符，《萬曆野獲編·補遺一》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁812。'  
+,reference:'1. 于敏中等，《日下舊聞考·卷三十五》（北京：北京古籍出版社據後印本點校，1985），頁2401。<br>2. 沈德符，《萬曆野獲編·補遺一》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁812。'  
  ,image:''
  ,referenceUrl:''}); 
 
@@ -439,7 +439,7 @@ markers.dog49 = createMarker(RandomCoords(beijing), 'dog','北京',{ A:['dog'],B
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'雍正皇帝是清朝皇帝中最知名的愛狗人士。他有兩隻寵物犬，分別名為｢百福｣和｢造化｣，清宮檔案中記錄有十餘條為兩隻犬製作服裝的命令。慈禧太后則喜愛飼養哈巴狗，據說她經常和外國公使夫人們交流養狗經驗。'  
  ,description_en:'The Yongzheng Emperor 雍正 was the most well-known dog lover among the Qing Dynasty 清朝 emperors. He had two pet dogs, and there were more than a dozen orders in the Qing Palace records to make clothes for the two dogs. Empress Dowager Cixi 慈禧太后 loved to keep pugs, and it is said that she often exchanged dog-keeping experiences with the wives of foreign ambassadors.'
-,reference:'1. 曾誠，〈兩岸故宮《十駿犬圖》與康雍乾三帝寵物情結〉，《紫禁城》，期2（2018年2月），頁65-67。<br>&emsp;&emsp;&emsp;2. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5531。<br>&emsp;&emsp;&emsp;3. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5535-5536。'  
+,reference:'1. 曾誠，〈兩岸故宮《十駿犬圖》與康雍乾三帝寵物情結〉，《紫禁城》，期2（2018年2月），頁65-67。<br>2. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5531。<br>3. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5535-5536。'  
  ,image:'media/OneDrive_1_2024-1-8/226. (Qing Dynasty, Green Silk Dog Clothing with Begonia and Chrysanthemum Patterns, housed in Palace Museum).jpg'
  ,image_content_cn:'清，綠地緞海棠菊狗衣，故宮博物院藏'
 ,image_content_en:'Qing Dynasty, Green Silk Dog Clothing with Begonia and Chrysanthemum Patterns, housed in Palace Museum'
@@ -449,7 +449,7 @@ markers.dog49 = createMarker(RandomCoords(beijing), 'dog','北京',{ A:['dog'],B
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'清朝皇帝喜愛狩獵，其參與的狩獵活動一般在秋季舉行，被稱為｢木蘭秋狝｣。因此，獵犬也是清朝皇室大量飼養的動物。著名的傳教士郎世寧和艾啟蒙分別創作過《十駿犬圖》，其內容是乾隆皇帝的十隻獵犬。這兩版《十駿犬圖》分別由台北故宮博物院和北京故宮博物院收藏。根據其中的文字信息，乾隆的獵犬大多是來自西藏、蒙古和歐洲的貢品。'  
   ,description_en:'The emperors of the Qing Dynasty 清朝 loved hunting, and the Imperial hunts of the Qing Dynasty were usually held in autumn. Therefore, the hound was also a large number of animals kept in the Qing palace. The famous missionaries Giuseppe Castiglione and Ignatius Sichelbart have each created paintings of the ten hunting dogs of the Qianlong Emperor 乾隆, namely the "Ten Prized Dogs". These two editions of the "Ten Prized Dogs" are in the collections of the National Palace Museum in Taipei and the Palace Museum in Beijing 北京. According to the text, most of Qianlong\'s dogs were tributes from Xizang 西藏, Mongolia, and Europe.'
-,reference:'1. 曾誠，〈兩岸故宮《十駿犬圖》與康雍乾三帝寵物情結〉，《紫禁城》，期2（2018年3月），頁51-62。<br>&emsp;&emsp;&emsp;2. 清郎世寧畫十駿犬，國立故宮博物院網站，digitalarchive.npm.gov.tw/Painting/Content?pid=13599&Dept=P。<br>&emsp;&emsp;&emsp;3. 艾啟蒙十駿犬圖冊，故宮博物院網站，www.dpm.org.cn/collection/paint/232591.html。'  
+,reference:'1. 曾誠，〈兩岸故宮《十駿犬圖》與康雍乾三帝寵物情結〉，《紫禁城》，期2（2018年3月），頁51-62。<br>2. 清郎世寧畫十駿犬，國立故宮博物院網站，digitalarchive.npm.gov.tw/Painting/Content?pid=13599&Dept=P。<br>3. 艾啟蒙十駿犬圖冊，故宮博物院網站，www.dpm.org.cn/collection/paint/232591.html。'  
   ,image:'media/OneDrive_1_2024-1-8/227. (Qing Dynasty, Ten Prized Dogs Ts\'ang-ni, housed in National Palace Museum).jpg'
   ,image_content_en:'Qing Dynasty, Ten Prized Dogs Ts\'ang-ni, housed in National Palace Museum'
   ,image_content_cn:'清，郎世寧畫十駿犬蒼猊犬，國立故宮博物院藏'
@@ -476,7 +476,7 @@ markers.dog53 = createMarker({lat:23.1347,lng:113.2493}, 'dog','廣東廣州',{ 
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'清代外銷瓷在歐美十分流行。歐美商人甚至會來到廣州專門訂製他們想要的瓷器圖案。獵犬是清代外銷瓷器的場景題材之一，相關的收藏品至今在國際拍賣會上仍十分常見。	'  
  ,description_en:'During Qing Dynasty, export porcelains were very popular in Europe and America. European and American merchants would even come to Guangzhou 廣州 to order the porcelain patterns they wanted. Hounds were one of the subjects of export porcelain in the Qing Dynasty, and related collections are still very popular at international auctions.'
-,reference:'1. Live like a Rockefeller-A Chinese export dinner service in the ""Rockefeller"" pattern, Christie\'s Website, (11 January 2018), www.christies.com/en/stories/live-like-a-rockefeller-a-chinese-export-dinner-service-in-the-rockefeller-pattern-2c9f68ae1eb04eac9f017711e4993446.<br>&emsp;&emsp;&emsp;2. Pair of Chinese export porcelain recumbent Spaniel dogs decorated with an iron-red coat, Santos Lodon Website, www.santoslondon.com/products/pair-of-chinese-export-porcelain-recumbent-spaniel-dogs-decorated-with-an-iron-red-coat-qianlong.'  
+,reference:'1. Live like a Rockefeller-A Chinese export dinner service in the ""Rockefeller"" pattern, Christie\'s Website, (11 January 2018), www.christies.com/en/stories/live-like-a-rockefeller-a-chinese-export-dinner-service-in-the-rockefeller-pattern-2c9f68ae1eb04eac9f017711e4993446.<br>2. Pair of Chinese export porcelain recumbent Spaniel dogs decorated with an iron-red coat, Santos Lodon Website, www.santoslondon.com/products/pair-of-chinese-export-porcelain-recumbent-spaniel-dogs-decorated-with-an-iron-red-coat-qianlong.'  
  ,image:''
  ,referenceUrl:''}); 
 //美國紐約，英國倫敦	-lat:40.7137549,lng:-74.0189-lat:51.4997143,lng:-0.1162

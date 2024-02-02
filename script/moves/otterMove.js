@@ -1,5 +1,5 @@
 
-//<br>&emsp;&emsp;&emsp;
+//<br>
 //史前至夏商周
 {
 	
@@ -30,7 +30,7 @@ markers.otter1 = createMarker({lat:61.2016,lng:210.0843}, 'otter','美國安克�
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '海獺主要分佈於北太平洋海域。清朝時，俄國的探險隊跨過白令海峽，在阿拉斯加地區大肆獵殺海獺以獲取皮毛。這些海獺皮很多通過黑龍江地區傳入清朝，是貴族和高級官員所鐘愛的衣物原料。'
     ,description_en:'Sea otters are mainly spread in the North Pacific Ocean. During the Qing Dynasty 清朝, expeditions from the Russian Empire crossed the Bering Strait and hunted sea otters in Alaska for their fur. Many of these sea otter furs were introduced to the Qing Dynasty through the Heilongjiang 黑龍江 region and were popular clothing material for nobles and high-ranking officials.'
-	,reference:'1.  付成雙，《動物改變世界：海狸、毛皮貿易與北美開發》（北京：北京大學出版社，2016年），頁225-226。<br>&emsp;&emsp;&emsp;2. 杜君立，〈毛皮征服歷史〉，《天涯》，期6（2018年11月），頁33-34。'
+	,reference:'1.  付成雙，《動物改變世界：海狸、毛皮貿易與北美開發》（北京：北京大學出版社，2016年），頁225-226。<br>2. 杜君立，〈毛皮征服歷史〉，《天涯》，期6（2018年11月），頁33-34。'
     ,imag:''
     ,referenceUrl:''
  });                                    
@@ -40,7 +40,7 @@ markers.otter1 = createMarker({lat:61.2016,lng:210.0843}, 'otter','美國安克�
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'美國獨立後，皮毛成為美國向中國輸出的主要貿易商品。1785年，紐約和廣州之間的貿易航線開通。至19世紀初期，中美間的皮毛貿易達到頂峰，每年有數萬張海獺皮運輸至廣州。'  
     ,description_en:'After the independence of the United States, fur became the major commodity exported from the U.S. to China. In 1785, the trade route between New York and Guangzhou 廣州 was opened. By the early 19th century, the fur trade between the United States and China was at its peak, with tens of thousands of sea otter hides transported to Guangzhou each year.'
-	,reference:'1. 郭衛東，〈毛皮：清代北美對華貿易的重要貨品〉，《安徽史學》，期6（2015年12月），頁24-27。<br>&emsp;&emsp;&emsp;2. 付成雙，《動物改變世界：海狸、毛皮貿易與北美開發》（北京：北京大學出版社，2016年），頁234-240。'
+	,reference:'1. 郭衛東，〈毛皮：清代北美對華貿易的重要貨品〉，《安徽史學》，期6（2015年12月），頁24-27。<br>2. 付成雙，《動物改變世界：海狸、毛皮貿易與北美開發》（北京：北京大學出版社，2016年），頁234-240。'
     ,image:''
     ,referenceUrl:''});		
   //美國紐波特，美國紐約，佛得角，南非開普敦，印度尼西亞巽他海峽，中國澳門，廣東廣州	-------
