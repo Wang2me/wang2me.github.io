@@ -172,7 +172,8 @@ function initMap() {
         // 遍历复选框并勾选它们
         checkboxes.forEach(function(checkbox) {
             checkbox.checked = true;
-        });
+        });       
+   
     
         // 调用筛选标记函数或其他适当的操作
         filterMarkers(currentValue); // 调用筛选标记函数，确保标记根据复选框状态进行过滤
@@ -291,6 +292,7 @@ const checkboxList = [
     { id: 'nongye-Checkbox', value: '農業生產' },
     { id: 'yinshi-Checkbox', value: '飲食' },
 
+
     { id: 'zhong-Checkbox', value: '中亞' },
     { id: 'nan-Checkbox', value: '南亞' },
     { id: 'xi-Checkbox', value: '西亞' },
@@ -384,20 +386,7 @@ function filterMarkers(currentValue) {
         
     }
 
-    
-    // 清除当前的聚合器
-    // if (markerCluster) {
-    //     markerCluster.clearMarkers();
-    // }
-
-    //创建新的聚合器
-    // markerCluster = new MarkerClusterer(map, filteredMarkers, {
-    //     gridSize: 2,
-    //     minimumClusterSize: 200,
-    //     styles: [
-    //         { url: 'media/animal_icon/lion_gather.png', width: 50, height: 40, textSize: 18, textColor: 'black' },
-    //     ]
-    // });
+  
     previouslyHiddenMarkers.forEach(function(marker) {
         marker.setMap(null);
     });
@@ -405,88 +394,6 @@ function filterMarkers(currentValue) {
     handleToggleMarkers(currentValue);
     
 }
-
-
-// function filterMarkers() {
-//     // 清空上次筛选的结果
-//     filteredMarkers.forEach(function(marker) {
-//         marker.setMap(null);
-//     });
-//     filteredMarkers = [];
-
-//     var selectedCategories = getSelectedCategories();
-
-//     // 分别处理不同类型的动物标记
-//     var lionMarkers = [];
-//     var dogMarkers = [];
-//     var catMarkers=[];
-//     var camelMarkers= [];
-    
-//     // 对每个标记进行筛选并分类
-//     for (var key in markers) {
-//         var marker = markers[key];
-//         if (marker.attributes && marker.attributes.A.includes('lion')) {
-//             lionMarkers.push(marker);
-//         } 
-//         if (marker.attributes && marker.attributes.A.includes('dog')) {
-//             dogMarkers.push(marker);
-//         }
-//         if (marker.attributes && marker.attributes.A.includes('cat')) {
-//             catMarkers.push(marker);
-//         }
-//         if (marker.attributes && marker.attributes.A.includes('camel')) {
-//             camelMarkers.push(marker);
-//         }
-
-//     }
-
-//     // 过滤所选的动物类型
-//     var filteredLionMarkers = lionMarkers.filter(function(marker) {
-//         return isMatchingMarker(marker, selectedCategories);
-//     });
-
-//     var filteredDogMarkers = dogMarkers.filter(function(marker) {
-//         return isMatchingMarker(marker, selectedCategories);
-//     });
-//     var filteredCatMarkers = catMarkers.filter(function(marker) {
-//         return isMatchingMarker(marker, selectedCategories);
-//     });
-//     var filteredCamelMarkers = camelMarkers.filter(function(marker) {
-//         return isMatchingMarker(marker, selectedCategories);
-//     });
-
-//     // 在地图上设置不同类型的聚合器
-//     var lionCluster = new MarkerClusterer(map, filteredLionMarkers, {
-//         gridSize: 2,
-//         minimumClusterSize: 3,
-//         styles: [
-//             { url: 'media/animal_icon/lion_gather.png', width: 50, height: 40, textSize: 18, textColor: 'black' },
-//         ]
-//     });
-
-//     var dogCluster = new MarkerClusterer(map, filteredDogMarkers, {
-//         gridSize: 2,
-//         minimumClusterSize: 3,
-//         styles: [
-//             { url: 'media/animal_icon/dog1.png', width: 50, height: 40, textSize: 18, textColor: 'black' },
-//         ]
-//     });
-//     var catCluster = new MarkerClusterer(map, filteredCatMarkers, {
-//         gridSize: 2,
-//         minimumClusterSize: 3,
-//         styles: [
-//             { url: 'media/animal_icon/cat2.png', width: 50, height: 40, textSize: 18, textColor: 'black' },
-//         ]
-//     });
-//     var camelCluster = new MarkerClusterer(map, filteredCamelMarkers, {
-//         gridSize: 2,
-//         minimumClusterSize: 3,
-//         styles: [
-//             { url: 'media/animal_icon/camel.png', width: 50, height: 40, textSize: 18, textColor: 'black' },
-//         ]
-//     });
-// }
-
 
 
 
@@ -652,6 +559,12 @@ controlImage.addEventListener('click', function() {
         intervalId = null;
         controlImage.src = 'media/animal_icon/play.png'; // 切换回播放图片
     }
+    if (currentValue >= 8998) {
+        // 重置 currentValue 为 0
+        currentValue = 0;
+        // 记录重置时间
+        console.log('currentValue 在点击图标后重置为 0，时间为：', new Date());
+    }
 });
 
 function autoSlide() {
@@ -704,7 +617,7 @@ function autoSlide() {
     if (currentValue >= 8998) {
         clearInterval(intervalId); // 停止自动拖动的 setInterval
         intervalId = null; // 确保 intervalId 为 null
-        controlImage.src = 'media/animal_icon/play.png'; // 切换回播放图片
+        controlImage.src = 'media/animal_icon/reset.png'; // 切换回播放图片
         time9000 = new Date();
         console.log('currentValue达到9000的时间：', new Date())
     }
@@ -814,131 +727,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     var allCheckboxes = document.querySelectorAll('.category-checkbox');
-//     var markerCluster = null; // 初始化聚合器
-
-//     allCheckboxes.forEach(function(checkbox) {
-//         checkbox.addEventListener('change', function() {
-//             // 获取所有选中的复选框的值
-//             var checkedAnimals = Array.from(allCheckboxes)
-//                 .filter(function(checkbox) {
-//                     return checkbox.checked && checkbox.dataset.value !== undefined;
-//                 })
-//                 .map(function(checkbox) {
-//                     return parseInt(checkbox.dataset.value);
-//                 });
-
-//             if (markerCluster) {
-//                 markerCluster.clearMarkers();
-//             }
-
-//             if (checkedAnimals.length > 0) {
-//                 var minCheckedValue = Math.min(...checkedAnimals); // 计算所有已选复选框的最小值
-//                 //console.log("123",minCheckedValue)
-//                 markerCluster = new MarkerClusterer(map, filteredMarkers, {
-//                     //clusterClass: 'custom-cluster',
-//                     gridSize: 2,
-//                     minimumClusterSize: 200,
-//                     styles: checkedAnimals.map(function(value) {
-//                         console.log("value", value);
-//                         return { 
-//                             url: 'media/animal_icon/' + value + '_icon.png', 
-//                             width: 50, 
-//                             height: 40, 
-//                             textSize: 18, 
-//                             textColor: 'red',
-//                             background: 'yellow', // 添加背景颜色
-//                             fontFamily: 'Arial' // 添加字体样式
-//                         };
-//                     })
-//                 });
-//             }
-//         });
-//     });
-//     //filterMarkers();
-// });
-
-
-// function updateMarkerCluster(allCheckboxes) {
-
-//     var checkedAnimals = Array.from(allCheckboxes)
-//         .filter(function(checkbox) {
-//             return checkbox.checked && checkbox.dataset.value !== undefined;
-//         })
-//         .map(function(checkbox) {
-//             return parseInt(checkbox.dataset.value);
-//         });
-
-//     if (markerCluster) {
-//         markerCluster.clearMarkers(); // 清除已有聚合
-//     }
-
-//     if (checkedAnimals.length > 0) {
-//         var minCheckedValue = Math.min(...checkedAnimals);
-        
-//         // 计算所有已选复选框的最小值
-//        if (minCheckedValue>=20){
-//         minCheckedValue=1;
-//        }
-      
-//         console.log("123",minCheckedValue)
-//         markerCluster = new MarkerClusterer(map, filteredMarkers, {
-//             //clusterClass: 'custom-cluster',
-//             gridSize: 2,
-//             minimumClusterSize: 2,
-//             styles: checkedAnimals.map(function(value) {
-//                 console.log("value", value);
-                
-//                 return { 
-//                     url: 'media/animal_icon/' + value + '_icon.png', 
-//                     width: 50, 
-//                     height: 40, 
-//                     textSize: 18, 
-//                     textColor: 'red',
-//                     background: 'yellow', // 添加背景颜色
-//                     fontFamily: 'Arial' // 添加字体样式
-//                 };
-//             })
-//         });
-        
-//     }
-//     else if (checkedAnimals.length==0){
-//         markerCluster = new MarkerClusterer(map, filteredMarkers, {
-//             //clusterClass: 'custom-cluster',
-//             gridSize: 2,
-//             minimumClusterSize: 2,
-//             styles:  [{
-                
-                
-//                     url: 'media/animal_icon/0_icon.png', 
-//                     width: 50, 
-//                     height: 40, 
-//                     textSize: 18, 
-//                     textColor: 'red',
-//                     background: 'yellow', // 添加背景颜色
-//                     fontFamily: 'Arial' // 添加字体样式
-//                 }]
-            
-//         });
-//     }
-// }
-// document.addEventListener('DOMContentLoaded', function() {
-//     var allCheckboxes = document.querySelectorAll('.category-checkbox');
-
-//     // 在页面加载时自动进行聚合
-//     //updateMarkerCluster(allCheckboxes);
-
-//     // 对每个复选框添加事件监听器，以便在更改状态时更新聚合
-//     allCheckboxes.forEach(function(checkbox) {
-//         checkbox.addEventListener('change', function() {
-//             updateMarkerCluster(allCheckboxes);
-//         });
-//     });
-// });
 
 
 // 获取所有复选框
@@ -1332,125 +1120,6 @@ function toggleLines(checkboxId, line) {
 
     }
 }
-// function startBlinking(marker) {
-//     if (!marker.blinkInterval) {
-//         marker.blinkInterval = window.setInterval(function() {
-//             if (marker.getVisible()) {
-//                 marker.setVisible(false);
-//             } else {
-//                 marker.setVisible(true);
-//             }
-//         }, 1000); // Set the blinking interval to 1 second
-//     }
-// }
-
-// function stopBlinking(marker) {
-//     if (marker.blinkInterval) {
-//         window.clearInterval(marker.blinkInterval);
-//         marker.blinkInterval = null;
-//     }
-// }
-
-// //修改 createBlinkingMarker 函数来保存闪烁定时器引用
-// function createBlinkingMarker(map, position, title) {
-//     var marker = new google.maps.Marker({
-//         position: position,
-//         map: map,
-//         title: title
-//     });
-
-//     // 开始闪烁
-//     marker.blinkInterval = window.setInterval(function() {
-//         if (marker.getVisible()) {
-//             marker.setVisible(false);
-//         } else {
-//             marker.setVisible(true);
-//         }
-//     }, 1000);
-
-//     // 添加鼠标悬停事件处理程序
-//     marker.addListener('mouseover', function() {
-//         stopBlinking(marker); // 停止闪烁
-//         marker.setAnimation(google.maps.Animation.BOUNCE); // 放大图标
-//     });
-
-//     // 添加鼠标移出事件处理程序
-//     marker.addListener('mouseout', function() {
-//         startBlinking(marker); // 开始闪烁
-//         marker.setAnimation(null); // 取消放大图标
-//     });
-
-//     // 添加点击事件处理程序
-//     marker.addListener('click', function() {
-//         var infoWindow = new google.maps.InfoWindow({
-//             content: '这里是标记点的信息' // 替换为所需内容
-//         });
-//         infoWindow.open(map, marker); // 在点击的位置打开信息窗口
-//     });
-
-//     return marker; 
-// }
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// var blinkingIntervals = new Map(); // 使用Map存储每个标记点的闪烁定时器引用
-
-// function createBlinkingMarker(map, position, title) {
-//     var marker = new google.maps.Marker({
-//         position: position,
-//         map: map,
-//         title: title
-//     });
-
-//     startBlinking(marker); // 默认开始闪烁
-
-//     // 添加鼠标悬停事件处理程序
-//     marker.addListener('mouseover', function() {
-//         stopBlinking(marker); // 停止对应标记点的闪烁
-//         marker.setAnimation(google.maps.Animation.BOUNCE); // 放大图标
-//         marker.setZIndex(google.maps.Marker.MAX_ZINDEX + 1); // 提高图标层级
-//         map.setOptions({draggableCursor:'pointer'}); // 更改鼠标指针样式
-//     });
-
-//     // 添加鼠标移出事件处理程序
-//     marker.addListener('mouseout', function() {
-//         startBlinking(marker); // 重新开始对应标记点的闪烁
-//         marker.setAnimation(null); // 取消放大图标
-//         marker.setZIndex(google.maps.Marker.MAX_ZINDEX); // 恢复图标层级
-//         map.setOptions({draggableCursor:null}); // 恢复鼠标指针样式
-//     });
-
-//     // 添加点击事件处理程序
-//     marker.addListener('click', function() {
-//         var infoWindow = new google.maps.InfoWindow({
-//             content: '这里是标记点的信息' // 替换为所需内容
-//         });
-//         infoWindow.open(map, marker); // 在点击的位置打开信息窗口
-//     });
-
-//     return marker; 
-// }
-
-// function startBlinking(marker) {
-//     if (!blinkingIntervals.has(marker)) {
-//         var interval = window.setInterval(function() {
-//             if (marker.getVisible()) {
-//                 marker.setVisible(false);
-//             } else {
-//                 marker.setVisible(true);
-//             }
-//         }, 1000);
-//         blinkingIntervals.set(marker, interval);
-//     }
-// }
-
-// function stopBlinking(marker) {
-//     if (blinkingIntervals.has(marker)) {
-//         clearInterval(blinkingIntervals.get(marker));
-//         blinkingIntervals.delete(marker);
-//     }
-// }
-
 
 
 // 定义一个函数，生成指定范围内的随机数
@@ -1466,22 +1135,7 @@ function RandomCoords(coords) {
 }
 // // 修改后的函数，保证生成的坐标之间存在一定距离
 
-// function RandomCoords(coords) {
-//     var earthRadius = 6371; // 地球半径（单位：公里）
-//     var randomAngle = Math.random() * 2 * Math.PI;
-//     // 生成随机距离
-//     // var distance = Math.random() * (maxDistance - minDistance) + minDistance;
 
-//     // 生成随机方位角
-//         // 生成随机距离在范围内
-//         var randomDistance = Math.sqrt(Math.random()) * 15; // 生成随机距离
-    
-//     // 根据随机方位角和随机距离计算新坐标的纬度和经度
-//     var randomLat = coords.lat + (180 / Math.PI) * (randomDistance / earthRadius) * Math.cos(randomAngle);
-//     var randomLng = coords.lng + (180 / Math.PI) * (randomDistance / earthRadius) * Math.sin(randomAngle);
-
-//     return { lat: randomLat, lng: randomLng };
-// }
 
 var blinkingMarkers = []; // 存储所有闪烁标记
 // 创建一个透明的覆盖物层
@@ -1499,18 +1153,18 @@ function createBlinkingMarker(map, position, title, content) {
     startBlinking(marker); // 默认开始闪烁
     blinkingMarkers.push(marker); // 将闪烁标记添加到数组中
 
-    // 添加鼠标悬停事件处理程序
-    marker.addListener('mouseover', function() {
-        stopAllBlinking(); // 停止所有闪烁标记
-        marker.setAnimation(google.maps.Animation.BOUNCE); // 放大图标
-    });
+    // // 添加鼠标悬停事件处理程序
+    // marker.addListener('mouseover', function() {
+    //     stopAllBlinking(); // 停止所有闪烁标记
+    //     marker.setAnimation(google.maps.Animation.BOUNCE); // 放大图标
+    // });
 
-    // 添加鼠标移出事件处理程序
-    marker.addListener('mouseout', function() {
-        showAllMarkers(); // 显示所有标记
-        startAllBlinking(); // 开始所有闪烁标记
-        marker.setAnimation(null); // 取消放大图标
-    });
+    // // 添加鼠标移出事件处理程序
+    // marker.addListener('mouseout', function() {
+    //     showAllMarkers(); // 显示所有标记
+    //     startAllBlinking(); // 开始所有闪烁标记
+    //     marker.setAnimation(null); // 取消放大图标
+    // });
 
     // 添加点击事件处理程序
     marker.addListener('click', function() {
@@ -1592,3 +1246,34 @@ function showImage() {
         }
     
   }
+
+
+  $(document).ready(function () {
+    // Event handler for the "亞洲" checkbox
+    $("#asiaButton").change(function () {
+        // Get the state of the "亞洲" checkbox
+        var isChecked = $(this).prop("checked");
+
+        // Update the state of related checkboxes
+        $("#asiaContainer .category-checkbox").prop("checked", isChecked);
+
+        // 调用 filterMarkers 函数，传递当前的值（如果有的话）
+        filterMarkers(currentValue);
+    });
+
+    // Event handler for the sub-checkboxes under "亞洲"
+    $("#asiaContainer .category-checkbox").change(function () {
+        // Check if any of the sub-checkboxes are not selected
+        var isAnySubCheckboxNotSelected = $("#asiaContainer .category-checkbox:not(:checked)").length > 0;
+
+        // If any sub-checkbox is not selected, uncheck the "亞洲" checkbox
+        $("#asiaButton").prop("checked", !isAnySubCheckboxNotSelected);
+
+        // Check if all sub-checkboxes are selected, then check the "亞洲" checkbox
+        var isAllSubCheckboxesSelected = $("#asiaContainer .category-checkbox:checked").length === $("#asiaContainer .category-checkbox").length;
+        $("#asiaButton").prop("checked", isAllSubCheckboxesSelected);
+
+        // 调用 filterMarkers 函数，传递当前的值（如果有的话）
+        filterMarkers(currentValue);
+    });
+});

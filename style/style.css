@@ -36,10 +36,10 @@ body {
     display: flex;
     position: absolute;
     top: 10%;
-    right: 10px;
+    right: 30px;
     /* cursor: pointer; */
     z-index: 1;
-    width: 25px;;
+    width: 25px;
     }
 .image-button2 {
         display: flex;
@@ -234,6 +234,15 @@ body {
 
     /* 单个分类按钮样式 */
     .category-button {
+        background-color: #dff39d;
+        border: none;
+        padding-left:20px;
+        margin: 2px;
+        font-size: 10pt;
+        /* cursor: pointer; */
+        z-index: 4;
+    }
+    .category-button1 {
         background-color: #dff39d;
         border: none;
         /* padding: 10px 20px; */
@@ -583,8 +592,8 @@ body {
   }
 #openWindow{
     position: absolute;
-    top: 60%;
-    right:3%;
+    top: 20%;
+    right:2%;
 }
 /* CSS Styles */
 .image-container {
@@ -779,3 +788,10 @@ padding-bottom: 30px;
     top:75%;
     position: absolute;
   }
+
+#a{
+    width: 30%;
+    position: absolute;
+    top:15%;
+    left:5%;
+}

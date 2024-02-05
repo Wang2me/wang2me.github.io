@@ -51,13 +51,11 @@
     <!-- 外部容器，放置按钮和选项卡 -->
     <div class="external-container">
         
-        
+        <img src="1.png" id="a" >
         <i class="material-icons" onclick="showImage()" style="cursor:pointer;">share</i>
 
             
-            <p id="title1">古代中外交流互動地圖計劃 </p>
-           
-         <p id="title2"> ——「絲綢之路的動物與人」數據庫</p>   
+ 
     </div>
 
     <div class="logo-container">
@@ -112,7 +110,7 @@
 
           <img id="controlImage" src="/media/animal_icon/play.png" alt="按钮">
           <!-- <img id="age" src="/media/age.png" alt="按钮"> -->
-          <a href="/BC.html" id="openWindow">对照表</a>
+          <a href="/BC.html" id="openWindow">對照表</a>
           <div class="timeline-text-container">
             <div class="timeline-item">          
                 <span class="separator">|</span>
@@ -203,8 +201,8 @@
         
 
         <div class="subcategory-container" id="animalCategoryContainer">
-            <label class="category-button">
-                <input type="checkbox" class="category-checkbox category-select-all" data-category="A" > 全选
+            <label class="category-button1">
+                <input type="checkbox" class="category-checkbox category-select-all" data-category="A" > 全選
            </label>  
         
             
@@ -320,10 +318,12 @@
         </div>
         
         <hr width="100%" />
-        <button class="category-sub" id="11Button" onclick="toggleContainer('11CategoryContainer')">途径</button>
+        <button class="category-sub" id="11Button" onclick="toggleContainer('a11CategoryContainer')">途径</button>
         
-        <div class="subcategory-container" id="11CategoryContainer">
-
+        <div class="subcategory-container" id="a11CategoryContainer">
+            <label class="category-button1">
+                <input type="checkbox" class="category-checkbox category-select-all" data-category="D" > 全選
+           </label>  
         <label class="category-button">
             <input type="checkbox" class="category-checkbox" id="ocean-Checkbox" data-category="D"  value="海上絲綢之路"> 海上絲綢之路
         </label>
@@ -341,8 +341,8 @@
         <button class="category-sub" id="dynastyButton" onclick="toggleContainer('dynastyCategoryContainer')">朝代</button>
         
         <div class="subcategory-container" id="dynastyCategoryContainer">
-            <label class="category-button">
-                <input type="checkbox" class="category-checkbox category-select-all" data-category="B" data-value="-1"> 全选
+            <label class="category-button1">
+                <input type="checkbox" class="category-checkbox category-select-all" data-category="B" data-value="-1"> 全選
            </label>  
         <label class="category-button"> 
             <input type="checkbox" class="category-checkbox" id="xia-Checkbox" data-category="B" data-value="5" value="史前至夏商周"> 史前至夏商周 
@@ -383,8 +383,8 @@
 
 
         <div class="subcategory-container" id="waysCategoryContainer"> 
-            <label class="category-button">
-                <input type="checkbox" class="category-checkbox category-select-all" data-category="C"> 全选
+            <label class="category-button1">
+                <input type="checkbox" class="category-checkbox category-select-all" data-category="C"> 全選
            </label>  
 
             <label class="category-button"> 
@@ -417,11 +417,11 @@
         <button class="category-sub" id="areaButton" onclick="toggleContainer('areaCategoryContainer')">地區</button>
 
     <div class="subcategory-container" id="areaCategoryContainer">  
-        <label class="category-button">
-            <input type="checkbox" class="category-checkbox category-select-all" data-category="E"> 全选
+        <label class="category-button1">
+            <input type="checkbox" class="category-checkbox category-select-all" data-category="E"> 全選
        </label>
         <label class="category-button">
-            <input type="checkbox" class="category-checkbox" id="asiaButton" data-category="E" onclick="toggleAsiaContainer()">亞洲
+            <input type="checkbox" class="category-checkbox " id="asiaButton" data-category="E" >亞洲
         </label>
         <div class="asia-container" id="asiaContainer">
         <label class="asia-button"> 
