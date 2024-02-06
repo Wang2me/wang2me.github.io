@@ -1277,3 +1277,9 @@ function showImage() {
         filterMarkers(currentValue);
     });
 });
+// 當子容器的全選按鈕被點擊時
+$(".ss-container .category-select").on("change", function() {
+    // 找到同一個容器下的其他複選框並根據全選按鈕的狀態來改變它們的選取狀態
+    $(this).closest(".ss-container").find(".category-checkbox").prop("checked", $(this).prop("checked"));
+    filterMarkers(currentValue);
+});

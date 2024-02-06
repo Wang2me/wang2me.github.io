@@ -191,7 +191,7 @@ body {
     background-image: url('/media/animal_icon/rhino.png');
     background-size: cover;
     cursor: pointer;
-    z-index: 4; /* 设置一个较高的 z-index，以便位于 .category-container 之上 */
+    z-index: -10; /* 设置一个较高的 z-index，以便位于 .category-container 之上 */
     transition: left 0.5s; /* 添加过渡动画以平滑移动 */
     /* background: #fff; */
     /* border: 0; */
@@ -400,14 +400,14 @@ body {
     display: flex;
         background-color: #dff39d;
         border: none;
-        padding: 0px 20px;
+        padding: 0px 40px;
         margin: 2px;
         font-size: 8pt;
         /* cursor: pointer; */
         z-index: 4;
         width: auto;
     }
-    
+
     .info-image {
         width: 200px;
         height: auto;

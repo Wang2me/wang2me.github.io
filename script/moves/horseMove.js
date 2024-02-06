@@ -246,7 +246,7 @@ markers.horse28 = createMarker({ lat: 33.3059,lng:44.3622 }, 'horse','伊拉克�
 
 markers.horse29 = createMarker({ lat:42.2584,lng:118.8922 }, 'horse','內蒙古赤峰',{ A:['horse'],B:['三國兩晉南北朝'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
- ,description_cn:'南北朝時期，中國東北地區有許多遊牧民族部落，比如庫莫奚人和契丹人。庫莫奚人和契丹人都曾經多次向北魏進貢馬和皮毛，並長期和北魏進行互市貿易。。'  
+ ,description_cn:'南北朝時期，中國東北地區有許多遊牧民族部落，比如庫莫奚人和契丹人。庫莫奚人和契丹人都曾經多次向北魏進貢馬和皮毛，並長期和北魏進行互市貿易。'  
  ,description_en:'During the Northern and Southern Dynasties 南北朝, there were many nomadic tribes in northeastern China, such as the Kumo Xi 庫莫奚 and the Khitan. Both the Kumo Xi and the Khitans contributed horses and furs to the Northern Wei Dynasty 北魏 and traded with the Northern Wei Dynasty for a long time.'
 ,reference:'1. 魏收，《魏書·列傳第八十七》（北京：中華書局，1997），頁2223。'  
  ,image:''
