@@ -463,22 +463,7 @@
     var newCoords_lion37_3 = { lat: 39.9042, lng: 116.4074 };//bj
 
 
-    //河西走廊:敦煌-酒泉-张掖-武威
-    var dunhuang = { lat: 40.1130, lng: 94.6618 };
-    var wuwei = { lat: 37.9283, lng: 102.6371 };
-    var jiuquan = { lat: 39.7237, lng: 98.3444 }
-    var zhangye = { lat: 38.9177, lng: 100.3065 };
-    //海上絲路：古里-xilan-palk-馬六甲
-    var guli = { lat: 11.2618, lng: 75.7822 };
-    var xilan = { lat: 6.9397, lng: 79.8259 };
-    var palk = { lat: 10.0803, lng: 80.1207 };
-    var maliujia = { lat: 2.2373, lng: 102.1691 };
-    var kailuo = { lat: 30.0444, lng: 31.2357 };
-    var kemolin = { lat: 8.0864, lng: 77.5355 };
-    var jibudi = { lat: 11.8125, lng: 41.9678 };
-    var taihai = { lat: 24.2877, lng: 119.5445 };
-    var zhangjiagang = { lat: 31.8774, lng: 120.4609 }
-    var nanhai={lat:-0.3778,lng:106.0436};
+    
 
     function getInitialCoords(lion) {
         const position = lion.getPosition();

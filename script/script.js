@@ -982,7 +982,7 @@ var zhangye = {lat:38.9177,lng:100.3065};
 //海上絲路：古里-xilan-palk-馬六甲
 
 
-var guli ={lat:11.2618,lng:75.7822};
+var guli ={lat:11.2603525,lng:75.7776419};
 var xilan={lat:6.9397,lng:79.8259};
 var palk={lat:10.0803,lng:80.1207};
 var maliujia={lat:2.2373,lng:102.1691};
