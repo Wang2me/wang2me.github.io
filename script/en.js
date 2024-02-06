@@ -286,7 +286,7 @@ window.onload = function () {
         offset: '100%'
       }],
       geodesic: true,
-      strokeColor: '#FF000', // 初始颜色为红色
+      strokeColor: '#FF0000', // 初始颜色为红色
       strokeOpacity: 0.8,
       strokeWeight: 3,
       map: map
