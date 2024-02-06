@@ -210,6 +210,9 @@
             
                 <button class="category-ss" id="animalButton" onclick="toggleContainer('ss1-Container')">哺乳動物（馴化）</button>
                 <div class="ss-container" id="ss1-Container">
+                    <label class="category-button1">
+                        <input type="checkbox" class="category-checkbox category-select" data-category="A"> 全選
+                   </label>
                     <label class="category-button">
                         <input type="checkbox" class="category-checkbox" id="cat-Checkbox"data-category="A"  value="cat"> 貓
                     </label>
@@ -238,7 +241,10 @@
             <button class="category-ss" id="animalButton" onclick="toggleContainer('ss2-Container')">哺乳動物（野生）</button>
            
             <div class="ss-container" id="ss2-Container">
-            
+                <label class="category-button1">
+                    <input type="checkbox" class="category-checkbox category-select" data-category="A"> 全選
+               </label>
+
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="rhino-Checkbox" data-category="A"  value="rhino"> 犀牛
             </label>
@@ -269,6 +275,9 @@
         
             <button class="category-ss" id="animalButton" onclick="toggleContainer('ss3-Container')">鸟类</button>
             <div class="ss-container" id="ss3-Container">
+                <label class="category-button1">
+                    <input type="checkbox" class="category-checkbox category-select" data-category="A"> 全選
+               </label>
                 <label class="category-button">
                     <input type="checkbox" class="category-checkbox" id="ostrich-Checkbox" data-category="A"  value="ostrich"> 鴕鳥
                 </label>
@@ -294,9 +303,13 @@
         
         
         
-            <button class="category-ss" id="animalButton" onclick="toggleContainer('ss4-Container')">鱼类</button>
+            <button class="category-ss" id="animalButton" onclick="toggleContainer('ss4-Container')">水生動物类</button>
          
             <div class="ss-container" id="ss4-Container">
+
+                <label class="category-button1">
+                    <input type="checkbox" class="category-checkbox category-select" data-category="A"> 全選
+               </label>
                 <label class="category-button">
                     <input type="checkbox" class="category-checkbox" id="seal-Checkbox" data-category="A"  value="seal"> 海豹
                 </label>
@@ -465,8 +478,10 @@
     </div>
       
     </div>
-    <i class="toggle-icon" id="toggle" aria-label="收起侧边面板"> </i>
 
+
+    
+    <i class="toggle-icon" id="toggle" aria-label="收起侧边面板"> </i>
 
 
 
@@ -503,7 +518,6 @@
     <script src="/script/moves/coralMove.js"></script>
 
     <script src="/script/en.js"></script>
-
     <!-- <a href="https://www.flaticon.com/free-icons/lion" title="icons">icons created by monkik - Flaticon</a> -->
 </body>
 </html>
