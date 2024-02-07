@@ -813,7 +813,7 @@ slider.addEventListener('input', function() {
         var points_23 = [initialCoords_dog23,  newCoords_dog23_1, newCoords_dog23_2,newCoords_dog23_2];
         var points_24 = [initialCoords_dog24,  dunhuang,wuwei,newCoords_dog24_1, newCoords_dog24_1];
         var points_25 = [initialCoords_dog25,  dunhuang,jiuquan,zhangye,newCoords_dog25_1, newCoords_dog25_1];
-        var points_26 = [initialCoords_dog26,  dunhuang,zhangye,wuwei,newCoords_dog26_1, newCoords_dog26_1];
+        var points_26 = [initialCoords_dog26,  dunhuang,zhangye,wuwei,wuwei,newCoords_dog26_1, newCoords_dog26_1];
         var points_27 = [initialCoords_dog27,  dunhuang,zhangye,wuwei,newCoords_dog27_1, newCoords_dog27_1];
         var points_28 = [initialCoords_dog28,  newCoords_dog28_1, newCoords_dog28_1];
         
