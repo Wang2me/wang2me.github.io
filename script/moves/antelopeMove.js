@@ -265,7 +265,7 @@ slider.addEventListener('input', function() {
         var points_3 = [initialCoords_antelope3, guli,xilan,maliujia,taihai,zhangjiagang,newCoords_antelope3_1, newCoords_antelope3_1];
         var points_4 = [initialCoords_antelope4, guli,xilan,maliujia,taihai,zhangjiagang,newCoords_antelope4_1, newCoords_antelope4_1,newCoords_antelope4_1];
         var points_5 = [initialCoords_antelope5, jibudi,guli,xilan,maliujia,taihai,zhangjiagang,newCoords_antelope5_1, newCoords_antelope5_1];
-        var points_6 = [initialCoords_antelope6, kailuo,jibudi,guli,xilan,maliujia,taihai,zhangjiagang,newCoords_antelope6_1, newCoords_antelope6_1];
+        var points_6 = [initialCoords_antelope6, kailuo,jibudi,guli,xilan,maliujia,maliujia,taihai,zhangjiagang,newCoords_antelope6_1, newCoords_antelope6_1];
 
     // 计算当前阶段的目标点的索引
        
