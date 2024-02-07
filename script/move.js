@@ -75,7 +75,7 @@ function handleToggleMarkers(currentValue) {
             horse21, horse22, horse23, horse24, horse25, horse26, horse27, horse28, horse29, horse30,
             horse31, horse32, horse33, horse34,horse35, horse36, horse37, horse38, horse39, horse40, 
             horse41, horse42, horse43, horse44, horse45, horse46,horse47, horse48, horse49, horse50, 
-            horse51, horse52, horse53, horse54, horse55,horse56, horse57, horse58, horse59, horse60, 
+            horse51, horse52, horse53, horse54, horse55,horse56, horse57, horse58, horse59,horse72, horse60, 
             horse61, horse62, horse63, horse64,horse65, horse66, horse67, horse68,horse69,horse70,
             horse71];
     const catMarkers = [

@@ -57,7 +57,7 @@ setAnimalPatternMapping('cat', '猫', 38);
 setAnimalPatternMapping('dog', '狗', 53);
 setAnimalPatternMapping('lion', '狮', 37);
 setAnimalPatternMapping('camel', '駱駝', 68);
-setAnimalPatternMapping('horse', '馬', 71);
+setAnimalPatternMapping('horse', '馬', 72);
 setAnimalPatternMapping('rabbit', '兔', 3);
 setAnimalPatternMapping('yak', '氂牛', 8);
 setAnimalPatternMapping('leopard', '豹子', 15);
@@ -116,7 +116,7 @@ function switchLanguageTo(language) {
                         'horse41', 'horse42', 'horse43', 'horse44', 'horse45', 'horse46','horse47', 'horse48', 'horse49', 'horse50', 
                         'horse51', 'horse52', 'horse53', 'horse54', 'horse55','horse56', 'horse57', 'horse58', 'horse59', 'horse60', 
                         'horse61', 'horse62', 'horse63', 'horse64','horse65', 'horse66', 'horse67', 'horse68','horse69','horse70',
-                           'horse71',
+                        'horse71','horse72',
                         'cat1', 'cat2', 'cat3', 'cat4', 'cat5', 'cat6', 'cat7', 'cat8', 'cat9', 
                         'cat10', 'cat11', 'cat12', 'cat13', 'cat14', 'cat15', 'cat16', 'cat17', 'cat18', 'cat19',
                         'cat20', 'cat21', 'cat22', 'cat23', 'cat24', 'cat25', 'cat26', 'cat27', 'cat28','cat29', 

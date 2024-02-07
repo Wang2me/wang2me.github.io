@@ -172,7 +172,7 @@ slider.addEventListener('input', function() {
     if(currentValue >=7000 && currentValue <8000){
         
         
-        var points_3 = [initialCoords_rabbit3,  newCoords_rabbit3_1, maliujia,newCoords_rabbit3_2,newCoords_rabbit3_2];
+        var points_3 = [initialCoords_rabbit3,  newCoords_rabbit3_1, kailuo,jibudi,guli,maliujia,newCoords_rabbit3_2,newCoords_rabbit3_2];
         
 
     // 计算当前阶段的目标点的索引

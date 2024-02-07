@@ -231,7 +231,7 @@ slider.addEventListener('input', function() {
     if (currentValue >= 4000 && currentValue < 5000) {
        
 
-        var points_2 = [initialCoords_cheetah2,  dunhuang,wuwei,newCoords_cheetah2_1, newCoords_cheetah2_1];
+        var points_2 = [initialCoords_cheetah2,  dunhuang,wuwei,zhangye,newCoords_cheetah2_1, newCoords_cheetah2_1];
         var points_3 = [initialCoords_cheetah3,  dunhuang,jiuquan,wuwei,newCoords_cheetah3_1, newCoords_cheetah3_1];
         var points_4 = [initialCoords_cheetah4,  dunhuang,wuwei,newCoords_cheetah4_1, newCoords_cheetah4_1];
         var points_5 = [initialCoords_cheetah5,  dunhuang,zhangye,newCoords_cheetah5_1, newCoords_cheetah5_1];

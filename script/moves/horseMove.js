@@ -542,6 +542,14 @@ markers.horse59 = createMarker({lat:35.5988,lng:103.2084 }, 'horse','甘肅臨�
  ,image:''
  ,referenceUrl:''}); 
 //甘肅臨潭，甘肅天水，陝西漢中，四川松潘，四川茂縣，四川雅安，四川漢源，西藏昌都，西藏拉薩	-lat:34.6922408,lng:103.3515-lat:34.5788542,lng:105.7225-lat:33.0692182,lng:107.0202-lat:32.6425383,lng:103.5878-lat:31.6795426,lng:103.8492-lat:30.0093246,lng:103.0370-lat:29.3438955,lng:102.6476-lat:31.1388796,lng:97.1666-lat:29.648952,lng:91.1157
+markers.horse72 = createMarker({lat:29.648952,lng:91.1157 }, 'horse','西藏拉薩',{ A:['horse'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+{title_cn: '描述',title_en: 'Description'  
+ ,description_cn:'茶馬貿易是明代引入馬匹的主要途徑之一。明朝通過壟斷茶葉貿易的方式，以交換周邊遊牧民族的馬匹。這個巨大的貿易網絡覆蓋了甘肅、陝西、四川、甚至西藏地區。明朝在秦州（今甘肅天水）、洮州（今甘肅臨潭）、河州（今甘肅臨夏）、雅州（今四川雅安）設立了茶馬司來專門管理茶馬貿易。明朝每年可以由此進口數千匹馬，這些馬主要用於四川和陝西地區的軍用。'  
+ ,description_en:'The Tea and Horse Trade was one of the main ways to introduce horses in the Ming Dynasty 明朝. Through monopolizing the tea trade, the Ming Dynasty imported horses from the surrounding nomadic peoples. This huge commercial network covered Gansu 甘肅, Shaanxi 陝西, Sichuan 四川, and even Xizang 西藏. The Ming Dynasty established the Chamasi 茶馬司 (Department of Tea and Horse Trade) in Qinzhou 秦州 (present-day Tianshui 天水, Gansu 甘肅), Taozhou 洮州 (present-day Lintan 臨潭, Gansu 甘肅), Hezhou 河州 (present-day Linxia 臨夏, Gansu 甘肅), and Yazhou 雅州 (present-day Ya\'an 雅安, Sichuan 四川) to specialize in the management of the Tea and Horse Trade. The Ming Dynasty imported thousands of horses each year, mainly for military use in Sichuan and Shaanxi.'
+,reference:'1. 張廷玉等，《明史·志第五十六》（北京：中華書局，1997），頁1947-1951。'  
+ ,image:''
+ ,referenceUrl:''}); 
+//甘肅臨潭，甘肅天水，陝西漢中，四川松潘，四川茂縣，四川雅安，四川漢源，西藏昌都，西藏拉薩	-lat:34.6922408,lng:103.3515-lat:34.5788542,lng:105.7225-lat:33.0692182,lng:107.0202-lat:32.6425383,lng:103.5878-lat:31.6795426,lng:103.8492-lat:30.0093246,lng:103.0370-lat:29.3438955,lng:102.6476-lat:31.1388796,lng:97.1666-lat:29.648952,lng:91.1157
 
 markers.horse60 = createMarker({lat: 47.7287,lng:96.8128 }, 'horse','蒙古烏里雅蘇臺',{ A:['horse'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
@@ -669,7 +677,7 @@ var horses = [
  'horse20', 'horse21', 'horse22', 'horse23', 'horse24', 'horse25', 'horse26', 'horse27', 'horse28','horse29', 
  'horse30', 'horse31', 'horse32', 'horse33', 'horse34', 'horse35', 'horse36', 'horse37', 'horse38', 'horse39', 
  'horse40', 'horse41', 'horse42', 'horse43', 'horse44', 'horse45', 'horse46','horse47', 'horse48', 'horse49', 
- 'horse50', 'horse51', 'horse52', 'horse53', 'horse54', 'horse55','horse56', 'horse57', 'horse58', 'horse59', 
+ 'horse50', 'horse51', 'horse52', 'horse53', 'horse54', 'horse55','horse56', 'horse57', 'horse58', 'horse59', 'horse72',
  'horse60', 'horse61', 'horse62', 'horse63', 'horse64','horse65', 'horse66', 'horse67', 'horse68','horse69',
  'horse70','horse71'
 ];
@@ -759,7 +767,8 @@ var newCoords_horse59_2= {lat:34.5788,lng:105.7225};
 var newCoords_horse59_3= {lat:33.0692,lng:107.0202};
 var newCoords_horse59_4= {lat:32.6425,lng:103.5878};
 var newCoords_horse59_5= {lat:31.6795,lng:103.8492};
-var newCoords_horse59_6= {lat:30.0093,lng:103.0370};
+var newCoords_horse59_6= {lat:30.0193,lng:103.0170};
+var newCoords_horse59_6_1= {lat:30.0293,lng:103.0570};
 var newCoords_horse59_7= {lat:29.3438,lng:102.6476};
 var newCoords_horse59_8= {lat:31.1388,lng:97.1666};
 var newCoords_horse59_9= {lat:29.6489,lng:91.1157};
@@ -841,6 +850,7 @@ var initialCoords_horse57 = getInitialCoords(horse57);
 
 var initialCoords_horse58 = getInitialCoords(horse58);
 var initialCoords_horse59 = getInitialCoords(horse59);
+var initialCoords_horse72 = getInitialCoords(horse72);
 var initialCoords_horse60 = getInitialCoords(horse60);
 var initialCoords_horse61 = getInitialCoords(horse61);
 var initialCoords_horse62 = getInitialCoords(horse62);
@@ -918,6 +928,8 @@ slider.addEventListener('input', function() {
 
         markers.horse58.setPosition(initialCoords_horse58);
         markers.horse59.setPosition(initialCoords_horse59);
+        markers.horse72.setPosition(initialCoords_horse72);
+
         markers.horse60.setPosition(initialCoords_horse60);
         markers.horse61.setPosition(initialCoords_horse61);
         markers.horse62.setPosition(initialCoords_horse62);
@@ -1514,7 +1526,8 @@ slider.addEventListener('input', function() {
     if(currentValue >=7000 && currentValue <8000){
         
         var points_58 = [initialCoords_horse58,  newCoords_horse58_1, newCoords_horse58_2,newCoords_horse58_3,newCoords_horse58_3];
-        var points_59 = [initialCoords_horse59,  newCoords_horse59_1, newCoords_horse59_2,newCoords_horse59_3,newCoords_horse59_4,newCoords_horse59_5,newCoords_horse59_6,newCoords_horse59_7,newCoords_horse59_8,newCoords_horse59_9,newCoords_horse59_9];
+        var points_59 = [initialCoords_horse59,  newCoords_horse59_1, newCoords_horse59_2,newCoords_horse59_3,newCoords_horse59_4,newCoords_horse59_5,newCoords_horse59_6,newCoords_horse59_6];
+        var points_72 = [newCoords_horse59_9,newCoords_horse59_8,newCoords_horse59_7,newCoords_horse59_6,newCoords_horse59_6_1];
         var points_60 = [initialCoords_horse60,  newCoords_horse60_1, newCoords_horse60_1];
         var points_61 = [initialCoords_horse61,  newCoords_horse61_1, newCoords_horse61_1];
         var points_62 = [initialCoords_horse62,  newCoords_horse62_1,newCoords_horse62_1];
@@ -1528,6 +1541,7 @@ slider.addEventListener('input', function() {
        
         var targetIndex_58 = Math.floor((currentValue - 7000) / (1000 / (points_58.length-1)));
         var targetIndex_59 = Math.floor((currentValue - 7000) / (1000 / (points_59.length-1)));
+        var targetIndex_72 = Math.floor((currentValue - 7000) / (1000 / (points_72.length-1)));
         var targetIndex_60 = Math.floor((currentValue - 7000) / (1000 / (points_60.length-1)));
         var targetIndex_61 = Math.floor((currentValue - 7000) / (1000 / (points_61.length-1)));
         var targetIndex_62 = Math.floor((currentValue - 7000) / (1000 / (points_62.length-1)));
@@ -1541,6 +1555,7 @@ slider.addEventListener('input', function() {
         
         var percentage_58 = (currentValue - 7000) % (1000 / (points_58.length-1)) / (1000 / (points_58.length-1));
         var percentage_59 = (currentValue - 7000) % (1000 / (points_59.length-1)) / (1000 / (points_59.length-1));
+        var percentage_72 = (currentValue - 7000) % (1000 / (points_72.length-1)) / (1000 / (points_72.length-1));
         var percentage_60 = (currentValue - 7000) % (1000 / (points_60.length-1)) / (1000 / (points_60.length-1));
         var percentage_61 = (currentValue - 7000) % (1000 / (points_61.length-1)) / (1000 / (points_61.length-1));
         var percentage_62 = (currentValue - 7000) % (1000 / (points_62.length-1)) / (1000 / (points_62.length-1));
@@ -1553,6 +1568,7 @@ slider.addEventListener('input', function() {
         
         percentage_58 = Math.min(1, Math.max(0, percentage_58));
         percentage_59 = Math.min(1, Math.max(0, percentage_59));
+        percentage_72 = Math.min(1, Math.max(0, percentage_72));
         percentage_60 = Math.min(1, Math.max(0, percentage_60));
         percentage_61 = Math.min(1, Math.max(0, percentage_61));
         percentage_62 = Math.min(1, Math.max(0, percentage_62));
@@ -1574,6 +1590,11 @@ slider.addEventListener('input', function() {
         var lngDiff = points_59[targetIndex_59 + 1].lng - points_59[targetIndex_59].lng;
         var interpolatedLat_59 = points_59[targetIndex_59].lat + latDiff * percentage_59
         var interpolatedLng_59 = points_59[targetIndex_59].lng + lngDiff * percentage_59
+
+        var latDiff = points_72[targetIndex_72 + 1].lat - points_72[targetIndex_72].lat;
+        var lngDiff = points_72[targetIndex_72 + 1].lng - points_72[targetIndex_72].lng;
+        var interpolatedLat_72 = points_72[targetIndex_72].lat + latDiff * percentage_72
+        var interpolatedLng_72 = points_72[targetIndex_72].lng + lngDiff * percentage_72
 
         var latDiff = points_60[targetIndex_60 + 1].lat - points_60[targetIndex_60].lat;
         var lngDiff = points_60[targetIndex_60 + 1].lng - points_60[targetIndex_60].lng;
@@ -1621,6 +1642,7 @@ slider.addEventListener('input', function() {
         
         horse58.setPosition({ lat: interpolatedLat_58, lng: interpolatedLng_58 });
         horse59.setPosition({ lat: interpolatedLat_59, lng: interpolatedLng_59 });
+        horse72.setPosition({ lat: interpolatedLat_72, lng: interpolatedLng_72 });
         horse60.setPosition({ lat: interpolatedLat_60, lng: interpolatedLng_60 });     
         horse61.setPosition({ lat: interpolatedLat_61, lng: interpolatedLng_61 });
         horse62.setPosition({ lat: interpolatedLat_62, lng: interpolatedLng_62 });

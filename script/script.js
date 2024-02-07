@@ -547,25 +547,25 @@ var startTime; // 用于记录开始时间
 
 controlImage.addEventListener('click', function() {
     if (intervalId === null) {
-        clearInterval(intervalId); // 清除旧的定时器
-        controlImage.src = 'media/animal_icon/stop.png'; // 切换到暂停图片
-        //let intervalTime = 50 - currentValue / 20; // 根据 currentValue 的值调整间隔时间
-        // if (intervalTime < 10) { // 设置最小间隔时间为10
+        controlImage.src = 'media/animal_icon/stop.png'; // 切換到暫停圖片
+        // let intervalTime = 50 - currentValue / 20; // 根據 currentValue 的值調整間隔時間
+        // if (intervalTime < 10) { // 設置最小間隔時間為10
         let intervalTime = 50;
         //}
-        intervalId = setInterval(autoSlide, intervalTime); // 根据 intervalTime 自动拖动
+        intervalId = setInterval(autoSlide, intervalTime); // 根據 intervalTime 自動拖動
     } else {
         clearInterval(intervalId);
         intervalId = null;
-        controlImage.src = 'media/animal_icon/play.png'; // 切换回播放图片
+        controlImage.src = 'media/animal_icon/play.png'; // 切換回播放圖片
     }
     if (currentValue >= 8998) {
-        // 重置 currentValue 为 0
+        // 重置 currentValue 為 0
         currentValue = 0;
-        // 记录重置时间
-        console.log('currentValue 在点击图标后重置为 0，时间为：', new Date());
+        // 記錄重置時間
+        console.log('currentValue 在點擊圖標後重置為 0，時間為：', new Date());
     }
 });
+
 
 function autoSlide() {
     
@@ -621,7 +621,6 @@ function autoSlide() {
         time9000 = new Date();
         console.log('currentValue达到9000的时间：', new Date())
     }
-   
 }
 
 
