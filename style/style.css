@@ -795,3 +795,9 @@ padding-bottom: 30px;
     top:15%;
     left:5%;
 }
+#visitcount{
+    top:8%;
+    right:10%;
+    position: absolute;
+    z-index: 5;
+}
