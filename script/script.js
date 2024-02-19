@@ -1282,3 +1282,18 @@ $(".ss-container .category-select").on("change", function() {
     $(this).closest(".ss-container").find(".category-checkbox").prop("checked", $(this).prop("checked"));
     filterMarkers(currentValue);
 });
+// 檢查是否已有訪問計數，如果沒有則初始化為 0
+if (localStorage.getItem('visitCount') === null) {
+    localStorage.setItem('visitCount', 0);
+  }
+  
+  // 獲取目前的訪問計數
+  let count = parseInt(localStorage.getItem('visitCount'));
+  
+  // 更新訪問計數
+  count++;
+  localStorage.setItem('visitCount', count);
+  
+  // 更新網頁上的顯示
+  document.getElementById('visitCount').innerText = `${count} views`;
+  
