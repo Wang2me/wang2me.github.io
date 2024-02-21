@@ -1282,13 +1282,20 @@ $(".ss-container .category-select").on("change", function() {
     $(this).closest(".ss-container").find(".category-checkbox").prop("checked", $(this).prop("checked"));
     filterMarkers(currentValue);
 });
+
+
 // 检查是否已有访问计数，如果没有则初始化为 0
-if (document.cookie.split(';').filter((item) => item.trim().startsWith('visitCount=')).length) {
+if (!document.cookie.split(';').some((item) => item.trim().startsWith('visitCount='))) {
     document.cookie = "visitCount=0";
 }
 
 // 获取当前的访问计数
 let count = parseInt(document.cookie.replace(/(?:(?:^|.*;\s*)visitCount\s*\=\s*([^;]*).*$)|^.*$/, "\$1"));
+
+// 确保 count 不是 NaN
+if (isNaN(count)) {
+    count = 0;
+}
 
 // 更新访问计数
 count++;
