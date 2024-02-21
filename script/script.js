@@ -1282,18 +1282,36 @@ $(".ss-container .category-select").on("change", function() {
     $(this).closest(".ss-container").find(".category-checkbox").prop("checked", $(this).prop("checked"));
     filterMarkers(currentValue);
 });
-// 檢查是否已有訪問計數，如果沒有則初始化為 0
-if (localStorage.getItem('visitCount') === null) {
-    localStorage.setItem('visitCount', 0);
-  }
-  
-  // 獲取目前的訪問計數
-  let count = parseInt(localStorage.getItem('visitCount'));
-  
-  // 更新訪問計數
-  count++;
-  localStorage.setItem('visitCount', count);
-  
-  // 更新網頁上的顯示
-  document.getElementById('visitCount').innerText = `${count} views`;
-  
+// 检查是否已有访问计数，如果没有则初始化为 0
+if (document.cookie.split(';').filter((item) => item.trim().startsWith('visitCount=')).length) {
+    document.cookie = "visitCount=0";
+}
+
+// 获取当前的访问计数
+let count = parseInt(document.cookie.replace(/(?:(?:^|.*;\s*)visitCount\s*\=\s*([^;]*).*$)|^.*$/, "\$1"));
+
+// 更新访问计数
+count++;
+document.cookie = `visitCount=${count}`;
+
+// 更新网页上的显示
+document.getElementById('visitCount').innerText = `${count} views`;
+
+
+//    // 使用 fetch API 来增加访问次数
+//    async function increaseVisitCount() {
+//     await fetch('/increaseVisitCount');
+//   }
+
+//   // 使用 fetch API 来获取访问次数并更新页面
+//   async function updateVisitCount() {
+//     const response = await fetch('/getVisitCount');
+//     const data = await response.json();
+//     document.getElementById('visitcount').innerText = `${data.visitCount} views`;
+//   }
+
+//   // 在页面加载时执行更新访问次数的函数
+//   window.onload = async function() {
+//     await increaseVisitCount(); // 增加访问次数
+//     updateVisitCount(); // 更新页面上的访问次数
+//   };
