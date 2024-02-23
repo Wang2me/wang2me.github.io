@@ -140,8 +140,7 @@ markers.dog15 = createMarker({ lat:39.6421,lng:66.9752 }, 'dog','烏茲別克斯
 markers.dog16 = createMarker(RandomCoords(luoyang), 'dog','河南洛陽',{ A:['dog'],B:['三國兩晉南北朝'],C:['交通運輸'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:' 陸機是西晉著名文學家。傳說他在洛陽做官時，曾有一隻名為｢黃耳｣的黃犬。黃耳曾多次多次往返於洛陽和吳郡（今江蘇蘇州）之間，為陸機傳遞信件。｢黃犬｣因此成為漢語中的典故，意為家書。	'  
- ,description_en:'Lu Ji 陸機 was a famous literatus of the Western Jin Dynasty 西晉. A legend says that when he was an official in Luoyang 洛陽, he had a yellow dog named "Huang Er 黃耳" (Yellow Ear). The Huang Er traveled between Luoyang and Wujun (present-day Suzhou, Jiangsu) many times to deliver letters for him. Therefore, the phrase "yellow dog" became an allusion in the Chinese language, meaning family letters.'
-,reference:'1. 房玄齡等，《晉書·列傳第二十四》（北京：中華書局，1997），頁1473。'
+ ,description_en:'Lu Ji 陸機 was a famous literatus of the Western Jin Dynasty 西晉. A legend says that when he was an official in Luoyang 洛陽, he had a yellow dog named "Huang Er 黃耳" (Yellow Ear). The Huang Er traveled between Luoyang and Wujun 吳郡 (present-day Suzhou 蘇州, Jiangsu 江蘇) many times to deliver letters for him. Therefore, the phrase "yellow dog" became an allusion in the Chinese language, meaning family letters.'
  ,image:''
  ,referenceUrl:''});
 //江蘇蘇州	-lat:31.295421,lng:120.5767
@@ -455,7 +454,7 @@ markers.dog49 = createMarker(RandomCoords(beijing), 'dog','北京',{ A:['dog'],B
   ,image_content_cn:'清，郎世寧畫十駿犬蒼猊犬，國立故宮博物院藏'
    ,referenceUrl:''});
 		
-  markers.dog51 = createMarker({lat:51.5086,lng:-0.1656}, 'dog','英國倫敦',{ A:['dog'],B:['清'],C:['文化娛樂'],D:['海上絲綢之路'],E:['歐洲'] },
+  markers.dog51 = createMarker({lat:51.5086,lng:-0.1656}, 'dog','英國倫敦',{ A:['dog'],B:['清'],C:['文化娛樂','經貿'],D:['海上絲綢之路'],E:['歐洲'] },
   {title_cn: '描述',title_en: 'Description'  
    ,description_cn:'洋行是清代特許與西洋商人進行貿易的商戶。同治年間，寧波的一間洋行進口了一隻西洋大型犬，十分喜愛捕鼠，每日可捕獲老鼠數十隻。'  
    ,description_en:'Hongs 行 were companies licensed to trade with Western merchants in the Qing Dynasty 清朝. During the Tongzhi 同治 period, a hong in Ningbo 寧波 imported a large Western dog that loved to catch mice and could catch dozens of them every day.'

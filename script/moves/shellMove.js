@@ -9,7 +9,7 @@
 
  //秦漢
 {
-    markers.shell1 = createMarker({lat:22.321771,lng:114.1644    }, 'shell','中國香港',{ A:['shell'], B:['史前至夏商周'],C:['身份象徵'],D:['其他'],E:['東亞'] }
+    markers.shell1 = createMarker({lat:22.321771,lng:114.1644    }, 'shell','中國香港',{ A:['shell'], B:['史前至夏商周'],C:['身份象徵','經貿'],D:['其他'],E:['東亞'] }
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '貨貝，是與人類歷史關係密切的一種貝類。包括古代中國在內的許多文明都曾經將其當成貨幣來使用，因此而得名。貨貝主要分佈於太平洋的暖水區，香港就是中國的主要貨貝產地之一。'
     ,description_en:'The money cowries are a kind of shellfish closely related to the history of humans. Many civilizations, including ancient China, have used them as currency, hence the name. The money cowries are mainly found in the warm waters of the Pacific Ocean, and Hong Kong is one of the major recourse in China.'
@@ -52,7 +52,7 @@ markers.shell3 = createMarker({lat:23.1127,lng:113.2485}, 'shell','廣東廣州'
 //唐
 {
          
- markers.shell4 = createMarker({lat:41.0289,lng:28.9619}, 'shell','土耳其伊斯坦布爾',{ A:['shell'], B:['三國兩晉南北朝'],C:['身份象徵'],D:['海上絲綢之路'],E:['歐洲'] },
+ markers.shell4 = createMarker({lat:41.0289,lng:28.9619}, 'shell','土耳其伊斯坦布爾',{ A:['shell'], B:['三國兩晉南北朝'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['歐洲'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'大秦是中國古代對羅馬帝國的稱呼。東晉的史料中記載，大秦出產珍珠，大秦商人乘船前往安息帝國和印度進行貿易。也有少量大秦商人可以到達中國，航行時間需要三年。'  
   ,description_en:'From the historical records of the Eastern Jin Dynasty, it is recorded that pearls were produced in the Roman Empire. Roman merchants sailed to the Parthian Empire and India to trade. A few Roman merchants also reached China after a three-year ocean voyage.'

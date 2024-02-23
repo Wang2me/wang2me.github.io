@@ -9,7 +9,7 @@
 
  //秦漢
 {
-    markers.coral1 = createMarker({lat:34.0010,lng:71.4974}, 'coral','巴基斯坦白沙瓦',{ A:['coral'], B:['秦漢'],C:['身份象徵'],D:['陸上絲綢之路'],E:['南亞'] }
+    markers.coral1 = createMarker({lat:34.0010,lng:71.4974}, 'coral','巴基斯坦白沙瓦',{ A:['coral'], B:['秦漢'],C:['身份象徵','經貿'],D:['陸上絲綢之路'],E:['南亞'] }
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '珊瑚蟲是一種古老的海洋動物。而我們所熟悉的作為裝飾品的珊瑚則是這種生物分泌碳酸鈣並大量堆積的結果。隨著陸上絲綢之路的開闢，漢朝時的中國人就已經瞭解到這種寶物。例如，位於南亞的罽賓國就是一個出產珊瑚的西域國家。'
     ,description_en:'Coral polyps are an ancient marine animal. Coral polyps are an ancient marine animal. The corals we familiar as decoration are the product of these creatures that secrete calcium carbonate to form a hard skeleton. With the opening of the Continental Silk Road, the Chinese during the Han Dynasty 漢朝 were already informed of this treasure. For example, the Jibin 罽賓 in South Asia was a kingdom in the Western Regions that produced coral.'
@@ -58,7 +58,7 @@ markers.coral3 = createMarker({lat:4.4990,lng:114.4864}, 'coral','文萊',{ A:['
 //唐
 {
          
- markers.coral4 = createMarker({lat:12.8116,lng:45.0245}, 'coral','也門亞丁',{ A:['coral'], B:['宋'],C:['身份象徵'],D:['海上絲綢之路'],E:['西亞'] },
+ markers.coral4 = createMarker({lat:12.8116,lng:45.0245}, 'coral','也門亞丁',{ A:['coral'], B:['宋'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['西亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'宋朝及其重視商業發展，尤其是與外國的海上貿易。開寶四年（公元971年），北宋在廣州設立市舶司對海上貿易進行管理，其功能類似於現代的海關。許多阿拉伯、南亞、東南亞國家的商人匯集在廣州經商，廣州由此成為宋代的經濟中心之一。珊瑚是宋朝官方通過廣州進口的常見奢侈品。朝及其重視商業發展，尤其是與外國的海上貿易。開寶四年（公元971年），北宋在廣州設立市舶司對海上貿易進行管理，其功能類似於現代的海關。許多阿拉伯、南亞、東南亞國家的商人匯集在廣州經商，廣州由此成為宋代的經濟中心之一。珊瑚是宋朝官方通過廣州進口的常見奢侈品。'  
   ,description_en:'In 971, the Northern Song Dynasty 北宋 established the Shibosi 市舶司 in Guangzhou 廣州 to manage maritime trade. Later, the Shibosi was established in Hangzhou 杭州 and Mingzhou 明州 (present-day Ningbo 寧波, Zhejiang 浙江), which functions like a modern-day customs office. Businessmen from the Arabian, South Asian, and Southeast Asian countries converged on Guangzhou, resulting in the city being one of the economic centers of the Song Dynasty 宋朝. Corals were common luxury goods imported officially through Guangzhou during the Song Dynasty.'

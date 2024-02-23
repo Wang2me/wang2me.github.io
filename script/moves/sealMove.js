@@ -26,7 +26,7 @@
 
 //唐
 {
-markers.seal1 = createMarker({lat:35.8215,lng:129.2526}, 'seal','韓國慶州',{ A:['seal'], B:['唐'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞'] }
+markers.seal1 = createMarker({lat:35.8215,lng:129.2526}, 'seal','韓國慶州',{ A:['seal'], B:['唐'],C:['朝貢','經貿'],D:['海上絲綢之路'],E:['東亞'] }
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '海豹廣泛分佈於世界各海域。古代時人類就開始獵殺海豹以獲取皮毛。唐玄宗時期，位於朝鮮半島的新羅就曾經向唐朝進貢過十六張海豹皮。'
     ,description_en:'Seals are widely distributed throughout the world\'s oceans. In ancient times, people have been hunting seals for the fur. During the reign of Emperor Xuanzong of the Tang Dynasty 唐玄宗, Silla, located in the Korean Peninsula, once contributed sixteen seal hides to the Tang Dynasty 唐朝.'
@@ -35,7 +35,7 @@ markers.seal1 = createMarker({lat:35.8215,lng:129.2526}, 'seal','韓國慶州',{
     ,referenceUrl:''
  });                                    
 
-   markers.seal2 = createMarker({lat:61.2086,lng:-149.9127}, 'seal','美國安克雷奇',{ A:['seal'], B:['清'],C:['身份象徵'],D:['海上絲綢之路'],E:['北美洲'] },
+   markers.seal2 = createMarker({lat:61.2086,lng:-149.9127}, 'seal','美國安克雷奇',{ A:['seal'], B:['清'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['北美洲'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'最早向清朝出售海豹皮的歐洲國家是俄國，但這些海豹並非來自歐洲，而是來自於北美洲。清朝時，俄國的探險隊跨過白令海峽，在阿拉斯加地區大肆獵殺海豹以獲取皮毛。在美國獨立以前，俄國主導了對中國的海豹皮毛貿易長達半個世紀。'  
     ,description_en:'The first European country to sell seal hides to the Qing Dynasty 清朝 was the Russian Empire. The seals did not come from Europe, but from North America. During the Qing Dynasty, Russian expeditions crossed the Bering Strait and hunted seals for their furs in Alaska. Russia dominated the seal furs trade with China for half a century before the United States became independent.'
@@ -57,7 +57,7 @@ markers.seal1 = createMarker({lat:35.8215,lng:129.2526}, 'seal','韓國慶州',{
 
 //明
 {
-    markers.seal3 = createMarker({lat:53.4348,lng:-132.2911}, 'seal','加拿大格雷厄姆島',{ A:['seal'], B:['清'],C:['身份象徵'],D:['海上絲綢之路'],E:['北美洲'] },
+    markers.seal3 = createMarker({lat:53.4348,lng:-132.2911}, 'seal','加拿大格雷厄姆島',{ A:['seal'], B:['清'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['北美洲'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'海豹皮是美國向清朝出口的主要商品之一。這種皮毛貿易始於十八世紀末期。北美洲的西北海岸是海豹皮的主要產地，包括加拿大的英屬哥倫比亞和美國的俄勒岡。美國商船攜帶海豹皮以及其他商品從紐約港出發，橫跨大西洋和印度洋到達中國澳門。在獲得清朝的批准後，美國商人可以進入廣州出售海豹皮。有歷史學家推測，清朝時美國商人販售至中國的海豹皮價值在1500萬美元至2000萬美元之間。'  
      ,description_en:'Seal hides were one of the main commodities exported from the United States to the Qing Dynasty 清朝. The trade began in the late 18th century. The northwest coast of North America was the major origin of seal hides, including British Columbia in Canada and Oregon in the United States. American merchant ships carrying seal hides and other goods traveled from New York Harbor across the Atlantic and Indian Oceans to Macau, China. After receiving approval from the Qing Dynasty, American merchants were allowed to enter Guangzhou 廣州 to sell the hides. Historians have estimated that the value of seal hides sold to China by American merchants during the Qing Dynasty ranged from 15 million US dollars to 20 million US dollars.'
@@ -66,7 +66,7 @@ markers.seal1 = createMarker({lat:35.8215,lng:129.2526}, 'seal','韓國慶州',{
      ,referenceUrl:''});	
 //美國紐波特，美國紐約，佛得角，南非開普敦，印度尼西亞巽他海峽，中國澳門，廣東廣州	-------
 
-markers.seal4 = createMarker({lat:-51.7906,lng:-58.7955}, 'seal','福克蘭群島',{ A:['seal'], B:['清'],C:['身份象徵'],D:['海上絲綢之路'],E:['南美洲'] },
+markers.seal4 = createMarker({lat:-51.7906,lng:-58.7955}, 'seal','福克蘭群島',{ A:['seal'], B:['清'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['南美洲'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'在美國商人大規模的獵殺下，東太平洋的海豹數量銳減。為了保證向清朝銷售的海豹皮數量，美國商人開始獵殺其他地區的海豹，例如位於南美洲的福克蘭群島。'  
      ,description_en:'The seal population in the eastern Pacific Ocean declined drastically due to the large-scale hunting and killing by American traders. In order to ensure the sale of seal hides to the Qing Dynasty 清朝, American traders began to hunt seals from other regions, such as the Falkland Islands in South America.'

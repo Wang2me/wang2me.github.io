@@ -19,7 +19,7 @@ markers.swallow2 = createMarker({ lat:17.4515,lng:106.5344}, 'swallow','越南�
     });
 //廣東廣州，北京	-lat:23.1256161,lng:113.2407
     
-markers.swallow3 = createMarker({ lat:13.6875,lng:100.5358}, 'swallow','泰國曼谷',{ A:['swallow'], B:['明'],C:['飲食'],D:['海上絲綢之路'],E:['東南亞']},
+markers.swallow3 = createMarker({ lat:13.6875,lng:100.5358}, 'swallow','泰國曼谷',{ A:['swallow'], B:['明'],C:['飲食','經貿'],D:['海上絲綢之路'],E:['東南亞']},
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'古代中國與東南亞的燕窩貿易在明朝有了進一步發展。來自泰國等地的燕窩通過海路源源不斷地輸入廣東地區。廣東惠州因此成為了明朝主要進口燕窩的港口之一。除了明朝皇室，東南沿海地區的官員也是燕窩的主要消費群體。自萬曆以後，明朝對燕窩貿易的稅額做出了明確的規定。'  
 	,description_en:'The swallows nest trade between ancient China and Southeast Asia was further developed during the Ming Dynasty 明朝. Swallow nests from Thailand and other places were constantly imported into Guangdong 廣東 through the maritime route. As a result, Huizhou 惠州 in Guangdong became one of the major harbours for importing swallow nests during the Ming Dynasty. Besides the royal family of the Ming Dynasty, the officials of the Southeast Coast were also the main consumers of edible bird\'s nests. Since the Wanli 萬曆 period, the Ming Dynasty has made specific regulations on the tax on the trade of edible bird\'s nests.'
@@ -28,7 +28,7 @@ markers.swallow3 = createMarker({ lat:13.6875,lng:100.5358}, 'swallow','泰國�
 	,referenceUrl:''});
    	//廣東惠州，上海，南京，北京	-lat:23.1103563,lng:114.4103-lat:31.2188016,lng:121.4328-lat:32.0689363,lng:118.7829
    
-markers.swallow4 = createMarker({lat:2.2222,lng:102.2591}, 'swallow','馬來西亞馬六甲',{ A:['swallow'], B:['明'],C:['飲食'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.swallow4 = createMarker({lat:2.2222,lng:102.2591}, 'swallow','馬來西亞馬六甲',{ A:['swallow'], B:['明'],C:['飲食','經貿'],D:['海上絲綢之路'],E:['東南亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'馬六甲蘇丹國，在《明史》中被稱為滿剌加。鄭和下西洋時，其國王跟隨鄭和一同返回，成為了明王朝的藩屬國。該國地處馬六甲海峽，是連接印度洋和太平洋的必經之路，也是古代東西方海上貿易的中轉站。燕窩是明朝從滿剌加進口的主要商品之一。除了明朝皇室，東南沿海地區的官員也是燕窩的主要消費群體。'  
 	,description_en:'Zheng He 鄭和 once reached Malacca Sultanate on his ocean voyages. The Malacca Sultanate became a tributary of the Ming Dynasty 明朝 and maintain a close relationship for a long time. Located in the Strait of Malacca, the state was an essential route connecting the Indian and Pacific Oceans and was also a transit point for the ancient maritime trade between the East and the West. Swallow nests were one of the major goods imported from Malacca during the Ming Dynasty. Besides the royal family of the Ming Dynasty, the officials of the Southeast Coast were also the main consumers of swallow nests.'
@@ -46,7 +46,7 @@ markers.swallow5 = createMarker({ lat:1.9344186,lng:103.3585}, 'swallow','馬來
 	,referenceUrl:''});
 
    
-markers.swallow6 = createMarker({ lat:5.8389,lng:121.2555}, 'swallow','菲律賓蘇祿群島',{ A:['swallow'],B:['清'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
+markers.swallow6 = createMarker({ lat:5.8389,lng:121.2555}, 'swallow','菲律賓蘇祿群島',{ A:['swallow'],B:['清'],C:['朝貢','經貿'],D:['海上絲綢之路'],E:['東南亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'清代的燕窩貿易由福建和廣東地區的商人主導，在乾隆時期發展至頂峰。東南亞各地的燕窩先由廣東商人運輸至香港，再由福建商人轉運至廈門。其中優質的燕窩以朝貢的形式供給清朝皇室，其餘則流入市場。菲律賓的蘇祿群島是燕窩的主要產地之一。每年有數十艘商船往來於中國和蘇祿群島之間運輸燕窩。'  
 	,description_en:'The trade of edible bird\'s nests in the Qing Dynasty 清朝 was dominated by merchants from Fujian 福建 and Guangdong 廣東, which reached its peak during the Qianlong 乾隆 period. Swallow nests from Southeast Asia were first transported to Hong Kong by Guangdong merchants and then to Xiamen 廈門 by Fujian merchants. The best quality bird\'s nests were supplied to the Qing royal family as tribute, while the rest flowed into the market. The Sulu Archipelago in the Philippines is one of the major sources of edible bird\'s nests. There were dozens of merchant ships transporting the nests between China and the Sulu Archipelago every year.	'
@@ -55,7 +55,7 @@ markers.swallow6 = createMarker({ lat:5.8389,lng:121.2555}, 'swallow','菲律賓
 	,referenceUrl:''});
  	//中國香港，福建廈門，北京	-lat:22.3204839,lng:114.1046-lat:24.4718852,lng:118.0841
     
-markers.swallow7 = createMarker({ lat:-6.2253,lng:106.7283}, 'swallow','馬來西亞雅加達',{ A:['swallow'],B:['清'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞']},
+markers.swallow7 = createMarker({ lat:-6.2253,lng:106.7283}, 'swallow','馬來西亞雅加達',{ A:['swallow'],B:['清'],C:['朝貢','經貿'],D:['海上絲綢之路'],E:['東南亞']},
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'清代的燕窩貿易由福建和廣東地區的商人主導，在乾隆時期發展至頂峰。東南亞各地的燕窩先由廣東商人運輸至香港，再由福建商人轉運至廈門。其中優質的燕窩以朝貢的形式供給清朝皇室，其餘則流入市場。爪哇島是燕窩的主要產地之一。光緒時期，每年有數千公斤的燕窩從爪哇島運輸至中國。'  
 	,description_en:'The trade of edible bird\'s nests in the Qing Dynasty 清朝 was dominated by merchants from Fujian 福建 and Guangdong 廣東, which reached its peak during the Qianlong 乾隆 period. Swallow nests from Southeast Asia were first transported to Hong Kong by Guangdong merchants and then to Xiamen 廈門 by Fujian merchants. The best quality bird\'s nests were supplied to the Qing royal family as tribute, while the rest flowed into the market. Java is one of the major sources of edible bird\'s nests. During the Guangxu period 光緒, thousands of kilograms of swallow nests were transported from Java to China every year.'

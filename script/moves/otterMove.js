@@ -26,7 +26,7 @@
 
 //唐
 {
-markers.otter1 = createMarker({lat:61.2016,lng:210.0843}, 'otter','美國安克雷奇',{ A:['otter'], B:['清'],C:['身份象徵'],D:['海上絲綢之路'],E:['北美洲'] }
+markers.otter1 = createMarker({lat:61.2016,lng:210.0843}, 'otter','美國安克雷奇',{ A:['otter'], B:['清'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['北美洲'] }
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '海獺主要分佈於北太平洋海域。清朝時，俄國的探險隊跨過白令海峽，在阿拉斯加地區大肆獵殺海獺以獲取皮毛。這些海獺皮很多通過黑龍江地區傳入清朝，是貴族和高級官員所鐘愛的衣物原料。'
     ,description_en:'Sea otters are mainly spread in the North Pacific Ocean. During the Qing Dynasty 清朝, expeditions from the Russian Empire crossed the Bering Strait and hunted sea otters in Alaska for their fur. Many of these sea otter furs were introduced to the Qing Dynasty through the Heilongjiang 黑龍江 region and were popular clothing material for nobles and high-ranking officials.'
@@ -36,7 +36,7 @@ markers.otter1 = createMarker({lat:61.2016,lng:210.0843}, 'otter','美國安克�
  });                                    
 	//俄羅斯白令戈夫斯基，俄羅斯雅克薩，黑龍江海林，北京	---
  
-   markers.otter2 = createMarker({lat:53.4318,lng:-132.2951}, 'otter','加拿大格雷厄姆島',{ A:['otter'], B:['清'],C:['身份象徵'],D:['海上絲綢之路'],E:['北美洲'] },
+   markers.otter2 = createMarker({lat:53.4318,lng:-132.2951}, 'otter','加拿大格雷厄姆島',{ A:['otter'], B:['清'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['北美洲'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'美國獨立後，皮毛成為美國向中國輸出的主要貿易商品。1785年，紐約和廣州之間的貿易航線開通。至19世紀初期，中美間的皮毛貿易達到頂峰，每年有數萬張海獺皮運輸至廣州。'  
     ,description_en:'After the independence of the United States, fur became the major commodity exported from the U.S. to China. In 1785, the trade route between New York and Guangzhou 廣州 was opened. By the early 19th century, the fur trade between the United States and China was at its peak, with tens of thousands of sea otter hides transported to Guangzhou each year.'
@@ -75,7 +75,7 @@ markers.otter1 = createMarker({lat:61.2016,lng:210.0843}, 'otter','美國安克�
 var timeline = document.getElementById('timeline');
 var slider = document.getElementById('slider');
 var otters = [
- 'otter1', 'otter2', 'otter3', 'otter4' 
+ 'otter1', 'otter2' 
 ];
 
 for (var i = 0; i < otters.length; i++) {

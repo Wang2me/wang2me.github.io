@@ -134,7 +134,7 @@ markers.elephant14 = createMarker({ lat:23.1732,lng:113.1815}, 'elephant','廣�
  ,referenceUrl:''});
 //江蘇南京	-lat:32.0326,lng:118.7452
  
-markers.elephant15 = createMarker({ lat:23.1512,lng:113.1815 }, 'elephant','廣東廣州',{ A:['elephant'],B:['三國兩晉南北朝'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞'] },
+markers.elephant15 = createMarker({ lat:23.1512,lng:113.1815 }, 'elephant','廣東廣州',{ A:['elephant'],B:['三國兩晉南北朝'],C:['朝貢','經貿'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'公元280年，晉武帝消滅東吳，交州也隨之成為西晉的領土。之後，交州向西晉進貢大象，因此晉武帝下令製作一架大車，由象牽引。從此象車進入中國皇帝出行的儀仗隊中。'  
  ,description_en:'In 280, Emperor Wu of the Jin Dynasty 晉武帝 destroyed Eastern Wu 東吳, and Jiaozhou 交州 became part of the territory of Western Jin 西晉. Later, Jiaozhou contributed elephants to the Western Jin Dynasty, and Emperor Wu of Jin ordered to make a large carriage to be drawn by the elephants. From then on, the elephant carriages were part of the ceremonial procession of the Chinese emperors\' traveling.'
@@ -248,7 +248,7 @@ markers.elephant27 = createMarker({ lat:34.2804,lng:108.9463 }, 'elephant','陝�
  ,referenceUrl:''});//廣東廣州，北京
 //河南洛陽	
  
-markers.elephant28 = createMarker({ lat:23.1415,lng:113.2605}, 'elephant','廣東廣州',{ A:['elephant'],B:['唐'],C:['身份象徵'],D:['海上絲綢之路'],E:['東亞'] },
+markers.elephant28 = createMarker({ lat:23.1415,lng:113.2605}, 'elephant','廣東廣州',{ A:['elephant'],B:['唐'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'安史之亂後，中原陷入藩鎮割據，經濟重心南移。唐朝國力下降，無力繼續掌控西域。由此，陸上絲綢之路逐漸被海上絲綢之路取代。廣州逐漸成為唐朝對外海上貿易的中心。王鍔在擔任廣州刺史和嶺南節度使期間，對海上貿易進行征稅，滿足中央要求的稅收額度之外，其餘的財富則被他貪污。除此之外，王鍔的家人還直接進行貿易。據記載，王鍔家有商船十餘艘，每日買賣象牙、犀角等貨物。'  
  ,description_en:'After the An Lushan Rebellion 安史之亂, Southern China thus became the new economic center. The Tang Dynasty 唐朝 was unable to sustain its control over the Western Regions. The Continental Silk Road was gradually replaced by the Maritime Silk Road. Guangzhou 廣州 gradually became the center of foreign maritime trade during the Tang Dynasty. While he was the governor of Guangzhou, Wang E 王鍔 levied taxes on maritime trade, and beyond the amount required by the central government, he corrupted the rest of the tax revenue. In addition, Wang E\'s family also engaged directly in trading. It is recorded that Wang\'s family owns more than 10 merchant ships and trades in ivory, rhino horns, and other goods on a daily basis.'
@@ -273,7 +273,7 @@ markers.elephant30 = createMarker({ lat:15.8632,lng:108.3051}, 'elephant','越�
  ,referenceUrl:''});//北京
 //陝西西安	
  
-markers.elephant31 = createMarker({ lat:17.9696,lng:102.6281  }, 'elephant','老撾永珍',{ A:['elephant'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路' ],E:['東南亞']},
+markers.elephant31 = createMarker({ lat:17.9696,lng:102.6281  }, 'elephant','老撾永珍',{ A:['elephant'],B:['唐'],C:['朝貢','經貿'],D:['陸上絲綢之路' ],E:['東南亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'開皇八年（公元588年），北方的突厥陸真臘，又名文單，是唐朝時期從真臘分裂出來的國家，大致位於如今的老撾。陸真臘多次向唐朝進貢大象，這些大象都經過訓練，在唐朝宮廷中主要用於動物表演。唐德宗時期，唐朝皇室飼養的來自陸真臘的大象共計三十二頭。唐德宗下令將這些大象全部放生。'  
  ,description_en:'Land Chenla, also known as Wendan 文單, was an ancient state divided from the Chenla, located in modern Laos. The elephants from Land Chenla were sent to the Tang Dynasty 唐朝 as tributes many times. These elephants were trained and were mainly used for animal performances in the Tang court. During the reign of Emperor Dezong of the Tang Dynasty 唐德宗, the Tang royal garden kept 32 elephants from Land Chenla. Emperor Tang Dezong ordered all these elephants to be released.'
@@ -295,7 +295,7 @@ markers.elephant32 = createMarker({lat:7.3727,lng:80.2894}, 'elephant','斯里�
 }
 //宋
 {
- markers.elephant33 = createMarker({ lat:23.1215,lng:113.2292	 }, 'elephant','廣東廣州',{ A:['elephant'],B:['宋'],C:['身份象徵'],D:['海上絲綢之路'],E:['東亞'] },
+ markers.elephant33 = createMarker({ lat:23.1215,lng:113.2292	 }, 'elephant','廣東廣州',{ A:['elephant'],B:['宋'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'宋朝及其重視商業發展，尤其是與外國的海上貿易。開寶四年（公元971年），北宋在廣州設立市舶司對海上貿易進行管理，後來在杭州、明州（今浙江寧波）等地也相繼設立市舶司，其功能類似於現代的海關。許多阿拉伯、南亞、東南亞國家的商人匯集在廣州經商，廣州由此成為宋代的經濟中心之一。宋代主要出口的商品是絲綢和瓷器，而主要進口的商品有香料、珠寶、象牙、犀角等。宋仁宗在位期間，北宋官方每年經廣州購買的象牙、犀角超過了53萬件。而到了宋英宗時，這個數字增長至63萬。這些物品先從廣州陸路運輸至虔州（今江西贛州），再轉由水路運輸至北宋的首都汴京（今河南開封）。'  
  ,description_en:'In 971, the Northern Song Dynasty 北宋 established the Shibosi 市舶司 in Guangzhou 廣州 to manage maritime trade. Later, the Shibosi was established in Hangzhou 杭州 and Mingzhou 明州 (present-day Ningbo 寧波, Zhejiang 浙江), which functions like a modern-day customs office. Businessmen from the Arabian, South Asian, and Southeast Asian countries converged on Guangzhou, resulting in the city being one of the economic centers of the Song Dynasty 宋朝.The main exports of the Song Dynasty were silk and porcelain, while the main imports were spices, jewelry, ivory, and rhino horn. During Emperor Renzong\'s 宋仁宗 reign, the Northern Song government purchased more than 530,000 pieces of ivory and rhino horn through Guangzhou every year. By the period of Emperor Yingzong 宋英宗, this number had increased to 630,000. These goods were first transported by land from Guangzhou to Qianzhou 虔州 (present-day Ganzhou 贛州, Jiangxi 江西) and then by ship to Bianjing 汴京 (present-day Kaifeng 開封, Henan 河南), the capital of the Northern Song Dynasty.'
@@ -452,7 +452,7 @@ markers.elephant49 = createMarker({lat:2.2036,lng:102.2344}, 'elephant','馬來�
   ,referenceUrl:''});
 //廣東廣州，江蘇南京，北京	-lat:23.1184786,lng:113.2126-lat:32.057561,lng:118.7423
   
-markers.elephant50 = createMarker({lat:7.6055,lng:79.7725}, 'elephant','斯里蘭卡',{ A:['elephant'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['南亞'] },
+markers.elephant50 = createMarker({lat:7.6055,lng:79.7725}, 'elephant','斯里蘭卡',{ A:['elephant'],B:['明'],C:['朝貢','經貿'],D:['海上絲綢之路'],E:['南亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'斯里蘭卡在明代時被稱為錫蘭山。錫蘭山國的使者曾多次跟隨鄭和船隊來到明朝進貢。錫蘭山在永樂時期曾進貢過大象。'  
   ,description_en:'Envoys from Sri Lanka visited China several times with Zheng He\'s 鄭和 fleets. During the Yongle 永樂 period, Sri Lanka paid tribute to the Ming Dynasty 明朝 with elephants.'

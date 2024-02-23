@@ -23,7 +23,7 @@
 }
 //三国
 { 
-markers.turtle2 = createMarker({lat:23.1351,lng:113.2252}, 'turtle','廣東廣州',{ A:['turtle'], B:['秦漢'],C:['身份象徵'],D:['海上絲綢之路'],E:['東亞'] },
+markers.turtle2 = createMarker({lat:23.1351,lng:113.2252}, 'turtle','廣東廣州',{ A:['turtle'], B:['秦漢'],C:['身份象徵','經貿'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
 ,description_cn:'玳瑁是由大型陸龜或者海龜（主要是玳瑁海龜）的背甲製成的奢侈品材料。在古代中國，廣東地區是玳瑁的主要來源地之一。漢代的商人們往往前往番禺（今廣東廣州）進行玳瑁貿易。'  
 ,description_en:'Tortoiseshell is a luxury material produced from the shells of the larger species of tortoise and turtle, especially the hawksbill sea turtle. In ancient China, the Guangdong 廣東 region was one of the main sources of tortoiseshell. Merchants in the Han Dynasty 漢朝 often traveled from Panyu 番禺 (present-day Guangzhou 廣州, Guangdong 廣東) to conduct the trade of tortoiseshell.'

@@ -82,7 +82,7 @@ markers.camel10 = createMarker({ lat:	47.9020,lng:106.8838 }, 'camel','蒙古烏
 	,image:''
 	,referenceUrl:''});
 
-markers.camel11 = createMarker({ lat:    47.9017,lng:106.8570 }, 'camel','蒙古烏蘭巴托',{ A:['camel'],B:['秦漢'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel11 = createMarker({ lat:    47.9017,lng:106.8570 }, 'camel','蒙古烏蘭巴托',{ A:['camel'],B:['秦漢'],C:['交通運輸','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'漢王朝另一個獲取駱駝的方式便是貿易。中原王朝儘需要出口絲、麻等紡織品，便可以換取驢、騾、駱駝等貴重的牲畜。漢武帝的財政大臣桑弘羊極力支持這種貿易。他認為這種貿易既可以獲得利益，又能損耗遊牧民族的戰鬥力。'  
 	,description_en:'Another way for the Han Dynasty 漢朝 to obtain camels was through trade. The Chinese people only needed to export textiles in exchange for valuable livestock such as donkeys, mules, and camels. Sang Hongyang 桑弘羊, the finance minister of Emperor Wu of the Han Dynasty 漢武帝, extremely supported this silk-livestock trade. He believed that this kind of trade could not only gain benefits, but also deplete the combat effectiveness of nomadic peoples.'
@@ -146,7 +146,7 @@ markers.camel18 = createMarker({ lat:	40.2752,lng:111.1941 }, 'camel','內蒙古
 	,image:''
 	,referenceUrl:''});//陕西西安
 
-markers.camel19 = createMarker({ lat:	40.2654,lng:111.2014 }, 'camel','內蒙古托克托縣',{ A:['camel'],B:['秦漢'],C:['宗教信仰'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel19 = createMarker({ lat:	40.2654,lng:111.2014 }, 'camel','內蒙古托克托縣',{ A:['camel'],B:['秦漢'],C:['宗教信仰','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'南匈奴歸附東漢後，依然保留了許多遊牧民族的生活習慣。例如，他們在祭祀活動期間會進行賽馬和鬥駱駝等娛樂活動。'  
 	,description_en:'After the Southern Xiongnu 南匈奴 joined the Eastern Han Dynasty 東漢, they still retained some customs of the nomadic people. They would engage in recreational activities such as horse racing and camel fighting during their sacrificial ceremonies.'
@@ -210,7 +210,7 @@ markers.camel26 = createMarker({ lat:    39.6332, lng:66.8998 }, 'camel','烏茲
 	,image:''
 	,referenceUrl:''});
 
-markers.camel27 = createMarker({ lat:	33.3089,lng:44.3642 }, 'camel','伊拉克巴格達',{ A:['camel'],B:['三國兩晉南北朝' ],C:['交通運輸'],D:['陸上絲綢之路'],E:['西亞']},
+markers.camel27 = createMarker({ lat:	33.3089,lng:44.3642 }, 'camel','伊拉克巴格達',{ A:['camel'],B:['三國兩晉南北朝' ],C:['交通運輸','經貿'],D:['陸上絲綢之路'],E:['西亞']},
    {title_cn: '描述',title_en: 'Description'  
 	,description_cn:'薩珊王朝，又稱波斯第二帝國，統治西亞地區長達四個世紀。薩珊王朝與北魏往來密切，薩珊王朝的馬和駱駝在北魏十分有名。在北魏的歷史記錄中，波斯富商往往擁有上千匹馬和駱駝。'  
 	,description_en:'The Sassanid Empire, also known as the Second Persian Empire, ruled West Asia for four centuries. The Sassanid Empire had a close relationship with the Northern Wei Dynasty 北魏, and their horses and camels were very famous in the Northern Wei Dynasty. In the historical records, wealthy Persian merchants usually owned thousands of horses and camels.'
@@ -250,7 +250,7 @@ markers.camel31 = createMarker({ lat:	47.7056, lng:   99.4488  }, 'camel','蒙�
     ,image:''
 	,referenceUrl:''});//北京
 
-markers.camel32 = createMarker({ lat:    39.6312, lng:66.9068}, 'camel','烏茲別克斯坦撒馬爾罕',{ A:['camel'],B:['隋'],C:['交通運輸'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.camel32 = createMarker({ lat:    39.6312, lng:66.9068}, 'camel','烏茲別克斯坦撒馬爾罕',{ A:['camel'],B:['隋'],C:['交通運輸','經貿'],D:['陸上絲綢之路'],E:['中亞'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'隋代設置了專門負責管理朝貢的外交部門鴻臚寺。隋煬帝時期，又在洛陽建國門外設置了隸屬於鴻臚寺的四方館。四方館的官員叫做四方使者，分別負責接待來自不同地區的使節，管理他們的交通工具，比如馬、駱駝、車輛等。除此以外，四方館還負責監管與不同國家的互市貿易。'  
     ,description_en:'The Sui Dynasy 隋朝 set up Honglusi 鴻臚寺, a diplomatic department in charge of tributes. During the period of Emperor Yang of the Sui Dynasty 隋煬帝, Sifangguan 四方館, the subordinate department of Honglusi, was established in Luoyang 洛陽, mainly responsible for receiving envoys from different regions and managing their horses, camels, and vehicles. In addition, the Sifangguan was also responsible for the supervision of the international trade.'
@@ -258,7 +258,7 @@ markers.camel32 = createMarker({ lat:    39.6312, lng:66.9068}, 'camel','烏茲�
     ,image:''
 	,referenceUrl:''});//北京
 
-markers.camel33 = createMarker({ lat:    39.6364, lng:66.9128	 }, 'camel','烏茲別克斯坦撒馬爾罕',{ A:['camel'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.camel33 = createMarker({ lat:    39.6364, lng:66.9128	 }, 'camel','烏茲別克斯坦撒馬爾罕',{ A:['camel'],B:['唐'],C:['朝貢','經貿'],D:['陸上絲綢之路'],E:['中亞'] },
    {title_cn: '描述',title_en: 'Description'  
     ,description_cn:'唐朝承襲隋朝官制，依然由鴻臚寺負責管理朝貢事宜。貢品中的馬和駱駝由鴻臚寺和太僕寺共同評定價值，其中最優良的被選出在朝堂上陳列。此外鴻臚寺的下屬部門還需要管理長安城（今陝西西安）的外族牲畜貿易。唐朝進口的牲畜主要有馬、駱駝、牛、羊等。唐高宗時期牲畜互市設於安善坊和大業坊，後來因為地處長安城南不方便交易，而遷移至東市。'  
     ,description_en:'The Tang Dynasty 唐朝 inherited the official system of the Sui Dynasty 隋朝, and the tribute affairs still were managed by the Honglusi 鴻臚寺. The horses and camels in the tributes would be assessed by Honglusi and Taipusi 太僕寺 together, and selected the best for review on the court.It was also responsible for managing the trade of foreign livestock in the Chang\'an City 長安城 (present-day Xi\'an 西安, Shaanxi 陝西). The main livestock imported by the Tang Dynasty were horses, camels, cattle, and sheep. During the reign of Emperor Gaozong of the Tang Dynasty 唐高宗, the places for exotic livestock trade were located in Anshan Fang 安善坊 and Daye Fang 大業坊. These two places were located in the south of Chang\'an City, and later the livestock trade was moved to the East Market of Chang\'an City due to the problem of transportation.'
@@ -282,7 +282,7 @@ markers.camel35 = createMarker({lat:47.4242,lng:102.7166 }, 'camel','蒙古鄂�
      ,image:''
      ,referenceUrl:''});
 
-markers.camel36 = createMarker({ lat:	41.7125,lng:82.9538 }, 'camel','新疆庫車',{ A:['camel'],B:['唐'],C:['宗教信仰'],D:['其他'],E:['東亞'] },
+markers.camel36 = createMarker({ lat:	41.7125,lng:82.9538 }, 'camel','新疆庫車',{ A:['camel'],B:['唐'],C:['宗教信仰','經貿'],D:['其他'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'龜茲位於如今的新疆庫車，是古代西域國家之一。龜茲國在新年時有長達七日的慶祝活動，在此期間會鬥牛、馬、駱駝作樂，並通過勝負來占卜下一年的畜牧情況。'  
      ,description_en:'Kucha, located in present-day Kuche 庫車, Xinjiang 新疆, was one of the ancient kingdoms in Western Regions. Kucha has a seven-day celebration in the New Year. During this period, there were bulls, horses, and camels fightings, and the results will be used to predict the animal husbandry situation in the next year.'
@@ -379,7 +379,7 @@ markers.camel47 = createMarker({lat:	41.0087	,lng:	28.9699 }, 'camel','土耳其
      ,image:''
      ,referenceUrl:''});
 
-markers.camel48 = createMarker({ lat:42.2494,lng:118.8892}, 'camel','內蒙古赤峰',{ A:['camel'],B:['宋'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel48 = createMarker({ lat:42.2494,lng:118.8892}, 'camel','內蒙古赤峰',{ A:['camel'],B:['宋'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'北宋和遼簽訂澶淵之盟後，雙方在雄州（今河北雄縣）等地設立榷場進行互市貿易。北宋出口紡織品、藥品等，從契丹進口牛、羊、馬、駱駝等牲畜以及不同動物的皮毛。'  
      ,description_en:'After the Chanyuan Treaty 澶淵之盟, the Northern Song 北宋 and Liao 遼 established “quechang 榷場” in Xiongzhou 雄州 (present-day Xiongxian 雄縣, Hebei 河北) for trading. The Northern Song Dynasty exported textiles and medicines, and imported cattle, sheep, horses, camels and fur from the Khitan.'
@@ -387,7 +387,7 @@ markers.camel48 = createMarker({ lat:42.2494,lng:118.8892}, 'camel','內蒙古�
      ,image:''
      ,referenceUrl:''});
 
-markers.camel49 = createMarker({lat:38.4811,lng:106.1925 }, 'camel','寧夏銀川',{ A:['camel'],B:['宋'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel49 = createMarker({lat:38.4811,lng:106.1925 }, 'camel','寧夏銀川',{ A:['camel'],B:['宋'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'景德四年（公元1004年），北宋與西夏在保安軍（今陝西志丹）設置榷場進行互市貿易。北宋用絲綢等紡織品交易西夏的牛、羊、馬駱駝等牲畜。'  
      ,description_en:'In 1004, the Northern Song 北宋 and the Tangut people set up “quechang 榷場” for trading in Baoanjun 保安軍 (present-day Zhidan 志丹, Shaanxi 陝西). The Northern Song Dynasty used silk and other textiles to trade cattle, sheep, horses and camels.'
@@ -438,7 +438,7 @@ markers.camel54 = createMarker(RandomCoords(beijing), 'camel','北京',{ A:['cam
      ,image_content:''
 ,referenceUrl:''});  
 
-markers.camel55 = createMarker({lat: 47.7317,lng:96.8348}, 'camel','蒙古烏里雅蘇臺',{ A:['camel'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel55 = createMarker({lat: 47.7317,lng:96.8348}, 'camel','蒙古烏里雅蘇臺',{ A:['camel'],B:['明'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'瓦剌是興起於蒙古西部的蒙古部落。正統三年（公元1438年），明朝在大同開設馬市，從瓦剌進口馬和駱駝。'  
      ,description_en:'Oirat was the Mongol group that emerged from the western part of Mongolia. In 1438, the Ming Dynasty 明朝 opened the horse market in Datong 大同, and traded with Oiratr to import horses and camels.'
@@ -542,7 +542,7 @@ markers.camel67 = createMarker({lat:37.3617,lng:97.3617}, 'camel','青海海西'
      ,image:''
      ,referenceUrl:''});   
 
-markers.camel68 = createMarker({lat:43.9252,lng:116.0308}, 'camel','內蒙古錫林郭勒',{ A:['camel'],B:['清'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.camel68 = createMarker({lat:43.9252,lng:116.0308}, 'camel','內蒙古錫林郭勒',{ A:['camel'],B:['清'],C:['交通運輸','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'烏蘭察布是蒙古商隊和漢人的主要交易地點，蒙古商隊從漢人處購得布匹和茶磚，主要賣出牛、羊、馬、駱駝以及毛皮。'  
      ,description_en:'Wulanchabu 烏蘭察布 was the main trading place between Mongolian caravans and Han people. Mongolian caravans bought cloth and tea bricks from Han people, and mainly sold cattle, sheep, horses, camels, and furs.'

@@ -81,7 +81,7 @@ markers.horse9 = createMarker({ lat:40.4013,lng:71.8151 }, 'horse','烏茲別克
 ,reference:'1. 館長說（三）巔峰之作——鎏金銅馬，茂陵博物館網站，網址：www.maoling.com/zhuanjiajiangzuo/103.html。'  
  ,imag:''});
 
-markers.horse10 = createMarker({ lat:37.9224259,lng:102.6288 }, 'horse','甘肅武威',{ A:['horse'],B:['秦漢'],C:['農業生產'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse10 = createMarker({ lat:37.9224259,lng:102.6288 }, 'horse','甘肅武威',{ A:['horse'],B:['秦漢'],C:['農業生產','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'漢朝獲取良馬的一個重要方式就是貿易。中原地區儘需要出口絲、麻等紡織品，便可以換取馬和駱駝等貴重的牲畜。漢武帝的財政大臣桑弘羊便認為這種貿易既可以獲得經濟利益，又能削弱遊牧民族（尤其是匈奴）的戰鬥力。在對外貿易的過程中，漢朝邊境地區的商人們發揮了重要的作用。例如，有一個名叫橋桃的商人，他通過貿易引入馬、牛、羊等牲畜，並在涼州（今甘肅武威）進行繁育。據史料記載，他最多時擁有超過一千匹馬、兩千頭牛，以及一萬隻羊，在很大程度上促進了漢朝西北地區的畜牧業發展。'  
  ,description_en:'Foreign trade was an important way of introducing good horses during the Han Dynasty 漢朝. The Central Plains exported textiles such as silk and hemp in exchange for valuable livestock such as horses and camels. Sang Hongyang 桑弘羊, the finance minister of Emperor Wu of the Han Dynasty 漢武帝, believed that this trade could gain economic benefits and weaken the fighting power of the nomadic peoples (especially the Xiongnu 匈奴). In the process of foreign trade, merchants in the border areas of the Han Dynasty played an important role. For example, there was a merchant named Qiao Tao 橋桃, who brought in livestock such as horses, cattle, and sheep through trade and raised them in Liangzhou 涼州 (present-day Wuwei 武威, Gansu 甘肅). According to historical records, he owned more than 1,000 horses, 2,000 cattle, and 10,000 sheep at the most, which largely contributed to the development of animal husbandry in the northwestern region of the Han Dynasty.'
@@ -162,7 +162,7 @@ markers.horse19 = createMarker({ lat:	40.2654,lng:111.1814 }, 'horse','內蒙古
  ,image:''
  ,referenceUrl:''});
 
-markers.horse20 = createMarker({ lat: 40.2802,lng:111.1891 }, 'horse','內蒙古托克托縣',{ A:['horse'],B:['秦漢' ],C:['宗教信仰'],D:['陸上絲綢之路'],E:['東亞']},
+markers.horse20 = createMarker({ lat: 40.2802,lng:111.1891 }, 'horse','內蒙古托克托縣',{ A:['horse'],B:['秦漢' ],C:['宗教信仰','經貿'],D:['陸上絲綢之路'],E:['東亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南匈奴歸附東漢後，依然保留了許多遊牧民族的生活習慣。例如，他們在祭祀活動期間會進行賽馬和鬥駱駝等娛樂活動。'  
  ,description_en:'After the Southern Xiongnu 南匈奴 joined the Eastern Han Dynasty 東漢, they still retained some customs of the nomadic people. They would engage in recreational activities such as horse racing and camel fighting during their sacrificial ceremonies.'
@@ -200,7 +200,7 @@ markers.horse23 = createMarker({ lat:23.2343162,lng:77.3853}, 'horse','印度博
 }
 //三国
 {
-    markers.horse24 = createMarker({ lat:    39.6227, lng:66.9258 }, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['三國兩晉南北朝' ],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞']},
+    markers.horse24 = createMarker({ lat:    39.6227, lng:66.9258 }, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['三國兩晉南北朝' ],C:['朝貢','經貿'],D:['陸上絲綢之路'],E:['中亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'涼州（今甘肅武威）地處河西走廊，在陸上絲綢之路的交通中有著重要的意義。魏晉時期，西域使者向中國朝貢，必須經過此處。由於地理位置優越，涼州商貿繁榮，西域商人常在此地與漢人交易，以西域的馬和狗向漢人換取絲綢。'  
  ,description_en:'Liangzhou 涼州 (present-day Wuwei 武威, Gansu 甘肅) is located in the Hexi Corridor 河西走廊, which had an important role in the transportation of the Continental Silk Road. During the Wei and Jin Dynasties 魏晉時期, envoys from the Western Regions had to pass through this area to pay tribute to China. Due to its advantageous location, foreign trade flourished in Liangzhou. The merchants from Western Regions often traded with the Han people here, exchanging horses and dogs for silk in China.'
@@ -244,7 +244,7 @@ markers.horse28 = createMarker({ lat: 33.3059,lng:44.3622 }, 'horse','伊拉克�
  ,referenceUrl:''});
  //青海海北	-lat:36.952615,lng:100.8982
 
-markers.horse29 = createMarker({ lat:42.2584,lng:118.8922 }, 'horse','內蒙古赤峰',{ A:['horse'],B:['三國兩晉南北朝'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse29 = createMarker({ lat:42.2584,lng:118.8922 }, 'horse','內蒙古赤峰',{ A:['horse'],B:['三國兩晉南北朝'],C:['朝貢','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'南北朝時期，中國東北地區有許多遊牧民族部落，比如庫莫奚人和契丹人。庫莫奚人和契丹人都曾經多次向北魏進貢馬和皮毛，並長期和北魏進行互市貿易。'  
  ,description_en:'During the Northern and Southern Dynasties 南北朝, there were many nomadic tribes in northeastern China, such as the Kumo Xi 庫莫奚 and the Khitan. Both the Kumo Xi and the Khitans contributed horses and furs to the Northern Wei Dynasty 北魏 and traded with the Northern Wei Dynasty for a long time.'
@@ -274,7 +274,7 @@ markers.horse31 = createMarker({ lat:40.8210,lng:111.7339  }, 'horse','內蒙古
  ,referenceUrl:''});
 //內蒙古托克托縣	-lat: 40.2752,lng:111.1941
 
-markers.horse32 = createMarker({ lat:    39.6252, lng:66.9358}, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['隋'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+markers.horse32 = createMarker({ lat:    39.6252, lng:66.9358}, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['隋'],C:['朝貢','經貿'],D:['陸上絲綢之路'],E:['中亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'隋代設置了專門負責管理朝貢的外交部門鴻臚寺。隋煬帝時期，又在洛陽建國門外設置了隸屬於鴻臚寺的四方館。四方館的官員叫做四方使者，分別負責接待來自不同地區的使節，管理他們的交通工具，比如馬、駱駝、車輛等。除此以外，四方館還負責監管與不同國家的互市貿易。'  
  ,description_en:'The Sui Dynasy 隋朝 set up Honglusi 鴻臚寺, a diplomatic department in charge of tributes. During the period of Emperor Yang of the Sui Dynasty 隋煬帝, Sifangguan 四方館, the subordinate department of Honglusi, was established in Luoyang 洛陽, mainly responsible for receiving envoys from different regions and managing their horses, camels, and vehicles. In addition, the Sifangguan was also responsible for the supervision of the international trade.'
@@ -286,7 +286,7 @@ markers.horse32 = createMarker({ lat:    39.6252, lng:66.9358}, 'horse','烏茲�
 
 //唐
 {
-    markers.horse33 = createMarker({ lat:    39.6354, lng:66.9308	 }, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
+    markers.horse33 = createMarker({ lat:    39.6354, lng:66.9308	 }, 'horse','烏茲別克斯坦撒馬爾罕',{ A:['horse'],B:['唐'],C:['朝貢','經貿'],D:['陸上絲綢之路'],E:['中亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'唐朝承襲隋朝官制，依然由鴻臚寺負責管理朝貢事宜。貢品中的馬和駱駝由鴻臚寺和太僕寺共同評定價值，其中最優良的被選出在朝堂上陳列。此外鴻臚寺的下屬部門還需要管理長安城（今陝西西安）的外族牲畜貿易。唐朝進口的牲畜主要有馬、駱駝、牛、羊等。唐高宗時期牲畜互市設於安善坊和大業坊，後來因為地處長安城南不方便交易，而遷移至東市。'  
  ,description_en:'The Tang Dynasty 唐朝 inherited the official system of the Sui Dynasty 隋朝, and the tribute affairs still were managed by the Honglusi 鴻臚寺. The horses and camels in the tributes would be assessed by Honglusi and Taipusi 太僕寺 together, and selected the best for review on the court.It was also responsible for managing the trade of foreign livestock in the Chang\'an City 長安城 (present-day Xi\'an 西安, Shaanxi 陝西). The main livestock imported by the Tang Dynasty were horses, camels, cattle, and sheep. During the reign of Emperor Gaozong of the Tang Dynasty 唐高宗, the places for exotic livestock trade were located in Anshan Fang 安善坊 and Daye Fang 大業坊. These two places were located in the south of Chang\'an City, and later the livestock trade was moved to the East Market of Chang\'an City due to the problem of transportation.'
@@ -410,7 +410,7 @@ markers.horse45 = createMarker({ lat:52.5138671,lng:103.9000}, 'horse','俄羅�
 
 //宋
 {
-    markers.horse46 = createMarker({ lat:36.0064,lng:106.2409}, 'horse','寧夏固原',{ A:['horse'],B:['宋'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+    markers.horse46 = createMarker({ lat:36.0064,lng:106.2409}, 'horse','寧夏固原',{ A:['horse'],B:['宋'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'茶馬貿易是古代遊牧民族用馬匹和漢人交換茶葉的貿易制度，自唐代時開始出現。宋代時，茶馬貿易已成為中原政權主要的進口馬匹的形式之一。宋代出口四川地區生產的茶葉，進口原州（今寧夏固原）、渭州（今甘肅平涼）等地遊牧民族的馬匹。而貿易場所設立在雅州（今四川雅安）一帶。'  
  ,description_en:'The "Trade between Tea and Horses" was an ancient trade system in which nomadic peoples used horses to exchange tea with the Han people 漢人, and it appeared from the Tang Dynasty 唐朝. During the Song Dynasty 宋朝, it became one of the main ways of importing horses for the Chinese regime. The Song Dynasty exported tea produced in the Sichuan 四川 area and imported horses from nomadic peoples in Yuanzhou 原州 (present-day Guyuan 固原, Ningxia 寧夏) and Weizhou 渭州 (present-day Pingliang 平涼, Gansu 甘肅). The trading sites were set up in the area of Yazhou 雅州 (present-day Ya\'an 雅安, Sichuan 四川).'
@@ -428,7 +428,7 @@ markers.horse47 = createMarker({lat:25.6016,lng:100.2285 }, 'horse','雲南大�
  ,referenceUrl:''});
  //廣西桂林，河南開封	-lat:25.2809775,lng:110.2325-lat:34.7847,lng:114.2722
 
-markers.horse48 = createMarker({ lat:38.4935,lng:106.1918}, 'horse','寧夏銀川',{ A:['horse'],B:['宋'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse48 = createMarker({ lat:38.4935,lng:106.1918}, 'horse','寧夏銀川',{ A:['horse'],B:['宋'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'馬是西夏政權重要的軍事資源。據記載，每名西夏士兵可配備戰馬一匹。景德四年（公元1004年），北宋與西夏在保安軍（今陝西志丹）設置榷場進行互市貿易。北宋用絲綢等紡織品交易西夏的牛、羊、馬、駱駝等牲畜。'  
  ,description_en:'Horses were an important military resource of the Tangut regime. It was recorded that each Tangut soldier could be equipped with one warhorse. In 1004, the Northern Song 北宋 and the Tangut people set up “quechang 榷場” for trading in Baoanjun 保安軍 (present-day Zhidan 志丹, Shaanxi 陝西). The Northern Song Dynasty used silk and other textiles to trade cattle, sheep, horses, and camels.'
@@ -437,7 +437,7 @@ markers.horse48 = createMarker({ lat:38.4935,lng:106.1918}, 'horse','寧夏銀�
  ,referenceUrl:''});
 //陝西志丹，河南開封	-lat:36.8301,lng:108.7154-lat:34.7847,lng:114.2722
  
-markers.horse49 = createMarker({lat:42.2715,lng:118.8528 }, 'horse','內蒙古赤峰',{ A:['horse'],B:['宋'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse49 = createMarker({lat:42.2715,lng:118.8528 }, 'horse','內蒙古赤峰',{ A:['horse'],B:['宋'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'遼朝是由契丹人建立的政權，馬是遼朝重要的軍事資源。據記載，每名契丹士兵配備戰馬三匹。北宋和遼簽訂澶淵之盟後，雙方在雄州（今河北雄縣）等地設立榷場進行互市貿易。北宋出口紡織品、藥品等，從契丹進口牛、羊、馬、駱駝等牲畜以及不同動物的皮毛。'  
  ,description_en:'The Liao Dynasty 遼朝 was a regime established by the Khitan people, and horses were an important military resource for the Liao. It was recorded that each Khitan soldier was equipped with three warhorses. After the Chanyuan Treaty 澶淵之盟, the Northern Song 北宋 and Liao established “quechang 榷場” in Xiongzhou 雄州 (present-day Xiongxian 雄縣, Hebei 河北) for trading. The Northern Song Dynasty exported textiles and medicines, and imported cattle, sheep, horses, camels and fur from the Khitan.'
@@ -525,7 +525,7 @@ markers.horse57 = createMarker({lat:43.0707,lng:12.6184}, 'horse','意大利阿�
 
 //明
 {
-markers.horse58 = createMarker({lat:46.0943,lng:122.0553 }, 'horse','內蒙古興安盟',{ A:['horse'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse58 = createMarker({lat:46.0943,lng:122.0553 }, 'horse','內蒙古興安盟',{ A:['horse'],B:['明'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'遼東馬市設立於如今的遼寧省開原縣，主要貿易對象是東北地區的蒙古部落。明朝主要出口絲綢、麻布等紡織品，以交換蒙古部落的馬匹。這些馬匹主要供給遼東地區軍用。遼東馬市在明朝初期就已經設立，一直是明朝主要的進口馬匹的途徑之一。'  
  ,description_en:'The Liaodong Horse Market 遼東馬市 was established in present-day Kaiyuan County 開原縣, Liaoning 遼寧, and its main target traders were the Mongolian tribes of the northeastern region. The Ming Dynasty 明朝 mainly exported textiles such as silk and linen in exchange for horses from the Mongolian tribes. These horses were mainly for military use in the Liaodong region 遼東地區. The Liaodong Horse Market was established at the beginning of the Ming Dynasty and has been one of the main ways to introduce horses during the Ming Dynasty.'
@@ -534,7 +534,7 @@ markers.horse58 = createMarker({lat:46.0943,lng:122.0553 }, 'horse','內蒙古�
  ,referenceUrl:''}); 
 //黑龍江齊齊哈爾，吉林洮安，遼寧開原	lat:46.0766883,lng:122.0269-lat:47.3437275,lng:123.8930-lat:45.6151576,lng:122.8334-lat:42.5427028,lng:124.0332
 
-markers.horse59 = createMarker({lat:35.5988,lng:103.2084 }, 'horse','甘肅臨夏',{ A:['horse'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse59 = createMarker({lat:35.5988,lng:103.2084 }, 'horse','甘肅臨夏',{ A:['horse'],B:['明'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'茶馬貿易是明代引入馬匹的主要途徑之一。明朝通過壟斷茶葉貿易的方式，以交換周邊遊牧民族的馬匹。這個巨大的貿易網絡覆蓋了甘肅、陝西、四川、甚至西藏地區。明朝在秦州（今甘肅天水）、洮州（今甘肅臨潭）、河州（今甘肅臨夏）、雅州（今四川雅安）設立了茶馬司來專門管理茶馬貿易。明朝每年可以由此進口數千匹馬，這些馬主要用於四川和陝西地區的軍用。'  
  ,description_en:'The Tea and Horse Trade was one of the main ways to introduce horses in the Ming Dynasty 明朝. Through monopolizing the tea trade, the Ming Dynasty imported horses from the surrounding nomadic peoples. This huge commercial network covered Gansu 甘肅, Shaanxi 陝西, Sichuan 四川, and even Xizang 西藏. The Ming Dynasty established the Chamasi 茶馬司 (Department of Tea and Horse Trade) in Qinzhou 秦州 (present-day Tianshui 天水, Gansu 甘肅), Taozhou 洮州 (present-day Lintan 臨潭, Gansu 甘肅), Hezhou 河州 (present-day Linxia 臨夏, Gansu 甘肅), and Yazhou 雅州 (present-day Ya\'an 雅安, Sichuan 四川) to specialize in the management of the Tea and Horse Trade. The Ming Dynasty imported thousands of horses each year, mainly for military use in Sichuan and Shaanxi.'
@@ -542,7 +542,7 @@ markers.horse59 = createMarker({lat:35.5988,lng:103.2084 }, 'horse','甘肅臨�
  ,image:''
  ,referenceUrl:''}); 
 //甘肅臨潭，甘肅天水，陝西漢中，四川松潘，四川茂縣，四川雅安，四川漢源，西藏昌都，西藏拉薩	-lat:34.6922408,lng:103.3515-lat:34.5788542,lng:105.7225-lat:33.0692182,lng:107.0202-lat:32.6425383,lng:103.5878-lat:31.6795426,lng:103.8492-lat:30.0093246,lng:103.0370-lat:29.3438955,lng:102.6476-lat:31.1388796,lng:97.1666-lat:29.648952,lng:91.1157
-markers.horse72 = createMarker({lat:29.648952,lng:91.1157 }, 'horse','西藏拉薩',{ A:['horse'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse72 = createMarker({lat:29.648952,lng:91.1157 }, 'horse','西藏拉薩',{ A:['horse'],B:['明'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'茶馬貿易是明代引入馬匹的主要途徑之一。明朝通過壟斷茶葉貿易的方式，以交換周邊遊牧民族的馬匹。這個巨大的貿易網絡覆蓋了甘肅、陝西、四川、甚至西藏地區。明朝在秦州（今甘肅天水）、洮州（今甘肅臨潭）、河州（今甘肅臨夏）、雅州（今四川雅安）設立了茶馬司來專門管理茶馬貿易。明朝每年可以由此進口數千匹馬，這些馬主要用於四川和陝西地區的軍用。'  
  ,description_en:'The Tea and Horse Trade was one of the main ways to introduce horses in the Ming Dynasty 明朝. Through monopolizing the tea trade, the Ming Dynasty imported horses from the surrounding nomadic peoples. This huge commercial network covered Gansu 甘肅, Shaanxi 陝西, Sichuan 四川, and even Xizang 西藏. The Ming Dynasty established the Chamasi 茶馬司 (Department of Tea and Horse Trade) in Qinzhou 秦州 (present-day Tianshui 天水, Gansu 甘肅), Taozhou 洮州 (present-day Lintan 臨潭, Gansu 甘肅), Hezhou 河州 (present-day Linxia 臨夏, Gansu 甘肅), and Yazhou 雅州 (present-day Ya\'an 雅安, Sichuan 四川) to specialize in the management of the Tea and Horse Trade. The Ming Dynasty imported thousands of horses each year, mainly for military use in Sichuan and Shaanxi.'
@@ -551,7 +551,7 @@ markers.horse72 = createMarker({lat:29.648952,lng:91.1157 }, 'horse','西藏拉�
  ,referenceUrl:''}); 
 //甘肅臨潭，甘肅天水，陝西漢中，四川松潘，四川茂縣，四川雅安，四川漢源，西藏昌都，西藏拉薩	-lat:34.6922408,lng:103.3515-lat:34.5788542,lng:105.7225-lat:33.0692182,lng:107.0202-lat:32.6425383,lng:103.5878-lat:31.6795426,lng:103.8492-lat:30.0093246,lng:103.0370-lat:29.3438955,lng:102.6476-lat:31.1388796,lng:97.1666-lat:29.648952,lng:91.1157
 
-markers.horse60 = createMarker({lat: 47.7287,lng:96.8128 }, 'horse','蒙古烏里雅蘇臺',{ A:['horse'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
+markers.horse60 = createMarker({lat: 47.7287,lng:96.8128 }, 'horse','蒙古烏里雅蘇臺',{ A:['horse'],B:['明'],C:['軍事','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'瓦剌是興起於蒙古西部的蒙古部落。正統三年（公元1438年），明朝在大同開設馬市，從瓦剌進口馬和駱駝。'  
  ,description_en:'Oirat was the Mongol group that emerged from the western part of Mongolia. In 1438, the Ming Dynasty 明朝 opened the horse market in Datong 大同, and traded with Oiratr to import horses and camels.'
@@ -647,7 +647,7 @@ markers.horse67 = createMarker({lat:27.1360,lng:57.0620}, 'horse','伊朗米納�
   ,referenceUrl:''});
 //遼寧沈陽	-lat:41.81484,lng:123.3677
 
-  markers.horse70 = createMarker({lat:43.9352,lng:116.0618}, 'horse','內蒙古錫林郭勒',{ A:['horse'],B:['清'],C:['交通運輸'],D:['陸上絲綢之路'],E:['東亞'] },
+  markers.horse70 = createMarker({lat:43.9352,lng:116.0618}, 'horse','內蒙古錫林郭勒',{ A:['horse'],B:['清'],C:['交通運輸','經貿'],D:['陸上絲綢之路'],E:['東亞'] },
   {title_cn: '描述',title_en: 'Description'  
    ,description_cn:'烏蘭察布是蒙古商隊和漢人的主要交易地點，蒙古商隊從漢人處購得布匹和茶磚，主要賣出牛、羊、馬、駱駝以及毛皮。'  
    ,description_en:'Wulanchabu 烏蘭察布 was the main trading place between Mongolian caravans and Han people. Mongolian caravans bought cloth and tea bricks from Han people, and mainly sold cattle, sheep, horses, camels, and furs.'

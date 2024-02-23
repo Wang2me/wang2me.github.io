@@ -291,6 +291,7 @@ const checkboxList = [
     { id: 'jiaotong-Checkbox', value: '交通運輸' },
     { id: 'nongye-Checkbox', value: '農業生產' },
     { id: 'yinshi-Checkbox', value: '飲食' },
+    { id: 'jingmao-Checkbox', value: '經貿' },
 
 
     { id: 'zhong-Checkbox', value: '中亞' },
@@ -1322,3 +1323,4 @@ document.getElementById('visitCount').innerText = `${count} views`;
 //     await increaseVisitCount(); // 增加访问次数
 //     updateVisitCount(); // 更新页面上的访问次数
 //   };
+
