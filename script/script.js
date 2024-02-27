@@ -1024,6 +1024,20 @@ var lineSymbolSquare = {
       ]);
     }, 100); // 控制速度
   }  
+  function animateCircleline1(line) {
+    var count = 0;
+    window.setInterval(function() {
+      count = (count + 1) % 200;
+      // 在每个时间间隔内更新箭头的位置
+      line.set('icons', [
+        {
+          icon: lineSymbolSquare,
+          offset: count / 2 + '%',
+          repeat: '2%' // 控制箭头是否重复出现
+        }
+      ]);
+    }, 200); // 控制速度
+  }  
   function animateCi6(line) {
     var count = 0;
     window.setInterval(function() {
