@@ -322,7 +322,7 @@ window.onload = function () {
         {lat:19.633557,lng:112.4521399},
         {lat:21.4032355,lng:113.4628821},
         {lat:22.2472099,lng:113.6722181},
-        {lat:23.0911244,lng:113.2651282},
+        {lat:23.1281782,lng:113.2394},
         {lat:22.533529,lng:114.1062036},
         {lat:22.6173136,lng:115.4269096},
         {lat:23.0035702,lng:116.731497},
@@ -333,7 +333,7 @@ window.onload = function () {
         {lat:29.4152277,lng:122.4891876},
         {lat:30.2468234,lng:122.3097972},
         {lat:30.6240175,lng:121.5547178},
-        {lat:30.3077103,lng:120.1865149},
+        {lat:30.2685609,lng:120.1555},
         
         ],
       icons: [{
@@ -361,13 +361,13 @@ window.onload = function () {
       map: map
     });
     line3 = new google.maps.Polyline({
-      path: [{ lat: 25.3176, lng: 82.9739 },{lat:28.6873,lng:77.1969},{ lat:31.5106,lng:74.3568},{ lat:34.0097,lng:71.5173}, { lat:	34.5386,lng:69.1375 },{ lat: 36.7580, lng: 66.8966 }, { lat: 39.6327, lng:66.9658 },{ lat:40.4013,lng:71.8151 },{ lat:39.5027,lng:75.9126},{ lat:37.1004,lng:79.9154},dunhuang,{lat:40.0563662,lng:96.7451},jiuquan,zhangye, wuwei,xian,{lat:34.4990696,lng:109.4947}, luoyang,kaifeng,beijing,nanjing,{lat:30.2685609,lng:120.1555}],
+      path: [{lat:22.5442922,lng:88.3701086},{ lat: 25.3176, lng: 82.9739 },{lat:28.6873,lng:77.1969},{ lat:31.5106,lng:74.3568},{ lat:34.0097,lng:71.5173}, { lat:	34.5386,lng:69.1375 },{ lat: 36.7580, lng: 66.8966 }, { lat: 39.6327, lng:66.9658 },{ lat:40.4013,lng:71.8151 },{ lat:39.5027,lng:75.9126},{ lat:37.1004,lng:79.9154},dunhuang,{lat:40.0563662,lng:96.7451},jiuquan,zhangye, wuwei,xian,{lat:34.4990696,lng:109.4947}, luoyang,kaifeng,beijing,nanjing,{lat:30.2685609,lng:120.1555}],
       icons: [{
         icon: lineSymbol,
         offset: '100%'
       }],
       geodesic: true,
-      strokeColor: '#000000', // 初始颜色为红色
+      strokeColor: '#FF0000', // 初始颜色为红色
       strokeOpacity: 0.8,
       strokeWeight: 3,
       map: map
@@ -522,7 +522,7 @@ window.onload = function () {
         {lat:19.633557,lng:112.4521399},
         {lat:21.4032355,lng:113.4628821},
         {lat:22.2472099,lng:113.6722181},
-        {lat:23.0911244,lng:113.2651282},
+        {lat:23.1281782,lng:113.2394},
         {lat:22.533529,lng:114.1062036},
         {lat:22.6173136,lng:115.4269096},
         {lat:23.0035702,lng:116.731497},
@@ -533,7 +533,7 @@ window.onload = function () {
         {lat:29.4152277,lng:122.4891876},
         {lat:30.2468234,lng:122.3097972},
         {lat:30.6240175,lng:121.5547178},
-        {lat:30.3077103,lng:120.1865149},],
+        {lat:30.2685609,lng:120.1555}],
       icons: [{
         icon: lineSymbol,
         offset: '100%'
