@@ -33,8 +33,14 @@
         <button id="xx" onclick="document.getElementById('qrcontainer').style.display='none'">x</button>
         <img src="website_qr_code.png" id="qr" >
 
-
+        
         </div>
+        <div id="guidecontainer">
+            <button id="xx" onclick="document.getElementById('guidecontainer').style.display='none'">x</button>
+            <img src="guide.png" id="qr" >
+    
+            
+            </div>
     <div id="introwindow">
         <button id="x" onclick="document.getElementById('introwindow').style.display='none'">x</button>
         <div id="introtitle">
@@ -57,9 +63,37 @@
         
         <img src="1.png" id="a" >
         <i class="material-icons" onclick="showImage()" style="cursor:pointer;">share</i>
-
-            
- 
+        <div class="tab">
+            <p><a href="#" onclick="showText('page1')">關於本站  </a></p>
+            <p><a href="#" onclick="showText('page2')">使用指引  </a></p>
+            <p><a href="#" onclick="showText('page3')">版權説明 </a></p>
+            <p><a href="#" onclick="showText('page4')">聯絡我們  </a></p>
+            <p><a href="#" onclick="showText('page5')">免責聲明  </a></p>
+     </div>
+        
+    </div>
+    <div id="pages">
+    <div id="page1" class="page"style="display:none;">
+        <p>这里是关于本站的内容。</p>
+        <a href="#" onclick="goBack('page1')">返回互動地圖</a>
+      </div>
+      
+      <div id="page2" class="page"style="display:none;">
+        <p>这里是使用指引。</p>
+        <a href="#" onclick="goBack('page2')">返回互動地圖</a>
+      </div>
+      <div id="page3" class="page"style="display:none;">
+        <p>这里是版權説明。</p>
+        <a href="#" onclick="goBack('page3')">返回互動地圖</a>
+      </div>
+      <div id="page4" class="page"style="display:none;">
+        <p>这里是聯絡我們。</p>
+        <a href="#" onclick="goBack('page4')">返回互動地圖</a>
+      </div>
+      <div id="page5" class="page"style="display:none;">
+        <p>这里是免責聲明。</p>
+        <a href="#" onclick="goBack('page5')">返回互動地圖</a>
+      </div>
     </div>
     <div class="logo-container">
 
@@ -77,7 +111,7 @@
         <button title="switch to English version"><img class="image-button1" id="languageSwitch" src="/media/En.png" alt="switch language"></button>
     </div>
         <!-- 文字 -->
-        <div class="line-button">
+        <div class="line-button" id="line-button">
             <div class="line-dis"><input type="checkbox" id="city" onchange="togglecity('city')" checked><label for="city">絲綢之路主要城市簡介</label></div>
 
             <div class="line-dis"><input type="checkbox" id="line2" onchange="toggleMultipleLines('line2', line2, line3, line5, line6, line7, line8, line9, line10, line11)" checked><label for="line2">陸上絲綢之路</label></div>
@@ -191,7 +225,7 @@
 
 
         <!-- 分类器容器 -->
-    <div class="category-container">
+    <div class="category-container" id="category-container">
 
 
 
@@ -202,7 +236,7 @@
        
 
 
-        <button class="category-sub" id="animalButton" onclick="toggleContainer('animalCategoryContainer')">动物类别</button>
+        <button class="category-sub" id="animalButton" onclick="toggleContainer('animalCategoryContainer')">动物類別</button>
         
 
         <div class="subcategory-container" id="animalCategoryContainer">
@@ -276,7 +310,7 @@
             </div>
         
         
-            <button class="category-ss" id="animalButton" onclick="toggleContainer('ss3-Container')">鸟类</button>
+            <button class="category-ss" id="animalButton" onclick="toggleContainer('ss3-Container')">鳥类</button>
             <div class="ss-container" id="ss3-Container">
                 <label class="category-button1">
                     <input type="checkbox" class="category-checkbox category-select" data-category="A"> 全選
@@ -336,7 +370,7 @@
         </div>
         
         <hr width="100%" />
-        <button class="category-sub" id="11Button" onclick="toggleContainer('a11CategoryContainer')">途径</button>
+        <button class="category-sub" id="11Button" onclick="toggleContainer('a11CategoryContainer')">途徑</button>
         
         <div class="subcategory-container" id="a11CategoryContainer">
             <label class="category-button1">

@@ -55,7 +55,37 @@
             
         <img src="2.png" id="a" >
         <i class="material-icons" onclick="showImage()" style="cursor:pointer;">share</i>
-
+        <div class="tab">
+            <p><a href="#" onclick="showText('page1')">About this site  </a></p>
+            <p><a href="#" onclick="showText('page2')">Guidelines for use  </a></p>
+            <p><a href="#" onclick="showText('page3')">Copyright Statement </a></p>
+            <p><a href="#" onclick="showText('page4')">Contact Us  </a></p>
+            <p><a href="#" onclick="showText('page5')">Disclaimer  </a></p>
+     </div>
+        
+    </div>
+    <div id="pages">
+    <div id="page1" class="page"style="display:none;">
+        <p>这里是关于本站的内容。</p>
+        <a href="#" onclick="goBack('page1')">Return to Interactive Map</a>
+      </div>
+      
+      <div id="page2" class="page"style="display:none;">
+        <p>这里是使用指引。</p>
+        <a href="#" onclick="goBack('page2')">Return to Interactive Map</a>
+      </div>
+      <div id="page3" class="page"style="display:none;">
+        <p>这里是版權説明。</p>
+        <a href="#" onclick="goBack('page3')">Return to Interactive Map</a>
+      </div>
+      <div id="page4" class="page"style="display:none;">
+        <p>这里是聯絡我們。</p>
+        <a href="#" onclick="goBack('page4')">Return to Interactive Map</a>
+      </div>
+      <div id="page5" class="page"style="display:none;">
+        <p>这里是免責聲明。</p>
+        <a href="#" onclick="goBack('page5')">Return to Interactive Map</a>
+      </div>
     </div>
 
     <div class="logo-container">
@@ -73,7 +103,7 @@
         <button title="switch to English version"><img class="image-button1" id="languageSwitch" src="/media/Cn.png" alt="switch language"></button>
     </div>
         <!-- 文字 -->
-    <div class="line-button">   
+    <div class="line-button" id="line-button">   
         <!-- <button id="line"onclick="toggleLines1()">隐藏/显示折线1</button>
         <button id="line"onclick="toggleLines2()">隐藏/显示折线2</button> -->
         <div class="line-dis"><input type="checkbox" id="city" onchange="togglecity('city')" checked><label for="city">Introduction to Silk Road Major Cities</label></div>
@@ -190,7 +220,7 @@
 
 
         <!-- 分类器容器 -->
-    <div class="category-container">
+    <div class="category-container" id="category-container">
 
 
 
@@ -334,7 +364,7 @@
         
         <div class="subcategory-container" id="11CategoryContainer">
             <label class="category-button1">
-                <input type="checkbox" class="category-checkbox category-select-all" data-category="B" data-value="-1"> Select All
+                <input type="checkbox" class="category-checkbox category-select-all" data-category="D" data-value="-1"> Select All
            </label> 
         <label class="category-button">
             <input type="checkbox" class="category-checkbox" id="ocean-Checkbox" data-category="D"  value="海上絲綢之路"> Maritime Silk Road
@@ -350,7 +380,7 @@
 
         
         <hr width="100%" />
-        <button class="category-sub" id="dynastyButton" onclick="toggleContainer('dynastyCategoryContainer')">Historical</button>
+        <button class="category-sub" id="dynastyButton" onclick="toggleContainer('dynastyCategoryContainer')">Historical Period</button>
         
         <div class="subcategory-container" id="dynastyCategoryContainer">
             <label class="category-button1">

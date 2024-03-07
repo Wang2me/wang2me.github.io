@@ -1036,7 +1036,7 @@ var lineSymbolSquare = {
           repeat: '2%' // 控制箭头是否重复出现
         }
       ]);
-    }, 200); // 控制速度
+    }, 250); // 控制速度
   }  
   function animateCi6(line) {
     var count = 0;
@@ -1120,6 +1120,7 @@ function toggleLines(checkboxId, line) {
         line9.setMap(map); // 显示折线2
         line10.setMap(map); // 显示折线2
         line11.setMap(map); // 显示折线2
+        line12.setMap(map); // 显示折线2
 
     } else {
         line3.setMap(null); // 隐藏折线1
@@ -1131,6 +1132,7 @@ function toggleLines(checkboxId, line) {
         line9.setMap(null); // 隐藏折线2
         line10.setMap(null); // 隐藏折线2
         line11.setMap(null); // 隐藏折线2
+        line12.setMap(null); // 隐藏折线2
 
     }
 }
@@ -1337,4 +1339,60 @@ document.getElementById('visitCount').innerText = `${count} views`;
 //     await increaseVisitCount(); // 增加访问次数
 //     updateVisitCount(); // 更新页面上的访问次数
 //   };
+// function showText(pageId) {
+//     // 隐藏所有页面
+//     document.getElementById('map-container').style.display = 'none';
+//     document.getElementById('category-container').style.display = 'none';
+//     document.getElementById('toggle').style.display = 'none';
+//     document.getElementById('zoom').style.display = 'none';
+//     document.getElementById('timeline').style.display = 'none';
+//     document.getElementById('line-button').style.display = 'none';
 
+    
+//     // 根据传入的页面ID显示相应的页面
+//     document.getElementById(pageId).style.display = 'block';
+//   }
+  
+
+//   function goBack(pageId) {
+//     document.getElementById('map-container').style.display = 'block'; // 用你实际的容器类名替换 '.container-class'
+//     document.getElementById('category-container').style.display = 'block';
+//     document.getElementById('toggle').style.display = 'none';
+//     document.getElementById('zoom').style.display = 'block';
+//     document.getElementById('timeline').style.display = 'block';
+//     document.getElementById('line-button').style.display = 'block';
+//     document.getElementById(pageId).style.display = 'none';
+
+//   }
+
+  function showText(pageId) {
+    // 隐藏所有页面
+    document.getElementById('map-container').style.display = 'none';
+    document.getElementById('category-container').style.display = 'none';
+    document.getElementById('toggle').style.display = 'none';
+    document.getElementById('zoom').style.display = 'none';
+    document.getElementById('timeline').style.display = 'none';
+    document.getElementById('line-button').style.display = 'none';
+    var pages = document.querySelectorAll('.page'); // 获取所有页面元素
+    for (var i = 0; i < pages.length; i++) {
+      pages[i].style.display = 'none'; // 隐藏所有页面
+    }
+  
+    // 显示传入的页面ID对应的页面
+    document.getElementById(pageId).style.display = 'block';
+  }
+  
+  function goBack(pageId) {
+    // 显示需要显示的容器
+    document.getElementById('map-container').style.display = 'block'; 
+    document.getElementById('category-container').style.display = 'block';
+    document.getElementById('toggle').style.display = 'none';
+    document.getElementById('zoom').style.display = 'block';
+    document.getElementById('timeline').style.display = 'block';
+    document.getElementById('line-button').style.display = 'block';
+  
+    // 隐藏指定的页面
+    document.getElementById(pageId).style.display = 'none';
+  }
+  
+    

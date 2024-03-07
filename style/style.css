@@ -790,14 +790,44 @@ padding-bottom: 30px;
   }
 
 #a{
-    width: 30%;
+    width: 35%;
     position: absolute;
-    top:15%;
-    left:5%;
+    top:35%;
+    left:2%;
 }
 #visitcount{
     top:8%;
     right:10%;
     position: absolute;
     z-index: 5;
+}
+.tab {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    display: flex;
+    align-items: flex-end; /* 将内容放置在底部 */
+}
+.tab p {
+    border-right: 1px solid; /* 为每个链接添加右侧边框 */
+    padding-right: 10px; /* 可选：增加一些右侧内边距 */
+    margin-bottom: 0px; /* 可选：增加一些底部间距 */
+    margin-right: 10px; /* 为每个链接添加右侧间距 */
+}
+.tab a {
+    color: #000000; /* 这里使用黑色作为示例 */
+    text-decoration: none; /* 可选：去掉下划线 */
+    font-size: 14px;
+   
+
+}
+.tab p:last-child {
+    border-right: none; /* 移除最后一个链接的右侧边框 */
+}
+
+#pages{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: 50%;
 }
