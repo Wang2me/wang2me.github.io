@@ -37,7 +37,7 @@ body {
     position: absolute;
     top: 10%;
     right: 30px;
-    /* cursor: pointer; */
+    cursor: pointer;
     z-index: 1;
     width: 25px;
     }
@@ -274,6 +274,7 @@ body {
     height: 13%;
     background-color: #EBD9B4;
     border-top: 2px solid #1a73e8; /* 添加上边框 */
+    
     
 }
 
@@ -747,14 +748,16 @@ margin:10px
     z-index: 10;
     font-size: medium;
     padding-top: 20px;
-padding-bottom: 30px;
-  padding-left: 40px;
-  padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
   }
  #introtitle{
-
     text-align: center;
   }
+#introintro p {
+    text-indent: 2em; 
+}
  #x{
     position: absolute;
     right: 0%;
@@ -764,6 +767,8 @@ padding-bottom: 30px;
       margin-left: 40px;
   }
 
+
+
   #qr{
     position: absolute;
     top:15%;
@@ -771,8 +776,21 @@ padding-bottom: 30px;
     width: 500px;
     z-index: 10;
   }
+  #guide{
+    position: absolute;
+    top:15%;
+    left:15%;
+    width: 800px;
+    z-index: 10;
+    user-select: none; 
+  }
   #qrcontainer{
     display: none;
+
+ 
+    z-index: 10;
+  }#guidecontainer{
+    display: block;
 
  
     z-index: 10;
@@ -781,6 +799,12 @@ padding-bottom: 30px;
     position: absolute;
     top:15%;
     left:58%;
+    z-index: 11;
+  }
+  #xx-guanbi{
+    position: absolute;
+    top:60%;
+    left:50%;
     z-index: 11;
   }
   .material-icons{
