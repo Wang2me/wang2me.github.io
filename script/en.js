@@ -282,7 +282,7 @@ window.onload = function () {
         {lat:20.005636,lng:71.7587805},
         {lat:15.9943589,lng:72.6816321},
         {lat:13.3571773,lng:73.9989688},
-        {lat:11.2659833,lng:75.7687903},
+        guli,
         {lat:9.114325,lng:75.9885168},
         {lat:7.6361616,lng:77.1640539},
         {lat:7.7341504,lng:78.0319739},
@@ -535,9 +535,24 @@ dunhuang],
       path: [
         {lat:2.042773802792877, lng:45.331410710212175},
         {lat:5.274122176758313, lng:50.093668643204595},
+        
         {lat:10.382581648333165, lng:52.39314695970746},
+        
         {lat:15.4020757,lng:53.3456946},
         {lat:17.7604812,lng:57.7402258},
+
+        {lat:15.9943589,lng:72.6816321},
+        {lat:13.3571773,lng:73.9989688},
+        guli,
+        {lat:9.114325,lng:75.9885168},
+        {lat:7.6361616,lng:77.1640539},
+        {lat:7.7341504,lng:78.0319739},
+        {lat:8.6041296,lng:78.9658118},
+        {lat:9.8728294,lng:79.8886633},
+        {lat:11.51593, lng:80.67433},
+        {lat:12.10738, lng:81.4214},
+        {lat:12.54743, lng:82.23439},
+        {lat:7.2221866,lng:97.2470618},
   ],
       icons: [{
         icon: lineSymbol,
@@ -566,7 +581,7 @@ dunhuang],
     animateCircleline1(line1);
     animateCircle(line2);
     animateCircle(line3);
-    animateCi8(line4);
+    animateCi4(line4);
     animateCircle(line5);
     animateCi6(line6);
     animateCi7(line7);
